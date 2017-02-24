@@ -1,0 +1,9 @@
+# Jekyll (GitHub Pages) Configuration
+
+source: public
+
+exclude:
+  - src
+  - package.json
+  - Gemfile
+  - Gemfile.lock

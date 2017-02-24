@@ -3,10 +3,10 @@
   "version": "0.0.1",
   "scripts": {
     "start": "npm run prebuild && parallelshell 'npm run server' 'npm run watch:css'",
-    "server": "static public",
-    "prebuild": "rm -rf public/javascripts public/stylesheets",
+    "server": "static .",
+    "prebuild": "rm -rf javascripts stylesheets",
     "build": "npm run build:css",
-    "build:css": "node-sass src/stylesheets -o public/stylesheets --include-path node_modules/sanitize.css --include-path node_modules/repetitivo/lib",
+    "build:css": "node-sass src/stylesheets -o stylesheets --include-path node_modules/sanitize.css --include-path node_modules/repetitivo/lib",
     "watch:css": "npm run build:css && npm run build:css -- -w"
   },
   "author": "Oktavilla",

@@ -2,19 +2,25 @@
   "name": "kwdstudio",
   "version": "0.0.1",
   "scripts": {
-    "start": "npm run prebuild && parallelshell 'npm run server' 'npm run watch:css'",
+    "start": "npm run prebuild && run-p server watch:css",
     "server": "static .",
     "prebuild": "rm -rf javascripts stylesheets",
     "build": "npm run build:css",
-    "build:css": "node-sass src/stylesheets -o stylesheets --include-path node_modules/sanitize.css --include-path node_modules/repetitivo/lib",
-    "watch:css": "npm run build:css && npm run build:css -- -w"
+    "build:css": "node-sass src/stylesheets/*.scss -o stylesheets --include-path node_modules/sanitize.css --include-path node_modules/repetitivo/lib",
+    "postbuild:css": "postcss --use autoprefixer --no-map --replace stylesheets/**/*.css",
+    "watch:css": "sane 'npm run build:css' --glob='src/stylesheets/**/*.scss'"
   },
   "author": "Oktavilla",
   "license": "UNLICENSED",
   "dependencies": {
+    "autoprefixer": "~6.7.5",
+    "cssnano": "~3.10.0",
     "node-sass": "~4.5.0",
     "node-static": "~0.7.9",
-    "parallelshell": "~2.0.0",
+    "npm-run-all": "~4.0.2",
+    "postcss-cli": "~3.0.0-beta",
+    "repetitivo": "git://github.com/Oktavilla/repetitivo.git#master",
+    "sane": "~1.6.0",
     "sanitize.css": "~4.1.0"
   }
 }

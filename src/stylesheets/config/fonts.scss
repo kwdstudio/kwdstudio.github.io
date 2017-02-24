@@ -1,0 +1,43 @@
+$normal-font-weight: 400;
+$bold-font-weight: 700;
+
+$apercu-mono: (
+  (
+    family: "Apercu Mono",
+    files: (
+      "/fonts/apercu-mono.woff2",
+      "/fonts/apercu-mono.woff",
+    ),
+    weight: $normal-font-weight,
+    style: normal,
+  ),
+  (
+    family: "Apercu Mono",
+    files: (
+      "/fonts/apercu-mono-bold.woff2",
+      "/fonts/apercu-mono-bold.woff",
+    ),
+    weight: $bold-font-weight,
+    style: normal,
+  ),
+);
+
+$base-apercu-mono: (
+  font-family: '"Apercu Mono", monospace',
+  font-size: (
+    default: 14px,
+    xs: 15px,
+    s: 17px,
+    m: 19px,
+    l: 21px,
+  ),
+  line-height: (
+    default: 1.5
+  ),
+
+  bold-font-size: 100%
+);
+
+$base-bold-apercu-mono: (
+  font-weight: $bold-font-weight
+);

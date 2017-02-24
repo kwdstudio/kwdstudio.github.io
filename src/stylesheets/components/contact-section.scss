@@ -1,0 +1,54 @@
+@import "../config/spacing";
+
+@import "repetitivo/functions/grid-column-width";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+@import "repetitivo/helpers/styles-from-breakpoint-map";
+
+@import "repetitivo/patterns/grid";
+
+//
+// Component: Contact Section
+// ============================================================================
+$component-name: "ContactSection";
+$component-base: ".#{$component-name}";
+
+$content-styles: (
+  default: (
+    margin-right: grid-column-width(1, 12),
+  ),
+  s: (
+    margin-left: grid-column-width(1, 12),
+    margin-right: grid-column-width(4, 12),
+  ),
+  m: (
+  ),
+  l: (
+    margin-left: grid-column-width(2, 12),
+  ),
+);
+
+#{$component-base} {
+  @include grid-container;
+  @include grid-container--compensate-padded($spacing-gutters);
+
+  @include styles-from-map((margin-bottom: $spacing-l));
+
+  // Element: Content
+  // --------------------------------------------------------------------------
+  &-content {
+    @include grid-item;
+    @include grid-item--padded($spacing-gutters);
+    @include styles-from-breakpoint-map($content-styles);
+  }
+
+  // Element: Body
+  // --------------------------------------------------------------------------
+  &-body {
+    @include styles-from-map((
+      font-size: $smaller-font-size,
+      margin-bottom: $spacing-xs,
+    ));
+  }
+}

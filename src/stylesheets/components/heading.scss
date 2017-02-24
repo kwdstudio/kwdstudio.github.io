@@ -1,0 +1,30 @@
+@import "../config/spacing";
+@import "../config/typography";
+
+@import "repetitivo/helpers/styles-from-map";
+
+//
+// Component: Heading
+// ============================================================================
+
+$component-name: "Heading";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include styles-from-map((
+    font-size: $heading-font-size,
+    margin-bottom: $heading-margin,
+  ));
+
+  line-height: $heading-line-height;
+  text-transform: uppercase;
+
+  // Variant: Deca
+  // --------------------------------------------------------------------------
+  &--deca {
+    @include styles-from-map((
+      font-size: $hecto-font-size,
+      margin-bottom: $spacing-xs
+    ));
+  }
+}

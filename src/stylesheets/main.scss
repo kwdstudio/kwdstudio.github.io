@@ -1,5 +1,32 @@
-$bg: yellow;
+//
+// Vendor
+// ----------------------------------------------------------------------------
+@import "sanitize";
 
-body {
-  background: $bg;
-}
+//
+// Configuration
+// ----------------------------------------------------------------------------
+@import "./config/breakpoints";
+@import "./config/typography";
+
+//
+// Base
+// ----------------------------------------------------------------------------
+@import "repetitivo/base/fonts";
+@import "repetitivo/base/image";
+@import "repetitivo/base/layout";
+@import "repetitivo/base/typography";
+
+@import "./base/page";
+@import "./base/typography";
+
+//
+// Components
+// ----------------------------------------------------------------------------
+@import "./components/button";
+@import "./components/contact-section";
+@import "./components/form";
+@import "./components/heading";
+@import "./components/main-section";
+@import "./components/site-head";
+@import "./components/wrapper";

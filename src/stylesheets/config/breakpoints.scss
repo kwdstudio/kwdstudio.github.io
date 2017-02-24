@@ -1,0 +1,16 @@
+$breakpoints: (
+  xs: (
+    min: 400
+  ),
+  s: (
+    min: 600
+  ),
+  m: (
+    min: 900
+  ),
+  l: (
+    min: 1200
+  ),
+);
+
+$repetitivo-breakpoints: $breakpoints;

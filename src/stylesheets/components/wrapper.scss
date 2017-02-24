@@ -1,0 +1,12 @@
+@import "../config/wrapper";
+
+//
+// Component: Wrapper
+// ============================================================================
+$component-name: "Wrapper";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  overflow: hidden;
+  max-width: $wrapper-max-width;
+}

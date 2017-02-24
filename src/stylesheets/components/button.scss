@@ -1,0 +1,29 @@
+@import "../config/button";
+@import "../config/colors";
+@import "../config/fonts";
+@import "../config/typography";
+
+//
+// Component: Button
+// ============================================================================
+$component-name: "Button";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include styles-from-map((
+    padding-left: $button-side-padding,
+    padding-right: $button-side-padding,
+    font-size: $smallest-font-size
+  ));
+
+  box-shadow: 0 2px map-get($colors, primary-shadow);
+  background: map-get($colors, primary);
+  color: map-get($colors, white);
+
+  line-height: $button-height;
+
+  &:focus,
+  &:hover {
+    font-weight: $bold-font-weight;
+  }
+}

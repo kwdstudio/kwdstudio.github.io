@@ -1,0 +1,98 @@
+@import "../config/spacing";
+
+@import "repetitivo/functions/grid-column-width";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+@import "repetitivo/helpers/styles-from-breakpoint-map";
+
+@import "repetitivo/patterns/grid";
+
+//
+// Component: Site Head
+// ============================================================================
+$component-name: "SiteHead";
+$component-base: ".#{$component-name}";
+
+$logo-styles: (
+  default: (
+    margin-left: grid-column-width(1, 12),
+  ),
+  s: (
+    margin-left: grid-column-width(2, 12),
+  ),
+  m: (
+    margin-left: auto,
+    width: grid-column-width(9, 12),
+  ),
+  l: (
+    width: grid-column-width(8, 12),
+  ),
+);
+
+$nav-styles: (
+  default: (
+    margin-left: grid-column-width(1, 12),
+  ),
+  m: (
+    margin-left: 0,
+    width: grid-column-width(3, 12),
+    order: 0,
+    text-align: right,
+    display: flex,
+    flex-direction: column,
+    justify-content: center
+  ),
+  l: (
+    width: grid-column-width(4, 12),
+  ),
+);
+
+#{$component-base} {
+  @include grid-container;
+  @include grid-container--compensate-padded($spacing-gutters);
+
+  @include styles-from-map((margin-bottom: $spacing-xl));
+
+
+  // Elements: Logo, Nav
+  // --------------------------------------------------------------------------
+  &-logo,
+  &-nav {
+    @include grid-item;
+    @include grid-item--padded($spacing-gutters);
+
+    order: 1;
+  }
+
+  // Element: Logo
+  // --------------------------------------------------------------------------
+  &-logo {
+    @include styles-from-breakpoint-map($logo-styles);
+
+    &Image {
+      width: 100%;
+      height: auto;
+    }
+  }
+
+  // Element: Nav
+  // --------------------------------------------------------------------------
+  &-nav {
+    @include styles-from-breakpoint-map($nav-styles);
+
+    &List {
+      margin: 0;
+      padding: 0;
+      list-style-type: none;
+    }
+
+    &ListItem {
+      display: inline;
+
+      @include respond-to(m) {
+        display: block;
+      }
+    }
+  }
+}

@@ -1,0 +1,21 @@
+@import "./scale";
+
+@import "repetitivo/functions/fixed-scale-map";
+
+$spacing-base-unit: 5px;
+
+$spacing-gutters: (
+  default: 20px,
+);
+
+$spacing-xxxxs:  fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 0.25);
+$spacing-xxxs:   fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 0.5);
+$spacing-xxs:    fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 1);
+$spacing-xs:     fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 2);
+$spacing-s:      fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 3);
+$spacing-m:      fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 4);
+$spacing-l:      fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 5);
+$spacing-xl:     fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 6);
+$spacing-xxl:    fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 7);
+$spacing-xxxl:   fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 8);
+$spacing-xxxxxl: fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 10);

@@ -1,0 +1,80 @@
+@import "../config/spacing";
+
+@import "repetitivo/functions/grid-column-width";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+@import "repetitivo/helpers/styles-from-breakpoint-map";
+
+@import "repetitivo/patterns/grid";
+
+//
+// Component: Main Section
+// ============================================================================
+$component-name: "MainSection";
+$component-base: ".#{$component-name}";
+
+$heading-styles: (
+  default: (
+    margin-right: grid-column-width(2, 12),
+    width: grid-column-width(10, 12),
+  ),
+  s: (
+    margin-left: grid-column-width(1, 12),
+    margin-right: grid-column-width(1, 12),
+  ),
+  m: (
+    margin-right: grid-column-width(3, 12),
+    width: grid-column-width(8, 12),
+  ),
+  l: (
+    margin-left: grid-column-width(2, 12),
+    margin-right: grid-column-width(2, 12),
+  ),
+);
+
+$body-styles: (
+  default: (
+    margin-left: grid-column-width(1, 12),
+  ),
+  s: (
+    margin-left: grid-column-width(2, 12),
+    margin-right: grid-column-width(1, 12),
+    width: grid-column-width(9, 12),
+  ),
+  m: (
+    margin-left: grid-column-width(3, 12),
+    width: grid-column-width(8, 12),
+  ),
+  l: (
+    margin-left: grid-column-width(4, 12),
+    width: grid-column-width(7, 12),
+  ),
+);
+
+#{$component-base} {
+  @include grid-container;
+  @include grid-container--compensate-padded($spacing-gutters);
+
+  @include styles-from-map((margin-bottom: $spacing-xxxl));
+
+  // Elements: Heading, Body
+  // --------------------------------------------------------------------------
+  &-heading,
+  &-body {
+    @include grid-item;
+    @include grid-item--padded($spacing-gutters);
+  }
+
+  // Element: Heading
+  // --------------------------------------------------------------------------
+  &-heading {
+    @include styles-from-breakpoint-map($heading-styles);
+  }
+
+  // Element: Body
+  // --------------------------------------------------------------------------
+  &-body {
+    @include styles-from-breakpoint-map($body-styles);
+  }
+}

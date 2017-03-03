@@ -9,4 +9,5 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   overflow: hidden;
   max-width: $wrapper-max-width;
+  margin: 0 auto;
 }

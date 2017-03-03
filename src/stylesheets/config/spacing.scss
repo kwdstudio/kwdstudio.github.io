@@ -2,10 +2,12 @@
 
 @import "repetitivo/functions/fixed-scale-map";
 
+$spacing-gutter-base: 20px;
+
 $spacing-base-unit: 5px;
 
 $spacing-gutters: (
-  default: 20px,
+  default: $spacing-gutter-base,
 );
 
 $spacing-xxxxs:  fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 0.25);

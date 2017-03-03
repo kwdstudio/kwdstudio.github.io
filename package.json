@@ -2,25 +2,24 @@
   "name": "kwdstudio",
   "version": "0.0.1",
   "scripts": {
-    "start": "npm run prebuild && run-p server watch:css",
-    "server": "static .",
+    "start": "webpack-dev-server",
     "prebuild": "rm -rf javascripts stylesheets",
-    "build": "npm run build:css",
-    "build:css": "node-sass src/stylesheets/*.scss -o stylesheets --include-path node_modules/sanitize.css --include-path node_modules/repetitivo/lib",
-    "postbuild:css": "postcss --use autoprefixer --no-map --replace stylesheets/**/*.css",
-    "watch:css": "sane 'npm run build:css' --glob='src/stylesheets/**/*.scss'"
+    "build": "NODE_ENV=production webpack -p"
   },
   "author": "Oktavilla",
   "license": "UNLICENSED",
   "dependencies": {
-    "autoprefixer": "~6.7.5",
-    "cssnano": "~3.10.0",
-    "node-sass": "~4.5.0",
-    "node-static": "~0.7.9",
-    "npm-run-all": "~4.0.2",
-    "postcss-cli": "~3.0.0-beta",
+    "autoprefixer": "~6.7.6",
+    "babel-core": "~6.23.1",
+    "babel-loader": "~6.3.2",
+    "babel-preset-es2015": "~6.22.0",
+    "css-loader": "~0.26.2",
+    "extract-text-webpack-plugin": "~2.0.0",
+    "postcss-loader": "~1.3.3",
     "repetitivo": "git://github.com/Oktavilla/repetitivo.git#master",
-    "sane": "~1.6.0",
-    "sanitize.css": "~4.1.0"
+    "sanitize.css": "~4.1.0",
+    "sass-loader": "~6.0.2",
+    "webpack": "~2.2.1",
+    "webpack-dev-server": "~2.4.1"
   }
 }

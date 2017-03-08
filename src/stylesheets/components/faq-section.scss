@@ -128,6 +128,18 @@ $faq-answer-body-styles: (
     padding: 0;
   }
 
+  // Element: Faq Group
+  // --------------------------------------------------------------------------
+  &-faqGroup {
+    &.is-active {
+      background-color: map-get($colors, bg-secondary);
+
+      #{$component-base}-faqAnswer {
+        display: block;
+      }
+    }
+  }
+
   // Element: Faq Question
   // --------------------------------------------------------------------------
   &-faqQuestion {

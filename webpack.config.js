@@ -56,5 +56,8 @@ module.exports = {
   output: {
     filename: './javascripts/[name].js',
   },
-  devtool: IS_PRODUCTION ? false : 'source-map'
+  devtool: IS_PRODUCTION ? false : 'source-map',
+  devServer: {
+    port: process.env.PORT || 8080,
+  },
 };

@@ -3,6 +3,7 @@
 source: public
 
 exclude:
+  - hooks
   - src
   - package.json
   - webpack.config.js

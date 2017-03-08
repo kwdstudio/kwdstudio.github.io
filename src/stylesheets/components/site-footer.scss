@@ -1,0 +1,36 @@
+@import "../config/spacing";
+@import "../config/typography";
+
+@import "repetitivo/functions/grid-column-width";
+
+@import "repetitivo/helpers/styles-from-map";
+
+@import "repetitivo/patterns/grid";
+
+//
+// Component: Site Footer
+// ============================================================================
+$component-name: "SiteFooter";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include grid-container;
+  @include grid-container--compensate-padded();
+
+  text-align: right;
+
+  // Element: Content
+  // --------------------------------------------------------------------------
+  &-content {
+    @include grid-item;
+    @include grid-item--padded();
+
+    margin-right: grid-column-width(1, 12);
+  }
+
+  // Element: Body
+  // --------------------------------------------------------------------------
+  &-body {
+    @include styles-from-map((font-size: $smaller-font-size));
+  }
+}

@@ -14,7 +14,7 @@
 $component-name: "ContactSection";
 $component-base: ".#{$component-name}";
 
-$content-styles: (
+$body-styles: (
   default: (
     margin-right: grid-column-width(1, 12),
   ),
@@ -22,7 +22,14 @@ $content-styles: (
     margin-left: grid-column-width(1, 12),
     margin-right: grid-column-width(4, 12),
   ),
-  m: (
+  l: (
+    margin-left: grid-column-width(2, 12),
+  ),
+);
+
+$form-styles: (
+  s: (
+    margin-left: grid-column-width(1, 12),
   ),
   l: (
     margin-left: grid-column-width(2, 12),
@@ -30,9 +37,6 @@ $content-styles: (
 );
 
 #{$component-base} {
-  @include grid-container;
-  @include grid-container--compensate-padded($spacing-gutters);
-
   @include styles-from-map((
     margin-bottom: $spacing-xxxl,
   ));
@@ -40,9 +44,24 @@ $content-styles: (
   // Element: Content
   // --------------------------------------------------------------------------
   &-content {
+    @include grid-container;
+    @include grid-container--compensate-padded($spacing-gutters);
+  }
+
+  // Elements: Heading, Body, Form
+  // --------------------------------------------------------------------------
+  &-heading,
+  &-body,
+  &-form {
     @include grid-item;
     @include grid-item--padded($spacing-gutters);
-    @include styles-from-breakpoint-map($content-styles);
+  }
+
+  // Elements: Heading, Body
+  // --------------------------------------------------------------------------
+  &-heading,
+  &-body {
+    @include styles-from-breakpoint-map($body-styles);
   }
 
   // Element: Body
@@ -52,5 +71,11 @@ $content-styles: (
       font-size: $smaller-font-size,
       margin-bottom: $spacing-xs,
     ));
+  }
+
+  // Element: Form
+  // --------------------------------------------------------------------------
+  &-form {
+    @include styles-from-breakpoint-map($form-styles);
   }
 }

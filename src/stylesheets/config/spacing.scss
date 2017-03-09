@@ -21,3 +21,5 @@ $spacing-xl:     fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 6);
 $spacing-xxl:    fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 7);
 $spacing-xxxl:   fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 8);
 $spacing-xxxxxl: fixed-scale-map($spacing-scale-factors, $spacing-base-unit, 10);
+
+$spacing-yuge: fixed-scale-map($spacing-scale-factors, $spacing-base-unit * 2, 8);

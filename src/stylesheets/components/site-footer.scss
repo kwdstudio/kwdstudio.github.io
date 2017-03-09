@@ -17,6 +17,10 @@ $component-base: ".#{$component-name}";
   @include grid-container;
   @include grid-container--compensate-padded();
 
+  @include styles-from-map((
+    margin-bottom: $spacing-yuge,
+  ));
+
   text-align: right;
 
   // Element: Content

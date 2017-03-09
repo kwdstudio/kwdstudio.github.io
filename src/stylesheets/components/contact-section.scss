@@ -33,7 +33,9 @@ $content-styles: (
   @include grid-container;
   @include grid-container--compensate-padded($spacing-gutters);
 
-  @include styles-from-map((margin-bottom: $spacing-l));
+  @include styles-from-map((
+    margin-bottom: $spacing-xxxl,
+  ));
 
   // Element: Content
   // --------------------------------------------------------------------------

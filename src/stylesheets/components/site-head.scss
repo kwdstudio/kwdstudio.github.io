@@ -50,7 +50,9 @@ $nav-styles: (
   @include grid-container;
   @include grid-container--compensate-padded($spacing-gutters);
 
-  @include styles-from-map((margin-bottom: $spacing-xl));
+  @include styles-from-map((
+    margin-bottom: $spacing-xxxl,
+  ));
 
 
   // Elements: Logo, Nav

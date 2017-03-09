@@ -91,7 +91,9 @@ $faq-answer-body-styles: (
 );
 
 #{$component-base} {
-  @include styles-from-map((margin-bottom: $spacing-xxxl));
+  @include styles-from-map((
+    margin-bottom: $spacing-xxxl,
+  ));
 
   // Elements: Heading, FAQ Question, FAQ Answer
   // --------------------------------------------------------------------------

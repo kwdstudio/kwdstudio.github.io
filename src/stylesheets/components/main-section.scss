@@ -16,20 +16,19 @@ $component-base: ".#{$component-name}";
 
 $heading-styles: (
   default: (
-    margin-right: grid-column-width(2, 12),
-    width: grid-column-width(10, 12),
+    margin-left: grid-column-width(1, 12),
   ),
   s: (
-    margin-left: grid-column-width(1, 12),
+    margin-left: grid-column-width(2, 12),
     margin-right: grid-column-width(1, 12),
   ),
   m: (
-    margin-right: grid-column-width(3, 12),
-    width: grid-column-width(8, 12),
+    margin-left: grid-column-width(3, 12),
+    margin-right: grid-column-width(1, 12),
   ),
   l: (
-    margin-left: grid-column-width(2, 12),
-    margin-right: grid-column-width(2, 12),
+    margin-left: grid-column-width(4, 12),
+    margin-right: grid-column-width(1, 12),
   ),
 );
 
@@ -40,15 +39,14 @@ $body-styles: (
   s: (
     margin-left: grid-column-width(2, 12),
     margin-right: grid-column-width(1, 12),
-    width: grid-column-width(9, 12),
   ),
   m: (
     margin-left: grid-column-width(3, 12),
-    width: grid-column-width(8, 12),
+    margin-right: grid-column-width(1, 12),
   ),
   l: (
     margin-left: grid-column-width(4, 12),
-    width: grid-column-width(7, 12),
+    margin-right: grid-column-width(1, 12),
   ),
 );
 

@@ -39,9 +39,7 @@ FaqController.prototype = {
       this.deactivate(groupElement)
     } else {
       this.deactivate()
-        .then(() => {
-          this.activate(groupElement)
-        })
+      this.activate(groupElement)
     }
   },
 

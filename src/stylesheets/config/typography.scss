@@ -22,11 +22,6 @@ $smaller-font-size: (
   m: 16px,
   l: 17px
 );
-$smallest-font-size: (
-  default: 11px,
-  s: 13px,
-  m: 14px
-);
 $base-font-weight: $normal-font-weight;
 $base-font-feature-settings: '"kern", "liga", "pnum", "onum"';
 $base-font-color: map-get($colors, fg);

@@ -23,6 +23,13 @@ $component-base: ".#{$component-name}";
     }
   }
 
+  // Elements: Group, Buttons
+  // --------------------------------------------------------------------------
+  &-group,
+  &-buttons {
+    vertical-align: top;
+  }
+
   // Element: Group
   // --------------------------------------------------------------------------
   &-group {
@@ -34,7 +41,7 @@ $component-base: ".#{$component-name}";
     @include styles-from-map((
       padding-left: $button-side-padding,
       padding-right: $button-side-padding,
-      font-size: $smallest-font-size,
+      font-size: $smaller-font-size,
     ));
 
     background: map-get($colors, white);

@@ -13,13 +13,14 @@ $component-base: ".#{$component-name}";
   @include styles-from-map((
     padding-left: $button-side-padding,
     padding-right: $button-side-padding,
-    font-size: $smallest-font-size
+    font-size: $smaller-font-size
   ));
 
   box-shadow: 0 2px map-get($colors, primary-shadow);
   background: map-get($colors, primary);
   color: map-get($colors, white);
 
+  height: $button-height;
   line-height: $button-height;
 
   &:focus,

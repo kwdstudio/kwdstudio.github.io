@@ -131,7 +131,7 @@ $faq-answer-body-styles: (
   // Element: Faq Group
   // --------------------------------------------------------------------------
   &-faqGroup {
-    &.will-be-active {
+    &.will-be-active[class] {
       transition: 120ms ease-in;
       transition-property: height opacity;
 
@@ -144,7 +144,7 @@ $faq-answer-body-styles: (
       }
     }
 
-    &.will-be-inactive {
+    &.will-be-inactive[class] {
       transition: 120ms ease-out;
       transition-property: height opacity;
 

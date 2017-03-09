@@ -1,4 +1,5 @@
 @import "../config/spacing";
+@import "../config/wrapper";
 
 @import "repetitivo/functions/grid-column-width";
 
@@ -15,8 +16,15 @@ $component-name: "SiteHead";
 $component-base: ".#{$component-name}";
 
 $logo-styles: (
+  default: (
+    width: calc(100% + #{$wrapper-spacing * 2}),
+    margin-left: -$wrapper-spacing,
+    margin-right: -$wrapper-spacing,
+  ),
   m: (
     width: grid-column-width(9, 12),
+    margin-left: auto,
+    margin-right: auto,
   ),
   l: (
     width: grid-column-width(8, 12),

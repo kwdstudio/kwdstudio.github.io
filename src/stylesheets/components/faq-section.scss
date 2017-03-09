@@ -131,6 +131,28 @@ $faq-answer-body-styles: (
   // Element: Faq Group
   // --------------------------------------------------------------------------
   &-faqGroup {
+    &.will-be-active {
+      transition: 120ms ease-in;
+      transition-property: height opacity;
+
+      background-color: map-get($colors, bg-secondary);
+
+      overflow: hidden;
+
+      #{$component-base}-faqAnswer {
+        display: block;
+      }
+    }
+
+    &.will-be-inactive {
+      transition: 120ms ease-out;
+      transition-property: height opacity;
+
+      background-color: transparent;
+
+      overflow: hidden;
+    }
+
     &.is-active {
       background-color: map-get($colors, bg-secondary);
 

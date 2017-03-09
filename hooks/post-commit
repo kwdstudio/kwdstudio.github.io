@@ -1,0 +1,10 @@
+#!/bin/sh
+
+if [ -f .commit ]; then
+  rm .commit
+  npm run build
+  git add javascripts stylesheets
+  git commit --amend -C HEAD --no-verify
+fi
+
+exit

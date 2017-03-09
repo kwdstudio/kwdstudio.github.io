@@ -1,4 +1,5 @@
 #!/bin/sh
 
-npm run build
-git add javascripts stylesheets
+touch .commit
+
+exit

@@ -38,7 +38,6 @@ $heading-content-styles: (
 $faq-question-number-styles: (
   default: (
     width: auto,
-    padding-right: 0,
   ),
   pre-s: (
     float: left,
@@ -46,7 +45,6 @@ $faq-question-number-styles: (
   s: (
     width: grid-column-width(1, 12),
     margin-left: grid-column-width(1, 12),
-    padding-right: $spacing-gutter-base / 2,
   ),
   m: (
     margin-left: grid-column-width(2, 12),
@@ -95,21 +93,17 @@ $faq-answer-body-styles: (
     margin-bottom: $spacing-xxxl,
   ));
 
-  // Elements: Heading, FAQ Question, FAQ Answer
+  // Elements: Heading, FAQ Answer
   // --------------------------------------------------------------------------
   &-heading,
-  &-faqQuestion,
   &-faqAnswer {
     @include grid-container;
     @include grid-container--compensate-padded($spacing-gutters);
   }
 
-  // Elements: Heading Content, FAQ Question Number,
-  //   FAQ Question Text, FAQ Answer Body
+  // Elements: Heading Content, FAQ Answer Body
   // --------------------------------------------------------------------------
   &-headingContent,
-  &-faqQuestionNumber,
-  &-faqQuestionText,
   &-faqAnswerBody {
     @include grid-item;
     @include grid-item--padded($spacing-gutters);
@@ -167,6 +161,11 @@ $faq-answer-body-styles: (
   // Element: Faq Question
   // --------------------------------------------------------------------------
   &-faqQuestion {
+    @include respond-to(s) {
+      @include grid-container;
+      @include grid-container--compensate-padded($spacing-gutters);
+    }
+
     @include styles-from-map((
       font-size: $hecto-font-size,
       padding-top: $spacing-xxs,
@@ -176,9 +175,20 @@ $faq-answer-body-styles: (
     font-weight: normal;
     color: map-get($colors, secondary);
 
+    &Number,
+    &Text {
+      @include respond-to(s) {
+        @include grid-item;
+
+        padding-left: $spacing-gutter-base / 2;
+        padding-right: $spacing-gutter-base / 2;
+      }
+    }
+
     &Number {
       @include styles-from-breakpoint-map($faq-question-number-styles);
 
+      padding-right: $spacing-gutter-base / 2;
       text-align: right;
     }
 
@@ -197,6 +207,7 @@ $faq-answer-body-styles: (
 
       &:hover,
       &:focus {
+        color: inherit;
         font-weight: $bold-font-weight;
       }
 

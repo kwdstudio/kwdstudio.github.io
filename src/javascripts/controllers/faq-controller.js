@@ -33,6 +33,8 @@ FaqController.prototype = {
   onToggle(e) {
     let groupElement = closest(e.target, FAQ_GROUP_SELECTOR)
 
+    e.preventDefault()
+
     if (this.isAnimating || groupElement.classList.contains(FAQ_ACTIVE_PREPARE_CLASS)) {
       return
     } else if (groupElement.classList.contains(FAQ_ACTIVE_CLASS)) {

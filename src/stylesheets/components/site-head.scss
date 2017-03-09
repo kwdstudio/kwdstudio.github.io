@@ -15,14 +15,7 @@ $component-name: "SiteHead";
 $component-base: ".#{$component-name}";
 
 $logo-styles: (
-  default: (
-    margin-left: grid-column-width(1, 12),
-  ),
-  s: (
-    margin-left: grid-column-width(2, 12),
-  ),
   m: (
-    margin-left: auto,
     width: grid-column-width(9, 12),
   ),
   l: (
@@ -31,9 +24,6 @@ $logo-styles: (
 );
 
 $nav-styles: (
-  default: (
-    margin-left: grid-column-width(1, 12),
-  ),
   m: (
     margin-left: 0,
     width: grid-column-width(3, 12),
@@ -79,7 +69,15 @@ $nav-styles: (
   // Element: Nav
   // --------------------------------------------------------------------------
   &-nav {
+    @include styles-from-map((
+      margin-top: $spacing-s,
+    ), $include-breakpoints: (default, xs, s));
+
     @include styles-from-breakpoint-map($nav-styles);
+
+    @include respond-to(m) {
+      margin-top: 0;
+    }
 
     &List {
       margin: 0;
@@ -88,10 +86,16 @@ $nav-styles: (
     }
 
     &ListItem {
-      display: inline;
+      @include styles-from-map((
+        padding-right: $spacing-xs,
+      ), $include-breakpoints: (default, xs, s));
+
+      float: left;
 
       @include respond-to(m) {
+        float: none;
         display: block;
+        padding-right: 0;
       }
     }
   }

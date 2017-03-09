@@ -47,6 +47,9 @@ $component-base: ".#{$component-name}";
     background: map-get($colors, white);
     line-height: $button-height;
 
+    padding-top: 0;
+    padding-bottom: 0;
+
     &::placeholder {
       color: map-get($colors, primary);
     }

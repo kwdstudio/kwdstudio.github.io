@@ -16,15 +16,35 @@ $component-base: ".#{$component-name}";
     font-size: $smaller-font-size
   ));
 
-  box-shadow: 0 2px map-get($colors, primary-shadow);
+  position: relative;
+  z-index: 1;
+  overflow: hidden;
+
   background: map-get($colors, primary);
   color: map-get($colors, white);
 
   height: $button-height;
   line-height: $button-height;
 
+  &::after {
+    content: "";
+
+    transition: transform 60ms linear;
+
+    position: absolute;
+    z-index: -1;
+    top: 93%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+
+    background: rgba(black, 0.5);
+  }
+
   &:focus,
   &:hover {
-    font-weight: $bold-font-weight;
+    &::after {
+      transform: translateY(-93%);
+    }
   }
 }

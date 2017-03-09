@@ -6,21 +6,21 @@
 // -----------------------------------------------------------------------------
 $base-font-family: "Apercu Mono", monospace;
 $base-font-size: (
-  default: 14px,
-  xs: 15px,
+  default: 15px,
+  xs: 16px,
   s: 17px,
-  m: 19px,
-  l: 21px,
+  m: 18px,
+  l: 19px,
 );
 $base-line-height: (
-  default: 1.25,
+  default: 1.5,
 );
 $smaller-font-size: (
-  default: 12px,
-  xs: 13px,
-  s: 14px,
-  m: 15px,
-  l: 16px
+  default: 13px,
+  xs: 14px,
+  s: 15px,
+  m: 16px,
+  l: 17px
 );
 $smallest-font-size: (
   default: 11px,
@@ -49,9 +49,9 @@ $repetitivo-base-text-decoration-link: $base-text-decoration-link;
 //
 // Base Metric Font Sizes
 // -----------------------------------------------------------------------------
-$deca-font-size:  (default: 18px,           s: 19px, m: 20px, l: 21px);
+$deca-font-size:  (default: 16px, xs: 18px, s: 20px, m: 22px, l: 24px);
 $hecto-font-size: (default: 20px, xs: 21px, s: 22px, m: 23px, l: 24px);
-$deca-line-height: 1.5;
+$deca-line-height: 1.1;
 $hecto-line-height: 1.5;
 
 //
@@ -59,12 +59,13 @@ $hecto-line-height: 1.5;
 // ----------------------------------------------------------------------------
 $heading-font-size: (
   default: 20px,
-  s: 24px,
-  m: 36px,
-  l: 40px,
+  xs: 24px,
+  s: 28px,
+  m: 32px,
+  l: 36px,
 );
 $heading-margin: (
   default: 20px,
   l: 35px,
 );
-$heading-line-height: 1.5;
+$heading-line-height: 1.1;

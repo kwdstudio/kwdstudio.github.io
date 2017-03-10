@@ -32,6 +32,12 @@ $component-base: ".#{$component-name}";
         ), $include-breakpoints: (default, xs, s));
       }
 
+      &-field {
+        @include respond-to(pre-s) {
+          text-align: center;
+        }
+      }
+
       &-field,
       &-buttons > * {
         width: 100%;

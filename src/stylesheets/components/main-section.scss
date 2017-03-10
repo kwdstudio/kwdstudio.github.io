@@ -55,7 +55,7 @@ $body-styles: (
   @include grid-container--compensate-padded($spacing-gutters);
 
   @include styles-from-map((
-    margin-bottom: $spacing-xxxl,
+    margin-bottom: $spacing-xxxxxl,
   ));
 
   // Elements: Heading, Body

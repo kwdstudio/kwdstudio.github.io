@@ -13,7 +13,7 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   @include styles-from-map((
     font-size: $heading-font-size,
-    margin-bottom: $heading-margin,
+    margin-bottom: $spacing-xxs,
   ));
 
   line-height: $heading-line-height;
@@ -24,7 +24,7 @@ $component-base: ".#{$component-name}";
   &--deca {
     @include styles-from-map((
       font-size: $hecto-font-size,
-      margin-bottom: $spacing-xs
+      margin-bottom: $spacing-xxs
     ));
   }
 }

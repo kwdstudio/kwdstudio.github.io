@@ -28,8 +28,12 @@ $body-styles: (
 );
 
 $form-styles: (
+  default: (
+    margin-right: grid-column-width(2, 12),
+  ),
   s: (
     margin-left: grid-column-width(1, 12),
+    margin-right: 0,
   ),
   l: (
     margin-left: grid-column-width(2, 12),
@@ -38,7 +42,7 @@ $form-styles: (
 
 #{$component-base} {
   @include styles-from-map((
-    margin-bottom: $spacing-xxxl,
+    margin-bottom: $spacing-xxxxxl,
   ));
 
   // Element: Content

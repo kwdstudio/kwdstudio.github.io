@@ -40,7 +40,6 @@ FaqController.prototype = {
     } else if (groupElement.classList.contains(FAQ_ACTIVE_CLASS)) {
       this.deactivate(groupElement)
     } else {
-      this.deactivate()
       this.activate(groupElement)
     }
   },

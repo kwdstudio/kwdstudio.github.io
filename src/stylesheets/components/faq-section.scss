@@ -88,6 +88,21 @@ $faq-answer-body-styles: (
   ),
 );
 
+$faq-answer-figure-styles: (
+  default: (
+    margin-left: grid-column-width(1, 12),
+    margin-right: 0,
+  ),
+  s: (
+    margin-left: grid-column-width(4, 12),
+    width: grid-column-width(8, 12),
+  ),
+  m: (
+    margin-left: grid-column-width(6, 12),
+    width: grid-column-width(6, 12),
+  ),
+);
+
 #{$component-base} {
   @include styles-from-map((
     margin-bottom: $spacing-xxxl,
@@ -104,7 +119,8 @@ $faq-answer-body-styles: (
   // Elements: Heading Content, FAQ Answer Body
   // --------------------------------------------------------------------------
   &-headingContent,
-  &-faqAnswerBody {
+  &-faqAnswerBody,
+  &-faqAnswerFigure {
     @include grid-item;
     @include grid-item--padded($spacing-gutters);
   }
@@ -222,15 +238,34 @@ $faq-answer-body-styles: (
   &-faqAnswer {
     .has-js & {
       display: none;
-
-      @include respond-to(m) {
-        min-height: 400px;
-      }
     }
+
+    @include styles-from-map((
+      padding-bottom: $spacing-xxxxxl,
+    ));
 
     &Body {
       @include styles-from-breakpoint-map($faq-answer-body-styles);
       @include styles-from-map((padding-bottom: $spacing-xxs));
+    }
+
+    &Figure {
+      $negative-spacing: ();
+
+      @each $breakpoint, $value in $spacing-xxxxxl {
+        $negative-spacing: map-merge($negative-spacing, ($breakpoint: -$value));
+      }
+
+      @include styles-from-map((
+        margin-top: $spacing-l,
+        margin-bottom: $negative-spacing
+      ));
+      @include styles-from-breakpoint-map($faq-answer-figure-styles);
+
+      img {
+        width: 100%;
+        height: auto;
+      }
     }
   }
 }

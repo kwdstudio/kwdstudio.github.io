@@ -7,7 +7,6 @@ $component-name: "Wrapper";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  overflow: hidden;
   max-width: $wrapper-max-width + $wrapper-spacing * 2;
   padding: 0 $wrapper-spacing;
   margin: 0 auto;

@@ -19,6 +19,10 @@ $component-base: ".#{$component-name}";
   line-height: $heading-line-height;
   text-transform: uppercase;
 
+  // Compensate for tall characters getting clipped
+  margin-top: -5px;
+  padding-top: 5px;
+
   // Variant: Deca
   // --------------------------------------------------------------------------
   &--deca {

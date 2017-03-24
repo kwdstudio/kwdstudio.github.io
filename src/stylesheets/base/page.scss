@@ -4,6 +4,8 @@ html,
 body {
   background: map-get($colors, bg);
 
+  overflow-x: hidden;
+
   @media print {
     background: transparent;
   }
@@ -13,8 +15,6 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-
-  overflow-x: hidden;
 
   > * {
     width: 100%;

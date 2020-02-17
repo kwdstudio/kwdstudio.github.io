@@ -1,5 +1,6 @@
 # Jekyll (GitHub Pages) Configuration
 
+assets_base_url: ""
 exclude:
   - hooks
   - src
@@ -8,3 +9,5 @@ exclude:
   - webpack.config.js
   - node_modules
   - README.md
+  - Gemfile
+  - Gemfile.lock

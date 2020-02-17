@@ -1,6 +1,8 @@
 # Jekyll (GitHub Pages) Configuration
 
 assets_base_url: ""
+collections:
+  - clients
 exclude:
   - hooks
   - src

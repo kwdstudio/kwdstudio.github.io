@@ -1,0 +1,4 @@
+---
+name: Riksbyggen
+slug: riksbyggen
+---

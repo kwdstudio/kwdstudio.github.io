@@ -1,0 +1,4 @@
+---
+name: Kunskapskanalen
+slug: kunskapskanalen
+---

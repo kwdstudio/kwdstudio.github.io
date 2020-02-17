@@ -1,6 +1,6 @@
-import closest from 'helpers/closest'
-import defer from 'helpers/defer'
-import requestAnimationFramePromise from 'helpers/raf-promise'
+import closest from '../helpers/closest'
+import defer from '../helpers/defer'
+import requestAnimationFramePromise from '../helpers/raf-promise'
 
 const FAQ_SELECTOR = '[data-controller="faq"]'
 const FAQ_GROUP_SELECTOR = '[data-behavior="faq-group"]'

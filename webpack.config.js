@@ -1,63 +1,61 @@
-const webpack = require('webpack');
-const ExtractTextPlugin = require('extract-text-webpack-plugin');
-
-const IS_PRODUCTION = process.env.NODE_ENV === 'production'
+const path = require('path');
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
+const TerserPlugin = require('terser-webpack-plugin');
+const NODE_ENV = process.env.NODE_ENV || 'development';
 
 module.exports = {
-  entry: [
-    './src/javascripts/main.js',
-    './src/stylesheets/main.scss',
-  ],
-  resolve: {
-    modules: [
-      './src/javascripts',
-      'node_modules',
-    ],
+  mode: NODE_ENV,
+  entry: {
+    application: path.join(__dirname, 'src/javascripts/application.js'),
+    main: path.join(__dirname, 'src/stylesheets/main.scss'),
+  },
+  output: {
+    path: path.resolve(__dirname),
+    filename: 'javascripts/[name].js',
   },
   module: {
     rules: [
       {
-        test: /\.js$/,
-        exclude: /node_modules/,
-        loader: 'babel-loader',
-        query: {
-          presets: ['env'],
-        },
-      },
-      {
         test: /\.scss$/,
-        loader: ExtractTextPlugin.extract({
-          use: [{
+        use: [
+          MiniCssExtractPlugin.loader,
+          {
             loader: 'css-loader',
             options: {
-              sourceMap: !IS_PRODUCTION,
+              sourceMap: NODE_ENV === 'development',
             },
-          }, {
-            loader: 'postcss-loader',
-            options: {
-              plugins: [
-                require('autoprefixer')(),
-              ],
-            },
-          }, {
+          },
+          {
             loader: 'sass-loader',
             options: {
-              sourceMap: !IS_PRODUCTION,
-              includePaths: ['node_modules/sanitize.css', 'node_modules/repetitivo/lib'],
+              sourceMap: NODE_ENV === 'development',
+              sassOptions: {
+                outputStyle: 'compressed',
+                includePaths: [
+                  path.join(__dirname, 'node_modules/repetitivo/lib'),
+                  path.join(__dirname, 'node_modules/sanitize.css'),
+                ],
+              },
             },
-          }],
-        }),
+          },
+        ],
       },
     ],
   },
   plugins: [
-    new ExtractTextPlugin('./stylesheets/[name].css'),
+    new MiniCssExtractPlugin({
+      filename: 'stylesheets/[name].css',
+    }),
   ],
-  output: {
-    filename: './javascripts/[name].js',
+  optimization: {
+    minimize: true,
+    minimizer: [
+      new TerserPlugin({
+        test: /\.js(\?.*)?$/i,
+      }),
+    ],
   },
-  devtool: IS_PRODUCTION ? false : 'source-map',
   devServer: {
-    port: process.env.PORT || 8080,
+    port: 9000,
   },
 };

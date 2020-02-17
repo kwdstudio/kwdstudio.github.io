@@ -1,10 +1,10 @@
 # Jekyll (GitHub Pages) Configuration
 
-source: public
-
 exclude:
   - hooks
   - src
   - package.json
+  - package-lock.json
   - webpack.config.js
   - node_modules
+  - README.md

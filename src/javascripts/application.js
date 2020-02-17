@@ -1,4 +1,4 @@
-import * as controllers from 'controllers'
+import * as controllers from './controllers'
 
 // Check if browser cuts the mustard
 if ('querySelector' in document && 'classList' in document.documentElement && 'Promise' in window) {

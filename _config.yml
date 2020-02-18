@@ -2,7 +2,10 @@
 
 assets_base_url: ""
 collections:
-  - clients
+  cases:
+    output: true
+  clients:
+    output: false
 exclude:
   - hooks
   - src

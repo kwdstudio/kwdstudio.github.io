@@ -1,6 +1,7 @@
 # Jekyll (GitHub Pages) Configuration
 
 assets_base_url: ""
+google_analytics_id: UA-96783273-1
 collections:
   cases:
     output: true

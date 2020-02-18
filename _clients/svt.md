@@ -1,4 +1,3 @@
 ---
 name: SVT
-slug: svt
 ---

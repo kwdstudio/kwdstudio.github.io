@@ -1,4 +1,3 @@
 ---
 name: Voister
-slug: voister
 ---

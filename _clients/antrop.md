@@ -1,4 +1,3 @@
 ---
 name: Antrop
-slug: antrop
 ---

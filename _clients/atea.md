@@ -1,4 +1,3 @@
 ---
 name: Atea
-slug: atea
 ---

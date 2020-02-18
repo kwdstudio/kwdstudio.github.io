@@ -6,4 +6,6 @@ layout: default
     <h2>{{ client.name }}</h2>
     {% include logotypes/{{ client.slug }}.svg %}
   {% endfor %}
+
+  {% include co_workers.html %}
 </div>

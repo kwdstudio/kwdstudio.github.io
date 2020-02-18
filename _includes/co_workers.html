@@ -1,0 +1,10 @@
+{% assign ordered_co_workers = site.co_workers | sort: "order" %}
+
+<ul>
+  {% for co_worker in ordered_co_workers %}
+    <li>
+      <h3>{{ co_worker.name }}</h3>
+      <p>{{ co_worker.role }}</p>
+    </li>
+  {% endfor %}
+</ul>

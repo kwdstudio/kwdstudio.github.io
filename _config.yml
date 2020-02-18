@@ -6,6 +6,8 @@ collections:
     output: true
   clients:
     output: false
+  co_workers:
+    output: false
 exclude:
   - hooks
   - src

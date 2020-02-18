@@ -1,2 +1,3 @@
 base_url: http://localhost:9000
+assets_base_url: http://localhost:9000
 google_analytics_id: ""

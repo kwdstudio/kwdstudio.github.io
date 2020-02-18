@@ -3,6 +3,7 @@
 <ul>
   {% for co_worker in ordered_co_workers %}
     <li>
+      <img src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="Porträtt på {{ co_worker.name }}">
       <h3>{{ co_worker.name }}</h3>
       <p>{{ co_worker.role }}</p>
     </li>

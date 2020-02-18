@@ -1,2 +1,2 @@
-html{background:#faf7f5}
+html{background:#faf7f5}.Toggle-group.will-be-active[class]{transition:120ms ease-in;transition-property:height opacity;overflow:hidden}.Toggle-group.will-be-active[class] .Toggle-toggable{display:block}.Toggle-group.will-be-inactive[class]{transition:120ms ease-out;transition-property:height opacity;overflow:hidden}.Toggle-group.is-active .Toggle-toggable{display:block}.has-js .Toggle-toggable{display:none}
 

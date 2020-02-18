@@ -1,0 +1,47 @@
+//
+// Component: Toggle
+// =============================================================================
+$component-name: "Toggle";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  // Element: Group
+  // ---------------------------------------------------------------------------
+  &-group {
+    &.will-be-active[class] {
+      transition: 120ms ease-in;
+      transition-property: height opacity;
+
+      overflow: hidden;
+
+      #{$component-base}-toggable {
+        display: block;
+      }
+    }
+
+    &.will-be-inactive[class] {
+      transition: 120ms ease-out;
+      transition-property: height opacity;
+
+      overflow: hidden;
+    }
+
+    // State: Is Active
+    // -------------------------------------------------------------------------
+    &.is-active {
+      // Element: Toggable
+      // -----------------------------------------------------------------------
+      #{$component-base}-toggable {
+        display: block;
+      }
+    }
+  }
+
+  // Element: Toggable
+  // ---------------------------------------------------------------------------
+  &-toggable {
+    .has-js & {
+      display: none;
+    }
+  }
+}

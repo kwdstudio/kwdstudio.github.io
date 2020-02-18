@@ -2,13 +2,13 @@ import closest from '../helpers/closest'
 import defer from '../helpers/defer'
 import requestAnimationFramePromise from '../helpers/raf-promise'
 
-const FAQ_SELECTOR = '[data-controller="faq"]'
-const FAQ_GROUP_SELECTOR = '[data-behavior="faq-group"]'
-const FAQ_TOGGLE_SELECTOR = '[data-behavior="faq-toggle"]'
-const FAQ_TOGGLEABLE_SELECTOR = '[data-behavior="faq-toggleable"]'
-const FAQ_ACTIVE_PREPARE_CLASS = 'will-be-active'
-const FAQ_ACTIVE_CLASS = 'is-active'
-const FAQ_INACTIVE_PREPARE_CLASS = 'will-be-inactive'
+const TOGGLE_SELECTOR = '[data-controller="toggle"]'
+const TOGGLE_GROUP_SELECTOR = '[data-behavior="toggle-group"]'
+const TOGGLE_TOGGLE_SELECTOR = '[data-behavior="toggle-toggle"]'
+const TOGGLE_TOGGLEABLE_SELECTOR = '[data-behavior="toggle-toggleable"]'
+const TOGGLE_ACTIVE_PREPARE_CLASS = 'will-be-active'
+const TOGGLE_ACTIVE_CLASS = 'is-active'
+const TOGGLE_INACTIVE_PREPARE_CLASS = 'will-be-inactive'
 
 const supportsTransitionEvents = (function() {
   let result
@@ -22,22 +22,22 @@ const supportsTransitionEvents = (function() {
   }
 }())
 
-const FaqController = function(element, options) {
+const ToggleController = function(element, options) {
   this.element = element
-  this.groupElements = [].slice.call(element.querySelectorAll(FAQ_GROUP_SELECTOR))
+  this.groupElements = [].slice.call(element.querySelectorAll(TOGGLE_GROUP_SELECTOR))
 }
 
-FaqController.prototype = {
+ToggleController.prototype = {
   isAnimating: false,
 
   onToggle(e) {
-    let groupElement = closest(e.target, FAQ_GROUP_SELECTOR)
+    let groupElement = closest(e.target, TOGGLE_GROUP_SELECTOR)
 
     e.preventDefault()
 
-    if (this.isAnimating || groupElement.classList.contains(FAQ_ACTIVE_PREPARE_CLASS)) {
+    if (this.isAnimating || groupElement.classList.contains(TOGGLE_ACTIVE_PREPARE_CLASS)) {
       return
-    } else if (groupElement.classList.contains(FAQ_ACTIVE_CLASS)) {
+    } else if (groupElement.classList.contains(TOGGLE_ACTIVE_CLASS)) {
       this.deactivate(groupElement)
     } else {
       this.activate(groupElement)
@@ -45,7 +45,7 @@ FaqController.prototype = {
   },
 
   activate(groupElement) {
-    let toggleable = groupElement.querySelector(FAQ_TOGGLEABLE_SELECTOR)
+    let toggleable = groupElement.querySelector(TOGGLE_TOGGLEABLE_SELECTOR)
     let groupHeight = groupElement.getBoundingClientRect().height
     let toggleableHeight = 0
 
@@ -54,7 +54,7 @@ FaqController.prototype = {
 
       groupElement.style.height = `${groupHeight}px`
 
-      groupElement.classList.add(FAQ_ACTIVE_PREPARE_CLASS)
+      groupElement.classList.add(TOGGLE_ACTIVE_PREPARE_CLASS)
     }
 
     let getToggleableHeight = () => {
@@ -81,8 +81,8 @@ FaqController.prototype = {
     }
 
     let endTransition = () => {
-      groupElement.classList.add(FAQ_ACTIVE_CLASS)
-      groupElement.classList.remove(FAQ_ACTIVE_PREPARE_CLASS)
+      groupElement.classList.add(TOGGLE_ACTIVE_CLASS)
+      groupElement.classList.remove(TOGGLE_ACTIVE_PREPARE_CLASS)
       groupElement.style.height = ''
 
       this.isAnimating = false
@@ -113,7 +113,7 @@ FaqController.prototype = {
     }
 
     let getToggleableElement = () => {
-      toggleable = groupElement.querySelector(FAQ_TOGGLEABLE_SELECTOR)
+      toggleable = groupElement.querySelector(TOGGLE_TOGGLEABLE_SELECTOR)
     }
 
     let beginTransition = () => {
@@ -121,7 +121,7 @@ FaqController.prototype = {
 
       groupElement.style.height = `${groupHeight}px`
 
-      groupElement.classList.add(FAQ_INACTIVE_PREPARE_CLASS)
+      groupElement.classList.add(TOGGLE_INACTIVE_PREPARE_CLASS)
     }
 
     let getToggleableHeight = () => {
@@ -148,8 +148,8 @@ FaqController.prototype = {
     }
 
     let endTransition = () => {
-      groupElement.classList.remove(FAQ_ACTIVE_CLASS)
-      groupElement.classList.remove(FAQ_INACTIVE_PREPARE_CLASS)
+      groupElement.classList.remove(TOGGLE_ACTIVE_CLASS)
+      groupElement.classList.remove(TOGGLE_INACTIVE_PREPARE_CLASS)
       groupElement.style.height = ''
 
       this.isAnimating = false
@@ -163,7 +163,7 @@ FaqController.prototype = {
     i = groupElements.length
 
     while (i-- && !groupElement) {
-      if (groupElements[i].classList.contains(FAQ_ACTIVE_CLASS)) {
+      if (groupElements[i].classList.contains(TOGGLE_ACTIVE_CLASS)) {
         groupElement = groupElements[i]
       }
     }
@@ -185,23 +185,23 @@ FaqController.prototype = {
   }
 }
 
-FaqController.init = function() {
+ToggleController.init = function() {
   document.documentElement.addEventListener('click', (e) => {
-    if ((e.target.matches || e.target.matchesSelector).call(e.target, FAQ_TOGGLE_SELECTOR)) {
-      let faqElement = closest(e.target, FAQ_SELECTOR)
-      let faqInstance
+    if ((e.target.matches || e.target.matchesSelector).call(e.target, TOGGLE_TOGGLE_SELECTOR)) {
+      let toggleElement = closest(e.target, TOGGLE_SELECTOR)
+      let toggleInstance
 
-      if (faqElement) {
-        faqInstance = faqElement.faqInstance
+      if (toggleElement) {
+        toggleInstance = toggleElement.toggleInstance
       }
 
-      if (!faqInstance) {
-        faqInstance = faqElement.faqInstance = new FaqController(faqElement)
+      if (!toggleInstance) {
+        toggleInstance = toggleElement.toggleInstance = new ToggleController(toggleElement)
       }
 
-      faqInstance.onToggle.call(faqInstance, e)
+      toggleInstance.onToggle.call(toggleInstance, e)
     }
   }, true)
 }
 
-export { FaqController, FaqController as default }
+export { ToggleController, ToggleController as default }

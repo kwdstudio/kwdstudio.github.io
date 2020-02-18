@@ -1,1 +1,1 @@
-export * from './faq-controller'
+export * from './toggle-controller'

@@ -1,10 +1,12 @@
 {% assign ordered_services = site.services | sort: "order" %}
 
-<ol>
+<ol class="Toggle" data-controller="toggle">
   {% for service in ordered_services %}
-    <li>
-      <h3>{{ service.short }}</h3>
-      {{ service.content | markdownify }}
+    <li class="Toggle-group" data-behavior="toggle-group">
+      <a href="#toggle-{{forloop.index + 1}}" data-behavior="toggle-toggle">{{ service.short }}</a>
+      <div class="Toggle-toggable" id="toggle-{{forloop.index + 1}}" data-behavior="toggle-toggleable">
+        {{ service.content | markdownify }}
+      </div>
     </li>
   {% endfor %}
 </ol>

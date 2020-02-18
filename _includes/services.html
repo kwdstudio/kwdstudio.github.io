@@ -1,0 +1,10 @@
+{% assign ordered_services = site.services | sort: "order" %}
+
+<ol>
+  {% for service in ordered_services %}
+    <li>
+      <h3>{{ service.short }}</h3>
+      {{ service.content | markdownify }}
+    </li>
+  {% endfor %}
+</ol>

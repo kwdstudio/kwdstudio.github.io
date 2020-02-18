@@ -2,6 +2,8 @@
 layout: default
 ---
 <div class="Wrapper">
+  {% include services.html %}
+
   {% for client in site.clients %}
     <h2>{{ client.name }}</h2>
     {% include logotypes/{{ client.slug }}.svg %}

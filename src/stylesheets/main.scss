@@ -1,35 +1,3 @@
-//
-// Vendor
-// ----------------------------------------------------------------------------
-@import "sanitize";
-
-//
-// Configuration
-// ----------------------------------------------------------------------------
-@import "./config/breakpoints";
-@import "./config/typography";
-
-//
-// Base
-// ----------------------------------------------------------------------------
-@import "repetitivo/base/fonts";
-@import "repetitivo/base/image";
-@import "repetitivo/base/layout";
-@import "repetitivo/base/typography";
-
-@import "./base/page";
-@import "./base/typography";
-
-//
-// Components
-// ----------------------------------------------------------------------------
-@import "./components/button";
-@import "./components/contact-section";
-@import "./components/faq-section";
-@import "./components/form";
-@import "./components/heading";
-@import "./components/main-section";
-@import "./components/site-footer";
-@import "./components/site-head";
-@import "./components/flex-embed";
-@import "./components/wrapper";
+html {
+  background: #faf7f5;
+}

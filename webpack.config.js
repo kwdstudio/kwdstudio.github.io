@@ -33,7 +33,6 @@ module.exports = {
                 outputStyle: 'compressed',
                 includePaths: [
                   path.join(__dirname, 'node_modules/repetitivo/lib'),
-                  path.join(__dirname, 'node_modules/sanitize.css'),
                 ],
               },
             },

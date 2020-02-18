@@ -1,0 +1,5 @@
+{% assign ordered_cases = site.cases | sort: "order" %}
+
+<ul>
+  <li>{{ ordered_cases[0].client }} ({{ ordered_cases[0].year }})</li>
+</ul>

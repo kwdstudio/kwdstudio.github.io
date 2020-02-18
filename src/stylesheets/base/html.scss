@@ -1,0 +1,14 @@
+@import "../functions/color";
+
+html {
+  background: color(green, 10);
+
+  // State: Is Heading
+  // ---------------------------------------------------------------------------
+  &.is-pointer {
+    a,
+    button {
+      outline: 0;
+    }
+  }
+}

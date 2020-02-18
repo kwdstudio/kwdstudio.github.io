@@ -1,0 +1,40 @@
+$breakpoints: (
+  pre-s: (
+    max: 599
+  ),
+  s: (
+    min: 600,
+  ),
+  pre-m: (
+    max: 767,
+  ),
+  m: (
+    min: 768,
+  ),
+  pre-ml: (
+    max: 899,
+  ),
+  ml: (
+    min: 900,
+  ),
+  pre-l: (
+    max: 999,
+  ),
+  l: (
+    min: 1000,
+  ),
+  pre-xl: (
+    max: 1199,
+  ),
+  xl: (
+    min: 1200,
+  ),
+  pre-xxl: (
+    max: 1399,
+  ),
+  xxl: (
+    min: 1400,
+  ),
+);
+
+$repetitivo-breakpoints: $breakpoints;

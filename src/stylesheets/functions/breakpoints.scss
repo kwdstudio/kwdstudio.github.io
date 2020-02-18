@@ -1,0 +1,61 @@
+@import "../config/breakpoints";
+
+@function breakpoints-as-list($breakpoints: $breakpoints) {
+  $result: (default);
+
+  @each $key, $value in $breakpoints {
+    $result: append($result, $key);
+  }
+
+  @return $result;
+}
+
+@function breakpoints-lt($breakpoint, $exclude-pre: true, $breakpoints: $repetitivo-breakpoints) {
+  $result: ();
+  $reached: false;
+
+  @each $key in breakpoints-as-list($breakpoints) {
+    @if $key == $breakpoint {
+      $reached: true;
+    }
+
+    @if not $reached {
+      $is-pre-breakpoint: str-index($key, 'pre-') != null;
+
+      @if $exclude-pre {
+        @if not $is-pre-breakpoint {
+          $result: append($result, $key);
+        }
+      } @else {
+        $result: append($result, $key);
+      }
+    }
+  }
+
+  @return $result;
+}
+
+@function breakpoints-gte($breakpoint, $exclude-pre: true, $breakpoints: $repetitivo-breakpoints) {
+  $result: ();
+  $reached: false;
+
+  @each $key in breakpoints-as-list($breakpoints) {
+    @if $key == $breakpoint {
+      $reached: true;
+    }
+
+    @if $reached {
+      $is-pre-breakpoint: str-index($key, 'pre-') != null;
+
+      @if $exclude-pre {
+        @if not $is-pre-breakpoint {
+          $result: append($result, $key);
+        }
+      } @else {
+        $result: append($result, $key);
+      }
+    }
+  }
+
+  @return $result;
+}

@@ -1,0 +1,22 @@
+@import "../config/breakpoints";
+
+@import "repetitivo/functions/pow";
+
+@function scale($initial-value, $growth, $breakpoints: $repetitivo-breakpoints, $round: true) {
+  $start-value: 300;
+  $result: (default: $initial-value);
+
+  @each $key, $val in $breakpoints {
+    @if not (str-index($key, 'pre-')) {
+      $value: $initial-value * pow($growth, round((map-get($val, min) - $start-value) / 100));
+
+      @if $round {
+        $value: round($value);
+      }
+
+      $result: map-merge($result, ($key: $value));
+    }
+  }
+
+  @return $result;
+}

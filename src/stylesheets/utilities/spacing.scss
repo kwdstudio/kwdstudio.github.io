@@ -1,0 +1,19 @@
+@import "../config/spacing";
+
+@import "repetitivo/functions/camelize";
+
+@import "repetitivo/helpers/styles-from-map";
+
+// Example output: u-spacingTopKiloGentle
+@each $size, $spacing in $spacing-map-gentle {
+  .u-spacingTop#{camelize($size)}Gentle {
+    @include styles-from-map((margin-top: $spacing));
+  }
+}
+
+// Example output: u-spacingTopKiloSteep
+@each $size, $spacing in $spacing-map-steep {
+  .u-spacingTop#{camelize($size)}Steep {
+    @include styles-from-map((margin-top: $spacing));
+  }
+}

@@ -1,0 +1,28 @@
+@import "../config/fonts";
+@import "../config/typography";
+
+@import "../patterns/focus";
+
+p,
+ul,
+ol,
+dl,
+blockquote {
+  margin-top: 0;
+  margin-bottom: $base-text-margin-bottom;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+}
+
+b,
+strong {
+  font-weight: $bold-font-weight;
+}
+
+a {
+  &:focus {
+    @include focus-link-and-button;
+  }
+}

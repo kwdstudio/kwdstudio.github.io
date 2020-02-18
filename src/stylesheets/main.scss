@@ -2,6 +2,27 @@
 // -----------------------------------------------------------------------------
 @import "normalize";
 
+// Config
+// -----------------------------------------------------------------------------
+@import "./config/breakpoints";
+@import "./config/typography";
+
+// Base
+// -----------------------------------------------------------------------------
+@import "repetitivo/base/fonts";
+@import "repetitivo/base/image";
+@import "repetitivo/base/layout";
+@import "repetitivo/base/typography";
+
+@import "./base/html";
+@import "./base/table";
+@import "./base/typography";
+
 // Components
 // -----------------------------------------------------------------------------
 @import "./components/toggle";
+@import "./components/wrapper";
+
+// Utilities
+// -----------------------------------------------------------------------------
+@import "./utilities/spacing";

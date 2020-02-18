@@ -1,0 +1,9 @@
+@function inverse-map-values($map) {
+  $inversed-map: ();
+
+  @each $key, $val in $map {
+    $inversed-map: map-merge($inversed-map, ($key: $val * -1));
+  }
+
+  @return $inversed-map;
+}

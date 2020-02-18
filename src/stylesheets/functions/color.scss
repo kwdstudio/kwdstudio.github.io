@@ -1,0 +1,10 @@
+@import "../config/colors";
+
+@function color($color-name, $index) {
+  @if $color-name == black { @return #000; }
+  @if $color-name == white { @return #fff; }
+
+  $color-scale: map-get($colors, $color-name);
+
+  @return map-get($color-scale, $index);
+}

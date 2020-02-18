@@ -1,0 +1,85 @@
+@import "../functions/inverse-map-values";
+
+$spacing: (
+  spacing-pico-gentle:  scale(2px, 1.0350),
+  spacing-nano-gentle:  scale(3px, 1.0350),
+  spacing-micro-gentle: scale(4px, 1.0350),
+  spacing-milli-gentle: scale(6px, 1.0350),
+  spacing-centi-gentle: scale(8px, 1.0350),
+  spacing-deci-gentle:  scale(11px, 1.0350),
+  spacing-base-gentle:  scale(16px, 1.0350),
+  spacing-deca-gentle:  scale(23px, 1.0350),
+  spacing-hecto-gentle: scale(32px, 1.0350),
+  spacing-kilo-gentle:  scale(45px, 1.0350),
+  spacing-mega-gentle:  scale(64px, 1.0350),
+  spacing-giga-gentle:  scale(90px, 1.0350),
+  spacing-tera-gentle:  scale(128px, 1.0350),
+  spacing-peta-gentle:  scale(181px, 1.0350),
+
+  spacing-pico-steep:  scale(2px, 1.0916),
+  spacing-nano-steep:  scale(3px, 1.0916),
+  spacing-micro-steep: scale(4px, 1.0916),
+  spacing-milli-steep: scale(6px, 1.0916),
+  spacing-centi-steep: scale(8px, 1.0916),
+  spacing-deci-steep:  scale(11px, 1.0916),
+  spacing-base-steep:  scale(16px, 1.0916),
+  spacing-deca-steep:  scale(23px, 1.0916),
+  spacing-hecto-steep: scale(32px, 1.0916),
+  spacing-kilo-steep:  scale(45px, 1.0916),
+  spacing-mega-steep:  scale(64px, 1.0916),
+  spacing-giga-steep:  scale(90px, 1.0916),
+  spacing-tera-steep:  scale(128px, 1.0916),
+  spacing-peta-steep:  scale(181px, 1.0916),
+);
+
+$spacing-kilo-steep:   map-get($spacing, spacing-kilo-steep);
+$spacing-kilo-gentle:  map-get($spacing, spacing-kilo-gentle);
+$spacing-hecto-steep:  map-get($spacing, spacing-hecto-steep);
+$spacing-hecto-gentle: map-get($spacing, spacing-hecto-gentle);
+$spacing-deca-steep:   map-get($spacing, spacing-deca-steep);
+$spacing-deca-gentle:  map-get($spacing, spacing-deca-gentle);
+$spacing-base-steep:   map-get($spacing, spacing-base-steep);
+$spacing-base-gentle:  map-get($spacing, spacing-base-gentle);
+$spacing-deci-steep:   map-get($spacing, spacing-deci-steep);
+$spacing-deci-gentle:  map-get($spacing, spacing-deci-gentle);
+$spacing-centi-steep:  map-get($spacing, spacing-centi-steep);
+$spacing-centi-gentle: map-get($spacing, spacing-centi-gentle);
+$spacing-milli-steep:  map-get($spacing, spacing-milli-steep);
+$spacing-milli-gentle: map-get($spacing, spacing-milli-gentle);
+$spacing-micro-steep:  map-get($spacing, spacing-micro-steep);
+$spacing-micro-gentle: map-get($spacing, spacing-micro-gentle);
+$spacing-nano-steep:   map-get($spacing, spacing-nano-steep);
+$spacing-nano-gentle:  map-get($spacing, spacing-nano-gentle);
+$spacing-pico-steep:   map-get($spacing, spacing-pico-steep);
+$spacing-pico-gentle:  map-get($spacing, spacing-pico-gentle);
+
+$spacing-base-steep-neg:   inverse-map-values($spacing-base-steep);
+$spacing-milli-gentle-neg: inverse-map-values($spacing-milli-gentle);
+$spacing-micro-gentle-neg: inverse-map-values($spacing-micro-gentle);
+$spacing-pico-gentle-neg:  inverse-map-values($spacing-pico-gentle);
+
+$spacing-map-steep: (
+  kilo:  $spacing-kilo-steep,
+  hecto: $spacing-hecto-steep,
+  deca:  $spacing-deca-steep,
+  base:  $spacing-base-steep,
+  deci:  $spacing-deci-steep,
+  centi: $spacing-centi-steep,
+  milli: $spacing-milli-steep,
+  micro: $spacing-micro-steep,
+  nano:  $spacing-nano-steep,
+  pico:  $spacing-pico-steep,
+);
+
+$spacing-map-gentle: (
+  kilo:  $spacing-kilo-gentle,
+  hecto: $spacing-hecto-gentle,
+  deca:  $spacing-deca-gentle,
+  base:  $spacing-base-gentle,
+  deci:  $spacing-deci-gentle,
+  centi: $spacing-centi-gentle,
+  milli: $spacing-milli-gentle,
+  micro: $spacing-micro-gentle,
+  nano:  $spacing-nano-gentle,
+  pico:  $spacing-pico-gentle,
+);

@@ -11,6 +11,7 @@
   },
   "author": "Oktavilla",
   "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
     "@babel/core": "^7.8.4",
     "@babel/plugin-proposal-class-properties": "^7.8.3",

@@ -5,6 +5,9 @@ order: 1
 title: Atea
 client: Atea
 year: 2019
+color1: "#b7005b"
+color2: "#270b40"
+color3: "#cdbda8"
 ---
 ## Bakgrund
 

@@ -1,0 +1,12 @@
+@import "../fonts";
+
+$font-pitch-sans: (
+  (
+    family: "Pitch Sans",
+    files: (
+      "/fonts/pitch-sans-semibold.woff2",
+    ),
+    weight: $normal-font-weight,
+    style: normal,
+  ),
+);

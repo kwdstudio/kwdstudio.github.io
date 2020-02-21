@@ -1,16 +1,18 @@
 @import "../functions/color";
 
 @import "./fonts";
-@import "./fonts/font-apercu-mono";
-@import "./typography-scales/scale-apercu-mono";
+@import "./fonts/font-pitch-sans";
+@import "./fonts/font-untitled-serif";
+@import "./typography-scales/scale-pitch-sans";
+@import "./typography-scales/scale-untitled-serif";
 
 $base-font: (
-  font-family: ("Aprecu Mono", "Monaco", monospace),
-  font-size: map-get($scale-apercu-mono, base-gentle),
-  line-height: map-get($scale-apercu-mono-line-height, normal),
+  font-family: ("Untitled Serif", "Times New Roman", serif),
+  font-size: map-get($scale-untitled-serif, base-gentle),
+  line-height: map-get($scale-untitled-serif-line-height, normal),
 );
 
-$repetitivo-fonts: $font-apercu-mono;
+$repetitivo-fonts: join($font-untitled-serif, $font-pitch-sans);
 
 //
 // Base Font Configuration

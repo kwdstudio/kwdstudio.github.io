@@ -1,0 +1,20 @@
+@import "../fonts";
+
+$font-untitled-serif: (
+  (
+    family: "Untitled Serif",
+    files: (
+      "/fonts/untitled-serif-regular.woff2",
+    ),
+    weight: $normal-font-weight,
+    style: normal,
+  ),
+  (
+  family: "Untitled Serif",
+  files: (
+    "/fonts/untitled-serif-bold.woff2",
+  ),
+    weight: $bold-font-weight,
+    style: normal,
+  ),
+);

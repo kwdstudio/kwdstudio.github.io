@@ -12,12 +12,6 @@ $base-font: (
   line-height: map-get($scale-untitled-serif-line-height, normal),
 );
 
-$meta-font: (
-  font-family: ("Pitch Sans", "Helvetica", sans-serif),
-  font-size: map-get($scale-pitch-sans, base-gentle),
-  line-height: map-get($scale-pitch-sans-line-height, normal),
-);
-
 $repetitivo-fonts: join($font-untitled-serif, $font-pitch-sans);
 
 //

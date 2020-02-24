@@ -8,15 +8,13 @@
       <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="Porträtt på {{ co_worker.name }}">
 
       <div class="CoWorkers-body">
-        <div class="Meta">
-          <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
+        <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
 
-          <p>
-            {{ co_worker.role }}<br>
-            <a href="mailto:{{ co_worker.email }}">{{ co_worker.email }}</a><br>
-            {{ co_worker.telephone }}
-          </p>
-        </div>
+        <p>
+          {{ co_worker.role }}<br>
+          <a href="mailto:{{ co_worker.email }}">{{ co_worker.email }}</a><br>
+          {{ co_worker.telephone }}
+        </p>
       </div>
     </li>
   {% endfor %}

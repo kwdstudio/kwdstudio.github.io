@@ -1,0 +1,24 @@
+@import "../config/typography";
+
+@import "repetitivo/helpers/styles-from-map";
+
+$untitled-serif: (
+  font-family: ("Untitled Serif", "Times New Roman", serif),
+  font-size-scales: $scale-untitled-serif,
+  line-height-scales: $scale-untitled-serif-line-height,
+);
+
+$pitch-sans: (
+  font-family: ("Pitch Sans", "Helvetica", sans-serif),
+  font-size-scales: $scale-pitch-sans,
+  line-height-scales: $scale-pitch-sans-line-height,
+);
+
+@mixin typography($font, $size, $line-height) {
+  font-family: map-get($font, font-family);
+
+  @include styles-from-map((
+    font-size: map-get(map-get($font, font-size-scales), $size),
+    line-height: map-get(map-get($font, line-height-scales), $line-height),
+  ));
+}

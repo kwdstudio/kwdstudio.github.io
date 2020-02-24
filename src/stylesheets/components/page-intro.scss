@@ -1,9 +1,12 @@
 @import "../config/components/wrapper";
+@import "../config/fonts";
 
 @import "../functions/color";
 
 @import "repetitivo/helpers/respond-to";
 @import "repetitivo/helpers/styles-from-map";
+
+@import "../helpers/typography";
 
 //
 // Component: PageIntro
@@ -77,6 +80,8 @@ $page-intro-background-height-pre-l: (
   // Element: Heading
   // ---------------------------------------------------------------------------
   &-heading {
+    @include typography($untitled-serif, kilo-gentle, tight);
+    font-weight: $normal-font-weight;
   }
 
   // Element: Image Wrapper

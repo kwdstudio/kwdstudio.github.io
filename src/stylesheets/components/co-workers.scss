@@ -1,6 +1,9 @@
+@import "../config/fonts";
 @import "../config/spacing";
 
 @import "../functions/color";
+
+@import "../helpers/typography";
 
 @import "repetitivo/helpers/styles-from-map";
 
@@ -33,6 +36,7 @@ $component-base: ".#{$component-name}";
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
+    @include typography($pitch-sans, base-gentle, tight);
   }
 
   // Element: Heading

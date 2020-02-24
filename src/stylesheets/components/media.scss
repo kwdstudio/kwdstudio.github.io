@@ -1,0 +1,58 @@
+@import "../helpers/typography";
+
+@import "../patterns/focus";
+
+//
+// Component: Media
+// =============================================================================
+$component-name: "Media";
+$component-base: ".#{$component-name}";
+
+$media-media-offset: (
+  default: -7.1%,
+  m: -10%,
+  l: -20%,
+);
+
+#{$component-base} {
+  @include styles-from-map((
+    margin-top: $spacing-deca-steep,
+    margin-bottom: $spacing-deca-steep,
+  ));
+
+  margin-left: 0;
+  margin-right: 0;
+
+  &:first-child {
+    margin-top: 0;
+  }
+
+  // Element: Media Wrapper
+  // ---------------------------------------------------------------------------
+  &-mediaWrapper {
+    @include styles-from-map((
+      margin-left: $media-media-offset,
+      margin-right: $media-media-offset,
+    ));
+  }
+
+  // Element: Media
+  // ---------------------------------------------------------------------------
+  &-media {
+    width: 100%;
+
+    &:focus {
+      @include focus-link-and-button;
+    }
+
+    .is-pointer & {
+      outline: 0;
+    }
+  }
+
+  // Element: Caption
+  // ---------------------------------------------------------------------------
+  &-caption {
+    @include typography($pitch-sans, base-gentle, tight);
+  }
+}

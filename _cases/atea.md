@@ -10,6 +10,12 @@ color2: "#270b40"
 color3: "#cdbda8"
 intro_heading: Koncept som bryter med it-branschens konventioner
 ---
+{%
+  include video.html
+  src="https://www.dropbox.com/s/liictq0od95inyq/atea_10sek_madamen_master.mp4?dl=1"
+  caption="Genom research tog vi fram insikter om branschens normer och uttryck, och inköpares utmaningar och inställning till sitt yrke. Det gav oss en kulturell kontext att bygga lösningen på."
+%}
+
 ## Bakgrund
 
 Atea eShop ville förnya sig och öka intresset för sin e-handel. De efterfrågade något som skulle kännas nytt i branschen, det skulle sticka ut, även om det rörde sig om att sälja it-prylar.

@@ -1,6 +1,6 @@
 @import "../config/colors";
 
-@function color($color-name, $index) {
+@function color($color-name, $index: 0) {
   @if $color-name == black { @return #000; }
   @if $color-name == white { @return #fff; }
 

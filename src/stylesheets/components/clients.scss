@@ -1,0 +1,30 @@
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "repetitivo/patterns/list";
+
+//
+// Component: Clients
+// =============================================================================
+$component-name: "Clients";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include list-reset;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  // Element: Client
+  // ---------------------------------------------------------------------------
+  &-client {
+    transform: rotate(-45deg);
+  }
+
+  svg {
+    width: 100%;
+    fill: color(neutral, -8);
+  }
+}

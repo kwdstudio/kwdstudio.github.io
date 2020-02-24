@@ -1,0 +1,29 @@
+@import "../config/spacing";
+@import "../config/typography";
+
+@import "repetitivo/helpers/styles-from-map";
+
+//
+// Component: Label
+// =============================================================================
+$component-name: "Label";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  display: inline-block;
+
+  @include styles-from-map((
+    padding-left: $spacing-milli-gentle,
+    padding-right: $spacing-milli-gentle,
+    padding-top: $spacing-milli-gentle,
+    padding-bottom: $spacing-milli-gentle,
+  ));
+  @include styles-from-map((
+    font-size: map-get($meta-font, font-size),
+    line-height: map-get($meta-font, line-height),
+  ));
+
+  font-family: map-get($meta-font, font-family);
+
+  border: 1px solid currentColor;
+}

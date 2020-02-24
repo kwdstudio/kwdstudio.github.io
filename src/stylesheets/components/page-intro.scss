@@ -1,0 +1,137 @@
+@import "../config/components/wrapper";
+
+@import "../functions/color";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+
+//
+// Component: PageIntro
+// =============================================================================
+$component-name: "PageIntro";
+$component-base: ".#{$component-name}";
+
+$page-intro-margin-top: (
+  default: 70px,
+  m: 100px,
+);
+$page-intro-image-max-width: 600px;
+$page-intro-image-offset: -50px;
+$page-intro-background-offset-bottom-pre-l: (
+  default: 50px,
+  s: 60px,
+  m: 70px,
+);
+$page-intro-background-height-pre-l: (
+  default: 180px,
+  s: 200px,
+  m: 220px,
+);
+
+#{$component-base} {
+  @include styles-from-map((
+    margin-top: $page-intro-margin-top,
+  ));
+
+  position: relative;
+
+  @include respond-to(l) {
+    display: flex;
+
+    align-items: center;
+  }
+
+  &::before {
+    @include styles-from-map((
+      height: $page-intro-background-height-pre-l,
+    ));
+    content: "";
+
+    position: absolute;
+
+    z-index: -1;
+
+    left: 0;
+    bottom: 0;
+
+    width: 100%;
+
+    background: color(neutral, 8);
+
+    @include respond-to(l) {
+      content: none;
+    }
+  }
+
+  // Element: Text
+  // ---------------------------------------------------------------------------
+  &-text {
+    padding-left: $wrapper-spacing;
+    padding-right: $wrapper-spacing;
+
+    @include respond-to(l) {
+      width: 50%;
+    }
+  }
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
+  }
+
+  // Element: Image Wrapper
+  // ---------------------------------------------------------------------------
+  &-imageWrapper {
+    @include styles-from-map((
+      padding-bottom: $page-intro-background-offset-bottom-pre-l,
+    ));
+
+    position: relative;
+
+    padding-left: $wrapper-spacing;
+    padding-right: $wrapper-spacing;
+
+    @include respond-to(l) {
+      width: 50%;
+
+      padding-left: 0;
+      padding-right: 0;
+      padding-bottom: 50px;
+
+      background: color(neutral, 8);
+    }
+
+    &::before {
+      @include respond-to(l) {
+        content: "";
+
+        position: absolute;
+
+        z-index: -1;
+
+        left: 0;
+        bottom: 100%;
+
+        width: 100%;
+        height: map-get($page-intro-margin-top, m);
+
+        background: color(neutral, 8);
+      }
+    }
+  }
+
+  // Element: Image
+  // ---------------------------------------------------------------------------
+  &-image {
+    width: 100%;
+    max-width: $page-intro-image-max-width;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond-to(l) {
+      margin-left: $page-intro-image-offset;
+      margin-right: 0;
+    }
+  }
+}

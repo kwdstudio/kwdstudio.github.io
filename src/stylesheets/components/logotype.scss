@@ -1,0 +1,36 @@
+@import "../config/components/wrapper";
+
+//
+// Component: Logotype
+// =============================================================================
+$component-name: "Logotype";
+$component-base: ".#{$component-name}";
+
+$logotype-width: (
+  default: 150px,
+  m: 180px,
+  l: 220px,
+  xl: 250px,
+);
+
+$logotype-top: (
+  default: 10px,
+  m: 30px,
+  l: 40px,
+  xl: 50px,
+);
+
+#{$component-base} {
+  @include styles-from-map((
+    width: $logotype-width,
+    top: $logotype-top,
+  ));
+
+  display: block;
+
+  position: absolute;
+
+  z-index: 1;
+
+  left: $wrapper-spacing;
+}

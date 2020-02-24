@@ -8,6 +8,7 @@ year: 2019
 color1: "#b7005b"
 color2: "#270b40"
 color3: "#cdbda8"
+intro_heading: Koncept som bryter med it-branschens konventioner
 ---
 ## Bakgrund
 

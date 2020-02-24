@@ -1,6 +1,25 @@
 ---
 layout: default
 ---
-{% include logotype.svg %}
 
-{{ content }}
+{% include logotype.html %}
+
+<div style="color: {{ page.color2 }}">
+  <div class="PageIntro">
+    <div class="PageIntro-text">
+      <div class="Label">
+        {{ page.client }} ({{ page.year }})
+      </div>
+
+      <h1 class="PageIntro-heading">{{ page.intro_heading }}</h1>
+    </div>
+
+    <div class="PageIntro-imageWrapper">
+      <img class="PageIntro-image" src="/images/cases/{{ page.title | slugify }}/featured.jpg" alt="">
+    </div>
+  </div>
+
+  <div class="Wrapper">
+    {{ content }}
+  </div>
+</div>

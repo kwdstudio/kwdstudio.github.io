@@ -15,8 +15,8 @@ $component-name: "PageIntro";
 $component-base: ".#{$component-name}";
 
 $page-intro-margin-top: (
-  default: 70px,
-  m: 100px,
+  default: 90px,
+  m: 120px,
 );
 $page-intro-image-max-width: 600px;
 $page-intro-image-offset: -50px;
@@ -75,6 +75,12 @@ $page-intro-background-height-pre-l: (
     @include respond-to(l) {
       width: 50%;
     }
+  }
+
+  // Element: Label
+  // ---------------------------------------------------------------------------
+  &-label {
+    @include styles-from-map((margin-bottom: $spacing-base-gentle));
   }
 
   // Element: Heading

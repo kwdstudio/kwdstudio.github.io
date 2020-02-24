@@ -1,0 +1,17 @@
+@import "repetitivo/generators/width-modifier";
+
+//
+// Component: Grid
+// =============================================================================
+$component-name: "Grid";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  // Element: Item
+  // ---------------------------------------------------------------------------
+  &-item {
+    @include repetitivo-generate-width-modifier(12 of 24);
+
+    @include repetitivo-generate-width-modifier(6 of 24, m);
+  }
+}

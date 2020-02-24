@@ -1,0 +1,43 @@
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "repetitivo/helpers/styles-from-map";
+
+@import "repetitivo/patterns/list";
+
+//
+// Component: Co-workers
+// =============================================================================
+$component-name: "CoWorkers";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include list-reset;
+
+  // Element: Co-worker
+  // ---------------------------------------------------------------------------
+  &-coWorker {
+    display: flex;
+    flex-direction: column;
+  }
+
+  // Element: Image
+  // ---------------------------------------------------------------------------
+  &-image {
+    @include styles-from-map((
+      margin-bottom: $spacing-milli-gentle,
+    ));
+  }
+
+  // Element: Body
+  // ---------------------------------------------------------------------------
+  &-body {
+  }
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
+    font: inherit;
+  }
+}

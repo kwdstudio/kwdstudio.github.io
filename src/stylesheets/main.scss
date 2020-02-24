@@ -20,7 +20,12 @@
 
 // Components
 // -----------------------------------------------------------------------------
+@import "repetitivo/components/grid";
+
 @import "./components/clients";
+@import "./components/co-workers";
+@import "./components/grid";
+@import "./components/meta";
 @import "./components/toggle";
 @import "./components/wrapper";
 

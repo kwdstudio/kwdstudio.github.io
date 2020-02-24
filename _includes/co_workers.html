@@ -1,11 +1,23 @@
 {% assign ordered_co_workers = site.co_workers | sort: "order" %}
 
-<ul>
+<h2 class="u-visibilityHidden">Medarbetare</h2>
+
+<ul class="CoWorkers Grid Grid--center Grid--padded Grid--compensatePadded">
   {% for co_worker in ordered_co_workers %}
-    <li>
-      <img src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="Porträtt på {{ co_worker.name }}">
-      <h3>{{ co_worker.name }}</h3>
-      <p>{{ co_worker.role }}</p>
+    <li class="CoWorkers-coWorker Grid-item Grid-item--12-of-24 Grid-item-m--6-of-24">
+      <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="Porträtt på {{ co_worker.name }}">
+
+      <div class="CoWorkers-body">
+        <div class="Meta">
+          <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
+
+          <p>
+            {{ co_worker.role }}<br>
+            <a href="mailto:{{ co_worker.email }}">{{ co_worker.email }}</a><br>
+            {{ co_worker.telephone }}
+          </p>
+        </div>
+      </div>
     </li>
   {% endfor %}
 </ul>

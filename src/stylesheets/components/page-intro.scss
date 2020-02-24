@@ -1,5 +1,6 @@
 @import "../config/components/wrapper";
 @import "../config/fonts";
+@import "../config/spacing";
 
 @import "../functions/color";
 
@@ -34,6 +35,9 @@ $page-intro-background-height-pre-l: (
 #{$component-base} {
   @include styles-from-map((
     margin-top: $page-intro-margin-top,
+  ));
+  @include styles-from-map((
+    margin-bottom: $spacing-kilo-steep,
   ));
 
   position: relative;
@@ -87,6 +91,8 @@ $page-intro-background-height-pre-l: (
   // ---------------------------------------------------------------------------
   &-heading {
     @include typography($untitled-serif, kilo-gentle, tight);
+    @include styles-from-map((margin-bottom: $spacing-hecto-gentle));
+
     font-weight: $normal-font-weight;
   }
 

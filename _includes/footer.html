@@ -16,11 +16,10 @@
         </div>
 
         <div class="Footer-section">
-          Case:
           <ul class="Footer-list">
             {% for case in ordered_cases %}
               <li>
-                <a href="{{ case.url }}">{{ case.client }} ({{ case.year }})</a>
+                <a href="{{ case.url }}">{{ case.client }}</a>
               </li>
             {% endfor %}
           </ul>

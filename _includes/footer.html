@@ -18,9 +18,11 @@
         <div class="Footer-section">
           Case:
           <ul class="Footer-list">
-            <li>
-              <a href="{{ ordered_cases[0].url }}">{{ ordered_cases[0].client }} ({{ ordered_cases[0].year }})</a>
-            </li>
+            {% for case in ordered_cases %}
+              <li>
+                <a href="{{ case.url }}">{{ case.client }} ({{ case.year }})</a>
+              </li>
+            {% endfor %}
           </ul>
         </div>
       </div>

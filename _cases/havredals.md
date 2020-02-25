@@ -1,0 +1,14 @@
+---
+permalink: /havredals
+layout: case
+order: 4
+title: Havredals
+client: Havredals
+year: 2019
+color1: "#b7005b"
+color2: "#5d2110"
+color3: "#cdbda8"
+intro_heading: Vi hade nöjet att arbeta fram berättelsen om det nya varumärket Havredals.
+contact_cta_heading: Hej, vill du veta mer?
+contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Havredals och hur vi kan hjälpa er.</p>
+---

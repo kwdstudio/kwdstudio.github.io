@@ -1,0 +1,74 @@
+@import "../config/fonts";
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "../helpers/typography";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+
+@import "repetitivo/patterns/list";
+
+//
+// Component: Footer
+// =============================================================================
+$component-name: "Footer";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include styles-from-map((
+    margin-top: $spacing-kilo-steep,
+    padding-bottom: $spacing-hecto-gentle,
+  ));
+  @include typography($pitch-sans, base-gentle, tight);
+
+  // Element: Inner
+  // ---------------------------------------------------------------------------
+  &-inner {
+    @include styles-from-map((
+      padding-top: $spacing-base-gentle,
+    ));
+
+    border-top: 1px solid color(neutral, 8);
+
+    @include respond-to(s) {
+      justify-content: space-between;
+    }
+  }
+
+  // Element: Sections
+  // ---------------------------------------------------------------------------
+  &-sections {
+    @include respond-to(s) {
+      display: flex;
+    }
+  }
+
+  // Element: Section
+  // ---------------------------------------------------------------------------
+  &-section {
+    @include styles-from-map((
+      margin-right: $spacing-base-steep,
+      margin-bottom: $spacing-base-steep,
+    ));
+
+    &:last-child {
+      margin-right: 0;
+    }
+
+    // Variant: Align Right
+    // -------------------------------------------------------------------------
+    &--alignRight {
+      @include respond-to(s) {
+        text-align: right;
+      }
+    }
+  }
+
+  // Element: List
+  // ---------------------------------------------------------------------------
+  &-list {
+    @include list-reset;
+  }
+}

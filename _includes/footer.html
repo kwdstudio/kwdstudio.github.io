@@ -1,0 +1,38 @@
+{% assign ordered_cases = site.cases | sort: "order" %}
+
+<footer class="Footer">
+  <div class="Wrapper">
+    <div class="Footer-sections Footer-inner">
+      <div class="Footer-section Footer-sections">
+        <div class="Footer-section">
+          <ul class="Footer-list">
+            <li>
+              <a href="/">Hem</a>
+            </li>
+          </ul>
+        </div>
+
+        <div class="Footer-section">
+          Case:
+          <ul class="Footer-list">
+            <li>
+              <a href="{{ ordered_cases[0].url }}">{{ ordered_cases[0].client }} ({{ ordered_cases[0].year }})</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+
+      <div class="Footer-section Footer-section--alignRight">
+        KWD Studio<br>
+        <a href="https://goo.gl/maps/rXM2pAt8Dkx2sGb58">
+          Repslagargatan 17 B<br>
+          118 46 Stockholm
+        </a><br>
+        073 676 33 40<br>
+        <a href="mailto:hej@kwdstudio.se">hej@kwdstudio.se</a><br>
+        <a href="https://twitter.com/kwdstudio">@kwdstudio</a>
+      </div>
+    </div>
+  </div>
+</footer>

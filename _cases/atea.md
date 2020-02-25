@@ -9,6 +9,8 @@ color1: "#b7005b"
 color2: "#270b40"
 color3: "#cdbda8"
 intro_heading: Koncept som bryter med it-branschens konventioner
+contact_cta_heading: Hej, vill du veta mer?
+contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>
 ---
 {%
   include video.html

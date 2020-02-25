@@ -12,6 +12,11 @@ intro_heading: Koncept som bryter med it-branschens konventioner
 contact_cta_heading: Hej, vill du veta mer?
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>
 ---
+
+## tl;dr
+
+Vi gjorde ett koncept och några reklamfilmer. Ett exempel på det kan du se nedan.
+
 {%
   include video.html
   src="https://www.dropbox.com/s/liictq0od95inyq/atea_10sek_madamen_master.mp4?dl=1"

@@ -1,0 +1,24 @@
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "repetitivo/helpers/styles-from-map";
+
+//
+// Component: Section
+// =============================================================================
+$component-name: "Section";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  // Variant: White
+  // ---------------------------------------------------------------------------
+  &--white {
+    @include styles-from-map((
+      padding-top: $spacing-hecto-steep,
+      padding-bottom: $spacing-hecto-steep,
+    ));
+
+    background: color(white);
+  }
+}

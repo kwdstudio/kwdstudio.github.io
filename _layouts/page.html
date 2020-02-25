@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+{% include logotype.html %}
+
+<div class="PageIntro">
+  <div class="PageIntro-text">
+    <h1 class="PageIntro-heading">{{ page.intro_heading }}</h1>
+  </div>
+
+  <div class="PageIntro-imageWrapper">
+    <img class="PageIntro-image" src="/images/pages/{{ page.permalink }}.jpg" alt="">
+  </div>
+</div>
+
+<div class="Wrapper Text">
+  <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
+    <div class="Grid-item Grid-item-m--20-of-24 Grid-item-ml--18-of-24 Grid-item-l--16-of-24">
+      {{ content }}
+    </div>
+  </div>
+</div>

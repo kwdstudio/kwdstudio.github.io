@@ -8,6 +8,10 @@
     <meta name="description" content="Vi hjälper våra kunder med innehållsdriven marknadsföring i digitala och sociala kanaler.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
+    {% if site.prevent_crawling %}
+      <meta name="robots" content="noindex, nofollow">
+    {% endif %}
+
     <link rel="stylesheet" href="{{ site.assets_base_url }}/stylesheets/main.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon.ico">
     <link rel="canonical" href="{{ site.base_url }}{{ page.permalink }}">

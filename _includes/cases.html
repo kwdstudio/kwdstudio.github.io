@@ -1,10 +1,26 @@
 {% assign ordered_cases = site.cases | sort: "order" | slice: 0, 4 %}
 
 <div class="Wrapper u-spacingTopKiloGentle">
-  <ul>
+  <h2 class="u-visibilityHidden">Uppdrag</h2>
+
+  <ul class="Grid Grid--center Grid--padded Grid--compensatePadded u-listReset">
     {% for case in ordered_cases %}
-      <li>
-        <a href="{{ case.url }}">{{ case.client }} ({{ case.year }})</a>
+      <li class="Grid-item {% if case.teaser_size == "large" %}Grid-item-m--20-of-24{% else %}Grid-item--12-of-24 Grid-item-m--10-of-24{% endif %}{% unless forloop.index == 1 %} u-spacingTopHectoSteep{% endunless %}">
+        <a href="{{ case.url }}" class="Teaser Teaser--{{ case.teaser_size }}" style="color: {{ case.color2 }};">
+          <div class="Teaser-text">
+            <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
+
+            <h3 class="Teaser-heading">{{ case.teaser_heading }}</h3>
+
+            <div class="Teaser-body">
+              {{ case.teaser_body }}
+            </div>
+          </div>
+
+          <div class="Teaser-media">
+            <img src="/images/cases/{{ case.title | slugify: "latin" }}/featured.jpg" alt="">
+          </div>
+        </a>
       </li>
     {% endfor %}
   </ul>

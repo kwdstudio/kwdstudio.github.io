@@ -32,6 +32,7 @@
 @import "./components/logotype";
 @import "./components/media";
 @import "./components/page-intro";
+@import "./components/teaser";
 @import "./components/text";
 @import "./components/wrapper";
 
@@ -39,4 +40,5 @@
 // -----------------------------------------------------------------------------
 @import "repetitivo/utilities/visibility";
 
+@import "./utilities/list";
 @import "./utilities/spacing";

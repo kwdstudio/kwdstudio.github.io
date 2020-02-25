@@ -1,0 +1,5 @@
+@import "repetitivo/patterns/list";
+
+.u-listReset {
+  @include list-reset;
+}

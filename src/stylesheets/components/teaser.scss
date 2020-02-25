@@ -1,0 +1,80 @@
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "repetitivo/helpers/styles-from-map";
+
+@import "../helpers/typography";
+
+//
+// Component: Teaser
+// =============================================================================
+$component-name: "Teaser";
+$component-base: ".#{$component-name}";
+
+$teaser-box-shadow-spread: 10px;
+$teaser-border-radius: 2px;
+
+#{$component-base} {
+  display: flex;
+
+  text-decoration: none;
+
+  // Variant: Small
+  // ---------------------------------------------------------------------------
+  &--small {
+    flex-direction: column-reverse;
+
+    text-align: center;
+
+    // Element: Media
+    // -------------------------------------------------------------------------
+    #{$component-base}-media {
+      @include styles-from-map((margin-bottom: $spacing-centi-gentle));
+
+      width: 65%;
+
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  // Variant: Large
+  // ---------------------------------------------------------------------------
+  &--large {
+    align-items: center;
+
+    // Element: Text
+    // -------------------------------------------------------------------------
+    #{$component-base}-text {
+      @include styles-from-map((
+        padding-right: $spacing-deci-gentle,
+      ));
+      width: 35%;
+    }
+
+    // Element: Media
+    // -------------------------------------------------------------------------
+    #{$component-base}-media {
+      width: 65%;
+    }
+  }
+
+  // Element: Label
+  // ---------------------------------------------------------------------------
+  &-label {
+    @include styles-from-map((margin-bottom: $spacing-centi-gentle));
+  }
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
+    @include typography($untitled-serif, base-gentle, tight);
+  }
+
+  // Element: Body
+  // ---------------------------------------------------------------------------
+  &-body {
+    @include typography($untitled-serif, deci-gentle, tight);
+  }
+}

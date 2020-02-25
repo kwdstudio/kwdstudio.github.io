@@ -32,6 +32,7 @@ $spacing: (
   spacing-peta-steep:  scale(181px, 1.0916),
 );
 
+$spacing-mega-steep:   map-get($spacing, spacing-mega-steep);
 $spacing-kilo-steep:   map-get($spacing, spacing-kilo-steep);
 $spacing-kilo-gentle:  map-get($spacing, spacing-kilo-gentle);
 $spacing-hecto-steep:  map-get($spacing, spacing-hecto-steep);

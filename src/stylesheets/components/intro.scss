@@ -17,11 +17,16 @@ $component-base: ".#{$component-name}";
 
 $intro-image-width: 60%;
 $intro-logotype-width: (
-  default: 60%,
+  default: 64%,
   s: 50%,
   m: 45%,
 );
-$intro-text-max-width: 800px;
+$intro-logotype-bottom: (
+  default: 100%,
+  s: 100%,
+  m: 98%,
+);
+$intro-text-max-width: 1000px;
 $intro-text-offset-top: -10vw;
 
 #{$component-base} {
@@ -58,6 +63,7 @@ $intro-text-offset-top: -10vw;
   &-logotype {
     @include styles-from-map((
       width: $intro-logotype-width,
+      bottom: $intro-logotype-bottom,
     ));
 
     position: absolute;
@@ -65,7 +71,6 @@ $intro-text-offset-top: -10vw;
     z-index: 1;
 
     left: 0;
-    bottom: 100%;
 
     transform: translate(0, 50%);
 
@@ -82,10 +87,15 @@ $intro-text-offset-top: -10vw;
   // ---------------------------------------------------------------------------
   &-textInner {
     @include styles-from-map((
-      padding-top: $spacing-kilo-steep,
-      padding-bottom: $spacing-kilo-steep,
-      padding-right: $spacing-base-gentle,
+      padding-bottom: $spacing-hecto-steep,
+      padding-right: $spacing-hecto-gentle,
     ));
+    @include styles-from-map((
+      padding-top: $spacing-mega-steep,
+    ), $include-breakpoints: default s);
+    @include styles-from-map((
+      padding-top: $spacing-hecto-gentle,
+    ), $exclude-breakpoints: default s);
 
     position: relative;
 
@@ -114,7 +124,7 @@ $intro-text-offset-top: -10vw;
   // Element: Text Inner Inner
   // ---------------------------------------------------------------------------
   &-textInnerInner {
-    @include typography($untitled-serif, kilo-gentle, tight);
+    @include typography($untitled-serif, hecto-gentle, tight);
 
     max-width: $intro-text-max-width;
   }

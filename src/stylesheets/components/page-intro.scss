@@ -90,7 +90,7 @@ $page-intro-background-height-pre-l: (
   // Element: Heading
   // ---------------------------------------------------------------------------
   &-heading {
-    @include typography($untitled-serif, kilo-gentle, tight);
+    @include typography($untitled-serif, hecto-gentle, tight);
     @include styles-from-map((margin-bottom: $spacing-hecto-gentle));
 
     font-weight: $normal-font-weight;

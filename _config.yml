@@ -12,8 +12,6 @@ collections:
     output: false
   co_workers:
     output: false
-  services:
-    output: false
 exclude:
   - hooks
   - src

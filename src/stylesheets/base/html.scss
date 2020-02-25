@@ -1,4 +1,12 @@
+@import "../functions/color";
+
 html {
+  // State: Has Background
+  // ---------------------------------------------------------------------------
+  &.has-background {
+    background: color(neutral, 8);
+  }
+
   // State: Is Heading
   // ---------------------------------------------------------------------------
   &.is-pointer {

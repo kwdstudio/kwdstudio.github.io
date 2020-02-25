@@ -1,9 +1,10 @@
 {% assign ordered_cases = site.cases | sort: "order" %}
-
-<ul>
-  <li>
-    <a href="{{ ordered_cases[0].url }}">
-      {{ ordered_cases[0].client }} ({{ ordered_cases[0].year }})
-    </a>
-  </li>
-</ul>
+<div class="Wrapper">
+  <ul>
+    <li>
+      <a href="{{ ordered_cases[0].url }}">
+        {{ ordered_cases[0].client }} ({{ ordered_cases[0].year }})
+      </a>
+    </li>
+  </ul>
+</div>

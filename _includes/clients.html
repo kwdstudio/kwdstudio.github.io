@@ -1,9 +1,11 @@
-<h2 class="u-visibilityHidden">Kunder</h2>
+<div class="Wrapper">
+  <h2 class="u-visibilityHidden">Kunder</h2>
 
-<ul class="Clients">
-  {% for client in site.clients %}
-    <h3 class="u-visibilityHidden">{{ client.name }}</h3>
+  <ul class="Clients">
+    {% for client in site.clients %}
+      <h3 class="u-visibilityHidden">{{ client.name }}</h3>
 
-    <li class="Clients-client" title="{{ client.name }}">{% include logotypes/{{ client.name | slugify: "latin" }}.svg %}</li>
-  {% endfor %}
-</ul>
+      <li class="Clients-client" title="{{ client.name }}">{% include logotypes/{{ client.name | slugify: "latin" }}.svg %}</li>
+    {% endfor %}
+  </ul>
+</div>

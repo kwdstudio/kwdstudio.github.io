@@ -1,0 +1,121 @@
+@import "../config/components/wrapper";
+@import "../config/fonts";
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+
+@import "../helpers/typography";
+
+//
+// Component: Intro
+// =============================================================================
+$component-name: "Intro";
+$component-base: ".#{$component-name}";
+
+$intro-image-width: 60%;
+$intro-logotype-width: (
+  default: 60%,
+  s: 50%,
+  m: 45%,
+);
+$intro-text-max-width: 800px;
+$intro-text-offset-top: -10vw;
+
+#{$component-base} {
+  // Element: Image Wrapper
+  // ---------------------------------------------------------------------------
+  &-imageWrapper {
+    @include respond-to(m) {
+      display: flex;
+      justify-content: flex-end;
+    }
+  }
+
+  // Element: Image
+  // ---------------------------------------------------------------------------
+  &-image {
+    @include respond-to(m) {
+      width: $intro-image-width;
+    }
+  }
+
+  // Element: Text
+  // ---------------------------------------------------------------------------
+  &-text {
+    position: relative;
+
+    padding-left: $wrapper-spacing;
+
+    margin-top: $intro-text-offset-top;
+    margin-right: $wrapper-spacing;
+  }
+
+  // Element: Logotype
+  // ---------------------------------------------------------------------------
+  &-logotype {
+    @include styles-from-map((
+      width: $intro-logotype-width,
+    ));
+
+    position: absolute;
+
+    z-index: 1;
+
+    left: 0;
+    bottom: 100%;
+
+    transform: translate(0, 50%);
+
+    @include respond-to(m) {
+      transform: none;
+    }
+
+    svg {
+      display: block;
+    }
+  }
+
+  // Element: Text Inner
+  // ---------------------------------------------------------------------------
+  &-textInner {
+    @include styles-from-map((
+      padding-top: $spacing-kilo-steep,
+      padding-bottom: $spacing-kilo-steep,
+      padding-right: $spacing-base-gentle,
+    ));
+
+    position: relative;
+
+    max-width: $wrapper-max-width;
+
+    margin-left: auto;
+    margin-right: auto;
+
+    background: color(white);
+
+    &::before {
+      content: "";
+
+      position: absolute;
+
+      top: 0;
+      right: 100%;
+
+      width: 100%;
+      height: 100%;
+
+      background: color(white);
+    }
+  }
+
+  // Element: Text Inner Inner
+  // ---------------------------------------------------------------------------
+  &-textInnerInner {
+    @include typography($untitled-serif, kilo-gentle, tight);
+
+    max-width: $intro-text-max-width;
+  }
+}

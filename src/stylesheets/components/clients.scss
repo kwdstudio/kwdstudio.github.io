@@ -2,6 +2,8 @@
 
 @import "../functions/color";
 
+@import "repetitivo/helpers/styles-from-map";
+
 @import "repetitivo/patterns/list";
 
 //
@@ -10,17 +12,41 @@
 $component-name: "Clients";
 $component-base: ".#{$component-name}";
 
-#{$component-base} {
-  @include list-reset;
+$client-max-width: (
+  default: 60px,
+  s: 70px,
+  l: 100px,
+);
 
-  display: flex;
-  align-items: center;
-  justify-content: center;
+#{$component-base} {
+  overflow: hidden;
+
+  // Element: Inner
+  // ---------------------------------------------------------------------------
+  &-inner {
+    @include list-reset;
+    @include styles-from-map((
+      margin-left: $spacing-base-steep-neg,
+      margin-right: $spacing-base-steep-neg,
+    ));
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 
   // Element: Client
   // ---------------------------------------------------------------------------
   &-client {
-    transform: rotate(-45deg);
+    @include styles-from-map((
+      margin-left: $spacing-base-steep,
+      margin-right: $spacing-base-steep,
+      margin-bottom: $spacing-deci-gentle,
+    ));
+    @include styles-from-map((
+      width: $client-max-width,
+    ));
   }
 
   svg {

@@ -1,0 +1,22 @@
+@import "../config/fonts";
+@import "../config/spacing";
+
+@import "../helpers/typography";
+
+@import "repetitivo/helpers/styles-from-map";
+
+//
+// Component: Section Heading
+// =============================================================================
+$component-name: "SectionHeading";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include typography($untitled-serif, kilo-gentle, tight);
+  @include styles-from-map((
+    margin-bottom: $spacing-base-steep,
+  ));
+
+  font-weight: $normal-font-weight;
+  text-align: center;
+}

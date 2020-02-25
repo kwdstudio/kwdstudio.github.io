@@ -77,8 +77,14 @@ $teaser-border-radius: 2px;
     // Element: Media
     // -------------------------------------------------------------------------
     #{$component-base}-media {
+      @include styles-from-map((
+        margin-bottom: $spacing-base-gentle,
+      ), $include-breakpoints: default s);
+
       @include respond-to(m) {
         width: 65%;
+
+        margin-bottom: 0;
       }
     }
   }

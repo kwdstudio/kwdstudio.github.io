@@ -20,17 +20,27 @@ $teaser-border-radius: 2px;
 
   text-decoration: none;
 
+  text-align: center;
+
   // Variant: Small
   // ---------------------------------------------------------------------------
   &--small {
     flex-direction: column-reverse;
 
-    text-align: center;
+    // Element: Text
+    // -------------------------------------------------------------------------
+    #{$component-base}-text {
+      @include styles-from-map((
+        padding-left: $spacing-base-gentle,
+        padding-right: $spacing-base-gentle,
+        padding-bottom: $spacing-hecto-gentle,
+      ));
+    }
 
     // Element: Media
     // -------------------------------------------------------------------------
     #{$component-base}-media {
-      @include styles-from-map((margin-bottom: $spacing-centi-gentle));
+      @include styles-from-map((margin-bottom: $spacing-base-gentle));
 
       width: 65%;
 
@@ -44,19 +54,54 @@ $teaser-border-radius: 2px;
   &--large {
     align-items: center;
 
+    flex-direction: column-reverse;
+
+    @include respond-to(m) {
+      flex-direction: row;
+
+      text-align: left;
+    }
+
     // Element: Text
     // -------------------------------------------------------------------------
     #{$component-base}-text {
       @include styles-from-map((
-        padding-right: $spacing-deci-gentle,
+        padding-right: $spacing-hecto-gentle,
       ));
-      width: 35%;
+
+      @include respond-to(m) {
+        width: 35%;
+      }
     }
 
     // Element: Media
     // -------------------------------------------------------------------------
     #{$component-base}-media {
-      width: 65%;
+      @include respond-to(m) {
+        width: 65%;
+      }
+    }
+  }
+
+  // Variant: White
+  // ---------------------------------------------------------------------------
+  &--white {
+    position: relative;
+
+    &::before {
+      content: "";
+
+      position: absolute;
+
+      z-index: -1;
+
+      left: 0;
+      bottom: 0;
+
+      width: 100%;
+      height: 70%;
+
+      background: color(white);
     }
   }
 

@@ -19,6 +19,10 @@ $component-base: ".#{$component-name}";
 
     font: inherit;
     font-weight: $bold-font-weight;
+
+    &:first-child {
+      margin-top: 0;
+    }
   }
 
   h3 {

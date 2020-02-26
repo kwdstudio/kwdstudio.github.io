@@ -17,3 +17,7 @@
     @include styles-from-map((margin-top: $spacing));
   }
 }
+
+.u-spacingTopBaseSteepNeg {
+  @include styles-from-map((margin-top: $spacing-base-steep-neg));
+}

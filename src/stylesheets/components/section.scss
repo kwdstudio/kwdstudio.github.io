@@ -21,4 +21,15 @@ $component-base: ".#{$component-name}";
 
     background: color(white);
   }
+
+  // Variant: Neutral 10
+  // ---------------------------------------------------------------------------
+  &--neutral10 {
+    @include styles-from-map((
+      padding-top: $spacing-hecto-steep,
+      padding-bottom: $spacing-hecto-steep,
+    ));
+
+    background: color(neutral, 10);
+  }
 }

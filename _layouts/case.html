@@ -1,6 +1,7 @@
 ---
 layout: default
 ---
+{% assign ordered_cases = site.cases | sort: "order" | slice: 0, 4 %}
 
 {% include logotype.html %}
 
@@ -33,3 +34,33 @@ layout: default
 </div>
 
 {% include contact_cta.html %}
+
+<div class="Section Section--neutral10 u-spacingTopKiloSteep">
+  <div class="Wrapper">
+    <h2 class="SectionHeading">Fler uppdrag</h2>
+
+    <ul class="Grid Grid--center Grid--padded Grid--compensatePadded u-listReset u-spacingTopBaseSteepNeg">
+      {% for case in ordered_cases %}
+        {% unless page.url == case.permalink %}
+          <li class="Grid-item Grid-item-m--8-of-24 u-spacingTopBaseSteep">
+            <a href="{{ case.url }}" class="Teaser Teaser--small" style="color: {{ case.color2 }};">
+              <div class="Teaser-text">
+                <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
+
+                <h3 class="Teaser-heading">{{ case.teaser_heading }}</h3>
+
+                <div class="Teaser-body">
+                  {{ case.teaser_body }}
+                </div>
+              </div>
+
+              <div class="Teaser-media">
+                <img src="/images/cases/{{ case.title | slugify: "latin" }}/teaser.jpg" alt="">
+              </div>
+            </a>
+          </li>
+        {% endunless %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>

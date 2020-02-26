@@ -10,7 +10,7 @@
               <a href="/">Hem</a>
             </li>
             <li>
-              <a href="/tjanster">Tjänster</a>
+              <a href="/tjanster.html">Tjänster</a>
             </li>
           </ul>
         </div>
@@ -19,7 +19,7 @@
           <ul class="Footer-list">
             {% for case in ordered_cases %}
               <li>
-                <a href="{{ case.url }}">{{ case.client }}</a>
+                <a href="{{ case.url }}.html">{{ case.client }}</a>
               </li>
             {% endfor %}
           </ul>

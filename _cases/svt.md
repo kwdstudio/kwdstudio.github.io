@@ -5,9 +5,9 @@ order: 2
 title: SVT
 client: SVT
 year: 2018–
-color1: "#b7005b"
+color1: "#d7c9a7"
 color2: "#374a4b"
-color3: "#cdbda8"
+color3: "#afd8d3"
 teaser_heading: Insiktsdriven iterativ produktionsmodell
 teaser_body: <p>En metod för hur Sveriges Television löpande ökar den interna kunskapsnivån kring vilket innehåll som fungerar och varför i syfte att öka effekten av sin digitala marknadsföring.</p>
 teaser_size: small

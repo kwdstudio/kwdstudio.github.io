@@ -5,9 +5,9 @@ order: 3
 title: "ICA-handlarnas Förbund"
 client: "ICA-handlarnas Förbund"
 year: 2020–
-color1: "#b7005b"
+color1: "#d5d5d7"
 color2: "#e5192e"
-color3: "#cdbda8"
+color3: "#fdc7a9"
 teaser_heading: Innehållsstrategi med berättarspår och innehållstyper
 teaser_body: <p>En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.</p>
 teaser_size: small

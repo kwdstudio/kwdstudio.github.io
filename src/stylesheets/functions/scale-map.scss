@@ -2,7 +2,7 @@
 
 @import "repetitivo/functions/pow";
 
-@function scale($initial-value, $growth, $breakpoints: $repetitivo-breakpoints, $round: true) {
+@function scale-map($initial-value, $growth, $breakpoints: $repetitivo-breakpoints, $round: true) {
   $start-value: 300;
   $result: (default: $initial-value);
 

@@ -39,6 +39,12 @@ $media-media-offset: (
   // Element: Media
   // ---------------------------------------------------------------------------
   &-media {
+    @include styles-from-map((
+      margin-bottom: $spacing-milli-gentle,
+    ));
+
+    display: block;
+
     width: 100%;
 
     &:focus {

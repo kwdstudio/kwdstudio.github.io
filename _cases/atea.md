@@ -44,6 +44,13 @@ Can you handle it?
 - En utmaning riktat till inköpare av it-prylar.
 - Om att hantera sin yrkesroll i allmänhet och it-prylar i synnerhet.
 
+
+{%
+  include page_image.html
+  src="/images/cases/atea/banner.jpg"
+  caption="Genom research tog vi fram insikter om branschens normer och uttryck, och inköpares utmaningar och inställning till sitt yrke. Det gav oss en kulturell kontext att bygga lösningen på."
+%}
+
 Konceptet fokuserar på utmaningar och situationer som inköpare står inför och känner igen sig i. Syftet var att skapa mening och relevans i målgruppen. Konceptet ska stärka grunden för en djupare kundrelation och samtidigt skapa intresse bland potentiella kunder.
 
 Konceptet tas ut i redaktionella delar med innehåll och aktiviteter för egna kanaler och som reklam i köpta kanaler. Konceptet har hittills lanserats med reklamfilm och klippversioner för Youtube, display, print och digitala OOH.

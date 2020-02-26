@@ -24,7 +24,7 @@ $page-intro-image-max-width: (
   l: 800px,
 );
 
-$page-intro-image-offset: -50px;
+$page-intro-image-offset: -100px;
 $page-intro-background-offset-bottom-pre-l: (
   default: 50px,
   s: 60px,
@@ -121,7 +121,7 @@ $page-intro-text-max-width: (
     @include respond-to(l) {
       width: 50%;
 
-      padding-right: $wrapper-spacing;
+      padding-right: $page-intro-image-offset * -1;
     }
   }
 
@@ -152,7 +152,7 @@ $page-intro-text-max-width: (
     @include respond-to(l) {
       width: 50%;
 
-      padding-bottom: 50px;
+      padding-bottom: 0;
 
       background: color(neutral, 8);
     }

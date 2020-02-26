@@ -22,7 +22,7 @@ contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur
 Vi gjorde ett koncept och några reklamfilmer. Ett exempel på det kan du se nedan.
 
 {%
-  include video.html
+  include page_video.html
   src="https://www.dropbox.com/s/liictq0od95inyq/atea_10sek_madamen_master.mp4?dl=1"
   caption="Genom research tog vi fram insikter om branschens normer och uttryck, och inköpares utmaningar och inställning till sitt yrke. Det gav oss en kulturell kontext att bygga lösningen på."
 %}

@@ -12,7 +12,10 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   h2 {
     @include typography($untitled-serif, deca-gentle, tight);
-    @include styles-from-map((margin-bottom: $spacing-milli-gentle));
+    @include styles-from-map((
+      margin-top: $spacing-deca-gentle,
+      margin-bottom: $spacing-milli-gentle,
+    ));
 
     font: inherit;
     font-weight: $bold-font-weight;

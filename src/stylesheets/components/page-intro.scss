@@ -15,11 +15,15 @@
 $component-name: "PageIntro";
 $component-base: ".#{$component-name}";
 
-$page-intro-margin-top: (
+$page-intro-padding-top: (
   default: 90px,
   m: 120px,
 );
-$page-intro-image-max-width: 800px;
+$page-intro-image-max-width: (
+  default: 600px,
+  l: 800px,
+);
+
 $page-intro-image-offset: -50px;
 $page-intro-background-offset-bottom-pre-l: (
   default: 50px,
@@ -31,27 +35,31 @@ $page-intro-background-height-pre-l: (
   s: 200px,
   m: 220px,
 );
+$page-intro-text-max-width: (
+  default: 500px,
+  l: none,
+);
 
 #{$component-base} {
   @include styles-from-map((
-    margin-top: $page-intro-margin-top,
-  ));
-  @include styles-from-map((
-    margin-bottom: $spacing-kilo-steep,
+    margin-bottom: $spacing-hecto-steep,
   ));
 
   position: relative;
 
-  @include respond-to(l) {
-    display: flex;
+  max-width: calc(#{$wrapper-max-width} + (#{$wrapper-spacing * 2}));
 
-    align-items: center;
-  }
+  padding-left: $wrapper-spacing;
+  padding-right: $wrapper-spacing;
+
+  margin-left: auto;
+  margin-right: auto;
 
   &::before {
     @include styles-from-map((
       height: $page-intro-background-height-pre-l,
     ));
+
     content: "";
 
     position: absolute;
@@ -70,14 +78,50 @@ $page-intro-background-height-pre-l: (
     }
   }
 
+  // Element: Inner
+  // ---------------------------------------------------------------------------
+  &-inner {
+    @include styles-from-map((
+      padding-top: $page-intro-padding-top,
+    ));
+
+    @include respond-to(l) {
+      position: relative;
+
+      display: flex;
+      align-items: center;
+    }
+
+    &::before {
+      @include respond-to(l) {
+        content: "";
+
+        position: absolute;
+
+        z-index: -1;
+
+        left: 100%;
+        bottom: 0;
+
+        width: 100%;
+        height: 100%;
+
+        background: color(neutral, 8);
+      }
+    }
+  }
+
   // Element: Text
   // ---------------------------------------------------------------------------
   &-text {
-    padding-left: $wrapper-spacing;
-    padding-right: $wrapper-spacing;
+    @include styles-from-map((
+      max-width: $page-intro-text-max-width,
+    ));
 
     @include respond-to(l) {
       width: 50%;
+
+      padding-right: $wrapper-spacing;
     }
   }
 
@@ -105,14 +149,9 @@ $page-intro-background-height-pre-l: (
 
     position: relative;
 
-    padding-left: $wrapper-spacing;
-    padding-right: $wrapper-spacing;
-
     @include respond-to(l) {
       width: 50%;
 
-      padding-left: 0;
-      padding-right: 0;
       padding-bottom: 50px;
 
       background: color(neutral, 8);
@@ -130,7 +169,7 @@ $page-intro-background-height-pre-l: (
         bottom: 100%;
 
         width: 100%;
-        height: map-get($page-intro-margin-top, m);
+        height: map-get($page-intro-padding-top, m);
 
         background: color(neutral, 8);
       }
@@ -140,8 +179,11 @@ $page-intro-background-height-pre-l: (
   // Element: Image
   // ---------------------------------------------------------------------------
   &-image {
+    @include styles-from-map((
+      max-width: $page-intro-image-max-width,
+    ));
+
     width: 100%;
-    max-width: $page-intro-image-max-width;
 
     margin-left: auto;
     margin-right: auto;

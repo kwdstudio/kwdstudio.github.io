@@ -6,16 +6,18 @@ layout: default
 
 <div style="color: {{ page.color2 }}">
   <div class="PageIntro">
-    <div class="PageIntro-text">
-      <div class="Label PageIntro-label">
-        {{ page.client }} ({{ page.year }})
+    <div class="PageIntro-inner">
+      <div class="PageIntro-text">
+        <div class="Label PageIntro-label">
+          {{ page.client }} ({{ page.year }})
+        </div>
+
+        <h1 class="PageIntro-heading">{{ page.intro_heading }}</h1>
       </div>
 
-      <h1 class="PageIntro-heading">{{ page.intro_heading }}</h1>
-    </div>
-
-    <div class="PageIntro-imageWrapper">
-      <img class="PageIntro-image" src="/images/cases/{{ page.title | slugify: "latin" }}/featured.jpg" alt="">
+      <div class="PageIntro-imageWrapper">
+        <img class="PageIntro-image" src="/images/cases/{{ page.title | slugify: "latin" }}/featured.jpg" alt="">
+      </div>
     </div>
   </div>
 
@@ -27,6 +29,5 @@ layout: default
     </div>
   </div>
 </div>
-
 
 {% include contact_cta.html %}

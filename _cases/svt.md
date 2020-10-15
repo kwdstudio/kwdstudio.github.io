@@ -1,5 +1,5 @@
 ---
-permalink: /svt
+permalink: case/svt
 layout: case
 order: 2
 title: SVT

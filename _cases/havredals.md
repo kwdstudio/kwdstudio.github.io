@@ -1,5 +1,5 @@
 ---
-permalink: /havredals
+permalink: case/havredals
 layout: case
 order: 4
 title: Havredals

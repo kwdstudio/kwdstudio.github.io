@@ -1,5 +1,5 @@
 ---
-permalink: /ica-handlarnas-forbund
+permalink: case/ica-handlarnas-forbund
 layout: case
 order: 3
 title: "ICA-handlarnas Förbund"

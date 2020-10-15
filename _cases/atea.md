@@ -1,5 +1,5 @@
 ---
-permalink: /atea
+permalink: case/atea
 layout: case
 order: 1
 title: Atea

@@ -55,12 +55,33 @@ $component-base: ".#{$component-name}";
   // Element: Link
   // ---------------------------------------------------------------------------
   &-link {
+    position: relative;
+
     color: currentColor;
     text-decoration: none;
 
     &:hover {
-      filter: brightness(0.5);
       color: currentColor;
+
+      filter: brightness(0.5);
+    }
+
+    &.is-current {
+      font-style: italic;
+
+      &::before {
+        content: "";
+
+        position: absolute;
+
+        left: 0;
+        bottom: 0;
+
+        width: 100%;
+        height: 1px;
+
+        background: currentColor;
+      }
     }
   }
 }

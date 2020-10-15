@@ -1,11 +1,5 @@
-@import "../functions/color";
-
 html {
-  // State: Has Background
-  // ---------------------------------------------------------------------------
-  &.has-background {
-    background: color(neutral, 10);
-  }
+  min-height: 100%;
 
   // State: Is Heading
   // ---------------------------------------------------------------------------

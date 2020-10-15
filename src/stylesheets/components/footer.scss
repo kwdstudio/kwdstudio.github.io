@@ -35,10 +35,6 @@ $component-base: ".#{$component-name}";
     @include respond-to(s) {
       justify-content: space-between;
     }
-
-    .has-background & {
-      border-color: color(white);
-    }
   }
 
   // Element: Sections

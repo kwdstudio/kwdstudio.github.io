@@ -1,5 +1,5 @@
 <!doctype html>
-<html class="no-js{% if page.url == "/" %} has-background{% endif %}" lang="sv">
+<html class="no-js" lang="sv">
   <head>
     <meta charset="utf-8">
 
@@ -34,6 +34,8 @@
     {{ content }}
 
     {% include footer.html %}
+
+    {% include background.html %}
 
     <script src="{{ site.assets_base_url }}/javascripts/application.js" async></script>
 

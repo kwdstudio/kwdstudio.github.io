@@ -14,6 +14,7 @@
 @import "repetitivo/base/layout";
 @import "repetitivo/base/typography";
 
+@import "./base/body";
 @import "./base/html";
 @import "./base/table";
 @import "./base/typography";
@@ -22,6 +23,7 @@
 // -----------------------------------------------------------------------------
 @import "repetitivo/components/grid";
 
+@import "./components/background";
 @import "./components/clients";
 @import "./components/co-workers";
 @import "./components/contact-cta";

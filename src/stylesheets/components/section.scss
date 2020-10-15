@@ -32,4 +32,10 @@ $component-base: ".#{$component-name}";
 
     background: color(neutral, 10);
   }
+
+  // Variant: Multiply
+  // ---------------------------------------------------------------------------
+  &--multiply {
+    mix-blend-mode: multiply;
+  }
 }

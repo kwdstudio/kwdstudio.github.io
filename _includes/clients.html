@@ -1,15 +1,21 @@
-<div class="Wrapper u-spacingTopKiloSteep">
-  <h2 class="SectionHeading">Ett urval av företag och organisationer vi arbetar med</h2>
+<div class="Section u-spacingTopKiloSteep">
+  <div class="Wrapper">
+    <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
+      <div class="Grid-item Grid-item-m--20-of-24 Grid-item-ml--18-of-24 Grid-item-l--16-of-24">
+        <h2 class="SectionHeading">Kunder</h2>
 
-  <div class="Clients">
-    <ul class="Clients-inner">
-      {% for client in site.clients %}
-        <li class="Clients-client" title="{{ client.name }}">
-          <h3 class="u-visibilityHidden">{{ client.name }}</h3>
+        <div class="Clients">
+          <ul class="Clients-inner">
+            {% for client in site.clients %}
+              <li class="Clients-client" title="{{ client.name }}">
+                <h3 class="u-visibilityHidden">{{ client.name }}</h3>
 
-          {% include logotypes/{{ client.name | slugify: "latin" }}.svg %}
-        </li>
-      {% endfor %}
-    </ul>
+                {% include logotypes/{{ client.name | slugify: "latin" }}.svg %}
+              </li>
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
   </div>
 </div>

@@ -14,4 +14,11 @@ $component-base: ".#{$component-name}";
 
   margin-left: auto;
   margin-right: auto;
+
+  &--bleed {
+    max-width: $wrapper-max-width;
+
+    padding-left: 0;
+    padding-right: 0;
+  }
 }

@@ -1,8 +1,13 @@
+---
+layout: default
+color1: "#e4006e"
+color2: "#effc13"
+color3: "#00b295"
+color4: "#00ffea"
+---
 {% assign ordered_co_workers = site.co_workers | sort: "order" %}
 
-<div class="Wrapper u-spacingTopKiloSteep">
-  <h2 class="u-visibilityHidden">Medarbetare</h2>
-
+<div class="Wrapper">
   <ul class="CoWorkers Grid Grid--center Grid--padded Grid--compensatePadded">
     {% for co_worker in ordered_co_workers %}
       <li class="CoWorkers-coWorker Grid-item Grid-item--12-of-24 Grid-item-m--6-of-24">

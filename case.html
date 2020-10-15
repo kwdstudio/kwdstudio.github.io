@@ -1,0 +1,18 @@
+---
+layout: default
+color1: "#e4006e"
+color2: "#effc13"
+color3: "#00b295"
+color4: "#00ffea"
+---
+{% assign ordered_cases = site.cases | sort: "order" %}
+
+<div class="Wrapper">
+  <ul>
+    {% for case in ordered_cases %}
+      <li>
+        <a href="{{ case.url }}.html">{{ case.client }}</a>
+      </li>
+    {% endfor %}
+  </ul>
+</div>

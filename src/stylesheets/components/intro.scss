@@ -1,5 +1,3 @@
-@import "../config/components/wrapper";
-@import "../config/fonts";
 @import "../config/spacing";
 
 @import "../functions/color";
@@ -7,79 +5,64 @@
 @import "repetitivo/helpers/respond-to";
 @import "repetitivo/helpers/styles-from-map";
 
-@import "../helpers/typography";
-
 //
 // Component: Intro
 // =============================================================================
 $component-name: "Intro";
 $component-base: ".#{$component-name}";
 
-$intro-image-width: 60%;
-$intro-logotype-width: (
-  default: 64%,
-  s: 50%,
-  m: 45%,
-);
-$intro-logotype-bottom: (
-  default: 100%,
-  s: 100%,
-  m: 98%,
-);
-$intro-text-max-width: 1000px;
-$intro-text-offset-top: -10vw;
-
 #{$component-base} {
+  position: relative;
+
+  &::before {
+    content: "";
+
+    position: absolute;
+
+    z-index: -1;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    background: color(neutral, 10);
+
+    mix-blend-mode: multiply;
+  }
+
+  // Element: Inner
+  // ---------------------------------------------------------------------------
+  &-inner {
+    @include respond-to(m) {
+      display: flex;
+      align-items: center;
+      flex-direction: row-reverse;
+    }
+  }
+
   // Element: Image Wrapper
   // ---------------------------------------------------------------------------
   &-imageWrapper {
     @include respond-to(m) {
-      display: flex;
-      justify-content: flex-end;
+      width: grid-column-width(12, 24);
     }
   }
 
   // Element: Image
   // ---------------------------------------------------------------------------
   &-image {
-    @include respond-to(m) {
-      width: $intro-image-width;
-    }
   }
 
   // Element: Text
   // ---------------------------------------------------------------------------
   &-text {
-    position: relative;
-
-    padding-left: $wrapper-spacing;
-
-    margin-top: $intro-text-offset-top;
-    margin-right: $wrapper-spacing;
-  }
-
-  // Element: Logotype
-  // ---------------------------------------------------------------------------
-  &-logotype {
-    @include styles-from-map((
-      width: $intro-logotype-width,
-      bottom: $intro-logotype-bottom,
-    ));
-
-    position: absolute;
-
-    z-index: 1;
-
-    left: 0;
-
-    transform: translate(0, 50%);
-
     @include respond-to(m) {
-      transform: none;
-    }
+      position: absolute;
 
-    svg {
-      display: block;
+      left: 0;
+      right: 0;
     }
   }
 
@@ -87,45 +70,12 @@ $intro-text-offset-top: -10vw;
   // ---------------------------------------------------------------------------
   &-textInner {
     @include styles-from-map((
-      padding-bottom: $spacing-hecto-steep,
-      padding-right: $spacing-hecto-gentle,
-    ));
-    @include styles-from-map((
-      padding-top: $spacing-mega-steep,
-    ), $include-breakpoints: default s);
-    @include styles-from-map((
       padding-top: $spacing-hecto-gentle,
-    ), $exclude-breakpoints: default s);
+      padding-bottom: $spacing-hecto-gentle,
+    ));
 
-    position: relative;
-
-    max-width: $wrapper-max-width;
-
-    margin-left: auto;
-    margin-right: auto;
-
-    background: color(white);
-
-    &::before {
-      content: "";
-
-      position: absolute;
-
-      top: 0;
-      right: 100%;
-
-      width: 100%;
-      height: 100%;
-
-      background: color(white);
+    @include respond-to(m) {
+      width: grid-column-width(11, 24);
     }
-  }
-
-  // Element: Text Inner Inner
-  // ---------------------------------------------------------------------------
-  &-textInnerInner {
-    @include typography($untitled-serif, hecto-gentle, tight);
-
-    max-width: $intro-text-max-width;
   }
 }

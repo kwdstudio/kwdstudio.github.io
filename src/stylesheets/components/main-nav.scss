@@ -1,0 +1,66 @@
+@import "../config/fonts";
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "../helpers/typography";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+
+@import "repetitivo/patterns/list";
+
+//
+// Component: Main Nav
+// =============================================================================
+$component-name: "MainNav";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  color: color(pink, 0);
+
+  // Element: List
+  // ---------------------------------------------------------------------------
+  &-list {
+    @include typography($untitled-serif, deca-gentle, tight);
+    @include list-reset;
+
+    display: flex;
+    justify-content: center;
+
+    @include respond-to(m) {
+      justify-content: normal;
+    }
+  }
+
+  // Element: Item
+  // ---------------------------------------------------------------------------
+  &-item {
+    &::after {
+      content: "/";
+
+      margin-left: 0.5em;
+      margin-right: 0.5em;
+
+      color: color(neutral, 0);
+    }
+
+    &:last-child {
+      &::after {
+        content: none;
+      }
+    }
+  }
+
+  // Element: Link
+  // ---------------------------------------------------------------------------
+  &-link {
+    color: currentColor;
+    text-decoration: none;
+
+    &:hover {
+      filter: brightness(0.5);
+      color: currentColor;
+    }
+  }
+}

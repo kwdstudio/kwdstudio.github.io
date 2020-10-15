@@ -5,9 +5,10 @@ order: 2
 title: SVT
 client: SVT
 year: 2018–
-color1: "#d7c9a7"
-color2: "#374a4b"
-color3: "#afd8d3"
+color1: "#374a4b"
+color2: "#d7c9a7"
+color3: "#374a4b"
+color4: "#afd8d3"
 teaser_heading: Insiktsdriven iterativ produktionsmodell
 teaser_body: <p>En metod för hur Sveriges Television löpande ökar den interna kunskapsnivån kring vilket innehåll som fungerar och varför i syfte att öka effekten av sin digitala marknadsföring.</p>
 teaser_size: small
@@ -35,7 +36,7 @@ KWD har hjälpt SVT med att ta fram metoder för utvärdering av deras marknadsf
 
 ### Insiktsdriven iterativ produktionsmodell
 
-Den andra metoden är insiktsbaserad och utgår från att öka den interna kunskapsinvån kring hur företaget bäst når effekt i digital marknadsföring. Modellen är cykliskt iterativ och…   
+Den andra metoden är insiktsbaserad och utgår från att öka den interna kunskapsinvån kring hur företaget bäst når effekt i digital marknadsföring. Modellen är cykliskt iterativ och…
 
 ### Implementering
 

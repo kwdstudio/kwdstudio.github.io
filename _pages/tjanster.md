@@ -2,9 +2,10 @@
 permalink: /tjanster
 layout: page
 title: Tjänster
-color1: "#effc13"
-color2: "#00b295"
-color3: "#00ffea"
+color1: "#e4006e"
+color2: "#effc13"
+color3: "#00b295"
+color4: "#00ffea"
 intro_heading: Vad vi kan hjälpa till med
 ---
 Varje varumärke har sin egen identitet och det gör att inget uppdrag är det andra likt. Våra kunder är experter på sina respektive områden, vi har metoderna för att omsätta den kunskapen till träffsäker och effektiv kommunikation. Det här är några av de områden vi arbetar med.

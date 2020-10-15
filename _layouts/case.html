@@ -3,7 +3,7 @@ layout: default
 ---
 {% assign ordered_cases = site.cases | sort: "order" | slice: 0, 4 %}
 
-<div style="color: {{ page.color2 }}">
+<div style="color: {{ page.color3 }}">
   <div class="PageIntro">
     <div class="PageIntro-inner">
       <div class="PageIntro-innerInner">
@@ -41,7 +41,7 @@ layout: default
       {% for case in ordered_cases %}
         {% unless page.url == case.permalink %}
           <li class="Grid-item Grid-item-m--8-of-24 u-spacingTopBaseSteep">
-            <a href="{{ case.url }}.html" class="Teaser Teaser--small" style="color: {{ case.color2 }};">
+            <a href="{{ case.url }}.html" class="Teaser Teaser--small" style="color: {{ case.color3 }};">
               <div class="Teaser-text">
                 <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
 

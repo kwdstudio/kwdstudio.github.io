@@ -6,8 +6,9 @@ title: Atea
 client: Atea
 year: 2019
 color1: "#b7005b"
-color2: "#270b40"
-color3: "#cdbda8"
+color2: "#b7005b"
+color3: "#270b40"
+color4: "#cdbda8"
 teaser_heading: Can you handle it?
 teaser_body: <p>Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
 teaser_size: large

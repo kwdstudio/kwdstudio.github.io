@@ -12,16 +12,9 @@ $component-name: "Label";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  @include typography($pitch-sans, deci-gentle, tight);
-  @include styles-from-map((
-    padding-left: $spacing-deci-gentle,
-    padding-right: $spacing-deci-gentle,
-    padding-top: $spacing-nano-gentle,
-    padding-bottom: $spacing-nano-gentle,
-  ));
+  @include typography($untitled-serif, centi-gentle, tight);
 
   display: inline-block;
 
-  border: 1px solid currentColor;
-  border-radius: 2px;
+  text-transform: uppercase;
 }

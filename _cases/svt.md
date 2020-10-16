@@ -14,7 +14,6 @@ teaser_body: <p>En metod för hur Sveriges Television löpande ökar den interna
 teaser_size: small
 teaser_background: transparent
 intro_heading: Löpande strategiskt rådgivning kring kommunikation och marknadsföring i digitala kanaler.
-contact_cta_heading: Hej, vill du veta mer?
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med SVT och hur vi kan hjälpa er.</p>
 ---
 

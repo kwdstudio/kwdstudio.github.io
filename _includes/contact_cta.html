@@ -1,26 +1,16 @@
-{% assign ordered_co_workers = site.co_workers | sort: "order" %}
-
 <div class="ContactCta">
-  <div class="Wrapper">
-    <div class="ContactCta-inner">
-      <div class="ContactCta-image">
-        <img src="/images/co-workers/karolina-westerlund.jpg" alt="Porträtt på Karolina Westerlund">
-      </div>
+  <div class="ContactCta-imageWrapper">
+    <img src="/images/co-workers/karolina-westerlund.jpg" alt="Porträtt på Karolina Westerlund" class="ContactCta-image">
+  </div>
 
-      <div class="ContactCta-text">
-        <div class="ContactCta-textLead">
-          <h2 class="ContactCta-heading">{{ page.contact_cta_heading }}</h2>
+  <div class="ContactCta-text">
+    <div class="ContactCta-body">
+      {{ page.contact_cta_body }}
+    </div>
 
-          <div class="ContactCta-body">
-            {{ page.contact_cta_body }}
-          </div>
-        </div>
-
-        <div class="ContactCta-textContact">
-          Karolina Westerlund, VD och innehållsstrateg<br>
-          070 123 45 56 eller <a href="mailto:karolina@kwdstudio.se">karolina@kwdstudio.se</a>
-        </div>
-      </div>
+    <div class="ContactCta-textContact">
+      Karolina Westerlund, VD och innehållsstrateg<br>
+      070 123 45 56 eller <a href="mailto:karolina@kwdstudio.se">karolina@kwdstudio.se</a>
     </div>
   </div>
 </div>

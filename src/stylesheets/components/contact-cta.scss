@@ -14,124 +14,69 @@
 $component-name: "ContactCta";
 $component-base: ".#{$component-name}";
 
-$contact-cta-max-width: 800px;
-$contact-cta-text-lead-offset: 8%;
-$contact-cta-image-width: (
-  default: 30%,
-  s: 30%,
-);
-$contact-cta-text-width: (
-  default: 70%,
-  s: 70%,
+$contact-cta-max-width: 700px;
+$contact-cta-image-size: (
+  default: 80px,
+  m: 140px,
 );
 
 #{$component-base} {
-  overflow: hidden;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 
-  // Element: Inner
+  max-width: $contact-cta-max-width;
+
+  margin-left: auto;
+  margin-right: auto;
+
+  @include respond-to(s) {
+    flex-direction: row;
+  }
+
+  // Element: Image Wrapper
   // ---------------------------------------------------------------------------
-  &-inner {
-    display: flex;
-    flex-direction: row-reverse;
+  &-imageWrapper {
+    @include styles-from-map((
+      padding-right: $spacing-base-gentle,
+    ));
 
-    margin-left: auto;
-    margin-right: auto;
-
-    @include respond-to(s) {
-      flex-direction: row;
-
-      max-width: calc(#{$contact-cta-max-width} + (#{$contact-cta-text-lead-offset * 2}));
-
-      padding-left: $contact-cta-text-lead-offset;
-      padding-right: $contact-cta-text-lead-offset;
-
-      overflow: hidden;
-    }
+    flex: 0 0 auto;
   }
 
   // Element: Image
   // ---------------------------------------------------------------------------
   &-image {
     @include styles-from-map((
-      padding-left: $spacing-base-gentle,
-    ), $include-breakpoints: default);
-    @include styles-from-map((
-      padding-right: $spacing-base-gentle,
-    ), $exclude-breakpoints: default);
-    @include styles-from-map((
-      width: $contact-cta-image-width,
+      width: $contact-cta-image-size,
+      height: $contact-cta-image-size,
     ));
 
-    flex: 0 0 auto;
-
-    @include respond-to(s) {
-      padding-left: 0;
-    }
+    border-radius: 50%;
   }
 
   // Element: Text
   // ---------------------------------------------------------------------------
   &-text {
-    @include styles-from-map((
-      width: $contact-cta-text-width,
-    ));
-  }
+    @include typography($untitled-serif, deci-gentle, tight);
 
-  // Element: Text Lead
-  // ---------------------------------------------------------------------------
-  &-textLead {
-    @include styles-from-map((
-      padding-top: $spacing-base-gentle,
-      padding-bottom: $spacing-base-gentle,
-      margin-bottom: $spacing-milli-gentle,
-    ));
-    @include styles-from-map((
-      padding-left: $spacing-base-gentle,
-      padding-right: $spacing-base-gentle,
-    ), $exclude-breakpoints: default);
+    text-align: center;
 
-    position: relative;
-
-    background: color(neutral, 8);
-
-    &::before,
-    &::after {
-      content: "";
-
-      position: absolute;
-
-      z-index: -1;
-
-      top: 0;
-
-      width: 100%;
-      height: 100%;
-
-      background: color(neutral, 8);
-    }
-
-    &::before {
-      right: 100%;
-    }
-
-    &::after {
-      left: 100%;
+    @include respond-to(s) {
+      text-align: left;
     }
   }
 
-  // Element: Heading
+  // Element: Body
   // ---------------------------------------------------------------------------
-  &-heading {
-    @include typography($untitled-serif, base-gentle, tight);
+  &-body {
+    font-style: italic;
+
+    margin-bottom: 0.5em;
   }
 
   // Element: Text Contact
   // ---------------------------------------------------------------------------
   &-textContact {
-    @include styles-from-map((
-      padding-left: $spacing-base-gentle,
-      padding-right: $spacing-base-gentle,
-    ), $exclude-breakpoints: default);
-    @include typography($pitch-sans, base-gentle, tight);
   }
 }

@@ -14,7 +14,6 @@ teaser_body: <p>Ett nytt koncept för it-jätten Atea som bryter med branschens 
 teaser_size: large
 teaser_background: transparent
 intro_heading: Koncept som bryter med it-branschens konventioner
-contact_cta_heading: Hej, vill du veta mer?
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>
 ---
 

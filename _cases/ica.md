@@ -14,6 +14,5 @@ teaser_body: <p>En ny plan för hur ICA-handlarnas Förbund ska kommunicera med 
 teaser_size: small
 teaser_background: white
 intro_heading:  En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.
-contact_cta_heading: Hej, vill du veta mer?
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med ICA-handlarnas Förbund och hur vi kan hjälpa er.</p>
 ---

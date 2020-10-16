@@ -10,6 +10,14 @@ $font-untitled-serif: (
     style: normal,
   ),
   (
+    family: "Untitled Serif",
+    files: (
+      "/fonts/untitled-serif-regular-italic.woff2",
+    ),
+    weight: $normal-font-weight,
+    style: italic,
+  ),
+  (
   family: "Untitled Serif",
   files: (
     "/fonts/untitled-serif-bold.woff2",

@@ -2,23 +2,10 @@
 layout: default
 ---
 
-<div class="PageIntro">
-  <div class="PageIntro-inner">
-    <div class="PageIntro-innerInner">
-      <div class="PageIntro-text">
-        <h1 class="PageIntro-heading">{{ page.intro_heading }}</h1>
-      </div>
-
-      <div class="PageIntro-imageWrapper">
-        <img class="PageIntro-image" src="/images/pages/{{ page.permalink }}.jpg" alt="">
-      </div>
-    </div>
-  </div>
-</div>
-
 <div class="Wrapper Text">
   <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
     <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--18-of-24 Grid-item-ml--17-of-24 Grid-item-l--16-of-24 Grid-item-xl--14-of-24">
+      <h1>{{ page.intro_heading }}</h1>
       {{ content }}
     </div>
   </div>

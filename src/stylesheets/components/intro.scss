@@ -12,6 +12,10 @@ $component-name: "Intro";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
+  @include styles-from-map((
+    margin-bottom: $spacing-kilo-gentle,
+  ));
+
   position: relative;
 
   &::before {

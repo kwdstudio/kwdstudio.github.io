@@ -1,3 +1,4 @@
+@import "../config/fonts";
 @import "../config/spacing";
 
 @import "../functions/color";
@@ -62,6 +63,7 @@ $component-base: ".#{$component-name}";
   // Element: Text
   // ---------------------------------------------------------------------------
   &-text {
+    @include typography($untitled-serif, deca-gentle, tight);
     @include respond-to(m) {
       position: absolute;
 
@@ -81,5 +83,13 @@ $component-base: ".#{$component-name}";
     @include respond-to(m) {
       width: grid-column-width(11, 24);
     }
+  }
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
+    @include typography($untitled-serif, hecto-gentle, tight);
+
+    font-weight: $normal-font-weight;
   }
 }

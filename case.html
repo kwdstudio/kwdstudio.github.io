@@ -8,10 +8,34 @@ color4: "#00ffea"
 {% assign ordered_cases = site.cases | sort: "order" %}
 
 <div class="Wrapper">
-  <ul>
+  <header class="ContentHead">
+    <div class="Grid Grid--padded Grid--compensatePadded Grid--center">
+      <div class="Grid-item Grid-item-m--20-of-24 Grid-item-l--18-of-24 Grid-item-xl--16-of-24">
+        <h1 class="ContentHead-heading">Kundcase!</h1>
+
+        <div class="ContentHead-lead"><p>Varje varumärke har sin egen identitet och det gör att inget uppdrag är det andra likt.</p></div>
+      </div>
+    </div>
+  </header>
+
+  <ul class="Grid Grid--center Grid--padded Grid--compensatePadded u-listReset">
     {% for case in ordered_cases %}
-      <li>
-        <a href="{{ case.url }}.html">{{ case.client }}</a>
+      <li class="Grid-item {% if case.teaser_size == "small" %}Grid-item-m--10-of-24{% endif %}">
+        <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.teaser_size }}" style="color: {{ case.color3 }};">
+          <div class="Teaser-text">
+            <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
+
+            <h3 class="Teaser-heading">{{ case.teaser_heading }}</h3>
+
+            <div class="Teaser-body">
+              {{ case.teaser_body }}
+            </div>
+          </div>
+
+          <div class="Teaser-media">
+            <img src="/images/cases/{{ case.title | slugify: "latin" }}/teaser.jpg" alt="">
+          </div>
+        </a>
       </li>
     {% endfor %}
   </ul>

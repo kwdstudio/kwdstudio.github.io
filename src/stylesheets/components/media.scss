@@ -59,6 +59,6 @@ $media-media-offset: (
   // Element: Caption
   // ---------------------------------------------------------------------------
   &-caption {
-    @include typography($pitch-sans, base-gentle, tight);
+    @include typography($untitled-serif, centi-gentle, tight);
   }
 }

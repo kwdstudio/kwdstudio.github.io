@@ -1,0 +1,13 @@
+@import "../patterns/list";
+
+//
+// Component: Link List
+// =============================================================================
+$component-name: "LinkList";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include list-disc-inside;
+
+  font-style: italic;
+}

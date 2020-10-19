@@ -1,0 +1,23 @@
+@import "repetitivo/patterns/list";
+
+@mixin list-disc-inside {
+  @include list-reset;
+
+  > li {
+    padding-left: 1em;
+
+    &::before {
+      content: "";
+
+      float: left;
+
+      display: list-item;
+
+      list-style: disc inside;
+
+      width: 1em;
+
+      margin-left: -1em;
+    }
+  }
+}

@@ -59,7 +59,7 @@ $teaser-border-radius: 2px;
     flex-direction: column-reverse;
 
     @include respond-to(m) {
-      flex-direction: row;
+      flex-direction: row-reverse;
 
       text-align: left;
     }
@@ -68,8 +68,8 @@ $teaser-border-radius: 2px;
     // -------------------------------------------------------------------------
     #{$component-base}-text {
       @include styles-from-map((
-        padding-right: $spacing-hecto-gentle,
-      ));
+        padding-left: $spacing-hecto-gentle,
+      ), $exclude-breakpoints: default s);
 
       @include respond-to(m) {
         width: 35%;

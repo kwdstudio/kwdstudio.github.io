@@ -6,7 +6,7 @@
   <ul class="Grid Grid--center Grid--padded Grid--compensatePadded u-listReset">
     {% for case in ordered_cases %}
       <li class="Grid-item {% if case.teaser_size == "small" %}Grid-item-m--10-of-24{% endif %}">
-        <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.teaser_size }} Teaser--{{ case.teaser_background }}" style="color: {{ case.color3 }};">
+        <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.teaser_size }}" style="color: {{ case.color3 }};">
           <div class="Teaser-text">
             <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
 

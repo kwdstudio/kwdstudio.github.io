@@ -12,7 +12,6 @@ color4: "#fd910b"
 teaser_heading: Varumärkes&shy;paketering för Havredals
 teaser_body: <p>Vi hade nöjet att arbeta fram berättelsen om det nya varumärket Havredals. Vi ville ge Havredals en tonalitet och identitet som var genomgående från bakgrundsberättelse till förpackningscopy.</p>
 teaser_size: large
-teaser_background: transparent
 intro_heading: Vi hade nöjet att arbeta fram berättelsen om det nya varumärket Havredals.
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Havredals och hur vi kan hjälpa er.</p>
 ---

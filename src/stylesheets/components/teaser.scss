@@ -91,28 +91,6 @@ $teaser-border-radius: 2px;
     }
   }
 
-  // Variant: White
-  // ---------------------------------------------------------------------------
-  &--white {
-    position: relative;
-
-    &::before {
-      content: "";
-
-      position: absolute;
-
-      z-index: -1;
-
-      left: 0;
-      bottom: 0;
-
-      width: 100%;
-      height: 70%;
-
-      background: color(white);
-    }
-  }
-
   // Element: Label
   // ---------------------------------------------------------------------------
   &-label {

@@ -1,0 +1,28 @@
+@import "../config/spacing";
+
+@import "../functions/inverse-map-values";
+
+@import "repetitivo/helpers/styles-from-map";
+
+@import "repetitivo/patterns/list";
+
+//
+// Component: Teasers
+// =============================================================================
+$component-name: "Teasers";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include list-reset;
+  @include styles-from-map((
+    margin-bottom: inverse-map-values($spacing-deca-gentle),
+  ));
+
+  // Element: teaser
+  // ---------------------------------------------------------------------------
+  &-teaser {
+    @include styles-from-map((
+      margin-bottom: $spacing-deca-gentle,
+    ));
+  }
+}

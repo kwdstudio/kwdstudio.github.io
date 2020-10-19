@@ -3,9 +3,9 @@
 <div class="Wrapper">
   <h2 class="u-visibilityHidden">Uppdrag</h2>
 
-  <ul class="Grid Grid--center Grid--padded Grid--compensatePadded u-listReset">
+  <div class="Teasers Grid Grid--center Grid--padded Grid--compensatePadded">
     {% for case in ordered_cases %}
-      <li class="Grid-item {% if case.teaser_size == "small" %}Grid-item-m--10-of-24{% endif %}">
+      <div class="Teasers-teaser Grid-item {% if case.teaser_size == "small" %}Grid-item-m--10-of-24{% endif %}">
         <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.teaser_size }}" style="color: {{ case.color3 }};">
           <div class="Teaser-text">
             <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
@@ -21,7 +21,7 @@
             <img src="/images/cases/{{ case.title | slugify: "latin" }}/teaser.jpg" alt="">
           </div>
         </a>
-      </li>
+      </div>
     {% endfor %}
-  </ul>
+  </div>
 </div>

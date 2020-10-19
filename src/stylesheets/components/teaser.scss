@@ -35,7 +35,6 @@ $teaser-border-radius: 2px;
       @include styles-from-map((
         padding-left: $spacing-base-gentle,
         padding-right: $spacing-base-gentle,
-        padding-bottom: $spacing-hecto-gentle,
       ));
     }
 

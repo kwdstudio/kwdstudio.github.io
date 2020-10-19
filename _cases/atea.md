@@ -1,7 +1,7 @@
 ---
 permalink: case/atea
 layout: case
-order: 1
+order: 3
 title: Atea
 client: Atea
 year: 2019

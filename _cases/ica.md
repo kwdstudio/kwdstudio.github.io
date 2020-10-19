@@ -1,7 +1,7 @@
 ---
 permalink: case/ica-handlarnas-forbund
 layout: case
-order: 3
+order: 2
 title: "ICA-handlarnas Förbund"
 client: "ICA-handlarnas Förbund"
 year: 2020–

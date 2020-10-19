@@ -1,7 +1,7 @@
 ---
 permalink: case/svt
 layout: case
-order: 2
+order: 1
 title: SVT
 client: SVT
 year: 2018–

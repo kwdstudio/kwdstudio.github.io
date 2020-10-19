@@ -1,11 +1,11 @@
-{% assign ordered_cases = site.cases | sort: "order" | slice: 0, 4 %}
+{% assign ordered_cases = site.cases | sort: "order" | slice: 0, 3 %}
 
 <div class="Wrapper">
   <h2 class="u-visibilityHidden">Uppdrag</h2>
 
   <ul class="Grid Grid--center Grid--padded Grid--compensatePadded u-listReset">
     {% for case in ordered_cases %}
-      <li class="Grid-item {% if case.teaser_size == "small" %}Grid-item-m--10-of-24{% endif %}{% unless forloop.index == 1 %} u-spacingTopKiloSteep{% endunless %}">
+      <li class="Grid-item {% if case.teaser_size == "small" %}Grid-item-m--10-of-24{% endif %}">
         <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.teaser_size }} Teaser--{{ case.teaser_background }}" style="color: {{ case.color3 }};">
           <div class="Teaser-text">
             <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>

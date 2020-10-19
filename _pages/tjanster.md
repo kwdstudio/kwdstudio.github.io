@@ -7,9 +7,8 @@ color2: "#effc13"
 color3: "#00b295"
 color4: "#00ffea"
 intro_heading: Vad vi kan hjälpa till med
+intro_lead: "<p>Varje varumärke har sin egen identitet och det gör att inget uppdrag är det andra likt. Våra kunder är experter på sina respektive områden, vi har metoderna för att omsätta den kunskapen till träffsäker och effektiv kommunikation. Det här är några av de områden vi arbetar med.</p>"
 ---
-Varje varumärke har sin egen identitet och det gör att inget uppdrag är det andra likt. Våra kunder är experter på sina respektive områden, vi har metoderna för att omsätta den kunskapen till träffsäker och effektiv kommunikation. Det här är några av de områden vi arbetar med.
-
 <strong id="audit-och-kartlaggning">Audit och kartläggning av digitala kanaler och innehåll.</strong> Vi ser över era kanaler, vilket typ av innehåll ni har - tonalitet, format, frekvens. Ibland gör vi en konkurrentanalys. Ibland jämför vi helt andra aktörer som kan säga något om vad ni har att förhålla er till. Vi summerar, analyserar och ger en rekommendation.
 
 <strong id="blandade-strategier">Innehållsstrategi, kommunikationsstrategi, annonsstrategi.</strong> Oavsett vad ni behöver för typ av plan för att nå era mål hjälper vi er att arbeta fram ett konkret verktyg som hjälper er att ta fram relevant kommunikation och styra den rätt.

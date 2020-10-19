@@ -18,10 +18,12 @@ color4: "#00ffea"
     </div>
   </header>
 
-  <ul class="CoWorkers Grid Grid--center Grid--padded Grid--compensatePadded">
+  <ul class="CoWorkers">
     {% for co_worker in ordered_co_workers %}
-      <li class="CoWorkers-coWorker Grid-item Grid-item--12-of-24 Grid-item-m--6-of-24">
-        <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="Porträtt på {{ co_worker.name }}">
+      <li class="CoWorkers-coWorker">
+        <div class="CoWorkers-imageWrapper">
+          <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="Porträtt på {{ co_worker.name }}">
+        </div>
 
         <div class="CoWorkers-body">
           <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
@@ -31,6 +33,8 @@ color4: "#00ffea"
             <a href="mailto:{{ co_worker.email }}" class="u-displayBlock u-textEllipsis">{{ co_worker.email }}</a>
             {{ co_worker.telephone }}
           </p>
+
+          {{ co_worker.bio }}
         </div>
       </li>
     {% endfor %}

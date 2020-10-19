@@ -15,22 +15,32 @@
 $component-name: "CoWorkers";
 $component-base: ".#{$component-name}";
 
+$co-workers-co-worker-width: 800px;
+
 #{$component-base} {
   @include list-reset;
 
   // Element: Co-worker
   // ---------------------------------------------------------------------------
   &-coWorker {
+    @include styles-from-map((
+      margin-bottom: $spacing-deca-gentle,
+    ));
+
     display: flex;
-    flex-direction: column;
+
+    max-width: $co-workers-co-worker-width;
   }
 
-  // Element: Image
+  // Element: Image Wrapper
   // ---------------------------------------------------------------------------
-  &-image {
+  &-imageWrapper {
     @include styles-from-map((
-      margin-bottom: $spacing-milli-gentle,
+      margin-right: $spacing-base-gentle,
     ));
+
+    width: 20%;
+    flex: 0 0 auto;
   }
 
   // Element: Body
@@ -43,5 +53,6 @@ $component-base: ".#{$component-name}";
   // ---------------------------------------------------------------------------
   &-heading {
     font: inherit;
+    font-weight: $bold-font-weight;
   }
 }

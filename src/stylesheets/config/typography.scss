@@ -1,9 +1,7 @@
 @import "../functions/color";
 
 @import "./fonts";
-@import "./fonts/font-pitch-sans";
 @import "./fonts/font-untitled-serif";
-@import "./typography-scales/scale-pitch-sans";
 @import "./typography-scales/scale-untitled-serif";
 
 $base-font: (
@@ -12,7 +10,7 @@ $base-font: (
   line-height: map-get($scale-untitled-serif-line-height, normal),
 );
 
-$repetitivo-fonts: join($font-untitled-serif, $font-pitch-sans);
+$repetitivo-fonts: $font-untitled-serif;
 
 //
 // Base Font Configuration

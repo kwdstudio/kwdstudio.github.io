@@ -21,7 +21,7 @@ $component-base: ".#{$component-name}";
     margin-top: $spacing-kilo-steep,
     padding-bottom: $spacing-hecto-gentle,
   ));
-  @include typography($pitch-sans, base-gentle, tight);
+  @include typography($untitled-serif, centi-gentle, tight);
 
   // Element: Inner
   // ---------------------------------------------------------------------------
@@ -30,45 +30,47 @@ $component-base: ".#{$component-name}";
       padding-top: $spacing-base-gentle,
     ));
 
+    display: flex;
+    justify-content: space-between;
+
+
     border-top: 1px solid color(neutral, 8);
 
-    @include respond-to(s) {
-      justify-content: space-between;
+    @include respond-to(m) {
+      align-items: center;
     }
   }
 
-  // Element: Sections
+  // Element: Nav
   // ---------------------------------------------------------------------------
-  &-sections {
-    @include respond-to(s) {
+  &-nav {
+    @include list-reset;
+
+    @include respond-to(m) {
       display: flex;
+      flex-wrap: wrap;
     }
   }
 
-  // Element: Section
+  // Element: Nav Item
   // ---------------------------------------------------------------------------
-  &-section {
-    @include styles-from-map((
-      margin-right: $spacing-base-steep,
-      margin-bottom: $spacing-base-steep,
-    ));
+  &-navItem {
+    margin-right: 2em;
+    margin-bottom: 0.5em;
+
+    @include respond-to(m) {
+      margin-bottom: 0;
+    }
 
     &:last-child {
       margin-right: 0;
-    }
-
-    // Variant: Align Right
-    // -------------------------------------------------------------------------
-    &--alignRight {
-      @include respond-to(s) {
-        text-align: right;
-      }
+      margin-bottom: 0;
     }
   }
 
-  // Element: List
+  // Element: Nav Link
   // ---------------------------------------------------------------------------
-  &-list {
-    @include list-reset;
+  &-navLink {
+    text-decoration: none;
   }
 }

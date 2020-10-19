@@ -10,10 +10,13 @@ $component-base: ".#{$component-name}";
   // Element: Item
   // ---------------------------------------------------------------------------
   &-item {
+    @include repetitivo-generate-width-modifier(8 of 24);
     @include repetitivo-generate-width-modifier(12 of 24);
 
+    @include repetitivo-generate-width-modifier(6 of 24, s);
     @include repetitivo-generate-width-modifier(22 of 24, s);
 
+    @include repetitivo-generate-width-modifier(4 of 24, m);
     @include repetitivo-generate-width-modifier(6 of 24, m);
     @include repetitivo-generate-width-modifier(8 of 24, m);
     @include repetitivo-generate-width-modifier(10 of 24, m);

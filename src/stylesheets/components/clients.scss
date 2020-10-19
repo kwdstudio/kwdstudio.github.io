@@ -1,10 +1,14 @@
 @import "../config/spacing";
 
 @import "../functions/color";
+@import "../functions/intrinsic-ratio";
+@import "../functions/inverse-map-values";
 
 @import "repetitivo/helpers/styles-from-map";
 
 @import "repetitivo/patterns/list";
+
+@import "../patterns/flex-embed";
 
 //
 // Component: Clients
@@ -12,45 +16,49 @@
 $component-name: "Clients";
 $component-base: ".#{$component-name}";
 
-$client-max-width: (
-  default: 60px,
-  s: 70px,
-  l: 100px,
-);
-
 #{$component-base} {
-  overflow: hidden;
-
-  // Element: Inner
-  // ---------------------------------------------------------------------------
-  &-inner {
-    @include list-reset;
-    @include styles-from-map((
-      margin-left: $spacing-base-steep-neg,
-      margin-right: $spacing-base-steep-neg,
-    ));
-
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-wrap: wrap;
-  }
+  @include list-reset;
+  @include styles-from-map((
+    margin-bottom: inverse-map-values($spacing-deci-gentle),
+  ));
 
   // Element: Client
   // ---------------------------------------------------------------------------
   &-client {
     @include styles-from-map((
-      margin-left: $spacing-base-steep,
-      margin-right: $spacing-base-steep,
       margin-bottom: $spacing-deci-gentle,
-    ));
-    @include styles-from-map((
-      width: $client-max-width,
     ));
   }
 
+  // Element: Client Inner
+  // ---------------------------------------------------------------------------
+  &-clientInner {
+    @include flex-embed-container;
+
+    border: 1px solid color(neutral, 0);
+    padding-top: intrinsic-ratio(16, 9);
+  }
+
+  // Element: Client Inner Inner
+  // ---------------------------------------------------------------------------
+  &-clientInnerInner {
+    @include flex-embed-item;
+    @include styles-from-map((
+      padding-left: $spacing-base-gentle,
+      padding-right: $spacing-base-gentle,
+      padding-top: $spacing-deci-gentle,
+      padding-bottom: $spacing-deci-gentle,
+    ));
+
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background: white;
+  }
+
   svg {
+    max-height: 100%;
     width: 100%;
-    fill: color(neutral, -8);
+    fill: color(neutral, -7);
   }
 }

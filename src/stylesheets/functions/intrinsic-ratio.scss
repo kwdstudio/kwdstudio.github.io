@@ -1,0 +1,3 @@
+@function intrinsic-ratio($width, $height) {
+  @return percentage($height / $width);
+}

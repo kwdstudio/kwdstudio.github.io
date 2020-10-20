@@ -1,14 +1,14 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 163.4">
   <linearGradient id="logotype-gradient-{{include.location}}" gradientUnits="userSpaceOnUse" x1="305.5" y1="189.076" x2="18.169" y2="-15.12" gradientTransform="matrix(1 0 0 -1 0 164.39)">
-    <stop offset=".2" stop-color="{{ page.color2 }}">
+    <stop offset=".10" stop-color="{{ page.color2 }}">
       <animate attributeName="stop-color" values="{{ page.color2 }}; {{ page.color3 }}; {{ page.color2 }}" dur="20s" repeatCount="indefinite" />
     </stop>
 
-    <stop offset=".5" stop-color="{{ page.color3 }}">
+    <stop offset=".52" stop-color="{{ page.color3 }}">
       <animate attributeName="stop-color" values="{{ page.color3 }}; {{ page.color4 }}; {{ page.color3 }}" dur="20s" repeatCount="indefinite" />
     </stop>
 
-    <stop offset=".8" stop-color="{{ page.color4 }}">
+    <stop offset=".93" stop-color="{{ page.color4 }}">
       <animate attributeName="stop-color" values="{{ page.color4 }}; {{ page.color2 }}; {{ page.color4 }}" dur="20s" repeatCount="indefinite" />
     </stop>
   </linearGradient>

@@ -1,7 +1,6 @@
 ---
 permalink: case/svt
 layout: case
-order: 1
 title: SVT
 client: SVT
 year: 2018–
@@ -9,9 +8,12 @@ color1: "#374a4b"
 color2: "#d7c9a7"
 color3: "#374a4b"
 color4: "#afd8d3"
+startpage_order: 1
+startpage_size: small
+all_order: 1
+all_size: large
 teaser_heading: Insiktsdriven iterativ produktionsmodell
 teaser_body: <p>En metod för hur Sveriges Television löpande ökar den interna kunskapsnivån kring vilket innehåll som fungerar och varför i syfte att öka effekten av sin digitala marknadsföring.</p>
-teaser_size: small
 intro_heading: Löpande strategiskt rådgivning kring kommunikation och marknadsföring i digitala kanaler.
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med SVT och hur vi kan hjälpa er.</p>
 ---

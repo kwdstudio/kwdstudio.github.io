@@ -1,7 +1,6 @@
 ---
 permalink: case/atea
 layout: case
-order: 3
 title: Atea
 client: Atea
 year: 2019
@@ -9,9 +8,12 @@ color1: "#b7005b"
 color2: "#b7005b"
 color3: "#270b40"
 color4: "#cdbda8"
+startpage_order: 3
+startpage_size: large
+all_order: 3
+all_size: small
 teaser_heading: Can you handle it?
 teaser_body: <p>Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
-teaser_size: large
 intro_heading: Koncept som bryter med it-branschens konventioner
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>
 ---

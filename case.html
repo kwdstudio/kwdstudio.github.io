@@ -5,7 +5,7 @@ color2: "#effc13"
 color3: "#00b295"
 color4: "#00ffea"
 ---
-{% assign ordered_cases = site.cases | sort: "order" %}
+{% assign ordered_cases = site.cases | sort: "all_order" %}
 
 <div class="Wrapper">
   <header class="ContentHead">
@@ -20,8 +20,8 @@ color4: "#00ffea"
 
   <div class="Grid Grid--center Grid--padded Grid--compensatePadded Teasers">
     {% for case in ordered_cases %}
-      <div class="Teasers-teaser Grid-item {% if case.teaser_size == "small" %}Grid-item-m--10-of-24{% endif %}">
-        <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.teaser_size }}" style="color: {{ case.color3 }};">
+      <div class="Teasers-teaser Grid-item {% if case.all_size == "small" %}Grid-item-m--10-of-24{% endif %}">
+        <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.all_size }}" style="color: {{ case.color3 }};">
           <div class="Teaser-text">
             <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
 

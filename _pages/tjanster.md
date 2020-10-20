@@ -1,5 +1,4 @@
 ---
-permalink: /tjanster
 layout: page
 title: Tjänster
 color1: "#e4006e"

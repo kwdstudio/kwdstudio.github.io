@@ -23,8 +23,8 @@ $base-font-feature-settings: '"kern", "liga", "tnum"';
 $base-font-color: color(neutral, -9);
 $base-font-color-link: color(pink, 0);
 $base-font-color-link--hover: color(pink, -5);
-$base-text-decoration-link: underline;
-$base-text-decoration-link--hover: none;
+$base-text-decoration-link: none;
+$base-text-decoration-link--hover: underline;
 $base-text-margin-bottom: 1em;
 
 //

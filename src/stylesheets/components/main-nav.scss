@@ -58,10 +58,10 @@ $component-base: ".#{$component-name}";
     position: relative;
 
     color: currentColor;
-    text-decoration: none;
 
     &:hover {
       color: currentColor;
+      text-decoration: none;
 
       filter: brightness(0.5);
     }

@@ -33,7 +33,6 @@ $teaser-border-width: (
   border-style: solid;
   border-color: white;
 
-  text-decoration: none;
   text-align: center;
 
   background: white;
@@ -44,6 +43,8 @@ $teaser-border-width: (
 
     background: color(neutral, 10);
     border-color: color(neutral, 10);
+
+    text-decoration: none;
   }
 
 

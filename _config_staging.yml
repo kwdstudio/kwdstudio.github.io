@@ -1,0 +1,11 @@
+base_url: http://kwd-staging.s3-website.eu-north-1.amazonaws.com
+assets_base_url: http://kwd-staging.s3-website.eu-north-1.amazonaws.com
+google_analytics_id: ""
+prevent_crawling: true
+permalink: /:path:output_ext
+collections:
+  cases:
+    permalink: /case/:path:output_ext
+  pages:
+      output: true
+      permalink: /:path:output_ext

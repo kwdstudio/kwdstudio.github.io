@@ -1,5 +1,4 @@
 ---
-permalink: case/ica-handlarnas-forbund
 layout: case
 title: "ICA-handlarnas Förbund"
 client: "ICA-handlarnas Förbund"

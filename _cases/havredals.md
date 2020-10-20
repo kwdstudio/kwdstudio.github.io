@@ -1,5 +1,4 @@
 ---
-permalink: case/havredals
 layout: case
 title: Havredals
 client: Havredals

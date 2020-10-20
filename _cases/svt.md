@@ -1,5 +1,4 @@
 ---
-permalink: case/svt
 layout: case
 title: SVT
 client: SVT

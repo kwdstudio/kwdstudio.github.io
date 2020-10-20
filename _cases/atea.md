@@ -1,5 +1,4 @@
 ---
-permalink: case/atea
 layout: case
 title: Atea
 client: Atea

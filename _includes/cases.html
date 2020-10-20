@@ -10,7 +10,7 @@
   <div class="Teasers Grid Grid--center Grid--padded Grid--compensatePadded">
     {% for case in ordered_cases %}
       <div class="Teasers-teaser Grid-item {% if case.startpage_size == "small" %}Grid-item-m--10-of-24{% endif %}">
-        <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.startpage_size }}" style="color: {{ case.color3 }};">
+        <a href="{{ case.url }}" class="Teaser Teaser--{{ case.startpage_size }}" style="color: {{ case.color3 }};">
           <div class="Teaser-text">
             <h3 class="Teaser-label Label">{{ case.client }} ({{ case.year }})</h3>
 

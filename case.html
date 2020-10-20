@@ -21,7 +21,7 @@ color4: "#940797"
   <div class="Grid Grid--center Grid--padded Grid--compensatePadded Teasers">
     {% for case in ordered_cases %}
       <div class="Teasers-teaser Grid-item {% if case.all_size == "small" %}Grid-item-m--10-of-24{% endif %}">
-        <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.all_size }}" style="color: {{ case.color3 }};">
+        <a href="{{ case.url }}" class="Teaser Teaser--{{ case.all_size }}" style="color: {{ case.color3 }};">
           <div class="Teaser-text">
             <h2 class="Teaser-label Label">{{ case.client }} ({{ case.year }})</h2>
 

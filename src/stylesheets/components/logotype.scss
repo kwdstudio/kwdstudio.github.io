@@ -4,17 +4,32 @@
 $component-name: "Logotype";
 $component-base: ".#{$component-name}";
 
-$logotype-width: (
+$logotype-width-header: (
   default: 150px,
   m: 180px,
   l: 220px,
   xl: 250px,
 );
 
-#{$component-base} {
-  @include styles-from-map((
-    width: $logotype-width,
-  ));
+$logotype-width-footer: (
+  default: 90px,
+  m: 110px,
+  l: 150px,
+  xl: 180px,
+);
 
+#{$component-base} {
   display: block;
+
+  &--header {
+    @include styles-from-map((
+      width: $logotype-width-header,
+    ));
+  }
+
+  &--footer {
+    @include styles-from-map((
+      width: $logotype-width-footer,
+    ));
+  }
 }

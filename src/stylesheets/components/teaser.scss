@@ -1,6 +1,7 @@
 @import "../config/spacing";
 
 @import "../functions/color";
+@import "../functions/inverse-map-values";
 
 @import "repetitivo/helpers/styles-from-map";
 
@@ -14,15 +15,37 @@ $component-base: ".#{$component-name}";
 
 $teaser-box-shadow-spread: 10px;
 $teaser-border-radius: 2px;
+$teaser-border-width: (
+  default: 10px,
+  m: 1em,
+);
 
 #{$component-base} {
+  @include styles-from-map((
+    border-width: $teaser-border-width,
+    margin: inverse-map-values($teaser-border-width),
+  ));
+
+  position: relative;
+
   display: flex;
 
-  text-decoration: none;
+  border-style: solid;
+  border-color: white;
 
+  text-decoration: none;
   text-align: center;
 
   background: white;
+
+  &:hover,
+  &:focus {
+    z-index: 1;
+
+    background: color(neutral, 8);
+    border-color: color(neutral, 8);
+  }
+
 
   // Variant: Small
   // ---------------------------------------------------------------------------
@@ -94,12 +117,8 @@ $teaser-border-radius: 2px;
   // ---------------------------------------------------------------------------
   &-label {
     @include styles-from-map((margin-bottom: $spacing-centi-gentle));
-  }
 
-  // Element: Heading
-  // ---------------------------------------------------------------------------
-  &-heading {
-    @include typography($untitled-serif, base-gentle, tight);
+    font-weight: $normal-font-weight;
   }
 
   // Element: Body

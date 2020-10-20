@@ -23,9 +23,7 @@ color4: "#00ffea"
       <div class="Teasers-teaser Grid-item {% if case.all_size == "small" %}Grid-item-m--10-of-24{% endif %}">
         <a href="{{ case.url }}.html" class="Teaser Teaser--{{ case.all_size }}" style="color: {{ case.color3 }};">
           <div class="Teaser-text">
-            <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
-
-            <h3 class="Teaser-heading">{{ case.teaser_heading }}</h3>
+            <h2 class="Teaser-label Label">{{ case.client }} ({{ case.year }})</h2>
 
             <div class="Teaser-body">
               {{ case.teaser_body }}

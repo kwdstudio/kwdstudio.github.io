@@ -12,7 +12,6 @@ startpage_order: 1
 startpage_size: small
 all_order: 1
 all_size: large
-teaser_heading: Insiktsdriven iterativ produktionsmodell
 teaser_body: <p>En metod för hur Sveriges Television löpande ökar den interna kunskapsnivån kring vilket innehåll som fungerar och varför i syfte att öka effekten av sin digitala marknadsföring.</p>
 intro_heading: Löpande strategiskt rådgivning kring kommunikation och marknadsföring i digitala kanaler.
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med SVT och hur vi kan hjälpa er.</p>

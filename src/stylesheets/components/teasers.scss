@@ -15,14 +15,14 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   @include list-reset;
   @include styles-from-map((
-    margin-bottom: inverse-map-values($spacing-deca-gentle),
+    margin-bottom: inverse-map-values($spacing-kilo-gentle),
   ));
 
   // Element: teaser
   // ---------------------------------------------------------------------------
   &-teaser {
     @include styles-from-map((
-      margin-bottom: $spacing-deca-gentle,
+      margin-bottom: $spacing-kilo-gentle,
     ));
   }
 }

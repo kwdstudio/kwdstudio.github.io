@@ -12,7 +12,6 @@ startpage_order: 3
 startpage_size: large
 all_order: 3
 all_size: small
-teaser_heading: Can you handle it?
 teaser_body: <p>Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
 intro_heading: Koncept som bryter med it-branschens konventioner
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>

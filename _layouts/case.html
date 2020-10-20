@@ -1,7 +1,16 @@
 ---
 layout: default
 ---
-{% assign ordered_cases = site.cases | sort: "all_order" | slice: 0, 4 %}
+{% assign ordered_cases = site.cases | sort: "all_order" %}
+{% for case in ordered_cases %}
+  {% if case.title == page.title %}
+    {% if forloop.last %}
+      {% assign next_case = ordered_cases.first %}
+    {% else %}
+      {% assign next_case = ordered_cases[forloop.index] %}
+    {% endif %}
+  {% endif %}
+{% endfor %}
 
 <div style="color: {{ page.color3 }}">
   <div class="Intro">
@@ -39,30 +48,22 @@ layout: default
 
 <div class="Section Section--neutral10 Section--multiply u-spacingTopKiloSteep">
   <div class="Wrapper">
-    <h2 class="SectionHeading">Fler uppdrag</h2>
+    <h2 class="SectionHeading">Nästa case</h2>
 
-    <ul class="Grid Grid--center Grid--padded Grid--compensatePadded u-listReset u-spacingTopBaseSteepNeg">
-      {% for case in ordered_cases %}
-        {% unless page.url == case.permalink %}
-          <li class="Grid-item Grid-item-m--8-of-24 u-spacingTopBaseSteep">
-            <a href="{{ case.url }}.html" class="Teaser Teaser--small" style="color: {{ case.color3 }};">
-              <div class="Teaser-text">
-                <div class="Teaser-label Label">{{ case.client }} ({{ case.year }})</div>
+    <a href="{{ next_case.url }}.html" class="Teaser Teaser--large" style="color: {{ next_case.color3 }};">
+      <div class="Teaser-text">
+        <div class="Teaser-label Label">{{ next_case.client }} ({{ next_case.year }})</div>
 
-                <h3 class="Teaser-heading">{{ case.teaser_heading }}</h3>
+        <h3 class="Teaser-heading">{{ next_case.teaser_heading }}</h3>
 
-                <div class="Teaser-body">
-                  {{ case.teaser_body }}
-                </div>
-              </div>
+        <div class="Teaser-body">
+          {{ next_case.teaser_body }}
+        </div>
+      </div>
 
-              <div class="Teaser-media">
-                <img src="/images/cases/{{ case.title | slugify: "latin" }}/teaser.jpg" alt="">
-              </div>
-            </a>
-          </li>
-        {% endunless %}
-      {% endfor %}
-    </ul>
+      <div class="Teaser-media">
+        <img src="/images/cases/{{ next_case.title | slugify: "latin" }}/teaser.jpg" alt="">
+      </div>
+    </a>
   </div>
 </div>

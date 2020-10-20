@@ -22,13 +22,39 @@ $component-base: ".#{$component-name}";
     @include repetitivo-generate-width-modifier(10 of 24, m);
     @include repetitivo-generate-width-modifier(18 of 24, m);
     @include repetitivo-generate-width-modifier(20 of 24, m);
+    @include repetitivo-generate-width-modifier(22 of 24, m);
 
     @include repetitivo-generate-width-modifier(17 of 24, ml);
     @include repetitivo-generate-width-modifier(18 of 24, ml);
+    @include repetitivo-generate-width-modifier(20 of 24, ml);
 
     @include repetitivo-generate-width-modifier(16 of 24, l);
     @include repetitivo-generate-width-modifier(18 of 24, l);
 
     @include repetitivo-generate-width-modifier(14 of 24, xl);
+
+    &-s--push-1 {
+      @include respond-to(s) {
+        margin-left: grid-column-width(1, 24);
+      }
+    }
+
+    &-m--push-3 {
+      @include respond-to(m) {
+        margin-left: grid-column-width(3, 24);
+      }
+    }
+
+    &-l--push-2 {
+      @include respond-to(l) {
+        margin-left: grid-column-width(2, 24);
+      }
+    }
+
+    &-xl--push-4 {
+      @include respond-to(xl) {
+        margin-left: grid-column-width(4, 24);
+      }
+    }
   }
 }

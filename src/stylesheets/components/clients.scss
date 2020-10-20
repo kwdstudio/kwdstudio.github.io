@@ -19,14 +19,14 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   @include list-reset;
   @include styles-from-map((
-    margin-bottom: inverse-map-values($spacing-deci-gentle),
+    margin-bottom: inverse-map-values($spacing-base-gentle),
   ));
 
   // Element: Client
   // ---------------------------------------------------------------------------
   &-client {
     @include styles-from-map((
-      margin-bottom: $spacing-deci-gentle,
+      margin-bottom: $spacing-base-gentle,
     ));
   }
 
@@ -35,8 +35,9 @@ $component-base: ".#{$component-name}";
   &-clientInner {
     @include flex-embed-container;
 
-    border: 1px solid color(neutral, 5);
     padding-top: intrinsic-ratio(16, 9);
+
+    background: color(neutral, 10);
   }
 
   // Element: Client Inner Inner
@@ -44,16 +45,15 @@ $component-base: ".#{$component-name}";
   &-clientInnerInner {
     @include flex-embed-item;
     @include styles-from-map((
-      padding-left: $spacing-base-gentle,
-      padding-right: $spacing-base-gentle,
-      padding-top: $spacing-deci-gentle,
-      padding-bottom: $spacing-deci-gentle,
+      padding-left: $spacing-deca-gentle,
+      padding-right: $spacing-deca-gentle,
+      padding-top: $spacing-base-gentle,
+      padding-bottom: $spacing-base-gentle,
     ));
 
     align-items: center;
     display: flex;
     justify-content: center;
-    background: white;
   }
 
   svg {

@@ -18,4 +18,10 @@ $component-base: ".#{$component-name}";
   ));
 
   font-weight: $normal-font-weight;
+
+  &--tight {
+    @include styles-from-map((
+      margin-bottom: $spacing-centi-gentle,
+    ));
+  }
 }

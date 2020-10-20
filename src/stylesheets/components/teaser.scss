@@ -42,8 +42,8 @@ $teaser-border-width: (
   &:focus {
     z-index: 1;
 
-    background: color(neutral, 8);
-    border-color: color(neutral, 8);
+    background: color(neutral, 10);
+    border-color: color(neutral, 10);
   }
 
 
@@ -116,7 +116,7 @@ $teaser-border-width: (
   // Element: Label
   // ---------------------------------------------------------------------------
   &-label {
-    @include styles-from-map((margin-bottom: $spacing-centi-gentle));
+    margin-bottom: 0.4em;
 
     font-weight: $normal-font-weight;
   }
@@ -124,6 +124,6 @@ $teaser-border-width: (
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
-    @include typography($untitled-serif, deci-gentle, tight);
+    @include typography($untitled-serif, base-gentle, tight);
   }
 }

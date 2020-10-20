@@ -1,7 +1,11 @@
 {% assign ordered_cases = site.cases | where_exp: "item", "item.startpage_order > 0" | sort: "startpage_order" %}
 
 <div class="Wrapper">
-  <h2 class="u-visibilityHidden">Uppdrag</h2>
+  <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
+    <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--18-of-24 Grid-item-ml--17-of-24 Grid-item-l--16-of-24 Grid-item-xl--14-of-24">
+      <h2 class="SectionHeading">Case</h2>
+    </div>
+  </div>
 
   <div class="Teasers Grid Grid--center Grid--padded Grid--compensatePadded">
     {% for case in ordered_cases %}

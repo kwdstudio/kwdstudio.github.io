@@ -21,20 +21,16 @@ $component-base: ".#{$component-name}";
     margin-top: $spacing-kilo-steep,
     padding-bottom: $spacing-hecto-gentle,
   ));
-  @include typography($untitled-serif, centi-gentle, tight);
+  @include typography($untitled-serif, milli-gentle, tight);
+
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
 
   // Element: Inner
   // ---------------------------------------------------------------------------
   &-inner {
-    @include styles-from-map((
-      padding-top: $spacing-base-gentle,
-    ));
-
     display: flex;
     justify-content: space-between;
-
-
-    border-top: 1px solid color(neutral, 8);
 
     @include respond-to(m) {
       align-items: center;

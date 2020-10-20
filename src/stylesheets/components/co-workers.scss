@@ -24,7 +24,7 @@ $co-workers-co-worker-width: 800px;
   // ---------------------------------------------------------------------------
   &-coWorker {
     @include styles-from-map((
-      margin-bottom: $spacing-deca-gentle,
+      margin-bottom: $spacing-hecto-gentle,
     ));
 
     display: flex;
@@ -43,10 +43,16 @@ $co-workers-co-worker-width: 800px;
     flex: 0 0 auto;
   }
 
+  // Element: Image
+  // ---------------------------------------------------------------------------
+  &-image {
+    border-radius: 50%;
+  }
+
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
-    @include typography($untitled-serif, centi-gentle, tight);
+    @include typography($untitled-serif, deci-gentle, tight);
   }
 
   // Element: Heading
@@ -54,5 +60,11 @@ $co-workers-co-worker-width: 800px;
   &-heading {
     font: inherit;
     font-weight: $bold-font-weight;
+  }
+
+  // Element: Contact Info
+  // ---------------------------------------------------------------------------
+  &-contactInfo {
+    margin-bottom: 0.5em;
   }
 }

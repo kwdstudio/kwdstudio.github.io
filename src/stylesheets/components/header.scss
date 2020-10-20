@@ -11,7 +11,7 @@ $component-base: ".#{$component-name}";
 
 #{$component-base} {
   @include styles-from-map((
-    margin-bottom: $spacing-hecto-gentle,
+    margin-bottom: $spacing-deca-gentle,
   ));
 
   // Element: Inner
@@ -26,8 +26,12 @@ $component-base: ".#{$component-name}";
   // Element: Logotype
   // ---------------------------------------------------------------------------
   &-logotype {
+    margin-bottom: 0.5em;
+
     @include respond-to(m) {
       width: 50%;
+
+      margin-bottom: 0;
     }
   }
 }

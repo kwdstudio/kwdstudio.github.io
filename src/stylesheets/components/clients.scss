@@ -35,7 +35,7 @@ $component-base: ".#{$component-name}";
   &-clientInner {
     @include flex-embed-container;
 
-    border: 1px solid color(neutral, 0);
+    border: 1px solid color(neutral, 5);
     padding-top: intrinsic-ratio(16, 9);
   }
 

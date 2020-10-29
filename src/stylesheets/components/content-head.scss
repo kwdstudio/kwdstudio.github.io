@@ -16,7 +16,7 @@ $component-base: ".#{$component-name}";
 
 #{$component-base} {
   @include styles-from-map((
-    margin-top: $spacing-hecto-gentle,
+    margin-top: $spacing-kilo-gentle,
     margin-bottom: $spacing-kilo-gentle,
   ));
 

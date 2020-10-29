@@ -30,5 +30,5 @@ Genom inläsning, konkurrentanalys, möten med Havredals skapare och interna wor
 {%
   include page_image.html
   src="/images/cases/havredals/havredals1.jpg"
-  caption="Havredals havremdryck finns nu på flertalet platser runt om i landet."
+  caption="Havredals havredryck finns nu på flertalet platser runt om i landet."
 %}

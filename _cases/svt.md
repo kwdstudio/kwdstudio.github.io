@@ -22,7 +22,7 @@ Pitchvinnare 2019 som digital marknadsföringspartner.
 
 KWD har tagit fram en metod för idégenerering för SVT:s programmarknadsföring i sociala kanaler. I nära samarbete med den grupp hos SVT som ansvarar för programmarknadsföringen har vi utarbetat strategier för hur man ska jobba med varierande format och kanaler, intern kompetensutveckling inom klippteknik, grafik, idéarbete, algoritmgödande innehåll. KWD stöttar även med idéer och produktion för sociala medier.
 
-##Stöd och rådgivning för digitala kanaler
+## Stöd och rådgivning för digitala kanaler
 
 Löpande strategiskt rådgivning kring kommunikation och marknadsföring i digitala kanaler.
 

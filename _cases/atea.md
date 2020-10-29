@@ -52,4 +52,4 @@ Konceptet tas ut i redaktionella delar med innehåll och aktiviteter för egna k
 
 ## Visualisering
 
-Reklamfilm, kortversioner, banners, gif, print
+Reklamfilm, kortversioner, banners, gif och print.

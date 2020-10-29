@@ -2,7 +2,7 @@
 name: Jon Dreierbakken
 role: Konceptutvecklare
 email: jon@kwdstudio.se
-telephone: 070 123 45 56
+telephone: 070 021 95 12
 order: 3
-bio: "<p>Voluptate sint laborum nisi irure amet commodo sit laborum sint dolor. Nisi ullamco voluptate deserunt in mollit. Ut labore tempor ex aliqua anim ea.</p>"
+bio: "<p>Strateg, konceptutvecklare och kreatör med lång erfarenhet av innehållsdriven marknadsföring och kommunikation. Tagit fram flera prisade koncept och kampanjer för varumärken som Microsoft, Tele 2 och UNICEF.</p>"
 ---

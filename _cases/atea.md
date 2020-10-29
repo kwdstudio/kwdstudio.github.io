@@ -9,32 +9,28 @@ color3: "#270b40"
 color4: "#cdbda8"
 startpage_order: 3
 startpage_size: large
-all_order: 3
-all_size: small
-teaser_body: <p>Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
-intro_heading: Koncept som bryter med it-branschens konventioner
+all_order: 1
+all_size: large
+teaser_body: <p>Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
+intro_heading: Ett nytt koncept som bryter med it-branschens normer och konventioner
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>
 ---
 
-## tl;dr
+## Can you handle it?
 
-Vi gjorde ett koncept och några reklamfilmer. Ett exempel på det kan du se nedan.
+Atea eShop ville förnya sig och öka intresset för sin e-handel. De efterfrågade något som skulle kännas nytt i branschen, det skulle sticka ut, även om det rörde sig om att sälja it-prylar. Resultatet blev ett nytt koncept som bryter med branschns normer. 
 
 {%
   include page_video.html
   src="https://www.dropbox.com/s/liictq0od95inyq/atea_10sek_madamen_master.mp4?dl=1"
-  caption="Genom research tog vi fram insikter om branschens normer och uttryck, och inköpares utmaningar och inställning till sitt yrke. Det gav oss en kulturell kontext att bygga lösningen på."
+  caption="I konceptet Can you handle it? är produkterna en del av dramaturgin. Fokus ligger på användarnytta."
 %}
-
-## Bakgrund
-
-Atea eShop ville förnya sig och öka intresset för sin e-handel. De efterfrågade något som skulle kännas nytt i branschen, det skulle sticka ut, även om det rörde sig om att sälja it-prylar.
-
-Genom research tog vi fram insikter om branschens normer och uttryck, och inköpares utmaningar och inställning till sitt yrke. Det gav oss en kulturell kontext att bygga lösningen på.
 
 ## Uppdrag
 
-Ta fram ett nytt kommunikationskoncept mot målgruppen inköpare, som sticker ut och bryter mot branschens konventionella uttryck. Ett koncept som är skalbart över tid och kanaler.
+Ta fram ett nytt kommunikationskoncept mot målgruppen inköpare, något som sticker ut och bryter mot branschens konventionella uttryck. Ett koncept som är skalbart över tid och kanaler.
+
+Genom research tog vi fram insikter om branschens normer och uttryck, och inköpares utmaningar och inställning till sitt yrke. Det gav oss en kulturell kontext att bygga lösningen på.
 
 ## Lösning
 
@@ -46,7 +42,7 @@ Can you handle it?
 
 {%
   include page_image.html
-  src="/images/cases/atea/banner.jpg"
+  src="/images/cases/atea/atea1.jpg"
   caption="Genom research tog vi fram insikter om branschens normer och uttryck, och inköpares utmaningar och inställning till sitt yrke. Det gav oss en kulturell kontext att bygga lösningen på."
 %}
 

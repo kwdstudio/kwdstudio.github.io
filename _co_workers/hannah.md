@@ -2,7 +2,7 @@
 name: Hannah Kirsebom
 role: Innehållsstrateg, copy
 email: hannah@kwdstudio.se
-telephone: 070 123 45 56
+telephone: 070 851 47 17
 order: 4
-bio: "<p>Consequat deserunt do amet. Reprehenderit aliquip cupidatat commodo veniam quis cupidatat minim magna.</p>"
+bio: "<p>Innehållsstrateg med mångårig erfarenhet av innehållsproduktion, strategi, varumärkesförflyttning och marknadsföring. Projektledare, strateg och copywriter för stora kunder inom såväl näringsliv som offentlig och ideell sektor.</p>"
 ---

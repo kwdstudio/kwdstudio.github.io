@@ -2,7 +2,7 @@
 name: Jonatan Ericson
 role: Innehållsstrateg, analys
 email: jonatan@kwdstudio.se
-telephone: 070 123 45 56
+telephone: 073 500 21 60
 order: 2
-bio: "<p>Reprehenderit enim veniam dolor aliqua est nostrud officia. Quis sit veniam qui aliquip duis..</p>"
+bio: "<p>Digital strateg med fokus på innehåll och målgrupper. Med erfarenhet från näringsliv, public service och kommunikationsbyrå har Jonatan bred kunskap om digitala redaktionella plattformar.</p>"
 ---

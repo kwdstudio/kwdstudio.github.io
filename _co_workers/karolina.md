@@ -2,7 +2,7 @@
 name: Karolina Westerlund
 role: VD och innehållsstrateg
 email: karolina@kwdstudio.se
-telephone: 070 123 45 56
+telephone: 073 676 33 40
 order: 1
-bio: "<p>Consequat deserunt do amet. Reprehenderit aliquip cupidatat commodo veniam quis cupidatat minim magna.</p>"
+bio: "<p>Senior innehållsstrateg med fokus på plattformar och webbplatser. Mångårig erfarenhet av digitala förändringsprocesser och digital kommunikation som stärker varumärken och deras affärer.</p>"
 ---

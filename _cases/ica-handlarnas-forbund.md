@@ -3,9 +3,9 @@ layout: case
 title: "ICA-handlarnas Förbund"
 client: "ICA-handlarnas Förbund"
 year: 2019–
-color1: "#556b2f"
+color1: "#1c2707"
 color2: "#d5d5d7"
-color3: "#556b2f"
+color3: "#1c2707"
 color4: "#fdc7a9"
 all_order: 2
 all_size: small

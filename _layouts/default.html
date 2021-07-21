@@ -3,9 +3,9 @@
   <head>
     <meta charset="utf-8">
 
-    <title>{% if page.title %}{{ page.title }} | {% endif %}KWD Studio</title>
+    <title>{% if page.title %}{{ page.title }}{% unless page.clean_title %} – KWD Studio{% endunless %}{% endif %}</title>
 
-    <meta name="description" content="Vi hjälper våra kunder med innehållsdriven marknadsföring i digitala och sociala kanaler.">
+    <meta name="description" content="{{ page.description }}">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     {% if site.prevent_crawling %}
@@ -18,17 +18,18 @@
 
     <script>(function(k,w,d,s,t,u,d,i,o){k[w]=k[w].replace('no-js','has-js')}(document.documentElement,'className'))</script>
 
-    <meta name="twitter:card" content="summary">
-    <meta name="twitter:site" content="@KwdStudio">
-    <meta name="twitter:title" content="KWD Studio">
-    <meta name="twitter:description" content="Vi hjälper våra kunder med innehållsdriven marknadsföring i digitala och sociala kanaler.">
-    <meta name="twitter:image" content="https://kwdstudio.se/images/kwdlogosquare.jpg"/>
-
-    <meta property="og:image" content="https://kwdstudio.se/images/kwdstudio-logo.png">
-    <meta property="og:title" content="KWD Studio">
+    {% if page.image %}
+      <meta property="og:image" content="{{ site.base_url }}{{ page.image }}">
+    {% else %}
+      <meta property="og:image" content="https://kwdstudio.se/images/pages/start.png">
+    {% endif %}
+    <meta property="og:title" content="{{ page.title }}">
     <meta property="og:type" content="website">
-    <meta property="og:description" content="Vi hjälper våra kunder med innehållsdriven marknadsföring i digitala och sociala kanaler.">
-    <meta property="og:url" content="https://kwdstudio.se">
+    <meta property="og:description" content="{{ page.description }}">
+    <meta property="og:url" content="{{ site.base_url }}{{ page.url }}">
+    <meta property="og:site_name" content="KWD Studio">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:site" content="@KwdStudio">
   </head>
   <body>
     {% include header.html %}

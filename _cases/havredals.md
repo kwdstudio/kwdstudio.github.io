@@ -1,6 +1,8 @@
 ---
 layout: case
 title: Havredals
+description: En röst åt det nya varumärket Havredals. Vi har skapat en tonalitet och identitet som passar hela vägen från bakgrundsberättelse till förpackningscopy.
+image: /images/cases/havredals/featured.jpg
 client: Havredals
 year: 2019
 color1: "#623e00"

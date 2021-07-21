@@ -1,6 +1,8 @@
 ---
 layout: case
 title: "ICA-handlarnas Förbund"
+description: Innehållsstrategi med berättarspår och innehållstyper. En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.
+image: /images/cases/ica-handlarnas-forbund/featured.jpg
 client: "ICA-handlarnas Förbund"
 year: 2019–
 color1: "#1c2707"

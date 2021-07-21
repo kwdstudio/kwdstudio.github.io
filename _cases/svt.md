@@ -1,6 +1,8 @@
 ---
 layout: case
 title: SVT
+description: Insiktsdriven iterativ produktionsmodell. En metod för hur Sveriges Television löpande ökar den interna kunskapsnivån kring vilket innehåll som fungerar.
+image: /images/cases/svt/featured.jpg
 client: SVT
 year: 2018–
 color1: "#374a4b"

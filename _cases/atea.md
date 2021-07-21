@@ -1,6 +1,8 @@
 ---
 layout: case
 title: Atea
+description: Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.
+image: /images/cases/atea/featured.jpg
 client: Atea
 year: 2019
 color1: "#b7005b"

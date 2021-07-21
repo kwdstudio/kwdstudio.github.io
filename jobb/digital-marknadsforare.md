@@ -1,6 +1,7 @@
 ---
 layout: page
 title: KWD Studio söker digital marknadsförare
+description: Vi söker nu en digital marknadsförare som är kunnig inom målgruppsanalys och segmentering, som har koll på digitala kanalers möjligheter och begränsningar, och som vet hur man paketerar innehåll för att passa både målgrupp och kanal.
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"

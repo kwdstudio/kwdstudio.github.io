@@ -1,6 +1,7 @@
 ---
 layout: page
-title: Tjänster
+title: "Tjänster: Vår expertis är digital marknadsföring"
+description: Inom det ryms allt från insiktsarbete och målgruppsanalys till framtagande av strategi, konceptutveckling samt produktion, aktivering och analys.
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"

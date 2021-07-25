@@ -29,6 +29,8 @@ Vi tror att du är en person som är nyfiken på människors behov och beteenden
 
 Du är utbildad inom marknadsföring eller kommunikation. Du har förmodligen arbetat på byrå ett tag. Om du har erfarenhet från kundsidan och förstår beställarrollen med allt vad det innebär är det ett stort plus.
 
+## Ansök
+
 Om du vill utvecklas inom kommunikation och digital marknadsföring tillsammans med en nyfiken grupp av projektledare, strateger och konceptutvecklare, skicka en ansökan med CV till vår vd, Karolina Westerlund, 073 676 33 40 eller [karolina@kwdstudio.se](mailto:karolina@kwdstudio.se).
 
 ## Om KWD

@@ -11,8 +11,6 @@ intro_lead: "<p>Vi söker nu en digital marknadsförare som är kunnig inom mål
 ---
 Tillsammans med konceptutvecklare och innehållsstrateger tar du fram långsiktiga strategier och kortare kampanjer som hjälper våra kunder att både positionera sig och stärka sin affär med hjälp av smart digital kommunikation.
 
-KWD Studio är en byrå som rör sig i gränslandet mellan content marketing och reklam, med ett stort engagemang för målgruppens intressen och behov.
-
 ## Rollen
 
 Som digital marknadsförare har du en avgörande roll i att planera och genomföra marknadsaktiviteter. Du ansvarar för målgruppsanalys och strategiska vägval rörande kanaler och uttag, aktivering och optimering såväl som uppföljning och analys. Du jobbar både med stora integrerade kampanjer där flertalet kanaler ingår i mixen och med mindre annonskampanjer i enstaka kanaler under begränsad tid. Du är med från ide och planering, genom konceptutveckling och produktion till kampanjuppsättning och utvärdering. Du har god förståelse för vad som krävs av ett företag eller en organisation för att nå ut till sin målgrupp. Du har även förmågan att dela den kompetensen med våra kunder för att på bästa sätt hjälpa dem att själva förstå och bli bättre på digital kommunikation. Din kompetens och roll är en nyckelroll när det gäller att omsätta koncept, innehåll och kreativa uttag till lyckade marknadsaktiviteter.

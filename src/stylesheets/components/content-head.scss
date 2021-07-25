@@ -17,7 +17,7 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   @include styles-from-map((
     margin-top: $spacing-kilo-gentle,
-    margin-bottom: $spacing-kilo-gentle,
+    margin-bottom: $spacing-hecto-gentle,
   ));
 
   // Element: Heading

@@ -1,12 +1,12 @@
 ---
 layout: page
-title: KWD Studio söker digital marknadsförare
+title: Digital marknadsförare
 description: Vi söker nu en digital marknadsförare som är kunnig inom målgruppsanalys och segmentering, som har koll på digitala kanalers möjligheter och begränsningar, och som vet hur man paketerar innehåll för att passa både målgrupp och kanal.
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"
 color4: "#940797"
-intro_heading: KWD Studio söker digital marknadsförare
+intro_heading: Digital marknadsförare
 intro_lead: "<p>Vi söker nu en digital marknadsförare som är kunnig inom målgruppsanalys och segmentering, som har koll på digitala kanalers möjligheter och begränsningar, och som vet hur man paketerar innehåll för att passa både målgrupp och kanal.</p>"
 ---
 Tillsammans med konceptutvecklare och innehållsstrateger tar du fram långsiktiga strategier och kortare kampanjer som hjälper våra kunder att både positionera sig och stärka sin affär med hjälp av smart digital kommunikation.
@@ -31,7 +31,7 @@ Vi tror att du är en person som är nyfiken på människors behov och beteenden
 
 Du är utbildad inom marknadsföring eller kommunikation. Du har förmodligen arbetat på byrå ett tag. Om du har erfarenhet från kundsidan och förstår beställarrollen med allt vad det innebär är det ett stort plus.
 
-Om du vill utvecklas inom kommunikation och digital marknadsföring tillsammans med en nyfiken grupp av projektledare, strateger och konceptutvecklare, hör av dig till vår vd, Karolina Westerlund, 073 676 33 40 eller [karolina@kwdstudio.se](mailto:karolina@kwdstudio.se).
+Om du vill utvecklas inom kommunikation och digital marknadsföring tillsammans med en nyfiken grupp av projektledare, strateger och konceptutvecklare, skicka en ansökan med CV till vår vd, Karolina Westerlund, 073 676 33 40 eller [karolina@kwdstudio.se](mailto:karolina@kwdstudio.se).
 
 ## Om KWD
 

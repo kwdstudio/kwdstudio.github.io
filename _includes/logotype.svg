@@ -1,4 +1,4 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 163.4">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 424 163.4" class="Logotype-vector">
   <linearGradient id="logotype-gradient-{{include.location}}" gradientUnits="userSpaceOnUse" x1="305.5" y1="189.076" x2="18.169" y2="-15.12" gradientTransform="matrix(1 0 0 -1 0 164.39)">
     <stop offset=".10" stop-color="{{ include.gradient_color_1 }}">
       <animate attributeName="stop-color" values="{{ include.gradient_color_1 }}; {{ include.gradient_color_2 }}; {{ include.gradient_color_1 }}" dur="20s" repeatCount="indefinite" />

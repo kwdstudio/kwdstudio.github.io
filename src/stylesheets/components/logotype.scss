@@ -5,10 +5,7 @@ $component-name: "Logotype";
 $component-base: ".#{$component-name}";
 
 $logotype-width-header: (
-  default: 150px,
-  m: 180px,
-  l: 220px,
-  xl: 250px,
+  default: 135px,
 );
 
 $logotype-width-footer: (
@@ -20,6 +17,10 @@ $logotype-width-footer: (
 
 #{$component-base} {
   display: block;
+
+  &-vector {
+    display: block;
+  }
 
   &--header {
     @include styles-from-map((

@@ -11,27 +11,22 @@ $component-base: ".#{$component-name}";
 
 #{$component-base} {
   @include styles-from-map((
+    margin-top: $spacing-deca-gentle,
     margin-bottom: $spacing-deca-gentle,
   ));
 
   // Element: Inner
   // ---------------------------------------------------------------------------
   &-inner {
-    @include respond-to(m) {
-      display: flex;
-      align-items: flex-end;
-    }
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 
   // Element: Logotype
   // ---------------------------------------------------------------------------
   &-logotype {
-    margin-bottom: 0.5em;
 
-    @include respond-to(m) {
-      width: 50%;
-
-      margin-bottom: 0;
-    }
   }
 }

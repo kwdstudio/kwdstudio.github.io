@@ -22,7 +22,7 @@ $component-base: ".#{$component-name}";
   // Element: List
   // ---------------------------------------------------------------------------
   &-list {
-    @include typography($untitled-serif, deca-gentle, tight);
+    @include typography($untitled-serif, deci-gentle, tight);
     @include list-reset;
 
     display: flex;
@@ -36,19 +36,10 @@ $component-base: ".#{$component-name}";
   // Element: Item
   // ---------------------------------------------------------------------------
   &-item {
-    &::after {
-      content: "/";
+    margin-left: 1.5em;
 
-      margin-left: 0.5em;
-      margin-right: 0.5em;
-
-      color: color(neutral, 0);
-    }
-
-    &:last-child {
-      &::after {
-        content: none;
-      }
+    &:first-child {
+      margin-left: 0;
     }
   }
 

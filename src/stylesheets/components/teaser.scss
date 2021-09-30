@@ -13,36 +13,16 @@
 $component-name: "Teaser";
 $component-base: ".#{$component-name}";
 
-$teaser-box-shadow-spread: 10px;
-$teaser-border-radius: 2px;
-$teaser-border-width: (
-  default: 10px,
-  m: 1em,
-);
-
 #{$component-base} {
-  @include styles-from-map((
-    border-width: $teaser-border-width,
-    margin: inverse-map-values($teaser-border-width),
-  ));
-
   position: relative;
 
   display: flex;
 
-  border-style: solid;
-  border-color: white;
-
   text-align: center;
-
-  background: white;
 
   &:hover,
   &:focus {
     z-index: 1;
-
-    background: color(neutral, 10);
-    border-color: color(neutral, 10);
 
     text-decoration: none;
   }

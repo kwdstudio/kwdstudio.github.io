@@ -36,8 +36,6 @@ $component-base: ".#{$component-name}";
     @include flex-embed-container;
 
     padding-top: intrinsic-ratio(16, 9);
-
-    background: color(neutral, 10);
   }
 
   // Element: Client Inner Inner

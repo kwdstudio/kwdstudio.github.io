@@ -20,8 +20,6 @@ $component-base: ".#{$component-name}";
       padding-top: $spacing-hecto-steep,
       padding-bottom: $spacing-hecto-steep,
     ));
-
-    background: color(white);
   }
 
   // Variant: Neutral 10
@@ -42,8 +40,6 @@ $component-base: ".#{$component-name}";
       height: 100%;
       z-index: -1;
       mix-blend-mode: multiply;
-
-      background: color(neutral, 10);
     }
   }
 }

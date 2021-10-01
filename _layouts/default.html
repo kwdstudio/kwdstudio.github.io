@@ -17,6 +17,9 @@
     <link rel="canonical" href="{{ site.base_url }}{{ page.url }}">
 
     <script>(function(k,w,d,s,t,u,d,i,o){k[w]=k[w].replace('no-js','has-js')}(document.documentElement,'className'))</script>
+    {% if page.vimeo %}
+      <script src="https://player.vimeo.com/api/player.js"></script>
+    {% endif %}
 
     {% if page.image %}
       <meta property="og:image" content="{{ site.base_url }}{{ page.image }}">

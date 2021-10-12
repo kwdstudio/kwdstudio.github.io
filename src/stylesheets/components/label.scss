@@ -12,7 +12,7 @@ $component-name: "Label";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  @include typography($untitled-serif, centi-gentle, tight);
+  @include typography($untitled-sans, centi-gentle, tight);
 
   display: inline-block;
 

@@ -23,7 +23,8 @@ $component-base: ".#{$component-name}";
   // Element: Heading
   // ---------------------------------------------------------------------------
   &-heading {
-    @include typography($untitled-serif, mega-steep, tight);
+    @include typography($untitled-sans, mega-steep, tight);
+    font-weight: $black-font-weight;
   }
 
   // Element: Lead

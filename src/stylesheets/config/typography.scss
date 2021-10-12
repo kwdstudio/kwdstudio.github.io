@@ -2,19 +2,31 @@
 
 @import "./fonts";
 @import "./fonts/font-untitled-serif";
+@import "./fonts/font-untitled-sans";
 @import "./typography-scales/scale-untitled-serif";
 
-$base-font: (
-  font-family: ("Untitled Serif", "Times New Roman", serif),
-  font-size: map-get($scale-untitled-serif, base-gentle),
-  line-height: map-get($scale-untitled-serif-line-height, normal),
+$typography: (
+  fonts: join($font-untitled-serif, $font-untitled-sans),
+
+  base-font: (
+    font-family: ("Untitled Serif", "Times New Roman", serif),
+    font-size: map-get($scale-untitled-serif, base-gentle),
+    line-height: map-get($scale-untitled-serif-line-height, normal),
+  ),
+
+  sans-font: (
+    font-family: ("Untitled Sans", arial, sans-serif),
+    font-size: map-get($scale-untitled-serif, base-gentle),
+    line-height: map-get($scale-untitled-serif-line-height, normal),
+  ),
 );
 
-$repetitivo-fonts: $font-untitled-serif;
+$repetitivo-fonts: map-get($typography, fonts);
 
 //
 // Base Font Configuration
 // -----------------------------------------------------------------------------
+$base-font: map-get($typography, base-font);
 $base-font-family: map-get($base-font, font-family);
 $base-font-size: map-get($base-font, font-size);
 $base-line-height: map-get($base-font, line-height);

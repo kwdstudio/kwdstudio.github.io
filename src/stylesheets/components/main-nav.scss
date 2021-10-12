@@ -22,8 +22,10 @@ $component-base: ".#{$component-name}";
   // Element: List
   // ---------------------------------------------------------------------------
   &-list {
-    @include typography($untitled-serif, deci-gentle, tight);
+    @include typography($untitled-sans, deci-gentle, tight);
+    font-weight: $black-font-weight;
     @include list-reset;
+
 
     display: flex;
     justify-content: center;
@@ -58,8 +60,6 @@ $component-base: ".#{$component-name}";
     }
 
     &.is-current {
-      font-style: italic;
-
       &::before {
         content: "";
 

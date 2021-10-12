@@ -8,6 +8,12 @@ $untitled-serif: (
   line-height-scales: $scale-untitled-serif-line-height,
 );
 
+$untitled-sans: (
+  font-family: ("Untitled Sans", arial, sans),
+  font-size-scales: $scale-untitled-serif,
+  line-height-scales: $scale-untitled-serif-line-height,
+);
+
 @mixin typography($font, $size, $line-height) {
   font-family: map-get($font, font-family);
 

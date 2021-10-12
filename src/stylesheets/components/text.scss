@@ -22,14 +22,13 @@ $component-base: ".#{$component-name}";
   }
 
   h2 {
-    @include typography($untitled-serif, deca-gentle, tight);
     @include styles-from-map((
       margin-top: $spacing-deca-gentle,
       margin-bottom: $spacing-milli-gentle,
     ));
 
-    font: inherit;
-    font-weight: $bold-font-weight;
+    @include typography($untitled-sans, deca-gentle, tight);
+    font-weight: $black-font-weight;
 
     &:first-child {
       margin-top: 0;
@@ -37,7 +36,8 @@ $component-base: ".#{$component-name}";
   }
 
   h3 {
-    @include typography($untitled-serif, base-gentle, tight);
+    @include typography($untitled-sans, base-gentle, tight);
+    font-weight: $black-font-weight;
 
     text-decoration: underline;
   }

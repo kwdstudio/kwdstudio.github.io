@@ -31,8 +31,6 @@ $component-base: ".#{$component-name}";
     @include repetitivo-generate-width-modifier(16 of 24, l);
     @include repetitivo-generate-width-modifier(20 of 24, l);
 
-    @include repetitivo-generate-width-modifier(16 of 24, xl);
-
     &-s--push-1 {
       @include respond-to(s) {
         margin-left: grid-column-width(1, 24);

@@ -27,6 +27,6 @@ $scale-untitled-serif: (
 );
 
 $scale-untitled-serif-line-height: (
-  normal: scale-map(1.35, 1.01, $round: false),
-  tight:  scale-map(1.25, 1.01, $round: false),
+  normal: scale-map(1.25, 1.0, $round: false),
+  tight:  scale-map(1.1, 1.0, $round: false),
 );

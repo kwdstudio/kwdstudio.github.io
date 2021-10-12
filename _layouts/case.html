@@ -13,25 +13,23 @@ layout: default
 {% endfor %}
 
 <div style="color: {{ page.color3 }}">
-  <div class="Intro">
-    <div class="Intro-inner">
-      <div class="Intro-imageWrapper">
-        <img src="/images/cases/{{ page.title | slugify: "latin" }}/featured.jpg" alt="" class="Intro-image">
-      </div>
 
-      <div class="Intro-text">
-        <div class="Wrapper">
-          <div class="Intro-textInner">
-            <div><div class="Label">{{ page.client }} ({{ page.year }})</div></div>
+  <div class="Wrapper">
+    <header class="ContentHead">
+      <div class="Grid Grid--padded Grid--compensatePadded Grid--center">
+        <div class="Grid-item Grid-item-m--22-of-24 Grid-item-ml--20-of-24 Grid-item-l--20-of-24 Grid-item-s--push-1 Grid-item-m--push-3 Grid-item-l--push-4">
+          <div class="Label">{{ page.client }}</div>
+          <h1 class="ContentHead-heading">{{ page.intro_heading }}</h1>
 
-            <h1 class="Intro-heading">{{ page.intro_heading }}</h1>
-          </div>
+          <div class="ContentHead-lead">{{ page.intro_lead }}</div>
         </div>
       </div>
-    </div>
+    </header>
   </div>
-
-  <div class="Wrapper Text Text--separated">
+  <div class="Wrapper Wrapper--hero">
+    <img src="/images/cases/{{ page.title | slugify: "latin" }}/featured.jpg" alt="" class="">
+  </div>
+  <div class="Wrapper Text Text--separated u-spacingTopHectoGentle">
     <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
       <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--18-of-24 Grid-item-ml--17-of-24 Grid-item-l--16-of-24">
         <div class="Text-body">

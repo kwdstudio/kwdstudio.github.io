@@ -12,7 +12,8 @@ color4: "#fdc7a9"
 all_order: 2
 all_size: small
 teaser_body: <p>Innehållsstrategi med berättarspår och innehållstyper. En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.</p>
-intro_heading:  En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.
+intro_heading: Handlarna i fokus
+intro_lead: En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.
 contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med ICA-handlarnas Förbund och hur vi kan hjälpa er.</p>
 ---
 Pitchvinnare 2019 som strategisk innehållspartner 

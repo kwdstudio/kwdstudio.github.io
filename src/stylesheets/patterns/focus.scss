@@ -3,6 +3,6 @@
 @import "../functions/color";
 
 @mixin focus-link-and-button {
-  outline: color(pink, 0) solid $focus-outline-link-and-button-width;
+  outline: color(purple, 0) solid $focus-outline-link-and-button-width;
   outline-offset: $focus-outline-link-and-button-offset;
 }

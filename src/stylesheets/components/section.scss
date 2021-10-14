@@ -57,6 +57,14 @@ $component-base: ".#{$component-name}";
 
   }
 
+  // Element: Label
+  // ---------------------------------------------------------------------------
+  &-label {
+    @include styles-from-map((
+      margin-bottom: $spacing-micro-gentle,
+    ));
+  }
+
   // Element: Heading
   // ---------------------------------------------------------------------------
   &-heading {

@@ -12,34 +12,88 @@ $component-base: ".#{$component-name}";
 
 #{$component-base} {
   position: relative;
+  @include styles-from-map((
+    padding-top: $spacing-kilo-gentle,
+    padding-bottom: $spacing-kilo-gentle,
+  ));
 
-  // Variant: White
+  // Element: Image Wrapper
   // ---------------------------------------------------------------------------
-  &--white {
-    @include styles-from-map((
-      padding-top: $spacing-hecto-steep,
-      padding-bottom: $spacing-hecto-steep,
-    ));
+  &-imageWrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
   }
 
-  // Variant: Neutral 10
+  // Element: Image Figure
   // ---------------------------------------------------------------------------
-  &--neutral10 {
+  &-imageFigure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  // Element: Image
+  // ---------------------------------------------------------------------------
+  &-image {
+  }
+
+  // Element: Image Object
+  // ---------------------------------------------------------------------------
+  &-imageObject {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: 50% 80%;
+  }
+
+  // Element: Content
+  // ---------------------------------------------------------------------------
+  &-content {
+
+  }
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
     @include styles-from-map((
-      padding-top: $spacing-hecto-steep,
-      padding-bottom: $spacing-hecto-steep,
+      margin-bottom: $spacing-milli-gentle,
     ));
+    @include typography($untitled-sans, kilo-steep, tight);
+    font-weight: $black-font-weight;
 
-    &::before {
-      content: "";
+    br {
+      display: none;
 
+      @include respond-to(ml) {
+        display: inline;
+      }
+    }
+  }
+
+  // Element: Lead
+  // ---------------------------------------------------------------------------
+  &-lead {
+    @include typography($untitled-serif, base-gentle, loose);
+  }
+
+  // Variant: With Image
+  // ---------------------------------------------------------------------------
+  &--heroImage {
+    height: 90vh;
+
+    #{$component-base}-content {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
       width: 100%;
-      height: 100%;
-      z-index: -1;
-      mix-blend-mode: multiply;
+      color: color(white);
+      text-shadow: 0 0 8px rgba(0,0,0,.2);
+      text-align: center;
     }
   }
 }

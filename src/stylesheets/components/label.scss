@@ -18,4 +18,10 @@ $component-base: ".#{$component-name}";
 
   text-transform: uppercase;
   letter-spacing: 0.03em;
+
+  // Variant: Small
+  // ---------------------------------------------------------------------------
+  &--small {
+    @include typography($untitled-sans, milli-gentle, tight);
+  }
 }

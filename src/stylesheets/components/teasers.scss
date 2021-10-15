@@ -13,7 +13,6 @@ $component-name: "Teasers";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  @include list-reset;
   @include styles-from-map((
     margin-bottom: inverse-map-values($spacing-kilo-gentle),
   ));

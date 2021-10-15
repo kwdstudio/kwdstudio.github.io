@@ -48,3 +48,27 @@ color4: "#940797"
     </a>
   </div>
 {% endfor %}
+
+<div class="Wrapper u-spacingTopDecaSteep">
+  <div class="Grid Grid--padded Grid--compensatePadded Teasers">
+    {% for case in ordered_cases %}
+      <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+        <div class="Teaser Teasers-teaser">
+          <a href="{{ case.url }}" class="Teaser-link">
+            <picture class="Teaser-image">
+              <source srcset="/images/cases/{{ case.title | slugify: "latin" }}/teaser.jpg 750w" sizes="100vw">
+              <img alt="" src="/images/cases/{{ case.title | slugify: "latin" }}/teaser.jpg" class="Teaser-imageObject">
+            </picture>
+            <div class="Teaser-body">
+              <div class="Label Label--small Teaser-label">{{ case.client }}</div>
+              <h1 class="Teaser-heading">{{ case.intro_heading }}</h1>
+              <div class="Teaser-body">
+                {{ case.teaser_body }}
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+    {% endfor %}
+  </div>
+</div>

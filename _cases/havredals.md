@@ -4,15 +4,12 @@ title: Havredals
 description: En röst åt det nya varumärket Havredals. Vi har skapat en tonalitet och identitet som passar hela vägen från bakgrundsberättelse till förpackningscopy.
 image: /images/cases/havredals/featured.jpg
 client: Havredals
-year: 2019
 color1: "#623e00"
 color2: "#623e00"
 color3: "#5d2110"
 color4: "#fd910b"
 startpage_order: 2
-startpage_size: small
 all_order: 4
-all_size: large
 teaser_body: <p>En röst åt det nya varumärket Havredals. Vi har skapat en tonalitet och identitet som passar hela vägen från bakgrundsberättelse till förpackningscopy.</p>
 intro_heading: Odlad. Renodlad.
 intro_lead: Vi hade nöjet att arbeta fram berättelsen om det nya varumärket Havredals.

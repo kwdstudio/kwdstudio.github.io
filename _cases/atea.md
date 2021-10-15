@@ -16,7 +16,6 @@ all_size: large
 teaser_body: <p>Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
 intro_heading: Can you handle it?
 intro_lead: Ett nytt koncept som bryter med it-branschens normer och konventioner
-contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>
 ---
 
 ## Can you handle it?

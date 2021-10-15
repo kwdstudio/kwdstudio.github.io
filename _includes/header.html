@@ -9,7 +9,6 @@
 
       <nav class="MainNav"{% if page.layout == 'case' %} style="color:{{ page.color3 }};"{% endif %}>
         <ul class="MainNav-list">
-          <li class="MainNav-item"><a href="{% link _pages/tjanster.md %}" class="MainNav-link{% if current[1] == "tjanster" %} is-current{% endif %}">Tjänster</a></li>
           <li class="MainNav-item"><a href="{% link case.html %}" class="MainNav-link{% if current[1] == "case" %} is-current{% endif %}">Case</a></li>
           <li class="MainNav-item"><a href="{% link kontakt.html %}" class="MainNav-link{% if current[1] == "kontakt" %} is-current{% endif %}">Kontakt</a></li>
         </ul>

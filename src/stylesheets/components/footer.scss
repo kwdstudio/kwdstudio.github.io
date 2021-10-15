@@ -68,5 +68,6 @@ $component-base: ".#{$component-name}";
   // ---------------------------------------------------------------------------
   &-navLink {
     text-decoration: none;
+    color: color(purple, -10);
   }
 }

@@ -2,6 +2,11 @@
 
 @import "../patterns/focus";
 
+@import "../functions/intrinsic-ratio";
+
+@import "../patterns/flex-embed";
+
+
 //
 // Component: Media
 // =============================================================================
@@ -39,10 +44,6 @@ $media-media-offset: (
   // Element: Media
   // ---------------------------------------------------------------------------
   &-media {
-    @include styles-from-map((
-      margin-bottom: $spacing-milli-gentle,
-    ));
-
     display: block;
 
     width: 100%;
@@ -56,9 +57,27 @@ $media-media-offset: (
     }
   }
 
+  // Element: Embed Container
+  // ---------------------------------------------------------------------------
+  &-embedContainer {
+    @include flex-embed-container;
+
+    padding-top: intrinsic-ratio(16, 9);
+  }
+
+  // Element: Embed Item
+  // ---------------------------------------------------------------------------
+  &-embedItem {
+    @include flex-embed-item;
+  }
+
   // Element: Caption
   // ---------------------------------------------------------------------------
   &-caption {
+    @include styles-from-map((
+      margin-top: $spacing-milli-gentle,
+    ));
+
     @include typography($untitled-serif, centi-gentle, tight);
   }
 }

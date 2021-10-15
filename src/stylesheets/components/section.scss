@@ -17,6 +17,18 @@ $component-base: ".#{$component-name}";
     padding-bottom: $spacing-kilo-gentle,
   ));
 
+  // Element: Link
+  // ---------------------------------------------------------------------------
+  &-link {
+    color: inherit;
+
+    &:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+
+  }
+
   // Element: Image Wrapper
   // ---------------------------------------------------------------------------
   &-imageWrapper {

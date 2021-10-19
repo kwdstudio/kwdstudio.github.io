@@ -9,4 +9,41 @@ description: Vi hjälper våra kunder med innehållsdriven marknadsföring i dig
 clean_title: true
 ---
 
-{% include cases.html %}
+{% assign ordered_cases = site.cases | where_exp: "item", "item.startpage_order > 0" | sort: "startpage_order" %}
+
+{% for case in ordered_cases limit: 2 %}
+  {%
+    include case.html
+    url=case.url
+    title=case.title
+    client=case.client
+    heading=case.intro_heading
+    body=case.teaser_body
+  %}
+{% endfor %}
+
+<div class="Section Section--centered">
+  <div class="Section-content">
+    <div class="Wrapper">
+      <div class="Section-contentInner">
+        <div class="Section-body">
+          <p>Vi rör oss i gränslandet mellan innehållsdriven marknadsföring och reklam, alltid med målgruppens intressen först. Varje varumärke har sin egen kultur och kontext. Vårt jobb är att förstå och omsätta den kulturen till träffsäker kommunikation.</p>
+          <ul class="LinkList LinkList--inline">
+            <li class="LinkList-item"><a href="{% link case.html %}">Case</a></li>
+            <li class="LinkList-item"><a href="{% link om-oss.html %}">Om oss</a></li>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% for case in ordered_cases limit: 1 offset: continue %}
+  {%
+    include case.html
+    url=case.url
+    title=case.title
+    client=case.client
+    heading=case.intro_heading
+    body=case.teaser_body
+  %}
+{% endfor %}

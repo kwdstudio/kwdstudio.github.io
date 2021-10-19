@@ -1,0 +1,23 @@
+<div class="Section Section--inverted Section--centered Section--heroImage">
+  <a href="{{ include.url }}" class="Section-link">
+    <div class="Section-imageWrapper">
+      <figure class="Section-imageFigure">
+        <picture class="Section-image">
+          <source srcset="/images/cases/{{ include.title | slugify: "latin" }}/teaser.jpg 750w" sizes="100vw">
+          <img alt="" src="/images/cases/{{ include.title | slugify: "latin" }}/teaser.jpg" class="Section-imageObject">
+        </picture>
+      </figure>
+    </div>
+    <div class="Section-content">
+      <div class="Wrapper">
+        <div class="Section-contentInner">
+          <div class="Label Section-label">{{ include.client }}</div>
+          <h1 class="Section-heading">{{ include.heading }}</h1>
+          <div class="Section-lead">
+            {{ include.body }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </a>
+</div>

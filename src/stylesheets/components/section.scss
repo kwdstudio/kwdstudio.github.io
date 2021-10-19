@@ -69,6 +69,29 @@ $component-base: ".#{$component-name}";
 
   }
 
+  // Element: Content Inner
+  // ---------------------------------------------------------------------------
+  &-contentInner {
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond-to(s) {
+      width: grid-column-width(12, 24);
+    }
+
+    @include respond-to(m) {
+      width: grid-column-width(18, 24);
+    }
+
+    @include respond-to(ml) {
+      width: grid-column-width(17, 24);
+    }
+
+    @include respond-to(l) {
+      width: grid-column-width(14, 24);
+    }
+  }
+
   // Element: Label
   // ---------------------------------------------------------------------------
   &-label {
@@ -101,7 +124,22 @@ $component-base: ".#{$component-name}";
     @include typography($untitled-serif, base-gentle, loose);
   }
 
-  // Variant: With Image
+  // Variant: Centered
+  // ---------------------------------------------------------------------------
+  &--centered {
+    #{$component-base}-contentInner {
+      text-align: center;
+    }
+  }
+
+  // Variant: Inverted
+  // ---------------------------------------------------------------------------
+  &--inverted {
+    color: color(white);
+    text-shadow: 0 0 8px rgba(0,0,0,.2);
+  }
+
+  // Variant: Hero Image
   // ---------------------------------------------------------------------------
   &--heroImage {
     height: 90vh;
@@ -111,9 +149,6 @@ $component-base: ".#{$component-name}";
       top: 50%;
       transform: translateY(-50%);
       width: 100%;
-      color: color(white);
-      text-shadow: 0 0 8px rgba(0,0,0,.2);
-      text-align: center;
     }
   }
 }

@@ -16,7 +16,7 @@ $component-base: ".#{$component-name}";
       margin-bottom: $spacing-milli-gentle,
     ));
 
-    @include typography($untitled-sans, deca-gentle, tight);
+    @include typography($untitled-sans, hecto-gentle, tight);
     font-weight: $black-font-weight;
 
     &:first-child {

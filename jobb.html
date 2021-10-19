@@ -1,0 +1,36 @@
+---
+layout: default
+title: Lediga jobb
+description: "Just nu söker vi..."
+color1: "#e4006e"
+color2: "#effc13"
+color3: "#00b295"
+color4: "#940797"
+---
+{% assign ordered_jobs = site.jobs | sort: "order" %}
+
+<div class="Wrapper Text">
+  <header class="ContentHead">
+    <div class="Grid Grid--padded Grid--compensatePadded Grid--center">
+      <div class="Grid-item Grid-item-m--22-of-24 Grid-item-ml--20-of-24 Grid-item-l--20-of-24 Grid-item-s--push-1 Grid-item-m--push-3 Grid-item-l--push-4">
+        <h1 class="ContentHead-heading">Lediga jobb</h1>
+
+        <div class="ContentHead-lead"><p>Vi växer och just nu söker vi...</p></div>
+      </div>
+    </div>
+  </header>
+
+  <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
+    <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--18-of-24 Grid-item-ml--17-of-24 Grid-item-l--16-of-24">
+      <ul class="JobsList">
+        {% for job in ordered_jobs %}
+          <li class="JobsListItem">
+            <h2 class="JobsListItem-heading">{{ job.title }}</h2>
+            <p class="JobsListItem-description">{{ job.description }}</p>
+            <p class="JobsListItem-link"><a href="{{ job.url }}">Läs mer och ansök</a></p>
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>

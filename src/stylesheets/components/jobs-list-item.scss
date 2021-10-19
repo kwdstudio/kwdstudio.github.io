@@ -1,0 +1,38 @@
+@import "../config/fonts";
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "../helpers/typography";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+
+//
+// Component: Jobs List Item
+// =============================================================================
+$component-name: "JobsListItem";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include styles-from-map((
+    margin-bottom: $spacing-base-gentle,
+  ));
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
+    @include typography($untitled-sans, hecto-gentle, tight);
+    font-weight: $black-font-weight;
+  }
+
+  // Element: Lead
+  // ---------------------------------------------------------------------------
+  &-description {
+    @include styles-from-map((
+      margin-top: $spacing-milli-gentle,
+      margin-bottom: $spacing-milli-gentle
+    ));
+    @include typography($untitled-serif, base-gentle, normal);
+  }
+}

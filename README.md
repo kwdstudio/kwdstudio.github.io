@@ -11,3 +11,9 @@
 Edit Sass/JavaScript files in the `src/` directory. The browser will auto-reload when changes are detected.
 
 Committing will take a bit longer than usual, as production-ready CSS/JS will be built automatically using a git hook.
+
+### Staging
+
+First, run `npm run build:staging` to build the site to `_site` with the config for staging.
+
+Manually upload the contents (or only the changed/added files) of `_site` to the bucket on S3.

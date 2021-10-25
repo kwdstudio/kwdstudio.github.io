@@ -5,7 +5,10 @@ $component-name: "Logotype";
 $component-base: ".#{$component-name}";
 
 $logotype-width-header: (
-  default: 135px,
+  default: 100px,
+  m: 110px,
+  l: 120px,
+  xl: 135px,
 );
 
 $logotype-width-footer: (

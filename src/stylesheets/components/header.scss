@@ -1,5 +1,7 @@
 @import "../config/spacing";
 
+@import "../functions/color";
+
 @import "repetitivo/helpers/respond-to";
 @import "repetitivo/helpers/styles-from-map";
 
@@ -11,8 +13,8 @@ $component-base: ".#{$component-name}";
 
 #{$component-base} {
   @include styles-from-map((
-    margin-top: $spacing-deca-gentle,
-    margin-bottom: $spacing-deca-gentle,
+    padding-top: $spacing-deca-gentle,
+    padding-bottom: $spacing-deca-gentle,
   ));
 
   // Element: Inner
@@ -20,6 +22,7 @@ $component-base: ".#{$component-name}";
   &-inner {
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
   }
@@ -29,4 +32,43 @@ $component-base: ".#{$component-name}";
   &-logotype {
 
   }
+
+  // Element: Menu Toggle
+  // ---------------------------------------------------------------------------
+  &-menuToggle {
+    @include respond-to(m) {
+      display: none;
+    }
+  }
+
+  // Element: Nav
+  // ---------------------------------------------------------------------------
+  &-nav {
+    display: none;
+
+    @include respond-to(pre-m) {
+      flex: 0 0 100%;
+      @include styles-from-map((
+        margin-top: $spacing-deca-gentle,
+      ));
+    }
+
+    @include respond-to(m) {
+      display: block;
+    }
+
+    // Context: Nav is open
+    // ---------------------------------------------------------------------------
+    .navigation-is-open & {
+      display: block;
+    }
+
+  }
+
+  // Context: Nav is open
+  // ---------------------------------------------------------------------------
+  .navigation-is-open & {
+    background: color(purple, -10);
+  }
+
 }

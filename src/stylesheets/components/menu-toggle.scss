@@ -1,0 +1,61 @@
+@import "../config/fonts";
+@import "../config/spacing";
+
+@import "../functions/color";
+
+@import "../helpers/typography";
+
+@import "repetitivo/helpers/respond-to";
+@import "repetitivo/helpers/styles-from-map";
+
+//
+// Component: Menu Toggle
+// =============================================================================
+$component-name: "MenuToggle";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  background: none;
+  border: 0;
+  @include typography($untitled-sans, deci-gentle, tight);
+  font-weight: $black-font-weight;
+
+  // Element: Label
+  // ---------------------------------------------------------------------------
+  &-label {
+
+    // Variant: Open
+    // -------------------------------------------------------------------------
+    &--open {
+      // Context: Nav is open
+      // ---------------------------------------------------------------------------
+      .navigation-is-open & {
+        display: none;
+      }
+    }
+
+    // Variant: Close
+    // -------------------------------------------------------------------------
+    &--close {
+      display: none;
+
+      // Context: Nav is open
+      // ---------------------------------------------------------------------------
+      .navigation-is-open & {
+        display: inline;
+      }
+    }
+  }
+
+  // Element: Label Text
+  // ---------------------------------------------------------------------------
+  &-labelText {
+
+  }
+
+  // Context: Nav is open
+  // ---------------------------------------------------------------------------
+  .navigation-is-open & {
+    color: color(white);
+  }
+}

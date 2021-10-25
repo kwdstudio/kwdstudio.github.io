@@ -22,32 +22,53 @@ $component-base: ".#{$component-name}";
   // Element: List
   // ---------------------------------------------------------------------------
   &-list {
-    @include typography($untitled-sans, deci-gentle, tight);
+    @include typography($untitled-sans, kilo-gentle, tight);
     font-weight: $black-font-weight;
     @include list-reset;
 
-
-    display: flex;
-    justify-content: center;
-
     @include respond-to(m) {
+      display: flex;
       justify-content: normal;
+
+      @include typography($untitled-sans, deci-gentle, tight);
     }
   }
 
   // Element: Item
   // ---------------------------------------------------------------------------
   &-item {
-    margin-left: 1.5em;
+    @include respond-to(m) {
+      margin-left: 1.5em;
 
-    &:first-child {
-      margin-left: 0;
+      &:first-child {
+        margin-left: 0;
+      }
     }
   }
 
   // Element: Link
   // ---------------------------------------------------------------------------
   &-link {
+    display: block;
+
+    color: currentColor;
+
+    &:hover {
+      color: currentColor;
+      text-decoration: none;
+    }
+
+    @include respond-to(pre-m) {
+      @include styles-from-map((
+        padding-top: $spacing-milli-gentle,
+        padding-bottom: $spacing-milli-gentle,
+      ));
+    }
+  }
+
+  // Element: Link
+  // ---------------------------------------------------------------------------
+  &-linkInner {
     position: relative;
 
     color: currentColor;
@@ -74,5 +95,11 @@ $component-base: ".#{$component-name}";
         background: currentColor;
       }
     }
+  }
+
+  // Context: Nav is open
+  // ---------------------------------------------------------------------------
+  .navigation-is-open & {
+    color: color(white);
   }
 }

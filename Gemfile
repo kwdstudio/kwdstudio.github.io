@@ -8,4 +8,5 @@ gem "jekyll", "~> 3.8.5"
 
 group :jekyll_plugins do
   gem "github-pages", "~> 204"
+  gem 'jekyll-redirect-from'
 end

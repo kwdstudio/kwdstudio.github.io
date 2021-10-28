@@ -21,20 +21,9 @@ color4: "#940797"
   </header>
 </div>
 
-{% for case in ordered_cases %}
-  {%
-    include case.html
-    url=case.url
-    title=case.title
-    client=case.client
-    heading=case.intro_heading
-    body=case.teaser_body
-  %}
-{% endfor %}
-
 <div class="Wrapper u-spacingTopDecaSteep">
   <div class="Grid Grid--padded Grid--compensatePadded Teasers">
-    {% for case in ordered_cases limit: 3 %}
+    {% for case in ordered_cases %}
       <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
         <div class="Teaser Teasers-teaser">
           <a href="{{ case.url }}" class="Teaser-link">

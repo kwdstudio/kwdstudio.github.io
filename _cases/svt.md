@@ -8,7 +8,7 @@ color1: "#374a4b"
 color2: "#d7c9a7"
 color3: "#374a4b"
 color4: "#afd8d3"
-startpage_order: 1
+startpage_order: 3
 all_order: 3
 teaser_body: <p>Insiktsdriven iterativ produktionsmodell. En metod för hur Sveriges Television löpande ökar den interna kunskapsnivån kring vilket innehåll som fungerar.</p>
 intro_heading: Allt-i-allo

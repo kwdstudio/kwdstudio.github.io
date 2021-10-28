@@ -53,6 +53,11 @@ $component-base: ".#{$component-name}";
 
     color: currentColor;
 
+    .hasHero &,
+    .hasHero &:hover {
+      color: color(white);
+    }
+
     &:hover {
       color: currentColor;
       text-decoration: none;

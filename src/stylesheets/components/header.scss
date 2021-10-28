@@ -12,10 +12,13 @@ $component-name: "Header";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  @include styles-from-map((
-    padding-top: $spacing-deca-gentle,
-    padding-bottom: $spacing-deca-gentle,
-  ));
+  .hasHero & {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 900;
+  }
 
   // Element: Inner
   // ---------------------------------------------------------------------------
@@ -25,6 +28,10 @@ $component-base: ".#{$component-name}";
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
+    @include styles-from-map((
+      padding-top: $spacing-deca-gentle,
+      padding-bottom: $spacing-deca-gentle,
+    ));
   }
 
   // Element: Logotype

@@ -53,8 +53,9 @@ $component-base: ".#{$component-name}";
 
   }
 
-  // Context: Nav is open
+  // Context: Nav is open or has hero
   // ---------------------------------------------------------------------------
+  .hasHero &,
   .navigation-is-open & {
     color: color(white);
   }

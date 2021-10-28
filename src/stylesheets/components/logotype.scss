@@ -21,6 +21,10 @@ $logotype-width-footer: (
 #{$component-base} {
   display: block;
 
+  &-gradientInvertedBackground {
+    display: none;
+  }
+
   &-vector {
     display: block;
   }
@@ -29,6 +33,18 @@ $logotype-width-footer: (
     @include styles-from-map((
       width: $logotype-width-header,
     ));
+
+    #{$component-base}-gradientBackground {
+      .hasHero & {
+        display: none;
+      }
+    }
+
+    #{$component-base}-gradientInvertedBackground {
+      .hasHero & {
+        display: block;
+      }
+    }
   }
 
   &--footer {

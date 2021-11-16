@@ -10,8 +10,8 @@ color3: "#270b40"
 color4: "#cdbda8"
 all_order: 3
 teaser_heading: PR och positionering
-teaser_body: <p>Produktlanseringar och hållbarhetsaktiviteter i förtjänade kanaler.</p>
-intro_heading: Produktlanseringar och hållbarhetsaktiviteter
+teaser_body: <p>Produktlanseringar och hållbarhets&shy;aktiviteter i förtjänade kanaler.</p>
+intro_heading: Produktlanseringar och hållbarhets&shy;aktiviteter
 intro_lead: När Sveriges ledande outdoor-varumärke ville nå nya målgrupper fick vi äran att hjälpa till. Uppdraget har bestått av flera delprojekt, från nylanseringar av den ikoniska ryggsäcken Kånken till en kommunikationskampanj kring ull i syfte att stärka Fjällrävens position som ledande inom hållbarhet.
 ---
 

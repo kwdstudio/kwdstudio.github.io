@@ -10,7 +10,7 @@ description: Vi hjälper våra kunder med innehållsdriven marknadsföring i dig
 clean_title: true
 ---
 
-{% assign ordered_cases = site.cases | where_exp: "item", "item.startpage_order > 0" | sort: "startpage_order" %}
+{% assign ordered_cases = site.cases | sort: "all_order" %}
 
 {% for case in ordered_cases limit: 1 %}
   {%

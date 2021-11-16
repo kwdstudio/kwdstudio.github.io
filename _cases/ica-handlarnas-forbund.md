@@ -8,7 +8,6 @@ color1: "#1c2707"
 color2: "#d5d5d7"
 color3: "#1c2707"
 color4: "#fdc7a9"
-startpage_order: 4
 all_order: 2
 teaser_body: <p>Innehållsstrategi med berättarspår och innehållstyper. En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.</p>
 intro_heading: Handlarna i fokus

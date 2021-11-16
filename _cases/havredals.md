@@ -1,33 +1,34 @@
 ---
 layout: case
 title: Havredals
-description: En röst åt det nya varumärket Havredals. Vi har skapat en tonalitet och identitet som passar hela vägen från bakgrundsberättelse till förpackningscopy.
+description: TODO
 image: /images/cases/havredals/featured.jpg
 client: Havredals
 color1: "#623e00"
 color2: "#623e00"
 color3: "#5d2110"
 color4: "#fd910b"
-all_order: 4
-teaser_body: <p>En röst åt det nya varumärket Havredals. Vi har skapat en tonalitet och identitet som passar hela vägen från bakgrundsberättelse till förpackningscopy.</p>
+all_order: 2
 teaser_heading: Odlad. Renodlad.
+teaser_body: <p>Berättelsen om det nya varumärket Havredals</p>
 intro_heading: Odlad. Renodlad.
-intro_lead: Vi hade nöjet att arbeta fram berättelsen om det nya varumärket Havredals.
+intro_lead: Varumärkesberättelse, copy och marknadsstrategi för det nystartade företaget som tillverkar havrebaserade livsmedel.
 ---
-## Bakgrund
+## Vi gav Havredals en röst
 
-Ett nytt varumärke tar ett kliv in på marknaden för växtbaserade alternativ till animaliska livsmedel. Havredals, vars havrebaserade produkter är ett närodlat, lokalt alternativ till konkurrenternas, har kunnat påvisa hälsoeffekter som är så pass konkreta att deras havredryck nu säljs på apotek.  
+När Havredals tog sina första steg in på marknaden för växtbaserade alternativ till animaliska livsmedel fick vi uppdraget att ta fram berättelsen om Havredals och ge varumärket en röst. Nu, två år senare, har vi fått förtroendet att skala upp marknadsföringen i syfte att driva försäljning.
 
-## Uppdrag
+## Nästa steg – skala upp marknadsföringen
 
-Havredals behövde konkretisera och paketera sitt varumärke genom form, bildspråk, berättelse och tonalitet. KWD Studio fick i uppdrag att ge Havredals en röst. 
-
-## Genomförande
-
-Genom inläsning, konkurrentanalys, möten med Havredals skapare och interna workshops hittade vi den plats på marknaden som Havredals ska fylla. Vi skapade en tonalitet och identitet som passar hela vägen från bakgrundsberättelse och hemsida till förpackningscopy. Havredals första produkter lanserades tidigt 2020.
+Efter vårt initiala uppdrag att inför lansering bygga varumärkesberättelsen och ta fram tonaliteten finns nu Havredals i alla välsorterade livsmedelsbutiker. Vårt nya uppdrag är att skala upp marknadsföringen och positionera Havredals som det främsta alternativet inom växtbaserade livsmedel.
 
 {%
   include page_image.html
   src="/images/cases/havredals/havredals1.jpg"
   caption="Havredals havredryck finns nu på flertalet platser runt om i landet."
 %}
+
+## Egna, köpta och förtjänade
+
+Arbetet omfattar såväl egna som förtjänade och köpta kanaler. För att säkerställa genomgående tonalitet och röd tråd i all kommunikation har vi satt upp ett gediget ramverk för samtliga kanaler. I ett andra (pågående) skede arbetar vi med att bygga intresse och trovärdighet genom PR samt att stärka bandet till nya och befintliga målgrupper med organiskt innehåll. För att säkerställa träffsäkerhet i annonsering och budskap samt få värdefulla insikter i kommande idé- och konceptarbete analyseras och optimeras alla insatser löpande.
+

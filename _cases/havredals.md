@@ -10,6 +10,7 @@ color3: "#5d2110"
 color4: "#fd910b"
 all_order: 4
 teaser_body: <p>En röst åt det nya varumärket Havredals. Vi har skapat en tonalitet och identitet som passar hela vägen från bakgrundsberättelse till förpackningscopy.</p>
+teaser_heading: Odlad. Renodlad.
 intro_heading: Odlad. Renodlad.
 intro_lead: Vi hade nöjet att arbeta fram berättelsen om det nya varumärket Havredals.
 ---

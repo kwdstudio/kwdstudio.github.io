@@ -12,6 +12,7 @@ all_order: 3
 teaser_body: <p>Insiktsdriven iterativ produktionsmodell. En metod för hur Sveriges Television löpande ökar den interna kunskapsnivån kring vilket innehåll som fungerar.</p>
 intro_heading: Allt-i-allo
 intro_lead: Löpande strategiskt rådgivning kring kommunikation och marknadsföring i digitala kanaler.
+teaser_heading: Från tablå-TV till SVT Play
 ---
 
 Pitchvinnare 2019 som digital marknadsföringspartner.

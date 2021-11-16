@@ -10,6 +10,7 @@ color3: "#270b40"
 color4: "#cdbda8"
 all_order: 1
 teaser_body: <p>Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
+teaser_heading: Can you handle it?
 intro_heading: Can you handle it?
 intro_lead: Ett nytt koncept som bryter med it-branschens normer och konventioner
 vimeo: true

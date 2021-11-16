@@ -22,7 +22,8 @@ Atea eShop ville förnya sig och öka intresset för sin e-handel. De efterfråg
 
 {%
   include page_video.html
-  src="https://player.vimeo.com/video/380214483?h=9fe7bbdb3e"
+  src="https://player.vimeo.com/video/380214483"
+  h="9fe7bbdb3e"
   caption="I konceptet Can you handle it? är produkterna en del av dramaturgin. Fokus ligger på användarnytta."
 %}
 

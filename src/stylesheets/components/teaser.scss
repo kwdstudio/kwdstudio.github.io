@@ -49,7 +49,7 @@ $component-base: ".#{$component-name}";
   // ---------------------------------------------------------------------------
   &-heading {
     @include styles-from-map((
-      margin-bottom: $spacing-micro-gentle,
+      margin-bottom: $spacing-nano-gentle,
     ));
     @include typography($untitled-sans, deca-gentle, tight);
     font-weight: $black-font-weight;
@@ -58,6 +58,6 @@ $component-base: ".#{$component-name}";
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
-    @include typography($untitled-serif, centi-gentle, normal);
+    @include typography($untitled-serif, deci-gentle, normal);
   }
 }

@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Atea
+title: Atea – HP
 description: TODO
 image: /images/cases/atea-hp/featured.jpg
 client: Atea
@@ -10,7 +10,7 @@ color3: "#270b40"
 color4: "#cdbda8"
 all_order: 8
 teaser_heading: God säkerhet med HP
-teaser_body: <p>När Atea ville beskriva HPs höga säkerhetstänk valde vi att göra det med hjälp av bakelser.</p>
+teaser_body: <p>När Atea ville beskriva HPs höga säkerhetstänk gjorde vi det med hjälp av bakelser.</p>
 intro_heading: God säkerhet med HP
 intro_lead: När Atea ville beskriva HPs höga säkerhetstänk gjorde vi det med hjälp av bakelser.
 vimeo: true
@@ -24,15 +24,15 @@ Med en portfölj som innefattar allt från stationära datorer och laptops till 
   include page_video.html
   src="https://player.vimeo.com/video/475836566"
   h="3970fb1f4"
-  caption="TODO"
+  caption=""
 %}
 
-Vi utgick från de specifika egenskaper som HP arbetat fram, som luckan framför webbkameran, och dramatiserade det inom ramen för det övergripande konceptet Can you handle it? Resultatet blev en kampanj som gick i både köpta och egna kanaler med en reklamfilm, display-annonsering, sökannonser och native-annonsering.
+Vi utgick från de specifika egenskaper som HP arbetat fram, som luckan framför webbkameran, och dramatiserade det inom ramen för det övergripande konceptet Can you handle it? Resultatet blev en kampanj som gick i både köpta och egna kanaler med en reklamfilm, display-annonsering, sökannonser och native-annonsering. 
 
 {%
   include page_image.html
   src="/images/cases/atea-hp/devices.jpg"
-  caption="TODO"
+  caption="Produktbilder för displayannonsering, nyhetsbrev samt kampanjsidor hos Atea."
 %}
 
 Kampanj för Atea eShop och HP. Kampanjen aktiverades med reklamfilm, display-ads, SEM och native-ads.

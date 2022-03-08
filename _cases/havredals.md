@@ -10,7 +10,7 @@ color3: "#5d2110"
 color4: "#fd910b"
 all_order: 2
 teaser_heading: Odlad. Renodlad.
-teaser_body: <p>Berättelsen om det nya varumärket Havredals</p>
+teaser_body: <p>Varumärkesberättelse, copy och marknadsstrategi för det nystartade företaget Havredals.</p>
 intro_heading: Odlad. Renodlad.
 intro_lead: Varumärkesberättelse, copy och marknadsstrategi för det nystartade företaget som tillverkar havrebaserade livsmedel.
 ---

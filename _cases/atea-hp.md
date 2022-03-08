@@ -24,7 +24,7 @@ Med en portfölj som innefattar allt från stationära datorer och laptops till 
   include page_video.html
   src="https://player.vimeo.com/video/475836566"
   h="3970fb1f4"
-  caption="TODO"
+  caption=""
 %}
 
 Vi utgick från de specifika egenskaper som HP arbetat fram, som luckan framför webbkameran, och dramatiserade det inom ramen för det övergripande konceptet Can you handle it? Resultatet blev en kampanj som gick i både köpta och egna kanaler med en reklamfilm, display-annonsering, sökannonser och native-annonsering. 
@@ -32,7 +32,7 @@ Vi utgick från de specifika egenskaper som HP arbetat fram, som luckan framför
 {%
   include page_image.html
   src="/images/cases/atea-hp/devices.jpg"
-  caption="TODO"
+  caption="Produktbilder för displayannonsering, nyhetsbrev samt kampanjsidor hos Atea."
 %}
 
 Kampanj för Atea eShop och HP. Kampanjen aktiverades med reklamfilm, display-ads, SEM och native-ads.

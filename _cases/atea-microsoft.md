@@ -12,30 +12,38 @@ all_order: 8
 teaser_heading: Microsoft Surface — kampanj för många ytor
 teaser_body: <p>En film som visade hur Surface-produkterna passar alla, oavsett personlighet.</p>
 intro_heading: Microsoft Surface — kampanj för många ytor
-intro_lead: Atea eShop ville tillsammans med Microsoft lyfta fram bredden av egenskaper hos produkterna inom Microsoft Surface. Vår lösning blev en film som visade hur Surface-produkterna passar alla, oavsett personlighet. Filmen togs även ut i tre kortare delfilmer, display, gifar och motion graphic, och kompletterades med underhållande artiklar om produktegenskaper.
+intro_lead: Atea eShop ville tillsammans med Microsoft lyfta fram bredden av egenskaper hos produkterna inom Microsoft Surface. 
 vimeo: true
 ---
 
-[Video – Ladda upp Vimeo]
+## En huvudfilm gav mängder med enheter
+
+Vår lösning blev en film som visade hur Surface-produkterna passar alla, oavsett personlighet. Filmen togs även ut i tre kortare delfilmer, display, gifar och motion graphic, och kompletterades med underhållande artiklar om produktegenskaper. 
 
 {%
-  include page_image.html
-  src="/images/cases/atea-microsoft/2.jpg"
-  caption="TODO"
+  include page_video.html
+  src="https://player.vimeo.com/video/646069848"
+  h="9fe7bbdb3e"
+  caption="One size doesn't fit all. Microsoft Surface med Atea eShop"
 %}
 
+## Integrerad kampanj i köpta och egna kanaler
+
+Eftersom kampanjen skulle gå i enbart digitala kanaler valde vi att bygga upp och aktivera den med hjälp av flera innhållsdelar som tillsammans bildar en helhet. En huvudfilm och tre
+delfilmer, artiklar för native-annonsering, nyhetsbrev och kampanjsida sammt display-annonsering. 
 {%
   include page_image.html
   src="/images/cases/atea-microsoft/3.jpg"
-  caption="TODO"
+  caption=""
 %}
+
+KWD Studios arbete innefattade kreativ idé/koncept, kampanjstrategi, filmproduktion, copy, produktion av banners, medieplan och aktivering.
 
 {%
   include page_image.html
   src="/images/cases/atea-microsoft/Group-BIG.jpg"
-  caption="TODO"
+  caption="Bilder för displayannonsering samt till nyhetsbrev och kampanjsida hos Atea"
 %}
 
-Kanaler: Youtube, Google display-ads, native-ads och SEM.
 
-KWD Studios arbete innefattade kreativ idé/koncept, kampanjstrategi, filmproduktion, copy, produktion av banners, medieplan och aktivering.
+Kanaler: Youtube, Google display-ads, native-ads och SEM.

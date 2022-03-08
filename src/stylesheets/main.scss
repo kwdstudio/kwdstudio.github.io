@@ -23,7 +23,6 @@
 // -----------------------------------------------------------------------------
 @import "repetitivo/components/grid";
 
-@import "./components/background";
 @import "./components/clients";
 @import "./components/co-workers";
 @import "./components/contact-cta";
@@ -31,12 +30,14 @@
 @import "./components/footer";
 @import "./components/grid";
 @import "./components/header";
-@import "./components/intro";
+@import "./components/jobs-list";
+@import "./components/jobs-list-item";
 @import "./components/label";
 @import "./components/link-list";
 @import "./components/logotype";
 @import "./components/main-nav";
 @import "./components/media";
+@import "./components/menu-toggle";
 @import "./components/section-heading";
 @import "./components/section";
 @import "./components/teaser";

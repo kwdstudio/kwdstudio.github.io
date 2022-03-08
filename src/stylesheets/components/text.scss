@@ -10,26 +10,14 @@ $component-name: "Text";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  &--separated {
-    #{$component-base}-body {
-      @include styles-from-map((
-        padding-bottom: $spacing-deca-gentle,
-        margin-bottom: $spacing-deca-gentle,
-      ));
-
-      border-bottom: 1px solid color(neutral, 8);
-    }
-  }
-
   h2 {
-    @include typography($untitled-serif, deca-gentle, tight);
     @include styles-from-map((
       margin-top: $spacing-deca-gentle,
       margin-bottom: $spacing-milli-gentle,
     ));
 
-    font: inherit;
-    font-weight: $bold-font-weight;
+    @include typography($untitled-sans, hecto-gentle, tight);
+    font-weight: $black-font-weight;
 
     &:first-child {
       margin-top: 0;
@@ -37,7 +25,8 @@ $component-base: ".#{$component-name}";
   }
 
   h3 {
-    @include typography($untitled-serif, base-gentle, tight);
+    @include typography($untitled-sans, base-gentle, tight);
+    font-weight: $black-font-weight;
 
     text-decoration: underline;
   }

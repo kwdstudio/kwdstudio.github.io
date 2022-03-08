@@ -1,14 +1,10 @@
-<div class="Section u-spacingTopKiloSteep">
-  <div class="Wrapper">
-    <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
-      <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--18-of-24 Grid-item-ml--17-of-24 Grid-item-l--16-of-24 Grid-item-xl--14-of-24">
-        <h2 class="SectionHeading">Kunder</h2>
-      </div>
-    </div>
+<div class="Wrapper">
+  <div class="Section Section--centered Section--small u-spacingTopDecaSteep">
+    <h2 class="Section-heading">Några av våra kunder</h2>
 
-    <ul class="Clients Grid Grid Grid--padded Grid--compensatePadded">
+    <ul class="Clients Grid Grid--center Grid--padded Grid--compensatePadded u-spacingTopDecaSteep">
       {% for client in site.clients %}
-        <li class="Grid-item Grid-item--8-of-24 Grid-item-s--6-of-24 Grid-item-m--4-of-24 Clients-client" title="{{ client.name }}">
+        <li class="Grid-item Grid-item--8-of-24 Grid-item-s--6-of-24 Grid-item-m--5-of-24 Grid-item-l--4-of-24 Clients-client" title="{{ client.name }}">
           <h3 class="u-visibilityHidden">{{ client.name }}</h3>
 
           <div class="Clients-clientInner">

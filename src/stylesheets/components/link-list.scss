@@ -9,5 +9,17 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   @include list-disc-inside;
 
-  font-style: italic;
+  &-item {
+    padding-right: .5em;
+
+    &:first-child:before {
+      display: none;
+    }
+  }
+
+  &--inline {
+    #{$component-base}-item {
+      display: inline-block;
+    }
+  }
 }

@@ -13,118 +13,51 @@
 $component-name: "Teaser";
 $component-base: ".#{$component-name}";
 
-$teaser-box-shadow-spread: 10px;
-$teaser-border-radius: 2px;
-$teaser-border-width: (
-  default: 10px,
-  m: 1em,
-);
-
 #{$component-base} {
-  @include styles-from-map((
-    border-width: $teaser-border-width,
-    margin: inverse-map-values($teaser-border-width),
-  ));
-
-  position: relative;
-
-  display: flex;
-
-  border-style: solid;
-  border-color: white;
-
-  text-align: center;
-
-  background: white;
-
-  &:hover,
-  &:focus {
-    z-index: 1;
-
-    background: color(neutral, 10);
-    border-color: color(neutral, 10);
-
-    text-decoration: none;
-  }
-
-
-  // Variant: Small
+  // Element: Link
   // ---------------------------------------------------------------------------
-  &--small {
-    flex-direction: column-reverse;
+  &-link {
+    color: inherit;
 
-    // Element: Text
-    // -------------------------------------------------------------------------
-    #{$component-base}-text {
-      @include styles-from-map((
-        padding-left: $spacing-base-gentle,
-        padding-right: $spacing-base-gentle,
-      ));
-    }
-
-    // Element: Media
-    // -------------------------------------------------------------------------
-    #{$component-base}-media {
-      @include styles-from-map((margin-bottom: $spacing-base-gentle));
-
-      width: 65%;
-
-      margin-left: auto;
-      margin-right: auto;
+    &:hover {
+      color: inherit;
+      text-decoration: none;
     }
   }
 
-  // Variant: Large
+  // Element: Image
   // ---------------------------------------------------------------------------
-  &--large {
-    align-items: center;
+  &-image {
+    display: block;
 
-    flex-direction: column-reverse;
-
-    @include respond-to(m) {
-      flex-direction: row-reverse;
-
-      text-align: left;
-    }
-
-    // Element: Text
-    // -------------------------------------------------------------------------
-    #{$component-base}-text {
-      @include styles-from-map((
-        padding-left: $spacing-hecto-gentle,
-      ), $exclude-breakpoints: default s);
-
-      @include respond-to(m) {
-        width: 35%;
-      }
-    }
-
-    // Element: Media
-    // -------------------------------------------------------------------------
-    #{$component-base}-media {
-      @include styles-from-map((
-        margin-bottom: $spacing-base-gentle,
-      ), $include-breakpoints: default s);
-
-      @include respond-to(m) {
-        width: 65%;
-
-        margin-bottom: 0;
-      }
-    }
+    @include styles-from-map((
+      margin-bottom: $spacing-milli-gentle,
+    ));
   }
 
   // Element: Label
   // ---------------------------------------------------------------------------
   &-label {
-    margin-bottom: 0.4em;
+    @include styles-from-map((
+      margin-bottom: $spacing-micro-gentle,
+    ));
 
     font-weight: $normal-font-weight;
+  }
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
+    @include styles-from-map((
+      margin-bottom: $spacing-nano-gentle,
+    ));
+    @include typography($untitled-sans, deca-gentle, tight);
+    font-weight: $black-font-weight;
   }
 
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
-    @include typography($untitled-serif, base-gentle, tight);
+    @include typography($untitled-serif, deci-gentle, normal);
   }
 }

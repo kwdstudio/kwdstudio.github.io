@@ -4,7 +4,7 @@ $scale-untitled-serif: (
   milli-gentle: scale-map(13px, 1.0079),
   centi-gentle: scale-map(15px, 1.0119),
   deci-gentle:  scale-map(17px, 1.0159),
-  base-gentle:  scale-map(19px, 1.0200),
+  base-gentle:  scale-map(19px, 1.0241),
   deca-gentle:  scale-map(21px, 1.0241),
   hecto-gentle: scale-map(24px, 1.0282),
   kilo-gentle:  scale-map(27px, 1.0323),
@@ -27,6 +27,6 @@ $scale-untitled-serif: (
 );
 
 $scale-untitled-serif-line-height: (
-  normal: scale-map(1.35, 1.01, $round: false),
-  tight:  scale-map(1.25, 1.01, $round: false),
+  normal: scale-map(1.25, 1.0, $round: false),
+  tight:  scale-map(1.1, 1.0, $round: false),
 );

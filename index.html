@@ -1,21 +1,56 @@
 ---
 layout: default
+body_class: hasHero
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"
 color4: "#940797"
-contact_cta_body: <p>Hör av dig så berättar jag mer om hur vi arbetar och hur vi kan hjälpa er!</p>
 title: KWD Studio – Innehållsdriven marknadsföring
 description: Vi hjälper våra kunder med innehållsdriven marknadsföring i digitala och sociala kanaler.
 clean_title: true
 ---
 
-{% include intro.html %}
+{% assign ordered_cases = site.cases | sort: "all_order" %}
 
-{% include cases.html %}
+{% for case in ordered_cases limit: 1 %}
+  {%
+    include case.html
+    url=case.url
+    title=case.title
+    client=case.client
+    heading=case.teaser_heading
+    body=case.teaser_body
+  %}
+{% endfor %}
 
-{% include services.html %}
+<div class="Section Section--centered">
+  <div class="Section-content">
+    <div class="Wrapper">
+      <div class="Section-contentInner">
+        <div class="Section-body">
+          <p>Vi rör oss i gränslandet mellan innehållsdriven marknadsföring och reklam, alltid med målgruppens intressen först. Varje varumärke har sin kultur och kontext. Vårt jobb är att förstå den kontexten och omsätta det till kommunikationslösningar som tilltalar målgruppen.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<div class="Wrapper">
+  <div class="Grid Grid--padded Grid--compensatePadded Teasers">
+    {% for case in ordered_cases limit: 8 offset: continue %}
+      <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+        {%
+          include teaser.html
+          url=case.url
+          image=case.image
+          label=case.client
+          heading=case.teaser_heading
+          body=case.teaser_body
+        %}
+      </div>
+    {% endfor %}
+  </div>
+</div>
 
 {% include clients.html %}
 
-{% include contact.html %}

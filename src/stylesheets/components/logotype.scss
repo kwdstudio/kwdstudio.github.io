@@ -5,10 +5,10 @@ $component-name: "Logotype";
 $component-base: ".#{$component-name}";
 
 $logotype-width-header: (
-  default: 150px,
-  m: 180px,
-  l: 220px,
-  xl: 250px,
+  default: 100px,
+  m: 110px,
+  l: 120px,
+  xl: 135px,
 );
 
 $logotype-width-footer: (
@@ -21,10 +21,30 @@ $logotype-width-footer: (
 #{$component-base} {
   display: block;
 
+  &-gradientInvertedBackground {
+    display: none;
+  }
+
+  &-vector {
+    display: block;
+  }
+
   &--header {
     @include styles-from-map((
       width: $logotype-width-header,
     ));
+
+    #{$component-base}-gradientBackground {
+      .hasHero & {
+        display: none;
+      }
+    }
+
+    #{$component-base}-gradientInvertedBackground {
+      .hasHero & {
+        display: block;
+      }
+    }
   }
 
   &--footer {

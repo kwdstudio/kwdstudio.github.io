@@ -1,5 +1,5 @@
-body {
-  position: relative;
+@import "../functions/color";
 
-  height: 100%;
+body {
+  background: color(neutral, 10);
 }

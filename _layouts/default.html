@@ -24,7 +24,7 @@
     {% if page.image %}
       <meta property="og:image" content="{{ site.base_url }}{{ page.image }}">
     {% else %}
-      <meta property="og:image" content="https://kwdstudio.se/images/pages/start.jpg">
+      <meta property="og:image" content="{{ site.base_url }}/images/pages/start.jpg">
     {% endif %}
     <meta property="og:title" content="{{ page.title }}">
     <meta property="og:type" content="website">
@@ -34,14 +34,12 @@
     <meta name="twitter:card" content="summary_large_image">
     <meta name="twitter:site" content="@KwdStudio">
   </head>
-  <body>
+  <body{% if page.body_class %} class="{{ page.body_class }}"{% endif %}>
     {% include header.html %}
 
     {{ content }}
 
     {% include footer.html %}
-
-    {% include background.html %}
 
     <script src="{{ site.assets_base_url }}/javascripts/application.js" async></script>
 

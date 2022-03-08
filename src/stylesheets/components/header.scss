@@ -1,5 +1,7 @@
 @import "../config/spacing";
 
+@import "../functions/color";
+
 @import "repetitivo/helpers/respond-to";
 @import "repetitivo/helpers/styles-from-map";
 
@@ -10,28 +12,70 @@ $component-name: "Header";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  @include styles-from-map((
-    margin-bottom: $spacing-deca-gentle,
-  ));
+  .hasHero & {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 900;
+  }
 
   // Element: Inner
   // ---------------------------------------------------------------------------
   &-inner {
-    @include respond-to(m) {
-      display: flex;
-      align-items: flex-end;
-    }
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    @include styles-from-map((
+      padding-top: $spacing-deca-gentle,
+      padding-bottom: $spacing-deca-gentle,
+    ));
   }
 
   // Element: Logotype
   // ---------------------------------------------------------------------------
   &-logotype {
-    margin-bottom: 0.5em;
 
+  }
+
+  // Element: Menu Toggle
+  // ---------------------------------------------------------------------------
+  &-menuToggle {
     @include respond-to(m) {
-      width: 50%;
-
-      margin-bottom: 0;
+      display: none;
     }
   }
+
+  // Element: Nav
+  // ---------------------------------------------------------------------------
+  &-nav {
+    display: none;
+
+    @include respond-to(pre-m) {
+      flex: 0 0 100%;
+      @include styles-from-map((
+        margin-top: $spacing-deca-gentle,
+      ));
+    }
+
+    @include respond-to(m) {
+      display: block;
+    }
+
+    // Context: Nav is open
+    // ---------------------------------------------------------------------------
+    .navigation-is-open & {
+      display: block;
+    }
+
+  }
+
+  // Context: Nav is open
+  // ---------------------------------------------------------------------------
+  .navigation-is-open & {
+    background: color(purple, -10);
+  }
+
 }

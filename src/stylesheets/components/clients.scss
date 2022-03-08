@@ -36,8 +36,6 @@ $component-base: ".#{$component-name}";
     @include flex-embed-container;
 
     padding-top: intrinsic-ratio(16, 9);
-
-    background: color(neutral, 10);
   }
 
   // Element: Client Inner Inner
@@ -45,10 +43,10 @@ $component-base: ".#{$component-name}";
   &-clientInnerInner {
     @include flex-embed-item;
     @include styles-from-map((
-      padding-left: $spacing-deca-gentle,
-      padding-right: $spacing-deca-gentle,
-      padding-top: $spacing-base-gentle,
-      padding-bottom: $spacing-base-gentle,
+      padding-left: $spacing-base-gentle,
+      padding-right: $spacing-base-gentle,
+      padding-top: $spacing-deci-gentle,
+      padding-bottom: $spacing-deci-gentle,
     ));
 
     align-items: center;

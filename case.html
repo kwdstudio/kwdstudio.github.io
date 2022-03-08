@@ -12,30 +12,27 @@ color4: "#940797"
 <div class="Wrapper">
   <header class="ContentHead">
     <div class="Grid Grid--padded Grid--compensatePadded Grid--center">
-      <div class="Grid-item Grid-item-m--22-of-24 Grid-item-ml--20-of-24 Grid-item-l--18-of-24 Grid-item-xl--16-of-24 Grid-item-s--push-1 Grid-item-m--push-3 Grid-item-l--push-2 Grid-item-xl--push-4">
+      <div class="Grid-item Grid-item-m--22-of-24 Grid-item-ml--20-of-24 Grid-item-l--20-of-24 Grid-item-s--push-1 Grid-item-m--push-3 Grid-item-l--push-4">
         <h1 class="ContentHead-heading">Kunder och uppdrag</h1>
 
-        <div class="ContentHead-lead"><p>Film och varumärkesberättelser, innehållsstrategi och metoder för kampanjutvärdering; <a href="/tjanster">allt det där som beskrivs under tjänster</a> kan bli ganska olika saker. Här är några exempel:</p></div>
+        <div class="ContentHead-lead"><p>Varje varumärke har sin egen affär, kultur, mål och målgrupp. Det gör att inget uppdrag är det andra likt. Här är några exempel på vad vi gjort.</p></div>
       </div>
     </div>
   </header>
+</div>
 
-  <div class="Grid Grid--center Grid--padded Grid--compensatePadded Teasers">
+<div class="Wrapper u-spacingTopDecaSteep">
+  <div class="Grid Grid--padded Grid--compensatePadded Teasers">
     {% for case in ordered_cases %}
-      <div class="Teasers-teaser Grid-item {% if case.all_size == "small" %}Grid-item-m--10-of-24{% endif %}">
-        <a href="{{ case.url }}" class="Teaser Teaser--{{ case.all_size }}" style="color: {{ case.color3 }};">
-          <div class="Teaser-text">
-            <h2 class="Teaser-label Label">{{ case.client }} ({{ case.year }})</h2>
-
-            <div class="Teaser-body">
-              {{ case.teaser_body }}
-            </div>
-          </div>
-
-          <div class="Teaser-media">
-            <img src="/images/cases/{{ case.title | slugify: "latin" }}/teaser.jpg" alt="">
-          </div>
-        </a>
+      <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+        {%
+          include teaser.html
+          url=case.url
+          image=case.image
+          label=case.client
+          heading=case.teaser_heading
+          body=case.teaser_body
+        %}
       </div>
     {% endfor %}
   </div>

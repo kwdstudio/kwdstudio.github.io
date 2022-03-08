@@ -4,18 +4,15 @@ title: Atea
 description: Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.
 image: /images/cases/atea/featured.jpg
 client: Atea
-year: 2019
 color1: "#b7005b"
 color2: "#b7005b"
 color3: "#270b40"
 color4: "#cdbda8"
-startpage_order: 3
-startpage_size: large
 all_order: 1
-all_size: large
-teaser_body: <p>Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.</p>
-intro_heading: Ett nytt koncept som bryter med it-branschens normer och konventioner
-contact_cta_body: <p>Jag berättar gärna mer om hur vi arbetat med Atea och hur vi kan hjälpa er.</p>
+teaser_heading: Can you handle it?
+teaser_body: <p>Ett koncept som bryter med it-branschens normer och konventioner</p>
+intro_heading: Can you handle it?
+intro_lead: Ett nytt koncept som bryter med it-branschens normer och konventioner.
 vimeo: true
 ---
 
@@ -25,7 +22,8 @@ Atea eShop ville förnya sig och öka intresset för sin e-handel. De efterfråg
 
 {%
   include page_video.html
-  src="https://player.vimeo.com/video/380214483?h=9fe7bbdb3e"
+  src="https://player.vimeo.com/video/380214483"
+  h="9fe7bbdb3e"
   caption="I konceptet Can you handle it? är produkterna en del av dramaturgin. Fokus ligger på användarnytta."
 %}
 

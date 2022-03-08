@@ -7,31 +7,30 @@ $component-name: "Grid";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
+  &--center {
+    @include grid-container--center;
+  }
+
   // Element: Item
   // ---------------------------------------------------------------------------
   &-item {
     @include repetitivo-generate-width-modifier(8 of 24);
-    @include repetitivo-generate-width-modifier(12 of 24);
 
     @include repetitivo-generate-width-modifier(6 of 24, s);
+    @include repetitivo-generate-width-modifier(12 of 24, s);
     @include repetitivo-generate-width-modifier(22 of 24, s);
 
-    @include repetitivo-generate-width-modifier(4 of 24, m);
-    @include repetitivo-generate-width-modifier(6 of 24, m);
-    @include repetitivo-generate-width-modifier(8 of 24, m);
-    @include repetitivo-generate-width-modifier(10 of 24, m);
+    @include repetitivo-generate-width-modifier(5 of 24, m);
     @include repetitivo-generate-width-modifier(18 of 24, m);
-    @include repetitivo-generate-width-modifier(20 of 24, m);
     @include repetitivo-generate-width-modifier(22 of 24, m);
 
     @include repetitivo-generate-width-modifier(17 of 24, ml);
-    @include repetitivo-generate-width-modifier(18 of 24, ml);
     @include repetitivo-generate-width-modifier(20 of 24, ml);
 
+    @include repetitivo-generate-width-modifier(8 of 24, l);
+    @include repetitivo-generate-width-modifier(4 of 24, l);
     @include repetitivo-generate-width-modifier(16 of 24, l);
-    @include repetitivo-generate-width-modifier(18 of 24, l);
-
-    @include repetitivo-generate-width-modifier(14 of 24, xl);
+    @include repetitivo-generate-width-modifier(20 of 24, l);
 
     &-s--push-1 {
       @include respond-to(s) {
@@ -45,14 +44,8 @@ $component-base: ".#{$component-name}";
       }
     }
 
-    &-l--push-2 {
+    &-l--push-4 {
       @include respond-to(l) {
-        margin-left: grid-column-width(2, 24);
-      }
-    }
-
-    &-xl--push-4 {
-      @include respond-to(xl) {
         margin-left: grid-column-width(4, 24);
       }
     }

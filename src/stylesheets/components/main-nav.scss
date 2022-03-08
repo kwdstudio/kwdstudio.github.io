@@ -17,37 +17,31 @@ $component-name: "MainNav";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  color: color(pink, 0);
+  color: color(purple, -10);
 
   // Element: List
   // ---------------------------------------------------------------------------
   &-list {
-    @include typography($untitled-serif, deca-gentle, tight);
+    @include typography($untitled-sans, kilo-gentle, tight);
+    font-weight: $black-font-weight;
     @include list-reset;
 
-    display: flex;
-    justify-content: center;
-
     @include respond-to(m) {
+      display: flex;
       justify-content: normal;
+
+      @include typography($untitled-sans, deci-gentle, tight);
     }
   }
 
   // Element: Item
   // ---------------------------------------------------------------------------
   &-item {
-    &::after {
-      content: "/";
+    @include respond-to(m) {
+      margin-left: 1.5em;
 
-      margin-left: 0.5em;
-      margin-right: 0.5em;
-
-      color: color(neutral, 0);
-    }
-
-    &:last-child {
-      &::after {
-        content: none;
+      &:first-child {
+        margin-left: 0;
       }
     }
   }
@@ -55,6 +49,31 @@ $component-base: ".#{$component-name}";
   // Element: Link
   // ---------------------------------------------------------------------------
   &-link {
+    display: block;
+
+    color: currentColor;
+
+    .hasHero &,
+    .hasHero &:hover {
+      color: color(white);
+    }
+
+    &:hover {
+      color: currentColor;
+      text-decoration: none;
+    }
+
+    @include respond-to(pre-m) {
+      @include styles-from-map((
+        padding-top: $spacing-milli-gentle,
+        padding-bottom: $spacing-milli-gentle,
+      ));
+    }
+  }
+
+  // Element: Link
+  // ---------------------------------------------------------------------------
+  &-linkInner {
     position: relative;
 
     color: currentColor;
@@ -67,8 +86,6 @@ $component-base: ".#{$component-name}";
     }
 
     &.is-current {
-      font-style: italic;
-
       &::before {
         content: "";
 
@@ -83,5 +100,11 @@ $component-base: ".#{$component-name}";
         background: currentColor;
       }
     }
+  }
+
+  // Context: Nav is open
+  // ---------------------------------------------------------------------------
+  .navigation-is-open & {
+    color: color(white);
   }
 }

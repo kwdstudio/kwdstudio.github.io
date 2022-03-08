@@ -12,38 +12,159 @@ $component-base: ".#{$component-name}";
 
 #{$component-base} {
   position: relative;
+  @include styles-from-map((
+    padding-top: $spacing-kilo-gentle,
+    padding-bottom: $spacing-kilo-gentle,
+  ));
 
-  // Variant: White
+  // Element: Link
   // ---------------------------------------------------------------------------
-  &--white {
-    @include styles-from-map((
-      padding-top: $spacing-hecto-steep,
-      padding-bottom: $spacing-hecto-steep,
-    ));
+  &-link {
+    color: inherit;
 
-    background: color(white);
+    &:hover {
+      color: inherit;
+      text-decoration: none;
+    }
+
+  }
+
+  // Element: Image Wrapper
+  // ---------------------------------------------------------------------------
+  &-imageWrapper {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+  }
+
+  // Element: Image Figure
+  // ---------------------------------------------------------------------------
+  &-imageFigure {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+  }
+
+  // Element: Image
+  // ---------------------------------------------------------------------------
+  &-image {
+  }
+
+  // Element: Image Object
+  // ---------------------------------------------------------------------------
+  &-imageObject {
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: 50% 80%;
+  }
+
+  // Element: Content
+  // ---------------------------------------------------------------------------
+  &-content {
+
+  }
+
+  // Element: Content Inner
+  // ---------------------------------------------------------------------------
+  &-contentInner {
+    margin-left: auto;
+    margin-right: auto;
+
+    @include respond-to(s) {
+      width: grid-column-width(12, 24);
+    }
+
+    @include respond-to(m) {
+      width: grid-column-width(18, 24);
+    }
+
+    @include respond-to(ml) {
+      width: grid-column-width(17, 24);
+    }
+
+    @include respond-to(l) {
+      width: grid-column-width(14, 24);
+    }
+  }
+
+  // Element: Label
+  // ---------------------------------------------------------------------------
+  &-label {
+    @include styles-from-map((
+      margin-bottom: $spacing-micro-gentle,
+    ));
+  }
+
+  // Element: Heading
+  // ---------------------------------------------------------------------------
+  &-heading {
+    @include styles-from-map((
+      margin-bottom: $spacing-milli-gentle,
+    ));
+    @include typography($untitled-sans, kilo-steep, tight);
+    font-weight: $black-font-weight;
+
+    br {
+      display: none;
+
+      @include respond-to(ml) {
+        display: inline;
+      }
+    }
+  }
+
+  // Element: Lead
+  // ---------------------------------------------------------------------------
+  &-lead {
+    @include typography($untitled-serif, hecto-gentle, normal);
+  }
+
+  // Variant: Small
+  // ---------------------------------------------------------------------------
+  &--small {
+    #{$component-base}-heading {
+      @include typography($untitled-sans, base-gentle, tight);
+      font-weight: $black-font-weight;
+    }
+  }
+
+  // Variant: Centered
+  // ---------------------------------------------------------------------------
+  &--centered {
+    #{$component-base}-heading,
+    #{$component-base}-contentInner {
+      text-align: center;
+    }
+  }
+
+  // Variant: Inverted
+  // ---------------------------------------------------------------------------
+  &--inverted {
+    color: color(white);
+    text-shadow: 0 0 8px rgba(0,0,0,.2);
   }
 
   // Variant: Neutral 10
   // ---------------------------------------------------------------------------
   &--neutral10 {
-    @include styles-from-map((
-      padding-top: $spacing-hecto-steep,
-      padding-bottom: $spacing-hecto-steep,
-    ));
+    background: color(neutral, 8);
+  }
 
-    &::before {
-      content: "";
+  // Variant: Hero Image
+  // ---------------------------------------------------------------------------
+  &--heroImage {
+    height: 90vh;
 
+    #{$component-base}-content {
       position: absolute;
-      top: 0;
-      left: 0;
+      top: 50%;
+      transform: translateY(-50%);
       width: 100%;
-      height: 100%;
-      z-index: -1;
-      mix-blend-mode: multiply;
-
-      background: color(neutral, 10);
     }
   }
 }

@@ -1,0 +1,11 @@
+@import "../patterns/list";
+
+//
+// Component: Jobs List
+// =============================================================================
+$component-name: "JobsList";
+$component-base: ".#{$component-name}";
+
+#{$component-base} {
+  @include list-reset;
+}

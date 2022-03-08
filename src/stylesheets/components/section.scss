@@ -127,6 +127,7 @@ $component-base: ".#{$component-name}";
   // Variant: Centered
   // ---------------------------------------------------------------------------
   &--centered {
+    #{$component-base}-heading,
     #{$component-base}-contentInner {
       text-align: center;
     }

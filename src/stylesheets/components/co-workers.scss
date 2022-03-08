@@ -52,14 +52,14 @@ $co-workers-co-worker-width: 800px;
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
-    @include typography($untitled-serif, deci-gentle, tight);
+    @include typography($untitled-serif, deci-gentle, normal);
   }
 
   // Element: Heading
   // ---------------------------------------------------------------------------
   &-heading {
-    font: inherit;
-    font-weight: $bold-font-weight;
+    @include typography($untitled-sans, deci-gentle, tight);
+    font-weight: $black-font-weight;
   }
 
   // Element: Contact Info

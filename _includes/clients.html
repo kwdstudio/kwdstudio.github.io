@@ -1,10 +1,10 @@
 <div class="Wrapper">
-  <div class="Section Section--centered u-spacingTopKiloSteep">
+  <div class="Section Section--centered">
     <h2 class="Section-heading">Kunder</h2>
 
-    <ul class="Clients Grid Grid--padded Grid--compensatePadded">
+    <ul class="Clients Grid Grid--center Grid--padded Grid--compensatePadded">
       {% for client in site.clients %}
-        <li class="Grid-item Grid-item--8-of-24 Grid-item-s--6-of-24 Grid-item-m--4-of-24 Clients-client" title="{{ client.name }}">
+        <li class="Grid-item Grid-item--8-of-24 Grid-item-s--6-of-24 Grid-item-m--5-of-24 Grid-item-l--4-of-24 Clients-client" title="{{ client.name }}">
           <h3 class="u-visibilityHidden">{{ client.name }}</h3>
 
           <div class="Clients-clientInner">

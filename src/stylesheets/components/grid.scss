@@ -7,6 +7,10 @@ $component-name: "Grid";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
+  &--center {
+    @include grid-container--center;
+  }
+
   // Element: Item
   // ---------------------------------------------------------------------------
   &-item {
@@ -16,7 +20,7 @@ $component-base: ".#{$component-name}";
     @include repetitivo-generate-width-modifier(12 of 24, s);
     @include repetitivo-generate-width-modifier(22 of 24, s);
 
-    @include repetitivo-generate-width-modifier(4 of 24, m);
+    @include repetitivo-generate-width-modifier(5 of 24, m);
     @include repetitivo-generate-width-modifier(18 of 24, m);
     @include repetitivo-generate-width-modifier(22 of 24, m);
 
@@ -24,6 +28,7 @@ $component-base: ".#{$component-name}";
     @include repetitivo-generate-width-modifier(20 of 24, ml);
 
     @include repetitivo-generate-width-modifier(8 of 24, l);
+    @include repetitivo-generate-width-modifier(4 of 24, l);
     @include repetitivo-generate-width-modifier(16 of 24, l);
     @include repetitivo-generate-width-modifier(20 of 24, l);
 

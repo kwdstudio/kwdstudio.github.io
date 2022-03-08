@@ -124,6 +124,15 @@ $component-base: ".#{$component-name}";
     @include typography($untitled-serif, hecto-gentle, normal);
   }
 
+  // Variant: Small
+  // ---------------------------------------------------------------------------
+  &--small {
+    #{$component-base}-heading {
+      @include typography($untitled-sans, base-gentle, tight);
+      font-weight: $black-font-weight;
+    }
+  }
+
   // Variant: Centered
   // ---------------------------------------------------------------------------
   &--centered {

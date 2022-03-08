@@ -124,6 +124,15 @@ $component-base: ".#{$component-name}";
     @include typography($untitled-serif, hecto-gentle, normal);
   }
 
+  // Variant: Small
+  // ---------------------------------------------------------------------------
+  &--small {
+    #{$component-base}-heading {
+      @include typography($untitled-sans, base-gentle, tight);
+      font-weight: $black-font-weight;
+    }
+  }
+
   // Variant: Centered
   // ---------------------------------------------------------------------------
   &--centered {
@@ -138,6 +147,12 @@ $component-base: ".#{$component-name}";
   &--inverted {
     color: color(white);
     text-shadow: 0 0 8px rgba(0,0,0,.2);
+  }
+
+  // Variant: Neutral 10
+  // ---------------------------------------------------------------------------
+  &--neutral10 {
+    background: color(neutral, 8);
   }
 
   // Variant: Hero Image

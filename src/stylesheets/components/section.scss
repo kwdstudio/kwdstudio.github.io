@@ -149,6 +149,12 @@ $component-base: ".#{$component-name}";
     text-shadow: 0 0 8px rgba(0,0,0,.2);
   }
 
+  // Variant: Neutral 10
+  // ---------------------------------------------------------------------------
+  &--neutral10 {
+    background: color(neutral, 8);
+  }
+
   // Variant: Hero Image
   // ---------------------------------------------------------------------------
   &--heroImage {

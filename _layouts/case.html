@@ -3,6 +3,10 @@ layout: default
 ---
 {% assign ordered_cases = site.cases | sort: "all_order" %}
 
+{% assign case_offset = page.all_order %}
+
+{% assign case_fill = ordered_cases.size | minus: case_offset | minus: 3 | times: -1 %}
+
 <div style="color: {{ page.color3 }}">
 
   <div class="Wrapper">
@@ -35,7 +39,20 @@ layout: default
     <h2 class="Section-heading">Fler uppdrag</h2>
 
     <div class="Grid Grid--padded Grid--compensatePadded Teasers u-spacingTopBaseSteep">
-      {% for case in ordered_cases limit:3 %}
+      {% for case in ordered_cases limit:3 offset:case_offset %}
+        <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+          {%
+            include teaser.html
+            url=case.url
+            image=case.image
+            label=case.client
+            heading=case.intro_heading
+            body=case.teaser_body
+          %}
+        </div>
+      {% endfor %}
+
+      {% for case in ordered_cases limit:case_fill %}
         <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
           {%
             include teaser.html

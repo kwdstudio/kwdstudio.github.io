@@ -1,6 +1,6 @@
 base_url: http://kwd-studio-staging.s3-website.eu-north-1.amazonaws.com
 assets_base_url: http://kwd-studio-staging.s3-website.eu-north-1.amazonaws.com
-google_analytics_id: ""
+analytics: false
 prevent_crawling: true
 permalink: /:path:output_ext
 collections:

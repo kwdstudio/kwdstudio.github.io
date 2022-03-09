@@ -11,7 +11,7 @@ color4: "#cdbda8"
 all_order: 8
 teaser_heading: Microsoft Surface — kampanj för många ytor
 teaser_body: <p>En film som visade hur Surface-produkterna passar alla, oavsett personlighet.</p>
-intro_heading: Microsoft Surface — kampanj för många ytor
+intro_heading: Microsoft Surface — för många ytor
 intro_lead: Atea eShop ville tillsammans med Microsoft lyfta fram bredden av egenskaper hos produkterna inom Microsoft Surface. 
 vimeo: true
 ---

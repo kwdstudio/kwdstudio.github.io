@@ -31,5 +31,5 @@ Du är utbildad inom marknadsföring eller kommunikation. Du kansek har arbetat 
 
 ## Ansök
 
-Om du vill utvecklas inom kommunikation och digital marknadsföring tillsammans med en nyfiken grupp av projektledare, strateger och konceptutvecklare, skicka en ansökan med CV till vår vd, Karolina Westerlund, [karolina@kwdstudio.se](mailto:karolina@kwdstudio.se). Vi ser fram emot! 
+Om du vill utvecklas inom kommunikation och digital marknadsföring tillsammans med en nyfiken grupp av projektledare, strateger och konceptutvecklare, skicka en ansökan med CV till vår vd, Karolina Westerlund, [karolina@kwdstudio.se](mailto:karolina@kwdstudio.se). Välkommen! 
 

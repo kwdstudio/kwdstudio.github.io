@@ -27,9 +27,9 @@ Vi tänker att du har ett stort intresse för och ambitioner att utvecklas inom 
 
 Vi tror att du är en person som är nyfiken på människors behov och beteenden i en digital kontext. Du är intresserad av målgrupper, kanaler och resultat: varför gick det som det gick, och vad kan vi lära av det? (snarare än “så här bra gick det”). Du har förmåga att sätta dig in i ett problem och kunna omformulera det till en lösning. Du arbetar bra i team, delar gärna din kunskap med andra och lyssnar på andras idéer och erfarenheter. 
 
-Du är utbildad inom marknadsföring eller kommunikation. Du har förmodligen arbetat på byrå ett tag. Om du har erfarenhet från kundsidan och förstår beställarrollen med allt vad det innebär så är det ett plus.
+Du är utbildad inom marknadsföring eller kommunikation. Du kansek har arbetat på byrå ett tag. Om du har erfarenhet från kundsidan och förstår beställarrollen med allt vad det innebär så är det ett plus.
 
 ## Ansök
 
-Om du vill utvecklas inom kommunikation och digital marknadsföring tillsammans med en nyfiken grupp av projektledare, strateger och konceptutvecklare, skicka en ansökan med CV till vår vd, Karolina Westerlund, [karolina@kwdstudio.se](mailto:karolina@kwdstudio.se).
+Om du vill utvecklas inom kommunikation och digital marknadsföring tillsammans med en nyfiken grupp av projektledare, strateger och konceptutvecklare, skicka en ansökan med CV till vår vd, Karolina Westerlund, [karolina@kwdstudio.se](mailto:karolina@kwdstudio.se). Vi ser fram emot! 
 

@@ -7,7 +7,7 @@ color2: "#effc13"
 color3: "#00b295"
 color4: "#940797"
 intro_heading: Digital strateg
-intro_lead: "<p>Vi söker nu en digital strateg som är kunnig inom målgruppsanalys och segmentering, som har koll på digitala kanalers möjligheter och begränsningar, och som vet hur man paketerar innehåll för att passa både målgrupp och kanal.</p>"
+intro_lead: "<p>Vi söker nu en digital strateg som är kunnig inom målgruppsanalys, har koll på digitala kanalers möjligheter och begränsningar, och vet vad som krävs för att för att nå fram till en specifik målgrupp.</p>"
 ---
 Tillsammans med konceptutvecklare och innehållsstrateger har du en nyckelroll i att maximera effekten av våra kunders marknadsaktiviteter. Du kan kanalernas förutsättningar och hur de tillsammans med människors beteenden kan hjälpa varumärken att nå rätt målgrupp. Du har även koll på hur man paketerar innehåll för att på bästa sätt passa både målgrupp och kanal. 
 

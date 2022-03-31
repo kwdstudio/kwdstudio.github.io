@@ -7,7 +7,7 @@ color2: "#effc13"
 color3: "#00b295"
 color4: "#940797"
 intro_heading: Digital strateg
-intro_lead: "<p>Vi söker nu en digital strateg som är kunnig inom målgruppsanalys, har koll på digitala kanalers möjligheter och begränsningar, och vet vad som krävs för att för att nå fram till en specifik målgrupp.</p>"
+intro_lead: "<p>Vi söker en digital strateg som är kunnig inom målgruppsanalys, har koll på digitala kanalers möjligheter och begränsningar, och vet vad som krävs för att för att nå fram till en specifik målgrupp.</p>"
 ---
 Tillsammans med konceptutvecklare och innehållsstrateger har du en nyckelroll i att maximera effekten av våra kunders marknadsaktiviteter. Du kan kanalernas förutsättningar och hur de tillsammans med människors beteenden kan hjälpa varumärken att nå rätt målgrupp. Du har även koll på hur man paketerar innehåll för att på bästa sätt passa både målgrupp och kanal. 
 
@@ -27,7 +27,7 @@ Vi tänker att du har ett stort intresse för och ambitioner att utvecklas inom 
 
 Vi tror att du är en person som är nyfiken på människors behov och beteenden i en digital kontext. Du är intresserad av målgrupper, kanaler och resultat: varför gick det som det gick, och vad kan vi lära av det? (snarare än “så här bra gick det”). Du har förmåga att sätta dig in i ett problem och kunna omformulera det till en lösning. Du arbetar bra i team, delar gärna din kunskap med andra och lyssnar på andras idéer och erfarenheter. 
 
-Du är utbildad inom marknadsföring eller kommunikation. Du kansek har arbetat på byrå ett tag. Om du har erfarenhet från kundsidan och förstår beställarrollen med allt vad det innebär så är det ett plus.
+Du är utbildad inom marknadsföring eller kommunikation. Du kanske har arbetat på byrå ett tag. Om du har erfarenhet från kundsidan och förstår beställarrollen med allt vad det innebär så är det ett plus.
 
 ## Ansök
 

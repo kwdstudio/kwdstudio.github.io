@@ -19,25 +19,45 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   @include styles-from-map((
     margin-top: $spacing-kilo-steep,
-    padding-bottom: $spacing-hecto-gentle,
+    padding-bottom: $spacing-kilo-gentle,
   ));
 
-  // Element: Inner
+  // Element: Logotype
   // ---------------------------------------------------------------------------
-  &-inner {
-    display: flex;
-    justify-content: space-between;
+  &-logotype {
+    @include styles-from-map((
+      margin-bottom: $spacing-kilo-gentle,
+    ));
+  }
 
-    @include respond-to(m) {
-      align-items: center;
+  // Element: Part
+  // ---------------------------------------------------------------------------
+  &-part {
+    @include typography($untitled-sans, deci-steep, normal);
+    @include styles-from-map((
+      margin-bottom: $spacing-hecto-gentle,
+    ));
+
+    > p,
+    > ul {
+      margin-bottom: 0;
+    }
+
+    a {
+      text-decoration: none;
+      color: color(purple, -10);
     }
   }
 
   // Element: Nav
   // ---------------------------------------------------------------------------
   &-nav {
+    @include styles-from-map((
+      margin-top: $spacing-base-gentle,
+      margin-bottom: $spacing-kilo-gentle,
+    ));
     @include list-reset;
-    @include typography($untitled-sans, centi-gentle, tight);
+    @include typography($untitled-sans, deci-gentle, tight);
     font-weight: $black-font-weight;
 
     @include respond-to(m) {
@@ -67,5 +87,20 @@ $component-base: ".#{$component-name}";
   &-navLink {
     text-decoration: none;
     color: color(purple, -10);
+    @include styles-from-map((
+      margin-bottom: $spacing-hecto-gentle,
+    ));
+  }
+
+  // Element: Copyright
+  // ---------------------------------------------------------------------------
+  &-copyright {
+  }
+
+  // Element: Copyright Content
+  // ---------------------------------------------------------------------------
+  &-copyrightContent {
+    @include typography($untitled-sans, milli-gentle, normal);
+    color: color(purple, 6);
   }
 }

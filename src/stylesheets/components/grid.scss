@@ -22,6 +22,7 @@ $component-base: ".#{$component-name}";
 
     @include repetitivo-generate-width-modifier(5 of 24, m);
     @include repetitivo-generate-width-modifier(18 of 24, m);
+    @include repetitivo-generate-width-modifier(12 of 24, m);
     @include repetitivo-generate-width-modifier(22 of 24, m);
 
     @include repetitivo-generate-width-modifier(17 of 24, ml);
@@ -29,11 +30,18 @@ $component-base: ".#{$component-name}";
 
     @include repetitivo-generate-width-modifier(8 of 24, l);
     @include repetitivo-generate-width-modifier(4 of 24, l);
+    @include repetitivo-generate-width-modifier(11 of 24, l);
     @include repetitivo-generate-width-modifier(16 of 24, l);
     @include repetitivo-generate-width-modifier(20 of 24, l);
 
     &-s--push-1 {
       @include respond-to(s) {
+        margin-left: grid-column-width(1, 24);
+      }
+    }
+
+    &-l--push-1 {
+      @include respond-to(l) {
         margin-left: grid-column-width(1, 24);
       }
     }

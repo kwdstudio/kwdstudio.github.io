@@ -1,17 +1,43 @@
 <footer class="Footer">
   <div class="Wrapper">
-    <div class="Footer-inner">
-      <ul class="Footer-nav">
-        <li class="Footer-navItem"><a href="/" class="Footer-navLink">Start</a></li>
-        <li class="Footer-navItem"><a href="{% link case.html %}" class="Footer-navLink">Case</a></li>
-        <li class="Footer-navItem"><a href="{% link jobb.html %}" class="Footer-navLink">Lediga jobb</a></li>
-        <li class="Footer-navItem"><a href="{% link om-oss.html %}" class="Footer-navLink">Om oss</a></li>
-        <li class="Footer-navItem"><a href="{% link kontakt.html %}" class="Footer-navLink">Kontakt</a></li>
-      </ul>
-
-      <div class="Footer-logotype">
-        {% include logotype.html location="footer" gradient_color_1="#effc13" gradient_color_2="#00b295" gradient_color_3="#940797" %}
+    <div class="Footer-logotype">
+      {% include logotype.html location="footer" gradient_color_1="#effc13" gradient_color_2="#00b295" gradient_color_3="#940797" %}
+    </div>
+    <div class="Grid Grid--padded Grid--compensatePadded">
+      <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--12-of-24 Grid-item-l--11-of-24">
+        <div class="Footer-part">
+          <p>KWD Studio – en byrå specialiserad på digital marknadsföring och kommunikation.</p>
+        </div>
       </div>
+      <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--12-of-24 Grid-item-l--push-1">
+        <div class="Footer-part u-clearFloat">
+          <p>{% include icons/agency-of-the-year.svg %} Nöjda kunder gav oss 2:a&nbsp;plats i Årets&nbsp;Byrå!</p>
+        </div>
+      </div>
+      <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--12-of-24 Grid-item-l--11-of-24">
+        <div class="Footer-part">
+          <p><a href="https://goo.gl/maps/jDUntKjcmo36d2nt9">Repslagargatan 17B, 118 46 Stockholm</a></p>
+          <ul class="LinkList LinkList--inline LinkList--inlineSpaced u-spacingTopMilliGentle">
+            <li class="LinkList-item"><a href="https://www.linkedin.com/company/kwd-studio/">{% include icons/linkedin.svg %}</a></li>
+            <li class="LinkList-item"><a href="https://www.instagram.com/kwdstudio/">{% include icons/instagram.svg %}</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--12-of-24 Grid-item-l--push-1">
+        <div class="Footer-part">
+          <p><strong>Behöver ni hjälp?</strong> Kontakta Karolina Westerlund, <a href="mailto:karolina@kwdstudio.se">karolina@kwdstudio.se</a>, 0736&#8209;76&nbsp;33&nbsp;40</p>
+        </div>
+      </div>
+    </div>
+    <ul class="Footer-nav">
+      <li class="Footer-navItem"><a href="/" class="Footer-navLink">Start</a></li>
+      <li class="Footer-navItem"><a href="{% link case.html %}" class="Footer-navLink">Case</a></li>
+      <li class="Footer-navItem"><a href="{% link jobb.html %}" class="Footer-navLink">Lediga jobb</a></li>
+      <li class="Footer-navItem"><a href="{% link om-oss.html %}" class="Footer-navLink">Om oss</a></li>
+      <li class="Footer-navItem"><a href="{% link kontakt.html %}" class="Footer-navLink">Kontakt</a></li>
+    </ul>
+    <div class="Footer-copyright">
+      <p class="Footer-copyrightContent">© KWD Studio 2022 – Vi har inte lämnat några kakor som smular på din dator men kom gärna förbi på en kaffe!</p>
     </div>
   </div>
 </footer>

@@ -7,19 +7,34 @@ $component-name: "LinkList";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  @include list-disc-inside;
+  @include list-reset;
 
   &-item {
-    padding-right: .5em;
-
-    &:first-child:before {
-      display: none;
-    }
   }
 
   &--inline {
     #{$component-base}-item {
       display: inline-block;
+    }
+  }
+
+  &--inlineSpaced {
+    #{$component-base}-item {
+      @include styles-from-map((
+        margin-right: $spacing-micro-gentle,
+      ));
+    }
+  }
+
+  &--withPoint {
+    @include list-disc-inside;
+
+    #{$component-base}-item {
+      padding-right: .5em;
+
+      &:first-child:before {
+        display: none;
+      }
     }
   }
 }

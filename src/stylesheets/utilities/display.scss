@@ -1,3 +1,17 @@
 .u-displayBlock {
   display: block;
 }
+
+.u-floatLeft {
+  float: left;
+  @include styles-from-map((
+    margin-right: $spacing-centi-gentle,
+    margin-top: -2px,
+  ));
+}
+
+.u-clearFloat:after {
+  content: "";
+  display: table;
+  clear: both;
+}

@@ -4,10 +4,6 @@ title: Atea – HP
 description: TODO
 image: /images/cases/atea-hp/featured.jpg
 client: Atea
-color1: "#b7005b"
-color2: "#b7005b"
-color3: "#270b40"
-color4: "#cdbda8"
 all_order: 8
 teaser_heading: God säkerhet med HP
 teaser_body: <p>När Atea ville beskriva HPs höga säkerhetstänk gjorde vi det med hjälp av bakelser.</p>

@@ -4,10 +4,6 @@ title: Atea
 description: Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.
 image: /images/cases/atea/featured.jpg
 client: Atea
-color1: "#b7005b"
-color2: "#b7005b"
-color3: "#270b40"
-color4: "#cdbda8"
 all_order: 1
 teaser_heading: Can you handle it?
 teaser_body: <p>Ett koncept som bryter med it-branschens normer och konventioner</p>

@@ -4,10 +4,6 @@ title: Atea – How to handle it
 description: Infomercials för Atea eShop som sticker ut och informerar om produkter, produktegenskaper och USP:ar.
 image: /images/cases/atea-hthi/featured.jpg
 client: Atea
-color1: "#b7005b"
-color2: "#b7005b"
-color3: "#270b40"
-color4: "#cdbda8"
 all_order: 6
 teaser_heading: How to handle it
 teaser_body: <p>En serie infomercials om produktegenskaper.</p>

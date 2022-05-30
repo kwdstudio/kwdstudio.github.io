@@ -45,7 +45,7 @@ $component-base: ".#{$component-name}";
 
     a {
       text-decoration: none;
-      color: color(purple, -10);
+      color: color(neutral, -10);
     }
   }
 
@@ -86,7 +86,7 @@ $component-base: ".#{$component-name}";
   // ---------------------------------------------------------------------------
   &-navLink {
     text-decoration: none;
-    color: color(purple, -10);
+    color: color(neutral, -10);
     @include styles-from-map((
       margin-bottom: $spacing-hecto-gentle,
     ));
@@ -101,6 +101,6 @@ $component-base: ".#{$component-name}";
   // ---------------------------------------------------------------------------
   &-copyrightContent {
     @include typography($untitled-sans, milli-gentle, normal);
-    color: color(purple, 6);
+    color: color(neutral, -4);
   }
 }

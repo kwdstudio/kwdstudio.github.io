@@ -52,13 +52,13 @@ $co-workers-co-worker-width: 800px;
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
-    @include typography($untitled-serif, deci-gentle, normal);
+    @include typography($untitled-serif, base-gentle, normal);
   }
 
   // Element: Heading
   // ---------------------------------------------------------------------------
   &-heading {
-    @include typography($untitled-sans, deci-gentle, tight);
+    @include typography($untitled-sans, deca-gentle, tight);
     font-weight: $black-font-weight;
   }
 

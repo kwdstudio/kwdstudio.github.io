@@ -18,7 +18,7 @@ $component-base: ".#{$component-name}";
 
 #{$component-base} {
   @include styles-from-map((
-    margin-top: $spacing-kilo-steep,
+    margin-top: $spacing-giga-steep,
     padding-bottom: $spacing-kilo-gentle,
   ));
 
@@ -26,7 +26,7 @@ $component-base: ".#{$component-name}";
   // ---------------------------------------------------------------------------
   &-logotype {
     @include styles-from-map((
-      margin-bottom: $spacing-kilo-gentle,
+      margin-bottom: $spacing-hecto-gentle,
     ));
   }
 

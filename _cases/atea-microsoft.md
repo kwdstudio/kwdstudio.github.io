@@ -4,10 +4,6 @@ title: Atea – Microsoft
 description: TODO
 image: /images/cases/atea-microsoft/featured.jpg
 client: Atea
-color1: "#b7005b"
-color2: "#b7005b"
-color3: "#270b40"
-color4: "#cdbda8"
 all_order: 8
 teaser_heading: Microsoft Surface — kampanj för många ytor
 teaser_body: <p>En film som visade hur Surface-produkterna passar alla, oavsett personlighet.</p>

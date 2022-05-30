@@ -12,7 +12,7 @@ $component-name: "Label";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  @include typography($untitled-sans, centi-gentle, tight);
+  @include typography($untitled-sans, deci-gentle, tight);
 
   display: inline-block;
 
@@ -22,6 +22,6 @@ $component-base: ".#{$component-name}";
   // Variant: Small
   // ---------------------------------------------------------------------------
   &--small {
-    @include typography($untitled-sans, milli-gentle, tight);
+    @include typography($untitled-sans, centi-gentle, tight);
   }
 }

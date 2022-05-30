@@ -13,8 +13,8 @@ $component-base: ".#{$component-name}";
 #{$component-base} {
   position: relative;
   @include styles-from-map((
-    padding-top: $spacing-kilo-gentle,
-    padding-bottom: $spacing-kilo-gentle,
+    padding-top: $spacing-mega-gentle,
+    padding-bottom: $spacing-mega-gentle,
   ));
 
   // Element: Link

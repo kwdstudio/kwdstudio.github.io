@@ -75,7 +75,7 @@ $component-base: ".#{$component-name}";
   // Context: Nav is open
   // ---------------------------------------------------------------------------
   .navigation-is-open & {
-    background: color(purple, -10);
+    background: color(neutral, -10);
   }
 
 }

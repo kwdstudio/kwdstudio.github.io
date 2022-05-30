@@ -4,52 +4,38 @@
 $component-name: "Logotype";
 $component-base: ".#{$component-name}";
 
-$logotype-width-header: (
+$logotype-width: (
   default: 100px,
   m: 110px,
   l: 120px,
   xl: 135px,
 );
 
-$logotype-width-footer: (
-  default: 90px,
-  m: 110px,
-  l: 150px,
-  xl: 180px,
-);
-
 #{$component-base} {
   display: block;
-
-  &-gradientInvertedBackground {
-    display: none;
-  }
+  @include styles-from-map((
+    width: $logotype-width,
+  ));
 
   &-vector {
     display: block;
   }
 
+  &-path {
+    fill: color(neutral, -10);
+  }
+
   &--header {
     @include styles-from-map((
-      width: $logotype-width-header,
+      width: $logotype-width,
     ));
 
-    #{$component-base}-gradientBackground {
+    #{$component-base}-path {
+      .navigation-is-open &,
       .hasHero & {
-        display: none;
+        fill: color(white);
       }
     }
-
-    #{$component-base}-gradientInvertedBackground {
-      .hasHero & {
-        display: block;
-      }
-    }
-  }
-
-  &--footer {
-    @include styles-from-map((
-      width: $logotype-width-footer,
-    ));
   }
 }
+

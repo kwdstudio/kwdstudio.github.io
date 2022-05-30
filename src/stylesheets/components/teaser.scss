@@ -51,13 +51,13 @@ $component-base: ".#{$component-name}";
     @include styles-from-map((
       margin-bottom: $spacing-nano-gentle,
     ));
-    @include typography($untitled-sans, deca-gentle, tight);
+    @include typography($untitled-sans, hecto-gentle, tight);
     font-weight: $black-font-weight;
   }
 
   // Element: Body
   // ---------------------------------------------------------------------------
   &-body {
-    @include typography($untitled-serif, deci-gentle, normal);
+    @include typography($untitled-serif, base-gentle, normal);
   }
 }

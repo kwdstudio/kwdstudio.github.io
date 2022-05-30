@@ -34,6 +34,8 @@ $component-base: ".#{$component-name}";
     @include repetitivo-generate-width-modifier(16 of 24, l);
     @include repetitivo-generate-width-modifier(20 of 24, l);
 
+    @include repetitivo-generate-width-modifier(14 of 24, xxl);
+
     &-s--push-1 {
       @include respond-to(s) {
         margin-left: grid-column-width(1, 24);
@@ -55,6 +57,18 @@ $component-base: ".#{$component-name}";
     &-l--push-4 {
       @include respond-to(l) {
         margin-left: grid-column-width(4, 24);
+      }
+    }
+
+    &-xxl--push-5 {
+      @include respond-to(xxl) {
+        margin-left: grid-column-width(5, 24);
+      }
+    }
+
+    &-xxl--pushRight-2 {
+      @include respond-to(xxl) {
+        margin-right: grid-column-width(2, 24);
       }
     }
   }

@@ -4,7 +4,7 @@
   <div class="Wrapper">
     <div class="Header-inner">
       <div class="Header-logotype">
-        {% include logotype.html location="header" gradient_color_1=page.color2 gradient_color_2=page.color3 gradient_color_3=page.color4 %}
+        {% include logotype.html location="header" %}
       </div>
 
       <button class="Header-menuToggle MenuToggle" id="MenuToggle">
@@ -16,7 +16,7 @@
         </span>
       </button>
 
-      <nav id="Menu" class="Header-nav MainNav"{% if page.layout == 'case' %} style="color:{{ page.color3 }};"{% endif %}>
+      <nav id="Menu" class="Header-nav MainNav">
         <ul class="MainNav-list">
           <li class="MainNav-item"><a href="{% link case.html %}" class="MainNav-link"><span class="MainNav-linkInner{% if current[1] == "case" %} is-current{% endif %}">Case</span></a></li>
           <li class="MainNav-item"><a href="{% link jobb.html %}" class="MainNav-link"><span class="MainNav-linkInner{% if current[1] == "jobb" %} is-current{% endif %}">Lediga jobb</span></a></li>

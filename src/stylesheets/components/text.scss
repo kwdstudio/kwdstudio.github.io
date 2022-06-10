@@ -27,8 +27,6 @@ $component-base: ".#{$component-name}";
   h3 {
     @include typography($untitled-sans, base-gentle, tight);
     font-weight: $black-font-weight;
-
-    text-decoration: underline;
   }
 
   h4,

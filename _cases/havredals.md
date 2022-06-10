@@ -4,7 +4,7 @@ title: Havredals
 description: TODO
 image: /images/cases/havredals/featured.jpg
 client: Havredals
-all_order: 2
+all_order: 5
 teaser_heading: Odlad. Renodlad.
 teaser_body: <p>Varumärkesberättelse, copy och marknadsstrategi för det nystartade företaget Havredals.</p>
 intro_heading: Odlad. Renodlad.

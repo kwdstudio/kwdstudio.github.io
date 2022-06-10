@@ -4,7 +4,7 @@ title: Atea
 description: Can you handle it? Ett nytt koncept för it-jätten Atea som bryter med branschens konventioner och bygger relation med målgruppen.
 image: /images/cases/atea/featured.jpg
 client: Atea
-all_order: 2
+all_order: 1
 teaser_heading: Can you handle it?
 teaser_body: <p>Ett koncept som bryter med it-branschens normer och konventioner</p>
 intro_heading: Can you handle it?

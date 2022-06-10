@@ -24,13 +24,13 @@ En radiospot och sju reklamfilmer klippta och skurna för att konsumeras i mobil
 Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd att flytta hemifrån? I kampanjen får vi följa ungas frågeställningar, tankar och associationer. Konceptet skildrar autentiska situationer med dokumentär känsla. Filmerna består av personer i vardagliga situationer som dagdrömmer och låter tankarna vandra. En vardaglig tanke (“undrar hur mycket el den här grejen drar …”) snurrar iväg och slutar i existensiella frågor och kval — var ska jag bo, leva, rösta på? Frågor som appen kan hjälpa till att informera om.
 
 ### Produktioner
-Cykeln https://youtube.com/shorts/Dq2FyWzVgrM
-Mixern https://youtube.com/shorts/4tJZIFN3G4s
-Skor https://youtube.com/shorts/PuDUZsikOxM
-Soffan https://youtube.com/shorts/oIHtBUhlYfY
-Tandborsten https://youtube.com/shorts/WV7K36UTtUU
-Tvättstugan https://youtube.com/shorts/u7xzEmtmCLA
-Affären https://youtube.com/shorts/TqKiBdONDuk
+* [Cykeln](https://youtube.com/shorts/Dq2FyWzVgrM)
+* [Mixern](https://youtube.com/shorts/4tJZIFN3G4s)
+* [Skor](https://youtube.com/shorts/PuDUZsikOxM)
+* [Soffan](https://youtube.com/shorts/oIHtBUhlYfY)
+* [Tandborsten](https://youtube.com/shorts/WV7K36UTtUU)
+* [Tvättstugan](https://youtube.com/shorts/u7xzEmtmCLA)
+* [Affären](https://youtube.com/shorts/TqKiBdONDuk)
 
 ## Strategi
 

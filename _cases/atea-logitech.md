@@ -4,7 +4,7 @@ title: Atea
 description: TODO
 image: /images/cases/atea-logitech/featured.jpg
 client: Atea
-all_order: 4
+all_order: 5
 teaser_heading: Behind the scenes med Logitech
 teaser_body: <p>En miniserie om avstånd, samarbete och konferenskameror.</p>
 intro_heading: Behind the scenes med Logitech

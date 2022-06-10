@@ -7,7 +7,7 @@ client: SVT
 all_order: 1
 teaser_heading: Gammelmedia möter Gen Z
 teaser_body: <p>Vi hjälper SVT Nyheter nå unga människor inför valet.</p>
-intro_heading: När gammelmedia möter Gen Z
+intro_heading: Gammelmedia möter Gen Z
 intro_lead: Inför riksdagsvalet ville SVT nå unga människor — en grupp som lever på nätet, scrollar förbi det mesta, och skoningslöst dömer ut allt som känns fejk, fel och pinsamt. Så här gjorde vi.
 ---
 

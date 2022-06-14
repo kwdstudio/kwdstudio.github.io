@@ -1,5 +1,12 @@
 @import "repetitivo/generators/width-modifier";
 
+$grid-offset: (
+  default: -7.1%,
+  m: -10%,
+  l: -20%,
+);
+
+
 //
 // Component: Grid
 // =============================================================================
@@ -71,5 +78,14 @@ $component-base: ".#{$component-name}";
         margin-right: grid-column-width(2, 24);
       }
     }
+  }
+
+  // Element: Offset
+  // ---------------------------------------------------------------------------
+  &-offset {
+    @include styles-from-map((
+      margin-left: $grid-offset,
+      margin-right: $grid-offset,
+    ));
   }
 }

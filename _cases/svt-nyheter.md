@@ -24,13 +24,65 @@ En radiospot och sju reklamfilmer klippta och skurna för att konsumeras i mobil
 Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd att flytta hemifrån? I kampanjen får vi följa ungas frågeställningar, tankar och associationer. Konceptet skildrar autentiska situationer med dokumentär känsla. Filmerna består av personer i vardagliga situationer som dagdrömmer och låter tankarna vandra. En vardaglig tanke (“undrar hur mycket el den här grejen drar …”) snurrar iväg och slutar i existensiella frågor och kval — var ska jag bo, leva, rösta på? Frågor som appen kan hjälpa till att informera om.
 
 ### Produktioner
-* [Cykeln](https://youtube.com/shorts/Dq2FyWzVgrM)
-* [Mixern](https://youtube.com/shorts/4tJZIFN3G4s)
-* [Skor](https://youtube.com/shorts/PuDUZsikOxM)
-* [Soffan](https://youtube.com/shorts/oIHtBUhlYfY)
-* [Tandborsten](https://youtube.com/shorts/WV7K36UTtUU)
-* [Tvättstugan](https://youtube.com/shorts/u7xzEmtmCLA)
-* [Affären](https://youtube.com/shorts/TqKiBdONDuk)
+
+<div class="Grid-offset u-spacingTopDecaGentle">
+  <div class="Grid Grid--padded Grid--compensatePadded">
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068881"
+  caption="Cykeln"
+  class="Media--portrait"
+  no_wrapper="true"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068919"
+  caption="Mixern"
+  class="Media--portrait"
+  no_wrapper="true"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068952"
+  caption="Skor"
+  class="Media--portrait"
+  no_wrapper="true"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068994"
+  caption="Soffan"
+  class="Media--portrait"
+  no_wrapper="true"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068843"
+  caption="Tandborsten"
+  class="Media--portrait"
+  no_wrapper="true"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719069027"
+  caption="Mixern"
+  class="Media--portrait"
+  no_wrapper="true"
+%}
+    </div>
+  </div>
+</div>
 
 ## Strategi
 

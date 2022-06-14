@@ -63,6 +63,10 @@ $media-media-offset: (
     @include flex-embed-container;
 
     padding-top: intrinsic-ratio(16, 9);
+
+    #{$component-base}--portrait & {
+      padding-top: intrinsic-ratio(9, 16);
+    }
   }
 
   // Element: Embed Item

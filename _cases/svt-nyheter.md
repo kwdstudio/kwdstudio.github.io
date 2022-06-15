@@ -99,9 +99,3 @@ En helt mobilanpassad kampanj som möjliggör direktkonvertering, minskar risken
 * (DOOH)
 * (Broadcast)
 
-## Arbetsgrupp KWD
-* Jon Dreierbakken koncept, manus, regi  
-* Hannah Kirsebom manus  
-* Jonatan Ericson kampanjstrategi  
-* Johanna Celion projektledare
-* Karolina Westerlund kundansvarig

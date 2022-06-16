@@ -17,7 +17,7 @@ Kampanj för att få första- och andragångsväljare att ladda ner appen SVT Ny
 
 ## Lösning 
 
-En radiospot och sju reklamfilmer klippta och skurna för att konsumeras i mobilen på de plattformar som målgruppen använder. Kampanjen bygger på insikter om målgruppens intresse för nyheter, deras relation till SVT och SVT:s nyhetsapp samt deras digitala konsumtionsmönster och beteende.
+Ett kampanjkoncept som bygger på insikter om målgruppens intresse för nyheter, deras relation till SVT och SVT:s nyhetsapp samt deras digitala konsumtionsmönster och beteende. Enheterna består av en radiospot och sju reklamfilmer klippta och skurna för att konsumeras i mobilen på de plattformar som målgruppen använder.
 
 ## Koncept: Tankebanor
 

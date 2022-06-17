@@ -83,6 +83,8 @@ $component-base: ".#{$component-name}";
   // Element: Offset
   // ---------------------------------------------------------------------------
   &-offset {
+    overflow: hidden;
+
     @include styles-from-map((
       margin-left: $grid-offset,
       margin-right: $grid-offset,

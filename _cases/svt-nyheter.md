@@ -32,8 +32,7 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
   include page_video.html
   src="https://player.vimeo.com/video/719068881"
   caption="Cykeln"
-  class="Media--portrait"
-  no_wrapper="true"
+  class="Media--portrait Media--noMargin"
 %}
     </div>
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
@@ -41,8 +40,7 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
   include page_video.html
   src="https://player.vimeo.com/video/719068919"
   caption="Mixern"
-  class="Media--portrait"
-  no_wrapper="true"
+  class="Media--portrait Media--noMargin"
 %}
     </div>
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
@@ -50,8 +48,7 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
   include page_video.html
   src="https://player.vimeo.com/video/719068952"
   caption="Skor"
-  class="Media--portrait"
-  no_wrapper="true"
+  class="Media--portrait Media--noMargin"
 %}
     </div>
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
@@ -59,8 +56,7 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
   include page_video.html
   src="https://player.vimeo.com/video/719068994"
   caption="Soffan"
-  class="Media--portrait"
-  no_wrapper="true"
+  class="Media--portrait Media--noMargin"
 %}
     </div>
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
@@ -68,8 +64,7 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
   include page_video.html
   src="https://player.vimeo.com/video/719068843"
   caption="Tandborsten"
-  class="Media--portrait"
-  no_wrapper="true"
+  class="Media--portrait Media--noMargin"
 %}
     </div>
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
@@ -77,8 +72,7 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
   include page_video.html
   src="https://player.vimeo.com/video/719069027"
   caption="Mixern"
-  class="Media--portrait"
-  no_wrapper="true"
+  class="Media--portrait Media--noMargin"
 %}
     </div>
   </div>

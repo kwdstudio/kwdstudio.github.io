@@ -1,15 +1,11 @@
 <figure class="Media {{ include.class }}">
-  {% unless include.no_wrapper == "true" %}
   <div class="Media-mediaWrapper">
-  {% endunless %}
     <div class="Media-media">
       <div class="Media-embedContainer">
         <iframe class="Media-embedItem" src="{{ include.src }}?h={{ include.h }}&color=ffffff&title=0&byline=0&portrait=0" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
       </div>
     </div>
-  {% unless include.no_wrapper == "true" %}
   </div>
-  {% endunless %}
 
   <figcaption class="Media-caption">{{ include.caption }}</figcaption>
 </figure>

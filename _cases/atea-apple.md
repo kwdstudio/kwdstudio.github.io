@@ -25,10 +25,12 @@ Kampanjen går i Googles annonsnätverks samt i Atea eShops egna kanaler.
 
 ## Ett smakprov 
 
-## It-chefer jublar: Mac och it-avdelningen gillar varandra!
+### It-chefer jublar: Mac och it-avdelningen gillar varandra!
+
 Apple passar smidigt in i den befintliga it-miljön, oavsett om ni har tio enheter eller tusen. En MDM-lösning gör det enkelt att hantera så många Mac-datorer du vill. Trådlös driftsättning gör att it-teamet kan konfigurera och hantera enheterna på distans och anpassa inställningsprocessen efter teamet. Så varje Mac, iPad, iPhone och Apple TV är redo att användas redan från start. 
 
-## Välj fritt med Mac som tjänst
+### Välj fritt med Mac som tjänst
+
 Med Mac som tjänst kommer du till det fria valet. Du bestämmer vilka komponenter du vill använda — kanske allihop? Alltså antingen Mac, managering, finansiering och support som en komplett tjänst, eller endast de delar du väljer. Som Sveriges enda Authorized Enterprise Reseller för Apple har vi högsta certifieringsnivå på våra konsulter. Hör av dig så berättar vi mer!
 
 Mejla texten och få din it-chef att jubla!

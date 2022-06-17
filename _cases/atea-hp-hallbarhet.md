@@ -2,7 +2,7 @@
 layout: case
 title: Atea – HP
 description: Vad är viktigast med nya it-produkter? Fler färger? En ännu snabbare processor? Ingetdera. Den viktigaste usp:en är hållbarhet.
-image: /images/cases/atea-hp-h/featured.jpg
+image: /images/cases/atea-hp-hallbarhet/featured.jpg
 client: Atea
 all_order: 3
 teaser_heading: Den viktigaste egenskapen

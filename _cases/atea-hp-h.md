@@ -9,7 +9,6 @@ teaser_heading: Den viktigaste egenskapen
 teaser_body: <p>Lång batteritid? Läg vikt? Vikbar skärm? Nej nej nej, miljön såklart.</p>
 intro_heading: Den viktigaste egenskapen
 intro_lead: Vad är viktigast med nya it-produkter? Fler färger? En ännu snabbare processor? Ingetdera. Den viktigaste usp:en är hållbarhet.
-vimeo: true
 ---
 
 ## Utmaning

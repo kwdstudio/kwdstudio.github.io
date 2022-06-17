@@ -9,7 +9,6 @@ teaser_heading: Can you handle it?
 teaser_body: <p>Ett koncept som bryter med it-branschens normer och konventioner</p>
 intro_heading: Can you handle it?
 intro_lead: Ett nytt koncept som bryter med it-branschens normer och konventioner.
-vimeo: true
 ---
 
 ## Can you handle it?

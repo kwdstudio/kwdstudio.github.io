@@ -4,7 +4,7 @@ title: Atea – HP
 description: TODO
 image: /images/cases/atea-hp/featured.jpg
 client: Atea
-all_order: 9
+all_order: 11
 teaser_heading: God säkerhet med HP
 teaser_body: <p>När Atea ville beskriva HPs höga säkerhetstänk gjorde vi det med hjälp av bakelser.</p>
 intro_heading: God säkerhet med HP

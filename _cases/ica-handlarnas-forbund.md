@@ -4,7 +4,7 @@ title: "ICA-handlarnas Förbund"
 description: Innehållsstrategi med berättarspår och innehållstyper. En ny plan för hur ICA-handlarnas Förbund ska kommunicera med sina målgrupper.
 image: /images/cases/ica-handlarnas-forbund/featured.jpg
 client: "ICA-handlarnas Förbund"
-all_order: 8
+all_order: 10
 teaser_heading: Innehållsstrategi och redaktionellt stöd
 teaser_body: <p>En ny innehållsstrategi ledde till stärkt relation med målgruppen.</p>
 intro_heading: Pitchvinnare strategisk innehållspartner 2019

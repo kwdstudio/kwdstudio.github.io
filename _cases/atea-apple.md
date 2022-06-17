@@ -5,7 +5,7 @@ description: Alla borde få välja it-prylar efter tycke och smak. Men så är d
 image: /images/cases/atea-apple/featured.jpg
 client: Apple
 all_order: 3
-teaser_heading: Övertyga din arbetsgivare att ge dig en MacBook!
+teaser_heading: Övertyga din arbetsgivare!
 teaser_body: <p>Alla borde få välja it-prylar efter tycke och smak. Men så är det inte.</p>
 intro_heading: Övertyga din arbetsgivare att ge dig en MacBook!
 intro_lead: Alla borde få välja it-prylar efter tycke och smak. Men så är det inte. Och många gånger beror det på gamla fördomar som inte längre stämmer. Det vill Atea eShop och Apple ändra på.

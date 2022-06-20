@@ -39,6 +39,10 @@ $media-media-offset: (
       margin-left: $media-media-offset,
       margin-right: $media-media-offset,
     ));
+
+    #{$component-base}--noMargin & {
+      margin: 0;
+    }
   }
 
   // Element: Media
@@ -81,6 +85,13 @@ $media-media-offset: (
     @include styles-from-map((
       margin-top: $spacing-milli-gentle,
     ));
+
+    #{$component-base}--noMargin & {
+      @include respond-to(pre-s) {
+        margin-left: 7.1%;
+        margin-right: 7.1%;
+      }
+    }
 
     @include typography($untitled-serif, centi-gentle, tight);
   }

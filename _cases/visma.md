@@ -27,33 +27,46 @@ Vi tog även fram en artikel för native-annonsering på offentligaaffarer.se �
 
 ## Produktioner
 
+<div class="Grid-offset u-spacingTopDecaGentle">
+  <div class="Grid Grid--padded Grid--compensatePadded">
+    <div class="Grid-item Grid-item-s--12-of-24">
 {%
   include page_video.html
   src="https://player.vimeo.com/video/719070960"
   h="6a45b1de7a"
   caption="Städskrubben"
+  class="Media--noMargin"
 %}
-
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24">
 {%
   include page_video.html
   src="https://player.vimeo.com/video/719071004"
   h="41d5a7f09d"
   caption="Köket"
+  class="Media--noMargin"
 %}
-
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24">
 {%
   include page_video.html
   src="https://player.vimeo.com/video/719071078"
   h="ecbcf50331"
   caption="Toaletten"
+  class="Media--noMargin"
 %}
-
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24">
 {%
   include page_video.html
   src="https://player.vimeo.com/video/719071105"
   h="7505737b4a"
   caption="Skrivbordet"
+  class="Media--noMargin"
 %}
+    </div>
+  </div>
+</div>
 
 ## Placeringar
 

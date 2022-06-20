@@ -100,6 +100,6 @@ En helt mobilanpassad kampanj som möjliggör direktkonvertering, minskar risken
 * (Broadcast)
 
 ## Produktion
-Makeriet <b>
-DoP Filip Stankovich <b>
+Makeriet Film <br>
+DoP Filip Stankovich <br>
 Edit & post Nils Rydell

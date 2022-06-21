@@ -50,6 +50,24 @@ Vi tog även fram en artikel för native-annonsering på offentligaaffarer.se �
     <div class="Grid-item Grid-item-s--12-of-24">
 {%
   include page_video.html
+  src="https://player.vimeo.com/video/719071027"
+  h="746ddb3c31"
+  caption="Kopiatorn"
+  class="Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719071051"
+  h="b1f381bdc7"
+  caption="Hissen"
+  class="Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24">
+{%
+  include page_video.html
   src="https://player.vimeo.com/video/719071078"
   h="ecbcf50331"
   caption="Toaletten"
@@ -62,6 +80,24 @@ Vi tog även fram en artikel för native-annonsering på offentligaaffarer.se �
   src="https://player.vimeo.com/video/719071105"
   h="7505737b4a"
   caption="Skrivbordet"
+  class="Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719071126"
+  h="a4e87a7c3e"
+  caption="Kaffeautomaten"
+  class="Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719071151"
+  h="b176f8b01f"
+  caption="Konferensrummet"
   class="Media--noMargin"
 %}
     </div>

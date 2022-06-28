@@ -95,5 +95,6 @@ En helt mobilanpassad kampanj som möjliggör direktkonvertering, minskar risken
 
 ## Produktion
 Makeriet Film <br>
-DoP Filip Stankovich <br>
-Edit & post Nils Rydell
+Regi, Jon Dreierbakken KWD Studio
+DoP, Filip Stankovich <br>
+Edit & post, Nils Rydell

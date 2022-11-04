@@ -54,8 +54,8 @@ Vi ville också på ett enkelt sätt lyfta varumärkets historia och gedigna erf
 
 Kampanjdelar: Kampanjsida eShop, banners eShop, display ads, gif, animerad kollagefilm.
 
-Arbetsgrupp KWD
-Jon Dreierbakken koncept, copy, art direction
-Johanna Celion projektledare
+Arbetsgrupp KWD<br>
+Jon Dreierbakken koncept, copy, art direction<br>
+Johanna Celion projektledare<br>
 Karolina Westerlund kundansvarig
 

@@ -71,7 +71,15 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
 {%
   include page_video.html
   src="https://player.vimeo.com/video/719069027"
-  caption="Mixern"
+  caption="Tvättstugan"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719069027"
+  caption="Affären"
   class="Media--portrait Media--noMargin"
 %}
     </div>
@@ -95,6 +103,6 @@ En helt mobilanpassad kampanj som möjliggör direktkonvertering, minskar risken
 
 ## Produktion
 Makeriet Film <br>
-Regi, Jon Dreierbakken KWD Studio
+Regi, Jon Dreierbakken KWD Studio <br>
 DoP, Filip Stankovich <br>
 Edit & post, Nils Rydell

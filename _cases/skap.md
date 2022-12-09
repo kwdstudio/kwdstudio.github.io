@@ -1,7 +1,7 @@
 ---
 layout: case
 title: Skap
-description: TODO
+description: 
 image: /images/cases/havredals/featured.jpg
 client: Skap
 all_order: 5

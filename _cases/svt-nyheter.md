@@ -13,15 +13,39 @@ intro_lead: Inför riksdagsvalet ville SVT nå unga människor — en grupp som 
 
 ## Uppdrag
 
-Kampanj för att få första- och andragångsväljare att ladda ner appen SVT Nyheter och göra Valkompassen inför riksdagsvalet 2022. Målgruppen har högt förtroende för SVT, men få av dem tar del av public services utbud. Hur når vi dem?
+Inför valet ville SVT få unga väljare att upptäcka SVT Nyheter. Målgruppen, 18-26 år, har inte bara en svag relation till SVT; de lever också i ett konstant flöde av digital kommunikation och innehåll som konkurrerar om deras uppmärksamhet. Uppdraget: att nå fram genom bruset, få dem att ladda ner SVTs nyhetsapp och göra SVTs valkompass. 
 
 ## Lösning 
 
-Ett kampanjkoncept som bygger på insikter om målgruppens intresse för nyheter, deras relation till SVT och SVT:s nyhetsapp samt deras digitala konsumtionsmönster och beteende. Enheterna består av en radiospot och sju reklamfilmer klippta och skurna för att konsumeras i mobilen på de plattformar som målgruppen använder.
+För att ha en chans att ta oss igenom nålsögat hos den kritiska målgruppen behövde vi ett tilltal och en paketering som träffar rätt i gruppen och skapar igenkänning. Men inte bara det: För att hitta fram till målgruppen måste innehållet kombineras med mediaplaceringar som prickar rätt konsumtionsmönster och skapar rätt effekt. 
+
+Vi tog fram ett kampanjkoncept som bygger på insikter om målgruppens intresse för nyheter, deras relation till SVT och SVT:s nyhetsapp samt deras digitala konsumtionsmönster och beteende. Enheterna består av en radiospot och sju reklamfilmer klippta och skurna för att konsumeras i mobilen på de plattformar som målgruppen använder.
 
 ## Koncept: Tankebanor
 
-Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd att flytta hemifrån? I kampanjen får vi följa ungas frågeställningar, tankar och associationer. Konceptet skildrar autentiska situationer med dokumentär känsla. Filmerna består av personer i vardagliga situationer som dagdrömmer och låter tankarna vandra. En vardaglig tanke (“undrar hur mycket el den här grejen drar …”) snurrar iväg och slutar i existensiella frågor och kval — var ska jag bo, leva, rösta på? Frågor som appen kan hjälpa till att informera om.
+Konceptet Tankebanor bygger på de frågor som undersökningar och insikter visade var absolut högst prioriterade hos första- och andragångsväljare. Frågeställningar och funderingar om livet och deras mest prioriterade frågor inför valet. Vad händer om det blir krig? Är det läge att spara? Var ska jag bo? Konceptet togs ut genom sju korta filmer som skildrar olika situationer, alla med en autentisk känsla. Filmerna består av personer i vardagliga situationer som dagdrömmer och låter tankarna vandra. En vardaglig tanke (“undrar hur mycket el den här grejen drar …”) snurrar iväg och slutar i existensiella frågor och kval — var ska jag bo, leva, rösta på? 
+
+## Strategi
+
+Kampanjstrategin arbetades fram parallellt med det konceptuella arbetet och utformades helt baserat på kanalernas förutsättningar och målgruppens beteende. Allt innehåll producerades med placeringarna i åtanke. Med en helt mobilanpassad kampanj kunde vi arbeta med direktkonvertering, vi minskade risken med adblockers samtidigt som vi möter målgruppens beteende. Enheterna använder annonsriktning för att maximera träffsäkerheten i budskapet och för att leda användaren till rätt plats. Kampanjen möter målgruppen i flera olika mobila kanaler för att maximera effekten.
+
+## Resultat
+Filmerna och kampanjens strategi träffade helt rätt i målgruppen. 
+
+Vi lyckades inte bara öka nedladdningen av nyhetsappen med 120% per dag (jämfört med samma period året innan), vi gjorde dessutom målgruppen till den enskilt största användargruppen av SVTs valkompass. Hela 65% (780 000) av kampanjmålgruppen har använt SVTs valkompass, vilket är 54% fler jämfört med totalbefolkningen. Vi bidrog till att valkompassen blev den främsta informationskällan inför valet för första- och andragångsväljare (källa: Novus) och att SVTs valkompass blev en succé i målgruppen. Målgruppen är den åldersgrupp som har mest positiv upplevelse av SVTs valkompass (Källa: Novus).
+
+Men berodde inte det på att valrörelsen i sig lockade fler användare? Nej, faktum är att användningen av SVTs nyhetsapp i hela befolkningen totalt sett backar ett par procent jämfört med förra året (källa: Kantar/Sifo). Det ökade antalet nedladdningar berodde inte på ett allmänt ökat intresse. Det är just i kampanjens målgrupp som användningen och uppskattningen av valkompassen är som störst, och det är just SVTs valkompass som målgruppen har flockats till. Bland 18-26-åringar har 113% fler använt SVTs valkompass jämfört med Aftonbladets och 156% fler jämfört med TV4s. (Källa: Novus)
+
+Om målgruppens relation till varumärket har påverkats på lång sikt? Det får kommande undersökningar visa. Men effektiviteten i kampanjen har slagit alla förväntningar. I stort sett hela målgruppen har interagerat med SVTs varumärke under kampanjperioden. Med en minimal budget lyckades vi nå i princip alla i åldrarna 18-26 i snitt 21 gånger under kampanjen, och de valde frivilligt att titta på våra filmer istället för att skippa eller skrolla vidare. I snitt tittade varje person 9 gånger var. Och dessutom gav Expressen kampanjen uppmärksamhet och förtjänad räckvidd genom ett inslag om hur högt kärnkraftverk egentligen låter. Ytterligare ett kvitto på att kampanjen träffar rätt i samtiden och engagerar.
+
+
+- 25 miljoner annonsexponeringar och 11 miljoner videovisningar.
+- En unik räckvidd på över 1,2 miljoner (vi har nått i princip alla i åldrarna 18-26).
+- Kontaktfrekvens på närmare 21 och videofrekvens på drygt 9.
+- Nästan 150 000 länkklick med call to action att installera appen.
+
+Vi fick första- och andragångsväljarna att ladda ner SVTs nyhetsapp. Vi fick dem att göra valkompassen. Vi gjorde dem till mer insatta väljare. En hel generation har alltså fått upp ögonen för oberoende journalistik.
+Frågor som appen kan hjälpa till att informera om.
 
 ### Produktioner
 
@@ -86,9 +110,7 @@ Vad händer om det blir krig? Är det läge att shoppa eller spara? Har jag råd
   </div>
 </div>
 
-## Strategi
 
-En helt mobilanpassad kampanj som möjliggör direktkonvertering, minskar risken med adblockers och möter målgruppens beteende. Enheterna använder annonsriktning för att maximera träffsäkerheten i budskapet och för att leda användaren till rätt plats. Kampanjen möter målgruppen i flera olika mobila kanaler för att maximera effekten.
 
 ## Placeringar
 
@@ -98,11 +120,14 @@ En helt mobilanpassad kampanj som möjliggör direktkonvertering, minskar risken
 * iOS och Google in-app ad network 
 * Spotify 
 * Acast
-* (DOOH)
-* (Broadcast)
+
 
 ## Produktion
 Makeriet Film <br>
+Poducent, Ville Olin <br>
+Produktionsassistent, Moa Aggerborg <br>
 Regi, Jon Dreierbakken KWD Studio <br>
 DoP, Filip Stankovich <br>
-Edit & post, Nils Rydell
+Kostym & scenografi, Emanuel Franzén <br>
+Edit & post, Nils Rydell <br>
+Ljudteknik, Anders Brandén, Apear

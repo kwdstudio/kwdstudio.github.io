@@ -122,7 +122,7 @@ Kampanjen togs ut i sju olika enheter som kompletterade varandra och skapade en 
      <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
 {%
   include page_video.html
-  src="https://player.vimeo.com/video/719069027"
+  src="https://player.vimeo.com/video/719068797"
   caption="Affären"
   class="Media--portrait Media--noMargin"
 %}

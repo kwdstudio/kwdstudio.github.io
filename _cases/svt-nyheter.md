@@ -21,6 +21,12 @@ För att ha en chans att ta oss igenom nålsögat hos den kritiska målgruppen b
 
 Vi tog fram ett kampanjkoncept som bygger på insikter om målgruppens intresse för nyheter, deras relation till SVT och SVT:s nyhetsapp samt deras digitala konsumtionsmönster och beteende. Enheterna består av en radiospot och sju reklamfilmer klippta och skurna för att konsumeras i mobilen på de plattformar som målgruppen använder.
 
+{%
+  include page_image.html
+  src="/images/cases/svt-nyheter/tand.jpg"
+  caption="Vad händer om det blir krig, måste jag rycka in då?"
+%}
+
 ## Koncept: Tankebanor
 
 Konceptet Tankebanor bygger på de frågor som undersökningar och insikter visade var absolut högst prioriterade hos första- och andragångsväljare. Frågeställningar och funderingar om livet och deras mest prioriterade frågor inför valet. Vad händer om det blir krig? Är det läge att spara? Var ska jag bo? Konceptet togs ut genom sju korta filmer som skildrar olika situationer, alla med en autentisk känsla. Filmerna består av personer i vardagliga situationer som dagdrömmer och låter tankarna vandra. En vardaglig tanke (“undrar hur mycket el den här grejen drar …”) snurrar iväg och slutar i existensiella frågor och kval — var ska jag bo, leva, rösta på? 
@@ -28,6 +34,12 @@ Konceptet Tankebanor bygger på de frågor som undersökningar och insikter visa
 ## Strategi
 
 Kampanjstrategin arbetades fram parallellt med det konceptuella arbetet och utformades helt baserat på kanalernas förutsättningar och målgruppens beteende. Allt innehåll producerades med placeringarna i åtanke. Med en helt mobilanpassad kampanj kunde vi arbeta med direktkonvertering, vi minskade risken med adblockers samtidigt som vi möter målgruppens beteende. Enheterna använder annonsriktning för att maximera träffsäkerheten i budskapet och för att leda användaren till rätt plats. Kampanjen möter målgruppen i flera olika mobila kanaler för att maximera effekten.
+
+{%
+  include page_image.html
+  src="/images/cases/svt-nyheter/cykeln.jpg"
+  caption="Snart bor väl jag också i tält. På en parkering nånstans." 
+  %}
 
 ## Resultat
 Filmerna och kampanjens strategi träffade helt rätt i målgruppen. 
@@ -47,7 +59,15 @@ Om målgruppens relation till varumärket har påverkats på lång sikt? Det få
 Vi fick första- och andragångsväljarna att ladda ner SVTs nyhetsapp. Vi fick dem att göra valkompassen. Vi gjorde dem till mer insatta väljare. En hel generation har alltså fått upp ögonen för oberoende journalistik.
 Frågor som appen kan hjälpa till att informera om.
 
+{%
+  include page_image.html
+  src="/images/cases/svt-nyheter/soffan.jpg"
+  caption="Tänk att bara dra till Thailand. Men man borde väl inte flyga." 
+  %}
+
 ### Produktioner
+Kampanjen togs ut i sju olika enheter som kompletterade varandra och skapade en möjlighet att hålla en hög närvaro i målgruppen utan att trötta ut den. Vi använde även ljudfiler som komplement för Spotify och Acast.
+
 
 <div class="Grid-offset u-spacingTopDecaGentle">
   <div class="Grid Grid--padded Grid--compensatePadded">

@@ -21,6 +21,10 @@ Vi lyckades paketera erbjudandet på ett sätt som inte bara ledde till fina pla
 
 Fjällräven hade en tydlig idé om vilka de ville nå, och KWD Studios uppdrag var att identifiera profiler och influencers som gjorde det möjligt att nå dessa målgrupper i förtjänade kanaler. 
 
+Vi tog oss ödmjukt an uppdraget och lyckades paketera erbjudandet på ett sätt som inte bara ledde till fina placeringar under kampanjen utan som även öppnade upp för större samarbeten över tid. 
+
+Fjällräven hade en idé tydlig idé om vilka målgrupper de ville nå och KWD Studios uppdrag var att identifiera profiler som gjorde det möjligt att nå dessa i förtjänade kanaler. 
+
 {%
   include page_image.html
   src="/images/cases/fjallraven-lansering/cykel.jpg"

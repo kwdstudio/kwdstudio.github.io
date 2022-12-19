@@ -11,7 +11,7 @@ intro_heading: Koncept och kampanj för Naturvetarna
 intro_lead: Känns karaktären bekant? Vår kampanj för fackförbundet Naturvetarna är en tydlig blinkning till Unionen och deras grönklädda superhjältar.
 ---
 
-## En blinkning till Unionen
+## Konceptutveckling och tonalitet
 
 Vi fick det ärofyllda uppdraget att ta fram ett nytt kommunikativt koncept för fackförbundet Naturvetarna. Naturvetarna är specialiserade på yrken inom naturvetenskap, digitala sektorn, hälsa och skog och vi ville ge dem en tonalitet som passade med deras nischade uppdrag. Lösningen blev att göra en poäng av att de inte representerar den breda massan.
 
@@ -23,7 +23,7 @@ Vi fick det ärofyllda uppdraget att ta fram ett nytt kommunikativt koncept för
 
 ## En blinkning till Unionen
 
-Naturvetarna representerar yrken inom naturvetenskap och gör en parodi på hjälten för att lyfta vikten av kunskap inom den specifika bransch fackförbundet representerar.
+I Naturvetarnas nya kampanj gör vi en parodi på Unionens välkända superhjälte för att istället lyfta vikten av kunskap inom den specifika bransch fackförbundet representerar.
 
 KWD Studios arbete innefattade kreativ idé/koncept, kampanjstrategi, pr, copy, produktion av annonsenheter, medieplan och aktivering. 
 

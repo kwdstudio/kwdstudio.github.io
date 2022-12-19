@@ -25,7 +25,7 @@ Vi fick det ärofyllda uppdraget att ta fram ett nytt kommunikativt koncept för
 
 I Naturvetarnas nya kampanj gör vi en parodi på Unionens välkända superhjälte för att istället lyfta vikten av kunskap inom den specifika bransch fackförbundet representerar.
 
-KWD Studios arbete innefattade kreativ idé/koncept, kampanjstrategi, pr, copy, produktion av annonsenheter, medieplan och aktivering. 
+KWD Studios arbete innefattade kreativ idé/koncept, kampanjstrategi, copy, produktion av annonsenheter, medieplan och aktivering. 
 
 {%
   include page_video.html

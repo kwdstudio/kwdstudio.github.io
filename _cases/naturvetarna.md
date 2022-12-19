@@ -13,7 +13,7 @@ intro_lead: Känns karaktären bekant? Vår kampanj för fackförbundet Naturvet
 
 ## Konceptutveckling och tonalitet
 
-Vi fick det ärofyllda uppdraget att ta fram ett nytt kommunikativt koncept för fackförbundet Naturvetarna. Naturvetarna är specialiserade på yrken inom naturvetenskap, digitala sektorn, hälsa och skog och vi ville ge dem en tonalitet som passade med deras nischade uppdrag. Lösningen blev att göra en poäng av att de inte representerar den breda massan.
+Vi fick uppdraget att ta fram ett nytt kommunikativt koncept för fackförbundet Naturvetarna. Naturvetarna är specialiserade på yrken inom naturvetenskap, digitala sektorn, hälsa och skog, och vi ville ge dem en tonalitet som passade deras nischade uppdrag. Lösningen blev att göra en poäng av att de inte representerar den breda massan.
 
 {%
   include page_image.html
@@ -23,7 +23,7 @@ Vi fick det ärofyllda uppdraget att ta fram ett nytt kommunikativt koncept för
 
 ## En blinkning till Unionen
 
-I Naturvetarnas nya kampanj gör vi en parodi på Unionens välkända superhjälte för att istället lyfta vikten av kunskap inom den specifika bransch fackförbundet representerar.
+Naturvetarnas nya kampanj parodierar Unionens välkända superhjälte för att understryka vikten av kunskap inom den specifika bransch som Naturvetarna representerar.
 
 KWD Studios arbete innefattade kreativ idé/koncept, kampanjstrategi, copy, produktion av annonsenheter, medieplan och aktivering. 
 

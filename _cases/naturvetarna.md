@@ -25,6 +25,8 @@ Vi fick uppdraget att ta fram ett nytt kommunikativt koncept för fackförbundet
 
 Naturvetarnas nya kampanj parodierar Unionens välkända superhjälte för att understryka vikten av kunskap inom den specifika bransch som Naturvetarna representerar.
 
+I Naturvetarnas nya kampanj gör vi en parodi på Unionens välkända superhjälte för att istället lyfta vikten av kunskap inom den specifika bransch fackförbundet representerar.
+
 KWD Studios arbete innefattade kreativ idé/koncept, kampanjstrategi, copy, produktion av annonsenheter, medieplan och aktivering. 
 
 {%

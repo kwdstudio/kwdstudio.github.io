@@ -8,9 +8,6 @@ collections:
   cases:
     output: true
     permalink: /case/:path
-  jobs:
-    output: true
-    permalink: /jobb/:path
   pages:
     output: true
     permalink: /:path

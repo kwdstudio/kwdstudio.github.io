@@ -1,12 +1,12 @@
 ---
 layout: case
 title: ADHDonline
-description: Identifierade och fyllda innehållsluckor gav snabbt ökad trafik..
+description: Identifierade och fyllda innehållsluckor gav snabbt ökad trafik.
 image: /images/cases/adhdonline/featured.jpg
 client: ADHDonline
 all_order: 2
 teaser_heading: Sökordsstrategi för ökad trafik
-teaser_body: <p>Identifierade och fyllda innehållsluckor gav dubblerad trafik.</p>
+teaser_body: <p>Identifierade och fyllda innehållsluckor gav snabbt ökad trafik.</p>
 intro_heading: Sökstrategi och innehållsarbete 
 intro_lead: Hur gör man för att öka trafiken till sin webbplats? Jo, man identifierar luckor, tar fram en sökstrategi och formulerar innehållet för att möta behoven. Givetvis utan att kompromissa det minsta med uppdraget.
 ---

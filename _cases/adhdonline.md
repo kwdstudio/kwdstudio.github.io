@@ -4,7 +4,7 @@ title: ADHDonline
 description: Identifierade och fyllda innehållsluckor gav snabbt ökad trafik.
 image: /images/cases/adhdonline/featured.jpg
 client: ADHDonline
-all_order: 2
+all_order: 4
 teaser_heading: Sökordsstrategi för ökad trafik
 teaser_body: <p>Identifierade och fyllda innehållsluckor gav snabbt ökad trafik.</p>
 intro_heading: Sökstrategi och innehållsarbete 

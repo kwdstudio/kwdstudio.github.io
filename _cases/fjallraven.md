@@ -4,7 +4,7 @@ title: Fjällräven
 description: TODO
 image: /images/cases/fjallraven/featured.jpg
 client: Fjällräven
-all_order: 4
+all_order: 7
 teaser_heading: PR och positionering
 teaser_body: <p>Produktlanseringar och hållbarhets&shy;aktiviteter i förtjänade kanaler.</p>
 intro_heading: Produktlanseringar och hållbarhets&shy;aktiviteter

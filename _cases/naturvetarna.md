@@ -4,7 +4,7 @@ title: Naturvetarna
 description: Rekryteringskampanj för Naturvetarna med en tydlig blinkning till Unionen och deras grönklädda superhjältar.
 image: /images/cases/naturvetarna/featured.jpg
 client: Naturvetarna
-all_order: 2
+all_order: 3
 teaser_heading: Koncept och kampanj för Naturvetarna
 teaser_body: <p>Ett labb, en superhjälte och ett par rullskridskor, vad kan gå fel?</p>
 intro_heading: Koncept och kampanj för Naturvetarna

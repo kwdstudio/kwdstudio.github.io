@@ -23,8 +23,7 @@ För att besvara kundernas frågor och visa hur Visma stöttar sina kunder valde
 
 Effektiva lönesystem och stabil IT-säkerhet låter kanske inte som några kioskvältare. Men med hjälp av noga utvalda miljöer, ett gediget förarbete med djupintervjuer av de kommunanställda och ett skickligt team för foto, ljud och ljus blev resultatet två fina, engagerande filmer med stark närvaro och effektivt berättande.
 
-Blir du också nyfiken på kundcase? Kontakta oss på hej@kwdstudio.se
-
+Blir du också nyfiken på kundcase? Kontakta oss på <a href="mailto:hej@kwdstudio.se">hej@kwdstudio.se</a> <br>
 
 ## Produktioner
 

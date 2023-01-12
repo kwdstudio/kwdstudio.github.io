@@ -13,16 +13,15 @@ intro_lead: En IT-attack som släckte hela kommunen. En kund med höga förvänt
 
 ## Bakgrund
 
-Vismas kunder frågade efter exempel på hur andra kunder jobbar med digitalisering, molntjänster och IT-säkerhet. För att beskriva lyckade samarbeten, marknadsföra sina tjänster och stärka sina kundrelationer bestämde sig Visma för att tillsammans med KWD Studio producera ett antal kundcase. 
-
+Aktörer inom offentlig sektor har mycket att lära av varandra. Visma märkte hur deras kunder ofta frågade hur andra gjorde; vilka system hade kommun A valt, hur jobbade kommun B med IT-säkerhet? 
 
 ## Uppdrag 
 
-Två kommuner kontaktades: Kalix och Gävle, som båda kommit långt i sitt arbete med digitalisering. KWD Studio arbetade fram ett format inklusive koncept, tonalitet och manus. Inspelning skedde sedan med team på plats i respektive kommunhus. 
+För att besvara kundernas frågor och visa hur Visma stöttar sina kunder valde man att låta KWD Studio producera två kundcase-filmer. I två filmer beskriver Kalix respektive Gävle kommun själva hur deras arbete effektiviserats och säkerheten stärkts med hjälp av Vismas produkter och tjänster. KWD Studio arbetade fram format inklusive koncept, tonalitet och manus, samt regisserade och projektstyrde produktionerna. Inspelning skedde på plats i respektive kommunhus. 
 
 ## Resultat
 
-Resultatet blev två filmer där kommunernas medarbetare berättade om den resa de gjort med Visma som stöd och partner. Filmerna blev ett led i att ta position som thought leader inom utvalda områden och att inspirera och utbilda andra i hur de kan effektivisera sin verksamhet. 
+Effektiva lönesystem och stabil IT-säkerhet låter kanske inte som några kioskvältare. Men med hjälp av noga utvalda miljöer, ett gediget förarbete med djupintervjuer av de kommunanställda och ett skickligt team för foto, ljud och ljus blev resultatet två fina, engagerande filmer med stark närvaro och effektivt berättande.
 
 Blir du också nyfiken på kundcase? Kontakta oss på hej@kwdstudio.se
 

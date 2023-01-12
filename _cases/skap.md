@@ -3,7 +3,7 @@ layout: case
 title: Skap 
 description: Vi stöttar Skap med strategisk rådgivning, varumärkesarbete, medlemsrekrytering och produktion av text, film och livesändningar.
 image: /images/cases/skap/featured.jpg
-client: Skap 
+client: Skap
 all_order: 2
 teaser_heading: Till svensk musiks försvar
 teaser_body: <p>En liten kulturgärning i form av strategi, produktion och kommunikation.</p>
@@ -37,3 +37,4 @@ Förlorad? Ja. DAT-band, cd, dvd och hårddiskar, medier som en gång i tiden up
 — Dagens fysiska och digitala metoder och medier för att bevara musik håller nu i rasande takt på att bli helt föråldrade, säger Luke Jenkinson, vd på GMV.
 
 Hela artikel finns på skap.se
+

@@ -8,7 +8,7 @@ all_order: 4
 teaser_heading: Sökordsstrategi för ökad trafik
 teaser_body: <p>Identifierade och fyllda innehållsluckor gav snabbt ökad trafik.</p>
 intro_heading: Sökstrategi och innehållsarbete 
-intro_lead: Hur gör man för att öka trafiken till sin webbplats? Jo, man identifierar luckor, tar fram en sökstrategi och formulerar innehållet för att möta behoven. Givetvis utan att kompromissa det minsta med uppdraget.
+intro_lead: Hur gör man för att öka trafiken till sin webbplats? Jo, man identifierar innehållsluckor, arbetar fram en sökstrategi och anpassar sedan sitt innehåll så att det bättre möter det målgruppen faktiskt söker på.  
 ---
 
 ## Bakgrund

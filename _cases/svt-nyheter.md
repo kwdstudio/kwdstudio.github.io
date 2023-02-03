@@ -35,14 +35,18 @@ Konceptet Tankebanor bygger på de frågor som undersökningar och insikter visa
 
 Kampanjstrategin arbetades fram parallellt med det konceptuella arbetet och utformades helt baserat på kanalernas förutsättningar och målgruppens beteende. Allt innehåll producerades med placeringarna i åtanke. Med en helt mobilanpassad kampanj kunde vi arbeta med direktkonvertering, vi minskade risken med adblockers samtidigt som vi möter målgruppens beteende. Enheterna använder annonsriktning för att maximera träffsäkerheten i budskapet och för att leda användaren till rätt plats. Kampanjen möter målgruppen i flera olika mobila kanaler för att maximera effekten.
 
-{%
-  include page_image.html
-  src="/images/cases/svt-nyheter/cykeln.jpg"
-  caption="Snart bor väl jag också i tält. På en parkering nånstans." 
-  %}
 
 ## Resultat
+
 Filmerna och kampanjens strategi träffade helt rätt i målgruppen. 
+
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/779586071"
+  h="b49356d1a3"
+  caption=""
+%}
+
 
 Vi lyckades inte bara öka nedladdningen av nyhetsappen med 120% per dag (jämfört med samma period året innan), vi gjorde dessutom målgruppen till den enskilt största användargruppen av SVTs valkompass. Hela 65% (780 000) av kampanjmålgruppen har använt SVTs valkompass, vilket är 54% fler jämfört med totalbefolkningen. Vi bidrog till att valkompassen blev den främsta informationskällan inför valet för första- och andragångsväljare (källa: Novus) och att SVTs valkompass blev en succé i målgruppen. Målgruppen är den åldersgrupp som har mest positiv upplevelse av SVTs valkompass (Källa: Novus).
 

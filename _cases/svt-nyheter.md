@@ -35,7 +35,6 @@ Konceptet Tankebanor bygger på de frågor som undersökningar och insikter visa
 
 Kampanjstrategin arbetades fram parallellt med det konceptuella arbetet och utformades helt baserat på kanalernas förutsättningar och målgruppens beteende. Allt innehåll producerades med placeringarna i åtanke. Med en helt mobilanpassad kampanj kunde vi arbeta med direktkonvertering, vi minskade risken med adblockers samtidigt som vi möter målgruppens beteende. Enheterna använder annonsriktning för att maximera träffsäkerheten i budskapet och för att leda användaren till rätt plats. Kampanjen möter målgruppen i flera olika mobila kanaler för att maximera effekten.
 
-
 ## Resultat
 
 Filmerna och kampanjens strategi träffade helt rätt i målgruppen. 

@@ -2,10 +2,11 @@
 
 ## Local development
 
-1. Clone the repository
-2. Run `bundle install`
-3. Run `npm install`
-4. Run `npm start`
+1. Open Terminal
+2. Go to folder `cd Sites/kwdstudio.github.io`
+3. Run `bundle install`
+4. Run `npm install`
+5. Run `npm start`
    * The app will start on http://localhost:4000.
 
 Edit Sass/JavaScript files in the `src/` directory. The browser will auto-reload when changes are detected.

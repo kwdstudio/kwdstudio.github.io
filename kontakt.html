@@ -1,50 +1,45 @@
 ---
-layout: default
+layout: page
 title: Kontakt
 description: Vill du samarbeta, eller behöver du hjälp med något? Hör av dig!
+intro_heading: Kontakt
+intro_lead: Vill du samarbeta, eller behöver du hjälp med något? Hör av dig!
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"
 color4: "#940797"
 ---
+
 {% assign ordered_co_workers = site.co_workers | sort: "order" %}
 
-<div class="Wrapper">
-  <header class="ContentHead">
-    <div class="Grid Grid--padded Grid--compensatePadded">
-      <div class="Grid-item Grid-item-m--22-of-24 Grid-item-ml--20-of-24 Grid-item-l--20-of-24 Grid-item-s--push-1 Grid-item-m--push-3 Grid-item-l--push-4 Grid-item-xxl--push-5 Grid-item-xxl--pushRight-2">
-        <h1 class="ContentHead-heading">Kontakt</h1>
-
-        <div class="ContentHead-lead"><p>Vill du samarbeta, eller behöver du hjälp med något? Hör av dig!</p></div>
+<ul class="CoWorkers">
+  {% for co_worker in ordered_co_workers %}
+    <li class="CoWorkers-coWorker">
+      <div class="CoWorkers-imageWrapper">
+        <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="{{ co_worker.name }}">
       </div>
-    </div>
-  </header>
+      <div class="CoWorkers-body">
+        <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
+        <div class="CoWorkers-contactInfo">
+          <p>
+            {{ co_worker.role }}<br>
+            <a href="mailto:{{ co_worker.email }}">{{ co_worker.email }}</a><br>
+            {{ co_worker.telephone }}
+          </p>
+        </div>
+      </div>
+    </li>
+  {% endfor %}
+</ul>
 
-  <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
-    <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--18-of-24 Grid-item-ml--17-of-24 Grid-item-l--16-of-24 Grid-item-xxl--14-of-24">
-      <ul class="CoWorkers">
-        {% for co_worker in ordered_co_workers %}
-          <li class="CoWorkers-coWorker">
-            <div class="CoWorkers-imageWrapper">
-              <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="Porträtt på {{ co_worker.name }}">
-            </div>
+## New biz
 
-            <div class="CoWorkers-body">
-              <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
+**Karolina Westerlund**, vd
+[karolina@kwdstudio.se](mailto:karolina@kwdstudio.se)
+073 676 33 40
 
-              <div class="CoWorkers-contactInfo">
-                <p>
-                  {{ co_worker.role }}<br>
-                  <a href="mailto:{{ co_worker.email }}">{{ co_worker.email }}</a><br>
-                  {{ co_worker.telephone }}
-                </p>
-              </div>
+## Samarbeten
 
-              {{ co_worker.bio }}
-            </div>
-          </li>
-        {% endfor %}
-      </ul>
-    </div>
-  </div>
-</div>
+**Johanna Celion**, kundanvsarig & strateg
+[johanna@kwdstudio.se](mailto:johanna@kwdstudio.se)
+072 303 77 87

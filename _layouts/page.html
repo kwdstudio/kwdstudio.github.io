@@ -2,17 +2,23 @@
 layout: default
 ---
 
-<div class="Wrapper Text">
+<div class="Wrapper">
   <header class="ContentHead">
     <div class="Grid Grid--padded Grid--compensatePadded Grid--center">
       <div class="Grid-item Grid-item-m--22-of-24 Grid-item-ml--20-of-24 Grid-item-l--20-of-24 Grid-item-s--push-1 Grid-item-m--push-3 Grid-item-l--push-4 Grid-item-xxl--push-5 Grid-item-xxl--pushRight-2">
         <h1 class="ContentHead-heading">{{ page.intro_heading }}</h1>
 
-        <div class="ContentHead-lead">{{ page.intro_lead }}</div>
+        <div class="ContentHead-lead"><p>{{ page.intro_lead }}</p></div>
       </div>
     </div>
   </header>
-
+</div>
+{% unless page.intro_image == "" %}
+  <div class="Wrapper Wrapper--hero">
+    <img src="{{ page.intro_image }}" alt="" class="">
+  </div>
+{% endunless %}
+<div class="Wrapper Text u-spacingTopHectoGentle">
   <div class="Grid Grid--center Grid--padded Grid--compensatePadded">
     <div class="Grid-item Grid-item-s--22-of-24 Grid-item-m--18-of-24 Grid-item-ml--17-of-24 Grid-item-l--16-of-24 Grid-item-xxl--14-of-24">
       <div class="Text-body">

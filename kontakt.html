@@ -1,9 +1,10 @@
 ---
 layout: page
 title: Kontakt
-description: Vill du samarbeta, eller behöver du hjälp med något? Hör av dig!
+description: Vill du samarbeta, eller behöver du hjälp med något? Hör av dig!  
 intro_heading: Kontakt
-intro_lead: Vill du samarbeta, eller behöver du hjälp med något? Hör av dig!
+intro_lead: Behöver du och ditt företag hjälp eller vill du vara del av vårt nätverk? Hör av dig! Vi är öppna för nya uppdrag och vill alltid bredda vårt nätverk av kreatörer och producenter. 
+
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"
@@ -12,34 +13,30 @@ color4: "#940797"
 
 {% assign ordered_co_workers = site.co_workers | sort: "order" %}
 
-<ul class="CoWorkers">
-  {% for co_worker in ordered_co_workers %}
-    <li class="CoWorkers-coWorker">
-      <div class="CoWorkers-imageWrapper">
-        <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="{{ co_worker.name }}">
+{% for co_worker in ordered_co_workers %}
+  <h2>{{ co_worker.responsibilty }}</h2>
+  <div class="CoWorkers-coWorker">
+    <div class="CoWorkers-imageWrapper">
+      <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="{{ co_worker.name }}">
+    </div>
+    <div class="CoWorkers-body">
+      <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
+      <div class="CoWorkers-contactInfo">
+        <p>
+          {{ co_worker.role }}<br>
+          <a href="mailto:{{ co_worker.email }}">{{ co_worker.email }}</a><br>
+          {{ co_worker.telephone }}
+        </p>
       </div>
-      <div class="CoWorkers-body">
-        <h3 class="CoWorkers-heading">{{ co_worker.name }}</h3>
-        <div class="CoWorkers-contactInfo">
-          <p>
-            {{ co_worker.role }}<br>
-            <a href="mailto:{{ co_worker.email }}">{{ co_worker.email }}</a><br>
-            {{ co_worker.telephone }}
-          </p>
-        </div>
-      </div>
-    </li>
-  {% endfor %}
-</ul>
+    </div>
+  </div>
+{% endfor %}
 
-## New biz
+{%
+  include page_image.html
+  src="/images/pages/office.jpg"
+%}
+<h2>Kom och säg hej!</h2>
 
-**Karolina Westerlund**, vd
-[karolina@kwdstudio.se](mailto:karolina@kwdstudio.se)
-073 676 33 40
+<p>Vårt fina kontor (ni ser ju!) ligger på Repslagargatan 17A på Södermalm. Det kan vara klurigt att hitta så här är en vägbeskrivning: Gå in via Brunogallerian, ta höger till trapphus A, dörren rakt fram leder till trapphuset. Tre trappor upp hittar ni KWD Studio. Välkommen! 
 
-## Samarbeten
-
-**Johanna Celion**, kundanvsarig & strateg
-[johanna@kwdstudio.se](mailto:johanna@kwdstudio.se)
-072 303 77 87

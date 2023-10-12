@@ -32,6 +32,15 @@ $co-workers-co-worker-width: 800px;
     max-width: $co-workers-co-worker-width;
   }
 
+  // Element: Responsibility
+  // ---------------------------------------------------------------------------
+  &-responsibility {
+    @include styles-from-map((
+      margin-bottom: $spacing-hecto-gentle,
+    ));
+    margin-bottom: 30px;
+  }
+
   // Element: Image Wrapper
   // ---------------------------------------------------------------------------
   &-imageWrapper {

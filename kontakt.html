@@ -14,7 +14,7 @@ color4: "#940797"
 {% assign ordered_co_workers = site.co_workers | sort: "order" %}
 
 {% for co_worker in ordered_co_workers %}
-  <h2>{{ co_worker.responsibilty }}</h2>
+  <h2 class="CoWorkers-responsibility">{{ co_worker.responsibilty }}</h2>
   <div class="CoWorkers-coWorker">
     <div class="CoWorkers-imageWrapper">
       <img class="CoWorkers-image" src="/images/co-workers/{{ co_worker.name | slugify }}.jpg" alt="{{ co_worker.name }}">
@@ -36,6 +36,7 @@ color4: "#940797"
   include page_image.html
   src="/images/pages/office.jpg"
 %}
+
 <h2>Kom och säg hej!</h2>
 
 <p>Vårt fina kontor (ni ser ju!) ligger på Repslagargatan 17A på Södermalm. Det kan vara klurigt att hitta så här är en vägbeskrivning: Gå in via Brunogallerian, ta höger till trapphus A, dörren rakt fram leder till trapphuset. Tre trappor upp hittar ni KWD Studio. Välkommen! 

@@ -36,9 +36,10 @@ $co-workers-co-worker-width: 800px;
   // ---------------------------------------------------------------------------
   &-responsibility {
     @include styles-from-map((
-      margin-bottom: $spacing-hecto-gentle,
+      margin-bottom: $spacing-base-gentle,
     ));
-    margin-bottom: 30px;
+    @include typography($untitled-sans, hecto-gentle, tight);
+    font-weight: $black-font-weight;
   }
 
   // Element: Image Wrapper

@@ -10,31 +10,35 @@ $component-name: "Text";
 $component-base: ".#{$component-name}";
 
 #{$component-base} {
-  h2 {
-    @include styles-from-map((
-      margin-top: $spacing-deca-gentle,
-      margin-bottom: $spacing-milli-gentle,
-    ));
+  // Element: Body
+  // ---------------------------------------------------------------------------
+  &-body {
+    h2 {
+      @include styles-from-map((
+        margin-top: $spacing-deca-gentle,
+        margin-bottom: $spacing-milli-gentle,
+      ));
 
-    @include typography($untitled-sans, hecto-gentle, tight);
-    font-weight: $black-font-weight;
+      @include typography($untitled-sans, hecto-gentle, tight);
+      font-weight: $black-font-weight;
 
-    &:first-child {
-      margin-top: 0;
+      &:first-child {
+        margin-top: 0;
+      }
     }
-  }
 
-  h3 {
-    @include typography($untitled-sans, base-gentle, tight);
-    font-weight: $black-font-weight;
-  }
+    h3 {
+      @include typography($untitled-sans, base-gentle, tight);
+      font-weight: $black-font-weight;
+    }
 
-  h4,
-  h5,
-  h6 {
-    margin: 0;
+    h4,
+    h5,
+    h6 {
+      margin: 0;
 
-    font: inherit;
-    text-decoration: underline;
+      font: inherit;
+      text-decoration: underline;
+    }
   }
 }

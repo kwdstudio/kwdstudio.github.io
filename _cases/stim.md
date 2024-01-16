@@ -27,7 +27,12 @@ Lösningen blev Sounds like 2023, en sammanfattning av vad Stims kunder varit me
   caption="Antal spelade låtar live 2023"
 %}
 
-Lösningen realiserades i form av en kampanjsida samt ett digitalt utskick som segmenterades på kunder inom bakgrund och live. 
+Sounds like 2023 realiserades i form av en kampanjsida samt ett digitalt utskick som segmenterades på kunder inom bakgrund och live. 
+
+## Och resultatet då? 
+
+De digitala utskicken blev en succe med en öppningsfrekvens på över 50%. Och kampanjssajten togs emot med rungande applåder och har skapat en stolthet hos medarbetare liksom kunder och musikskapare. 
+Det fina mottagandet har gjort att Stim redan nu vill spinna vidare på konceptet för 2024. 
 
 Nyfiken på hur 2023 lät? <a href="https://soundslike2023.se/">Sounds like 2023</a>
 

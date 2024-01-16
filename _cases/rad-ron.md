@@ -8,7 +8,7 @@ all_order: 2
 teaser_heading: Insats för ett starkare varumärke
 teaser_body: <p>Insats i sociala medier gav en ökad räckvidd på 183%</p>
 intro_heading: Insats för ett starkare varumärke
-intro_lead: När den anrika oberoende publicisten Råd & Rön ville stärka sitt varumärke i digitala och sociala kanaler vände de sig till oss. Och resultaten lät inte vänta
+intro_lead: När den anrika oberoende publicisten Råd & Rön ville stärka sitt varumärke i digitala och sociala kanaler vände de sig till oss. Och resultaten lät inte vänta på sig. 
 ---
 
 ## Stärkt närvaro i sociala medier

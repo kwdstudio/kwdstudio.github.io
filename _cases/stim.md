@@ -24,7 +24,7 @@ Lösningen blev Sounds like 2023, en sammanfattning av vad Stims kunder varit me
 
 Lösningen realiserades i form av en kampanjsida samt ett digitalt utskick som segmenterades på kunder inom bakgrund och live. 
 
-Nyfiken på hur 2023 lät? 
+Nyfiken på hur 2023 lät? <a href="https://soundslike2023.se/">Sounds like 2023</a>
 
 ## Om Stim
 

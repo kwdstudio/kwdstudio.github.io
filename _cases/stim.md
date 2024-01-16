@@ -13,6 +13,11 @@ intro_lead: Vi hjälpte Stim att summera musikåret 2023 genom att paketera och 
 
 ## Uppdrag 
 Inför julen 2023 har KWD Studio hjälp Stim med ett kommunikationskoncept i syfte att önska kunderna en god jul och tacka för att de bidrar till ett rikt musikliv. Målet har varit att stärka relationen till kunderna samt öka lojaliteten.
+{%
+  include page_image.html
+  src="/images/cases/stim/graf2.gif"
+  caption="Antal spelade låtar bakgrundsmusik 2023"
+%}
 
 Lösningen blev Sounds like 2023, en sammanfattning av vad Stims kunder varit med och bidragit till genom musiken de spelat inom ramen för sin verksamhet. Låtarna och musikskaparna som spelades mest, platserna det spelades på och stödet Stim fördelade tack vare sina kunders insats. 
 

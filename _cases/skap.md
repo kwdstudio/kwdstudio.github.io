@@ -4,7 +4,7 @@ title: Skap
 description: Vi stöttar Skap med strategisk rådgivning, varumärkesarbete, medlemsrekrytering och produktion av text, film och livesändningar.
 image: /images/cases/skap/featured.jpg
 client: Skap
-all_order: 2
+all_order: 6
 teaser_heading: Till svensk musiks försvar
 teaser_body: <p>En liten kulturgärning i form av strategi, produktion och kommunikation.</p>
 intro_heading: Till svensk musiks försvar

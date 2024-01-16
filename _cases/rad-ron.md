@@ -19,7 +19,7 @@ Som en del i arbetet med den redaktionella processen har vi tagit fram innehåll
 {%
   include page_image.html
   src="/images/cases/rad-ron/staplar.png"
-  caption="Förändrad räckvid efter insats."
+  caption="Förändrad räckvidd efter KWD Studios insats."
 %}
 
 ## Resultatet då?

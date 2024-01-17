@@ -3,7 +3,7 @@ layout: case
 title: Atea 
 description: Alla borde få välja it-prylar efter tycke och smak. Men så är det inte. Det vill Atea eShop och Apple ändra på.
 image: /images/cases/atea-microsoft-2/featured.png
-client: Apple
+client: Atea
 all_order: 2
 teaser_heading: Analogt för maximal känsla
 teaser_body: <p>När Microsoft lyfter sin laptop för tunga renderingar väljer de analogt.</p>

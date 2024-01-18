@@ -42,4 +42,4 @@ Stim är en medlemsorganisation utan vinstintresse som tillsammans med anslutna 
 
 ## Produktion
 
-I det här projektet samarbetade vi med ADn Johan Nohr i vårt frilansnätverk. KWD Studio stod för idé och koncept, copy samt strategi för spridning. Johan stod för design och implementering på webbplats samt nyhetsbrev. 
+I det här projektet samarbetade vi med AD Johan Nohr i vårt frilansnätverk. KWD Studio stod för idé och koncept, copy samt strategi för spridning. Johan stod för design och implementering på webbplats samt nyhetsbrev. 

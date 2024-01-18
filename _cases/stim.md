@@ -38,5 +38,8 @@ Nyfiken på hur 2023 lät? <a href="https://soundslike2023.se/">Sounds like 2023
 
 ## Om Stim
 
-Stim är en medlemsorganisation utan vinstintresse som tillsammans med anslutna musikskapare och kunder ger vi förutsättningar för skapande och återväxt i Sveriges musikliv.
+Stim är en medlemsorganisation utan vinstintresse som tillsammans med anslutna musikskapare och kunder ger förutsättningar för skapande och återväxt i Sveriges musikliv.
 
+## Produktion
+
+I det här projektet samarbetade vi med ADn Johan Nohr i vårt frilansnätverk. KWD Studio stod för idé och koncept, copy samt strategi för spridning. Johan stod för design och implementering på webbplats samt nyhetsbrev. 

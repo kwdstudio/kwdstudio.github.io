@@ -4,7 +4,7 @@ title: Atea
 description: ANär Microsoft lyfter sin laptop för tunga renderingar väljer de analogt.
 image: /images/cases/atea-microsoft-2/featured.png
 client: Atea
-all_order: 2
+all_order: 4
 teaser_heading: Analoga bilder möter digital vardag
 teaser_body: <p>När Microsoft lyfter sin laptop för tunga renderingar väljer de analogt.</p>
 intro_heading: Analoga bilder möter digital vardag

@@ -24,8 +24,7 @@ För att stärka it-jätten Ateas varumärke i de nordiska länderna lanserade v
 
 ## Lösning
 
-Kampanjen togs ut i en film med en mängd kanalanpassade klippversioner och lokala anpassningar för de olika länderna. I filmen följer vi med i en arbetsdag där de olika produkterna används som naturliga inslag på olika platser och i olika jobbsituationer. Genom filmen ville vi visa hur olika en arbetsdag ser ut för många kontorsarbetare, och förstärka it-produkternas avgörande roll för att det hybrida arbetslivet ska fungera. 
-
+Kampanjen togs ut i en film med en mängd kanalanpassade klippversioner och lokala anpassningar för Sverige, Norge och Danmark. I filmen följer vi med i en arbetsdag där de olika produkterna används som naturliga inslag på olika platser och i olika jobbsituationer. Genom filmen ville vi visa hur olika en arbetsdag ser ut för många kontorsarbetare, och förstärka it-produkternas avgörande roll för att det hybrida arbetslivet ska fungera. Filmerna aktiverades på Youtube och LinkedIn.
 {%
   include page_image.html
   src="/images/cases/atea-eshop/coffe.jpg"

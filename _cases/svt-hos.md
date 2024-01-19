@@ -6,7 +6,7 @@ image: /images/cases/svt-hos/featured.png
 client: SVT
 all_order: 3
 teaser_heading: Lansering av Historien om Sverige
-teaser_body: <p>Så lanserade vi veriges största dokumentärprojekt någonsin</p>
+teaser_body: <p>Så lanserade vi Sveriges största dokumentärprojekt någonsin</p>
 intro_heading: Lansering av Historien om Sverige
 intro_lead: Sveriges största dokumentärprojekt någonsin ska berätta historien om Sverige från istid till nutid. Vi stod för den digitala annonsstrategin.
 ---

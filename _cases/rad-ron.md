@@ -4,7 +4,7 @@ title: Råd och Rön
 description: Insats i sociala medier gav en ökad räckvidd på 183%.
 image: /images/cases/rad-ron/featured.png
 client: Råd & Rön 
-all_order: 2
+all_order: 4
 teaser_heading: Insats för ett starkare varumärke
 teaser_body: <p>Insats i sociala medier gav en ökad räckvidd på 183%</p>
 intro_heading: Insats för ett starkare varumärke

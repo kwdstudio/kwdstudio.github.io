@@ -4,7 +4,7 @@ title: Visma
 description: Kravställning, remiss och förhandlat förfarande. Kan upphandlingar vara kul? Ja, ganska kul, visade det sig.
 image: /images/cases/visma/featured.jpg
 client: Visma
-all_order: 5
+all_order: 9
 teaser_heading: Visma vågar vara vitsiga
 teaser_body: <p>Kan upphandlingar vara kul? Ja, ganska kul, visade det sig.</p>
 intro_heading: Visma vågar vara vitsiga

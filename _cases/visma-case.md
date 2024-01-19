@@ -4,7 +4,7 @@ title: Visma
 description: Kundberättelser om Visma som stöd och partner.
 image: /images/cases/visma-case/featured.jpg
 client: Visma
-all_order: 4
+all_order: 8
 teaser_heading: Casefilm med dramatisk udd
 teaser_body: <p>Kundberättelser om Visma som stöd och partner.</p>
 intro_heading: Casefilm med dramatisk udd

@@ -4,7 +4,7 @@ title: Fjällräven produktlansering
 description: Produklanseringar och influensersamarbeten med Fjällräven
 image: /images/cases/fjallraven-lansering/featured.jpg
 client: Fjällräven
-all_order: 7
+all_order: 14
 teaser_heading: Produktlansering
 teaser_body: <p>Produktlansering med influensersamarbeten</p>
 intro_heading: Produktlansering med influensersamarbeten

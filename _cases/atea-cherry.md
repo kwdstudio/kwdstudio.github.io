@@ -4,7 +4,7 @@ title: Cherry
 description: Vi fick nöjet att göra en kampanj i mindre format för Cherry, företaget som sedan 1973 (!) tillverkat högkvalitativa tangentbord.
 image: /images/cases/atea-cherry/featured.jpg
 client: Atea
-all_order: 6
+all_order: 11
 teaser_heading: Kännbar precision. Ca 10 miljoner gånger.
 teaser_body: <p>En livslängd på 10 miljoner nedslag betyder att du kan skriva wow! 2, 5 miljoner gånger.</p>
 intro_heading: Kännbar precision. Ca 10 miljoner gånger.

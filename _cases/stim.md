@@ -4,7 +4,7 @@ title: Stim
 description: Så visualiserade vi svenskt musikliv.
 image: /images/cases/stim/featured.gif
 client: Stim
-all_order: 2
+all_order: 4
 teaser_heading: Sounds like 2023
 teaser_body: <p>De mest spelade låtarna och vad det betyder för svenskt musikliv.</p>
 intro_heading: Sounds like 2023

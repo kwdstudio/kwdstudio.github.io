@@ -4,7 +4,7 @@ title: SVT - Lansering av Historien om Sverige
 description: Hur vi lanserade Sveriges största dokumentärfilmsprojekt någonsin
 image: /images/cases/svt-hos/featured.png
 client: SVT
-all_order: 2
+all_order: 3
 teaser_heading: Lansering av Historien om Sverige
 teaser_body: <p>Så lanserade vi veriges största dokumentärprojekt någonsin</p>
 intro_heading: Lansering av Historien om Sverige

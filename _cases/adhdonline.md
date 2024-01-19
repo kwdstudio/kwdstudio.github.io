@@ -4,7 +4,7 @@ title: ADHDonline
 description: Så ökade vi söktrafik, kännedom och patientförtroende i några enkla steg. 
 image: /images/cases/adhdonline/featured.jpg
 client: ADHDonline
-all_order: 4
+all_order: 12
 teaser_heading: SEO-strategi med mini-budget
 teaser_body: <p>Så ökade vi söktrafik, kännedom och patientförtroende i några enkla steg.</p>
 intro_heading: SEO-strategi med mini-budget 

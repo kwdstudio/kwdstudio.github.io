@@ -20,7 +20,7 @@ Under 2023 har vi hjälpt RESCUE att ta fram en svensk anpassning av organisatio
 {%
   include page_image.html
   src="/images/cases/rescue/julkampanj.png"
-  caption="Ett urval ur RESCUE:s Julkampanj 2023?"
+  caption="Ett urval ur RESCUE:s Julkampanj 2023."
 %}
 
 Parallellt med det strategiska arbetet har vi stöttat med löpande produktion av innehåll i egna kanaler, i en process som leds av KWD Studio. Vi ansvarar även för köpt annonsering samt för koncept, idé, kampanjstrategi, innehållsproduktion och aktivering av årets julkampanj. Arbetet omfattar organisk och köpt kommunikation, kampanjsidor, SEM samt SMS och postala utskick.

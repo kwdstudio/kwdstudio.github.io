@@ -11,7 +11,7 @@ intro_heading: För lyckade möten i alla rum
 intro_lead: En film om samarbete, nerver, chefer och ögonblicket du lyckas. Och videokameror.
 ---
 
-## Att ta vara på tillfället
+## För lyckade möten i alla rum
 
 För att etablera Logitechs konferenskameror som den ultimata lösningen för vår målgrupp lanserade vi en digital kampanj. Med budskapet “För lyckade möten. I alla rum.” ville vi förmedla produkternas rumsliga egenskaper och samtidigt ringa in nyttan. Oavsett om det är i det intima arbetsrummet eller det storslagna konferensrummet, kan du lita på att Logitech har den perfekta kameran för just dina behov och gör så att ditt möte blir lyckat.
 

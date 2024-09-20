@@ -6,7 +6,7 @@ image: /images/cases/atea-logitech-video/featured.jpg
 client: Atea
 all_order: 2
 teaser_heading: Kampanj för Logitech 
-teaser_body: <p>En film om samarbete, nerver, chefer och ögonblicket du lyckas. Och videokameror.</p>
+teaser_body: <p>En film om samarbete, nerver och ögonblicket du lyckas övertyga chefen. Och videokameror.</p>
 intro_heading: För lyckade möten i alla rum
 intro_lead: En film om samarbete, nerver, chefer och ögonblicket du lyckas. Och videokameror.
 ---

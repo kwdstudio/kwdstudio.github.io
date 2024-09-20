@@ -11,7 +11,7 @@
 
 Edit Sass/JavaScript files in the `src/` directory. The browser will auto-reload when changes are detected.
 
-Committing will take a bit longer than usual, as production-ready CSS/JS will be built automatically using a git hook.
+Committing will take a bit longer than usual, as production-ready CSS/JS will be built automatically using a git hook. Have patience.
 
 ### Staging
 

@@ -1,0 +1,31 @@
+---
+layout: case
+title: Atea – HP
+description: TODO
+image: /images/cases/atea-hp/featured.jpg
+client: Atea
+all_order: 2
+teaser_heading: Jobba säkert överallt
+teaser_body: <p>Är du hybridarbetare, som jobbar hemma, på språng, på lunchen och kanske på okända nätverk? Då behöver du säkra produkter som låter dig jobba på dina villkor.  </p>
+intro_heading: Jobba säkert överallt
+intro_lead: Är du hybridarbetare, som jobbar hemma, på språng, på lunchen och kanske på okända nätverk? Då behöver du säkra produkter som låter dig jobba på dina villkor.
+vimeo: true
+---
+
+## Bakgrund
+
+Tack vare flera säkerhetsfunktioner som Sure Click och Sure View erbjuder HP inbyggda skydd mot intrång och it-attacker. Även bland nyfikna ögon och skadlig kod.
+
+För att skapa kännedom och intresse för produkterna och positionera HP som en leverantör av säkra IT-produkter gjorde vi en reklamfilm som dramatiserar en hybrid arbetssituation med potentiella säkerhetshot. 
+
+Utöver reklamfilm tog vi fram display-annonser, copy, samt bilder för landningssida där vi berättade mer om såväl produkterna som säkerhetsfunktionerna.
+
+Kampanjen aktiverades i flera perioder på Youtube, LinkedIn och som Google Display ads.
+
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/955799545"
+  h="3970fb1f4"
+  caption="Du jobbar säkert överallt"
+%}
+

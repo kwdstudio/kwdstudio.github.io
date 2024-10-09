@@ -2,7 +2,7 @@
 layout: case
 title: Atea – HP
 description: TODO
-image: /images/cases/atea-hp/featured.jpg
+image: /images/cases/atea-hp-safe/featured.jpg
 client: Atea
 all_order: 2
 teaser_heading: Jobba säkert överallt

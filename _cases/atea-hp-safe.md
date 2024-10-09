@@ -17,11 +17,6 @@ vimeo: true
 Tack vare flera säkerhetsfunktioner som Sure Click och Sure View erbjuder HP inbyggda skydd mot intrång och it-attacker. Även bland nyfikna ögon och skadlig kod.
 
 För att skapa kännedom och intresse för produkterna och positionera HP som en leverantör av säkra IT-produkter gjorde vi en reklamfilm som dramatiserar en hybrid arbetssituation med potentiella säkerhetshot. 
-
-Utöver reklamfilm tog vi fram display-annonser, copy, samt bilder för landningssida där vi berättade mer om såväl produkterna som säkerhetsfunktionerna.
-
-Kampanjen aktiverades i flera perioder på Youtube, LinkedIn och som Google Display ads.
-
 {%
   include page_video.html
   src="https://player.vimeo.com/video/955799545"
@@ -29,3 +24,12 @@ Kampanjen aktiverades i flera perioder på Youtube, LinkedIn och som Google Disp
   caption="Du jobbar säkert överallt"
 %}
 
+Utöver reklamfilm tog vi fram display-annonser, copy, samt bilder för landningssida där vi berättade mer om såväl produkterna som säkerhetsfunktionerna.
+
+Kampanjen aktiverades i flera perioder på Youtube, LinkedIn och som Google Display ads.
+
+{%
+  include page_image.html
+  src="/images/cases/atea-hp-safe/coffe.jpg"
+  caption=""
+%}

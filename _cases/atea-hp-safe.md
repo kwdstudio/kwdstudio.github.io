@@ -6,7 +6,7 @@ image: /images/cases/atea-hp-safe/featured.jpg
 client: Atea
 all_order: 2
 teaser_heading: Jobba säkert överallt
-teaser_body: <p>Ny kampanj för HP och Atea.</p>
+teaser_body: <p>Ny kampanj för HP och Atea om säkra produkter för dig på språng.</p>
 intro_heading: Jobba säkert överallt
 intro_lead: Är du hybridarbetare, som jobbar hemma, på språng, på lunchen och kanske på okända nätverk? Då behöver du säkra produkter som låter dig jobba på dina villkor.
 vimeo: true

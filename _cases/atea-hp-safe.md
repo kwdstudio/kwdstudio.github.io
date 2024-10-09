@@ -12,7 +12,7 @@ intro_lead: Är du hybridarbetare, som jobbar hemma, på språng, på lunchen oc
 vimeo: true
 ---
 
-## Bakgrund
+## Uppdrag
 
 Tack vare flera säkerhetsfunktioner som Sure Click och Sure View erbjuder HP inbyggda skydd mot intrång och it-attacker. Även bland nyfikna ögon och skadlig kod.
 

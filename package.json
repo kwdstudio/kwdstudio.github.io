@@ -23,7 +23,7 @@
     "mini-css-extract-plugin": "^0.9.0",
     "node-sass": "^4.13.1",
     "normalize.css": "^8.0.1",
-    "repetitivo": "git://github.com/Oktavilla/repetitivo.git#master",
+    "repetitivo": "https://github.com/Oktavilla/repetitivo.git#master",
     "sass-loader": "~8.0.2",
     "terser-webpack-plugin": "^2.3.5",
     "webpack": "~4.41.6",

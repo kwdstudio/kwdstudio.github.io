@@ -4,7 +4,7 @@ title: Atea – HP
 description: Ny kampanj för HP och Atea om säkra produkter för dig på språng.
 image: /images/cases/atea-hp-safe/featured.jpg
 client: Atea
-all_order: 2
+all_order: 1
 teaser_heading: Jobba säkert överallt
 teaser_body: <p>Ny kampanj för HP och Atea om säkra produkter för dig på språng.</p>
 intro_heading: Jobba säkert överallt

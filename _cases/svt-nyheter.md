@@ -4,7 +4,7 @@ title: SVT Nyheter
 description: Inför riksdagsvalet ville SVT nå unga människor — en grupp som lever på nätet, scrollar förbi det mesta, och skoningslöst dömer ut allt som känns fejk, fel och pinsamt. Så här gjorde vi.
 image: /images/cases/svt-nyheter/featured.jpg
 client: SVT
-all_order: 1
+all_order: 3
 teaser_heading: Gammelmedia möter Gen&nbsp;Z
 teaser_body: <p>Vi hjälper SVT Nyheter nå unga människor inför valet.</p>
 intro_heading: Gammelmedia möter Gen&nbsp;Z

@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Atea – HP
+title: Atea – HP Safe
 description: Ny kampanj för HP och Atea om säkra produkter för dig på språng.
 image: /images/cases/atea-hp-safe/featured.jpg
 client: Atea

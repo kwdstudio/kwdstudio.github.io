@@ -4,7 +4,7 @@ title: RESCUE - Varumärkesplattform och strategi för kännedom
 description: Så gjorde vi för att etablera RESCUE på den svenska marknaden
 image: /images/cases/rescue/featured.png
 client: RESCUE
-all_order: 3
+all_order: 5
 teaser_heading: Varumärkesplattform och strategi för kännedom
 teaser_body: <p>Så gjorde vi för att etablera RESCUE på den svenska marknaden</p>
 intro_heading: Varumärkesplattform och strategi för kännedom

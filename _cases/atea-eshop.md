@@ -4,7 +4,7 @@ title: Atea - Produkter för att jobba som du vill
 description: Nordisk kampanj för Atea eshop om möjligehterna med hybridarbete
 image: /images/cases/atea-eshop/featured.png
 client: Atea
-all_order: 2
+all_order: 5
 teaser_heading: Nordisk kampanj för Atea eshop
 teaser_body: <p>Följ med på en arbetsdag som börjar i köket och slutar i skogen.</p>
 intro_heading: Nordisk kampanj för Atea eshop

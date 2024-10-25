@@ -2,7 +2,7 @@
 layout: case
 title: Råd och Rön 
 description: Värt att testa – Råd & Rön söker nästa generation.
-image: /images/cases/rad-ron-new/featured.png
+image: /images/cases/rad-ron-campaign/featured.png
 client: Råd & Rön 
 all_order: 3
 teaser_heading: Värt att testa

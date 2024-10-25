@@ -4,7 +4,7 @@ title: Råd och Rön
 description: Värt att testa: Råd & Rön söker nästa generation.
 image: /images/cases/rad-ron-new/featured.png
 client: Råd & Rön 
-all_order: 3
+all_order: 5
 teaser_heading: Värt att testa
 teaser_body: <p>Råd & Rön söker nästa generation.</p>
 intro_heading: Råd & Rön söker nästa generation.

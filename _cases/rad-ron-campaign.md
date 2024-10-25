@@ -6,8 +6,8 @@ image: /images/cases/rad-ron-campaign/featured.png
 client: Råd & Rön 
 all_order: 3
 teaser_heading: Värt att testa
-teaser_body: <p>Värt att testa</p>
-intro_heading: Råd & Rön söker nästa generation.
+teaser_body: <p>Vi hjälper Råd & Rön att nå nästa generation</p>
+intro_heading: Värt att testa
 intro_lead: Anrika Råd & Rön har ett långsiktigt mål — att få Sveriges 35-45-åringar att ta över stafettpinnen från dagens trogna men åldrande prenumeranter. För att nå dit behöver den nya målgruppen först lära känna Råd & Rön.
 ---
 

@@ -41,7 +41,7 @@ Utifrån konceptet har vi producerat stillbilder och animerade enheter till Meta
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
 {%
   include page_image.html
-  src="/images/cases/rad-ron-campaign/somoothie.jpg"
+  src="/images/cases/rad-ron-campaign/smoothie.jpg"
   caption="Vad händer om det blir krig, måste jag rycka in då?"
   class="Media--portrait Media--noMargin"
 %}

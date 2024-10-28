@@ -34,7 +34,7 @@ Utifrån konceptet har vi producerat stillbilder och animerade enheter till Meta
 {%
   include page_image.html
   src="/images/cases/rad-ron-campaign/egg.jpg"
-  caption="Vad händer om det blir krig, måste jag rycka in då?"
+  caption=""
   class="Media--portrait Media--noMargin"
 %}
     </div>
@@ -42,7 +42,7 @@ Utifrån konceptet har vi producerat stillbilder och animerade enheter till Meta
 {%
   include page_image.html
   src="/images/cases/rad-ron-campaign/smoothie.jpg"
-  caption="Vad händer om det blir krig, måste jag rycka in då?"
+  caption=""
   class="Media--portrait Media--noMargin"
 %}
     </div>
@@ -50,7 +50,7 @@ Utifrån konceptet har vi producerat stillbilder och animerade enheter till Meta
 {%
   include page_image.html
   src="/images/cases/rad-ron-campaign/fryer.jpg"
-  caption="Vad händer om det blir krig, måste jag rycka in då?"
+  caption=""
   class="Media--portrait Media--noMargin"
 %}
     </div>

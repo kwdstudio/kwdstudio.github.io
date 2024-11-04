@@ -34,16 +34,16 @@ Utifrån konceptet har vi producerat stillbilder och animerade enheter till Meta
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
 {%
  include page_image.html
-  src="/images/cases/svt-nyheter/tand.jpg"
+  src="/images/cases/rad-ron-campaign/egg.jpg"
   caption="Vad händer om det blir krig, måste jag rycka in då?"
   class="Media--portrait Media--noMargin"
 %}
     </div>
     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
 {%
-  include page_video.html
-  src="https://player.vimeo.com/video/719068919"
-  caption="Mixern"
+ include page_image.html
+  src="/images/cases/rad-ron-campaign/frier.jpg"
+  caption="Vad händer om det blir krig, måste jag rycka in då?"
   class="Media--portrait Media--noMargin"
 %}
     </div>

@@ -27,3 +27,65 @@ Konceptet bygger på lätt överdrivna men relaterbara situationer där huvudrol
 ## Resultat 
 
 Utifrån konceptet har vi producerat stillbilder och animerade enheter till Meta, display och LinkedIn samt ljudspotar som distribueras via Acast och Youtube. Låga räckviddskostnader och hög klickfrekvens i Meta, överraskande många klick från Youtube och positiva resultat av ljudannonser i Acast visar att vi på ett mycket effektivt sätt lyckas intressera och engagera målgruppen. Nu är grunden lagd för nästa steg: att göra målgruppen till prenumeranter.
+
+
+<div class="Grid-offset u-spacingTopDecaGentle">
+  <div class="Grid Grid--padded Grid--compensatePadded">
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+ include page_image.html
+  src="/images/cases/svt-nyheter/tand.jpg"
+  caption="Vad händer om det blir krig, måste jag rycka in då?"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068919"
+  caption="Mixern"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068952"
+  caption="Skor"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068994"
+  caption="Soffan"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068843"
+  caption="Tandborsten"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+    <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719069027"
+  caption="Tvättstugan"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+     <div class="Grid-item Grid-item-s--12-of-24 Grid-item-l--8-of-24">
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/719068797"
+  caption="Affären"
+  class="Media--portrait Media--noMargin"
+%}
+    </div>
+  </div>
+</div>

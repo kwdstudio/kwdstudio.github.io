@@ -28,6 +28,10 @@ Utöver reklamfilm tog vi fram display-annonser, copy, samt bilder för landning
 
 Kampanjen aktiverades i flera perioder på Youtube, LinkedIn och som Google Display ads.
 
+## Resultat
+
+Kampanjen fick fina resultat till väldigt låga kontaktkostnader. I genomsnitt har CPM (kostnad per tusen exponeringar) legat på låga 22 kr, vilket har resulterat i hög målgruppsträff och en bra kontaktfrekvens. I kombination med hög startfrekvens (65%) och hög genomtittning (50%) har vi inte bara fått stor synlighet utan även stort genomslag i målgruppen.
+
 {%
   include page_image.html
   src="/images/cases/atea-hp-safe/coffe.jpg"

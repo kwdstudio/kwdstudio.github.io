@@ -17,7 +17,7 @@ Sedan 2022 har vi arbetat med att öka Råd & Röns varumärkeskännedom för at
 
 {%
   include page_image.html
-  src="/images/cases/rad-ron/staplar.png"
+  src="/images/cases/rad-ron/growth.png"
   caption="Förändrad räckvidd efter KWD Studios insats."
 %}
 
@@ -25,7 +25,7 @@ Mellan 2023 och 2024 ökade Råd & Rön sin organiska räckvidd på Facebook med
 
 {%
   include page_image.html
-  src="/images/cases/rad-ron/staplar.png"
+  src="/images/cases/rad-ron/instagram.png"
   caption="Förändrad räckvidd efter KWD Studios insats."
 %}
 

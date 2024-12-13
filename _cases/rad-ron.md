@@ -39,4 +39,4 @@ I arbetet ingick att ta fram innehållstyper, en modell för idégenerering och 
 - Organiska exponeringar: +438% (inte i grafik)
 - Nya följare direkt från inlägg på Instagram: +4236 %
 
-Vill du veta hur vi jobbar med köpt annonsering för Råd & Rön, hittar du det här! 
+Vill du veta hur vi jobbar med köpt annonsering för Råd & Rön, hittar du det [här!](/case/rad-ron-campaign) 

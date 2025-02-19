@@ -22,12 +22,3 @@ Atea och Samsung ville marknadsföra Samsungs produkter som ett ekosystem av sma
   caption=""
 %}
 
-## Kampanj
-
-Kampanjen lanserades på youtube och som displayannonser samt i Ateas egna kanaler. 
-
-{%
-  include page_image.html
-  src="/images/cases/atea-samsung-xcover/phone.jpg"
-  caption=""
-%}

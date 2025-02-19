@@ -4,7 +4,7 @@ title: Atea
 description: TODO
 image: /images/cases/atea-logitech-video/featured.jpg
 client: Atea
-all_order: 2
+all_order: 5
 teaser_heading: Kampanj för Logitech 
 teaser_body: <p>En film om samarbete, nerver och ögonblicket du lyckas övertyga chefen. Och videokameror.</p>
 intro_heading: För lyckade möten i alla rum

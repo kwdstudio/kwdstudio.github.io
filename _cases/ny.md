@@ -4,7 +4,7 @@ title: Naturvetarna yrke
 description: Alla förstår sig inte på yrket. 
 image: /images/cases/naturvetarna-work/featured.jpg
 client: Atea
-all_order: 3
+all_order: 2
 teaser_heading: Alla förstår sig inte på yrket
 teaser_body: <p>En kampanj som bygger på missförstånd och antaganden</p>
 intro_heading: Ny kampanj för Naturvetarna.

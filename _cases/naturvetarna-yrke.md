@@ -13,7 +13,7 @@ intro_lead: Naturvetarnas senaste kampanj tar avstamp i missförstånd om vad di
 
 ## Koncept och kampanj
 
-Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesverksamma inom naturvetenskapliga yrken. Det innebär en bredd av yrken som skiljer de sig väldigt mycket åt. Men en sak naturvetare ofta har gemensamt är att människor i deras omgivning och gemene man inte förstår vad de gör. Alla förstår sig inte på yrket helt enkelt.
+Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesverksamma inom naturvetenskapliga yrken. Det är en bredd av yrken som skiljer de sig väldigt mycket åt, men en sak naturvetare ofta har gemensamt är att människor i deras omgivning inte förstår vad de gör. Alla förstår sig inte på yrket helt enkelt.
 
 {%
   include page_video.html

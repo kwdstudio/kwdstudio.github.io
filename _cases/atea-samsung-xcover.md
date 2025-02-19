@@ -7,28 +7,25 @@ client: Atea
 all_order: 3
 teaser_heading: Samsung XCover, en riktig trotjänare
 teaser_body: <p>Produktlansering för Samsung och Atea</p>
-intro_heading: Glöm postitlappar, köp en Samsung
-intro_lead: Produktlansering av Samsung Galaxy Z Fold5 för Atea. Den här gången lät vi en arkitekt visa på möjligheterna.
+intro_heading: Samsung Galaxy XCover, en lur att skicka i golvet.
+intro_lead: De flesta av oss använder våra mobiler för appar, prata, surfa. De som har en Samsung XCover7 räddar liv. 
 vimeo: true
 ---
 
 ## Uppdrag
 
-Sommaren 2023 lanserade Samsung sin senaste modell av mobilen Galaxy Z Fold5. När den började säljas i Ateas webbshop fick vi i uppdrag att marknadsföra och skapa intresse för produkten. 
+Atea och Samsung ville marknadsföra Samsungs produkter som ett ekosystem av smarta, tåliga och kraftfulla enheter som hjälper människor i jobbet. Sagt och gjort, vi hittade läkare och patienter och riggade upp en scen där liv ska räddas. Nu kanske inte Samsung räddar liv, men de allra flesta läkare har valt just Samsung som arbetsverktyg. 
 {%
   include page_video.html
-  src="https://player.vimeo.com/video/901899293"
+  src="https://player.vimeo.com/video/1055157035"
   h="3970fb1f4"
   caption=""
 %}
 
-## Lösning
-En kampanj för att skapa intresse för den nya modellen av Galaxy Z Fold5 och driva trafik till kampanjsida med innehåll som skapar fördjupat intresse och köpintention. Kampanjen togs ut i kanalanpassade reklamfilmer och display ads.
 
-Med filmen ville vi skapa intresse i en kontorsarbetande målgrupp genom att placera produkten i en kontorsmiljö och dramatisera nyttan med funktionerna i jobbsammanhang. Vi aktiverade kampanjen med räckvidds-kanaler för att skapa intresse och kännedom, och trafikdrivande display ads.
 
 {%
   include page_image.html
-  src="/images/cases/atea-samsung/mobile.jpg"
+  src="/images/cases/atea-samsung-xcover/phone.jpg"
   caption=""
 %}

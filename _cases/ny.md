@@ -29,7 +29,7 @@ Kampanjen togs ut genom ett antal korta filmer som var och en visar på en missu
 
 {%
   include page_video.html
-  src="https://player.vimeo.com/video/1056776145
+  src="https://player.vimeo.com/video/1056776145"
   h="b49356d1a3"
   caption=""
 %}

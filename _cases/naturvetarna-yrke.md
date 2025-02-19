@@ -8,7 +8,7 @@ all_order: 2
 teaser_heading: Alla förstår sig inte på yrket
 teaser_body: <p>En kampanj som bygger på missförstånd och antaganden</p>
 intro_heading: Alla förstår sig inte på yrket
-intro_lead: Naturvetarnas nya kampanj tar avstamp i alla de missförstånd som naturvetare möts av i sin yrkesvardag. Vad äter egentligen en dietist? Finns svarta hål? Och kan biologer precis allt om småkryp? Som ni förstår, förstår sig inte alla på yrket.
+intro_lead: Naturvetarnas nya kampanj tar avstamp i alla de missförstånd som naturvetare möts av i sin yrkesvardag. Vad äter egentligen en dietist? Finns svarta hål? Och kan biologer precis allt om småkryp?
 ---
 
 ## Koncept och kampanj

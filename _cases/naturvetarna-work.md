@@ -22,7 +22,6 @@ Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesv
   caption=""
 %}
 
-
 Den gemensamma nämnaren av att vara missförstådd, att folk drar snabba slutsatser om vad man som naturvetare gör och kan var något som vi tog fasta på i den nya kampanjen. Naturvetarna har ett behov av att både stärka sitt varumärke och rekrytera fler medlemmar och genom att tydligt positionera Naturvetarna som någon som faktiskt förstår sig på yrket (till skillnad från gemene man) ställer vi oss på målgruppens sida.  
 
 I konceptet “Alla förstår sig inte på yrket” tar vi fasta på alla tillfällen då målgruppen har försökt förklara för utomstående vad de jobbar med. 

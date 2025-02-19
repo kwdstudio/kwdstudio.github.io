@@ -3,7 +3,7 @@ layout: case
 title: Naturvetarna yrke
 description: Alla förstår sig inte på yrket. 
 image: /images/cases/naturvetarna-work/featured.jpg
-client: Atea
+client: Naturvetarna
 all_order: 2
 teaser_heading: Alla förstår sig inte på yrket
 teaser_body: <p>En kampanj som bygger på missförstånd och antaganden</p>

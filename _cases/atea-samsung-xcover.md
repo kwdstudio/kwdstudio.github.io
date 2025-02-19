@@ -8,7 +8,7 @@ all_order: 3
 teaser_heading: Samsung XCover, en riktig trotjänare
 teaser_body: <p>Produktlansering för Samsung och Atea</p>
 intro_heading: Samsung Galaxy XCover, en lur att skicka i golvet.
-intro_lead: De flesta av oss använder våra mobiler för appar, prata, surfa. De som har en Samsung XCover7 räddar liv. 
+intro_lead: De flesta av oss använder våra mobiler för söka, prata, surfa. De som har en Samsung XCover7 räddar liv. 
 vimeo: true
 ---
 

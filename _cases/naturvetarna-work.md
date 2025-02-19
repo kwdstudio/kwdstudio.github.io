@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Naturvetarna
+title: Naturvetarna 
 description: Alla förstår sig inte på yrket. 
 image: /images/cases/naturvetarna-work/featured.jpg
 client: Naturvetarna

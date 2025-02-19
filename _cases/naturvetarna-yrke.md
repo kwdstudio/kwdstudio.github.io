@@ -7,7 +7,7 @@ client: Atea
 all_order: 2
 teaser_heading: Alla förstår sig inte på yrket
 teaser_body: <p>En kampanj som bygger på missförstånd och antaganden</p>
-intro_heading: Ny kampanj för Naturvetarna.
+intro_heading: Ny kampanj för Naturvetarna
 intro_lead: Naturvetarnas senaste kampanj tar avstamp i missförstånd om vad dietister äter, att biologen kan allt om småkryp. Alla förstår sig inte på yrket helt enkelt.
 ---
 

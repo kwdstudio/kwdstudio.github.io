@@ -22,7 +22,7 @@ Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesv
   caption=""
 %}
 
-Naturvetarna har ett behov av att både stärka sitt varumärke och rekrytera fler medlemmar. I den här kampanjen som riktar sig mot unga i karriären tog vi fasta på den så ofta gemensamma nämnaren naturvetare upplever - att vara missförstådd. Kampanjkonceptet “Alla förstår sig inte på yrket” utgår ifrån alla tillfällen då målgruppen har försökt förklara för utomstående vad de jobbar med. 
+Naturvetarna har ett behov av att både stärka sitt varumärke och rekrytera fler medlemmar. I den här kampanjen, som riktar sig mot unga i karriären, tog vi fasta på den så ofta gemensamma nämnaren naturvetare upplever — att vara missförstådd. Kampanjkonceptet “Alla förstår sig inte på yrket” utgår ifrån alla tillfällen då målgruppen har försökt förklara för utomstående vad de jobbar med. 
 
 Kampanjen togs ut genom ett antal korta filmer som var och en visar på en missuppfattning. Filmerna kompletteras med leadsgenererande annonser för display och sociala medier samt sökannonser. 
 
@@ -55,7 +55,7 @@ Då tröskeln är hög att gå från relativt oetablerad till att rekrytera nya 
 2. Långsiktigt: Öka antalet medlemmar.
 
 För att nå målsättningen arbetar vi med en funnelmodell i tre steg — bygga kännedom, generera lead, konvertera. 
-Kampanjen är i första hand framtagen för och riktad mot en målgrupp som är i början av sin karriär — studenter inom naturvetenskapliga ämnen samt relativt nyligen examinerade yrkesverksamma naturvetare. Kampanjen går i följande kanaler.
+Kampanjen är i första hand framtagen för och riktad mot en målgrupp som är i början av sin karriär — studenter inom naturvetenskapliga ämnen samt relativt nyexaminerade yrkesverksamma naturvetare. Kampanjen går i följande kanaler.
 
 - Youtube
 - Snapchat

@@ -1,6 +1,6 @@
 ---
 layout: case
-title: Naturvetarna
+title: Naturvetarna natur
 description: Med hjälp av en superhjälte genererar vi leads till fackförbundet Naturvetarna.
 image: /images/cases/naturvetarna-nature/featured.jpg
 client: Naturvetarna

@@ -4,7 +4,7 @@ title: Naturvetarna
 description: Med hjälp av en superhjälte genererar vi leads till fackförbundet Naturvetarna.
 image: /images/cases/naturvetarna-nature/featured.jpg
 client: Naturvetarna
-all_order: 3
+all_order: 2
 teaser_heading: Ny kampanj för Naturvetarna
 teaser_body: <p>Alla förstår sig inte på yrket</p>
 intro_heading: Koncept och kampanj för Naturvetarna

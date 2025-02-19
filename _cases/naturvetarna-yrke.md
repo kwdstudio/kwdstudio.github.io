@@ -13,7 +13,7 @@ intro_lead: Naturvetarnas nya kampanj tar avstamp i alla de missförstånd som n
 
 ## Koncept och kampanj
 
-Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesverksamma inom naturvetenskapliga yrken. Det är en bredd av yrken som skiljer de sig väldigt mycket åt, men en sak naturvetare ofta har gemensamt är att människor i deras omgivning inte förstår vad de gör. Alla förstår sig inte på yrket helt enkelt.
+Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesverksamma inom naturvetenskapliga yrken. Det är en bredd av yrken som ofta skiljer sig väldigt mycket åt, men en sak naturvetare ofta har gemensamt är att människor i deras omgivning inte förstår vad de gör. Alla förstår sig inte på yrket helt enkelt.
 
 {%
   include page_video.html
@@ -22,9 +22,8 @@ Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesv
   caption=""
 %}
 
-Den gemensamma nämnaren av att vara missförstådd, att folk drar snabba slutsatser om vad man som naturvetare gör och kan var något som vi tog fasta på i den nya kampanjen. Naturvetarna har ett behov av att både stärka sitt varumärke och rekrytera fler medlemmar och genom att tydligt positionera Naturvetarna som någon som faktiskt förstår sig på yrket (till skillnad från gemene man) ställer vi oss på målgruppens sida.  
+Naturvetarna har ett behov av att både stärka sitt varumärke och rekrytera fler medlemmar. I den här kampanjen som riktar sig mot unga i karriären tog vi fasta på den så ofta gemensamma nämnaren naturvetare upplever - att vara missförstådd. Kampanjkonceptet “Alla förstår sig inte på yrket” utgår ifrån alla tillfällen då målgruppen har försökt förklara för utomstående vad de jobbar med. 
 
-I konceptet “Alla förstår sig inte på yrket” tar vi fasta på alla tillfällen då målgruppen har försökt förklara för utomstående vad de jobbar med. 
 Kampanjen togs ut genom ett antal korta filmer som var och en visar på en missuppfattning. Filmerna kompletteras med leadsgenererande annonser för display och sociala medier samt sökannonser. 
 
 {%

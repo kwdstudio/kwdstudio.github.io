@@ -1,12 +1,12 @@
 ---
 layout: case
-title: Atea – Samsung
-description: Produktlansering för Samsung och Atea. En mobil med fokus på vikbarhet och smarta funktioner.
-image: /images/cases/atea-samsung/featured.jpg
+title: Atea – Samsung XCover
+description: Produktlansering för Samsung och Atea. 
+image: /images/cases/atea-samsung-xcover/featured.jpg
 client: Atea
 all_order: 3
-teaser_heading: Glöm postitlappar, köp en Samsung
-teaser_body: <p>Produktlansering för Samsung och Atea.</p>
+teaser_heading: Samsung XCover, en riktig trotjänare
+teaser_body: <p>Produktlansering för Samsung och Atea</p>
 intro_heading: Glöm postitlappar, köp en Samsung
 intro_lead: Produktlansering av Samsung Galaxy Z Fold5 för Atea. Den här gången lät vi en arkitekt visa på möjligheterna.
 vimeo: true

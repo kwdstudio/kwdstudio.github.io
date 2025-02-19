@@ -1,76 +1,71 @@
 ---
 layout: case
 title: Naturvetarna
-description: Med hjälp av en superhjälte genererar vi leads till fackförbundet Naturvetarna.
-image: /images/cases/naturvetarna-nature/featured.jpg
+description: Alla förstår sig inte på yrket. 
+image: /images/cases/naturvetarna-work/featured.jpg
 client: Naturvetarna
 all_order: 2
-teaser_heading: Ny kampanj för Naturvetarna
-teaser_body: <p>Alla förstår sig inte på yrket</p>
-intro_heading: Koncept och kampanj för Naturvetarna
-intro_lead: I Naturvetarnas nya kampanj återvänder superhjälten. Den här gången till en åker. Hur kan det generera leads?  
+teaser_heading: Alla förstår sig inte på yrket
+teaser_body: <p>En kampanj som bygger på missförstånd och antaganden</p>
+intro_heading: Ny kampanj för Naturvetarna.
+intro_lead: Naturvetarnas senaste kampanj tar avstamp i missförstånd om vad dietister äter, att biologen kan allt om småkryp. Alla förstår sig inte på yrket helt enkelt.
 ---
 
 ## Koncept och kampanj
 
-Naturvetarna är ett nischat fackförbund med relativt låg kännedom och ett stort behov att nå ut smart och kostnadseffektivt till en målgrupp som är svår att nå. För att stärka förbundets varumärke och rekrytera fler medlemmar tog vi fram en strategi utifrån olika kanalers styrkor och ett nytt kreativt koncept.
-
-Naturvetarnas styrka är kunskap och förståelse för yrken inom naturvetenskap. De förstår sin nisch som ingen annan. I konceptet "Alla förstår sig inte på yrket" tar vi fasta på alla tillfällen då målgruppen har försökt förklara för utomstående vad de jobbar med. Men konceptet pekar också direkt på den stora konkurrenten som inte är specialiserad på naturvetenskap. För att ytterligare stärka kopplingen och igenkänningen till konkurrenten låter vi en grönklädd superhjälte symbolisera bristen på specialistkunskap, och bära budskapet.
-
-Huvuduttagen blev en masterfilm samt olika annonsversioner och filmerna kompletterades med: 
-
-- Podcastannonser
-- Displayannonser 
-- Annonsenheter för sociala medier 
-- SEM-annonser 
+Naturvetarna är ett nischat fackförbund som representerar studenter och yrkesverksamma inom naturvetenskapliga yrken. Det innebär en bredd av yrken som skiljer de sig väldigt mycket åt. Men en sak naturvetare ofta har gemensamt är att människor i deras omgivning och gemene man inte förstår vad de gör. Alla förstår sig inte på yrket helt enkelt.
 
 {%
   include page_video.html
-  src="https://player.vimeo.com/video/901899204"
+  src="https://player.vimeo.com/video/1056780045"
   h="b49356d1a3"
   caption=""
 %}
 
-## Kampanjstrategi
-Då tröskeln är hög att gå från relativt oetablerad till att rekrytera nya medlemmar blev målsättningen att: 
 
-- Kortsiktigt: Etablera att Naturvetarna finns och är ett bättre val för målgruppen än andra bredare fackförbund.
-- Långsiktigt: Öka antalet medlemmar.
+Den gemensamma nämnaren av att vara missförstådd, att folk drar snabba slutsatser om vad man som naturvetare gör och kan var något som vi tog fasta på i den nya kampanjen. Naturvetarna har ett behov av att både stärka sitt varumärke och rekrytera fler medlemmar och genom att tydligt positionera Naturvetarna som någon som faktiskt förstår sig på yrket (till skillnad från gemene man) ställer vi oss på målgruppens sida.  
 
-För att nå målsättningen byggde vi upp kampanjstrategin i linje med en funnelmodell, i tre steg, kännedom → leads → konvertering.  
-
-Kampanjen aktiverades först i kanaler ämnade att bygga kännedom och riktades mot studenter inom naturvetenskapliga ämnen samt yrkesverksamma naturvetare på: 
-
-- Youtube
-- Instagram
-- Linkedin
-- Tiktok
-- Acast
-- Display
-- Universitetsskärmar
-
-För att sedan ta oss ner i tratten via: 
-
-- Google SEM
-- Riktade insatser på universitetet
-
-Till ledsgenererande aktiviteter som:
-
-- Formulär på naturvetarna.se
-- Leadgenererande annonser på Linkedin
-
-På Linkedin riktades annonserna mot olika yrkesroller inom den naturvetenskapliga sektorn.
-
-## Och resultatet då?
-Kampanjen har gett fina resultat. Trots hård styrning har vi låga kostnader och har haft möjlighet att nå ut i hög grad. Vi har drivit tusentals klick till sajten och haft hög räckvidd med god genomtittning av video. 
-
-Trots en svårnådd och heterogen målgrupp har kampanjen varit väldigt lyckad. Vi har nått målgruppen i stor utsträckning med kvalificerade resultat. Genom vårt strategiska tillvägagångssätt har vi kontinuerligt exponerat kampanjen mot dem under hösten, i genomsnitt 13 gånger i olika medier och format. 
-
-Vår insats har även genererat en betydande mängd trafik till Naturvetarnas webbplats och resulterat i insamlingen av över 700 högkvalitativa leads. Dessa leads representerar individer som visar ett genuint intresse för Naturvetarnas ändamål och verksamhet, vilket ökar möjligheterna till meningsfulla och långsiktiga relationer. 
+I konceptet “Alla förstår sig inte på yrket” tar vi fasta på alla tillfällen då målgruppen har försökt förklara för utomstående vad de jobbar med. 
+Kampanjen togs ut genom ett antal korta filmer som var och en visar på en missuppfattning. Filmerna kompletteras med leadsgenererande annonser för display och sociala medier samt sökannonser. 
 
 {%
-  include page_image.html
-  src="/images/cases/naturvetarna-nature/field.jpg"
-  caption="Alla förstår sig inte på yrket som biolog."
+  include page_video.html
+  src="https://player.vimeo.com/video/1056776145
+  h="b49356d1a3"
+  caption=""
 %}
+
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/1056777002"
+  h="b49356d1a3"
+  caption=""
+%}
+
+{%
+  include page_video.html
+  src="https://player.vimeo.com/video/1056778042"
+  h="b49356d1a3"
+  caption=""
+%}
+
+
+## Kampanjstrategi
+Då tröskeln är hög att gå från relativt oetablerad till att rekrytera nya medlemmar blev målsättningen att:
+
+1. Kortsiktigt: Etablera att Naturvetarna finns och är ett bättre val för målgruppen än andra bredare fackförbund.
+2. Långsiktigt: Öka antalet medlemmar.
+
+För att nå målsättningen arbetar vi med en funnelmodell i tre steg — bygga kännedom, generera lead, konvertera. 
+Kampanjen är i första hand framtagen för och riktad mot en målgrupp som är i början av sin karriär — studenter inom naturvetenskapliga ämnen samt relativt nyligen examinerade yrkesverksamma naturvetare. Kampanjen går i följande kanaler.
+
+- Youtube
+- Snapchat
+- Tiktok
+- Linkedin
+- Meta
+- SEM
+- Display
+
+
 

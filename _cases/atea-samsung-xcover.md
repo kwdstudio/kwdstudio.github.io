@@ -7,7 +7,7 @@ client: Atea
 all_order: 3
 teaser_heading: Samsung XCover, en riktig trotjänare
 teaser_body: <p>Produktlansering för Samsung och Atea</p>
-intro_heading: Samsung är förstahandsvalet för de som räddar liv.
+intro_heading: Samsung, förstahandsvalet för de som räddar liv.
 intro_lead: De flesta av oss använder våra mobiler för söka, prata, surfa. De som har en Samsung XCover7 räddar liv. 
 vimeo: true
 ---

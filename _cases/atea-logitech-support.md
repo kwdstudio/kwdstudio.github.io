@@ -6,7 +6,7 @@ image: /images/cases/atea-logitech-support/featured.jpg
 client: Atea
 all_order: 2
 teaser_heading: Kampanj för Logitech 
-teaser_body: <p>Antingen har du stress inför mötespresentation. Eller så har du Logitech.</p>
+teaser_body: <p>Stressigt inför din mötespresentation? Du kan ju skaffa en Logitech MeetUp.</p>
 intro_heading: Kampanj för Logitech
 intro_lead: Lanseringskampanj för den användarvänliga videokonferens-kameran Logitech MeetUp 2, tillsammans med Atea.
 ---

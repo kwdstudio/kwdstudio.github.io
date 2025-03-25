@@ -60,5 +60,11 @@ module.exports = {
       'Access-Control-Allow-Origin': '*',
     },
     port: 9000,
+    static: [
+      {
+        directory: path.join(__dirname, 'fonts'),
+        publicPath: '/fonts',
+      },
+    ],
   },
 };

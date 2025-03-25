@@ -6,7 +6,7 @@
     "start:jekyll": "bundle exec jekyll serve --config \"_config.yml,_config_dev.yml\"",
     "start:webpack-dev-server": "webpack-dev-server",
     "prebuild": "rm -rf javascripts stylesheets",
-    "build": "NODE_ENV=production webpack -p",
+    "build": "NODE_ENV=production webpack --mode production",
     "postinstall": "mkdir -p .git/hooks && cp hooks/* .git/hooks/",
     "build:staging": "bundle exec jekyll build --config \"_config.yml,_config_staging.yml\""
   },

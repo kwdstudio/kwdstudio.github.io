@@ -14,7 +14,7 @@ intro_lead: Vad spelades i högtalarna på frisersalongen, på krogen och på gy
 Sounds Like 2024 är Stims årliga rapport som visar hur Stims kunder bidrar till ett levande musikliv. Genom topplistor och statistik synliggörs musikens roll i allt från restauranger och butiker till dansgolv och livescener. 
 {%
   include page_image.html
-  src="/images/cases/stim-soundlike/live.png"
+  src="/images/cases/stim-soundslike/live.png"
   caption="Mest spelade låtarna live 2024"
 %}
 

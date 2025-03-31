@@ -1,0 +1,3 @@
+---
+name: Svenska Röda Korset
+---

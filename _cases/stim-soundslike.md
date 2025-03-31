@@ -8,7 +8,7 @@ all_order: 3
 teaser_heading: Sounds like 2024
 teaser_body: <p>Vad spelades 2024 i högtalarna på frisersalongen, på krogen och på gymmet?</p>
 intro_heading: Sounds like 2024
-intro_lead: Vad spelades i högtalarna på frisersalongen, på krogen och på gymmet under 2024?. 
+intro_lead: Vad spelades i högtalarna på frisersalongen, på krogen och på gymmet under 2024? 
 ---
 
 Sounds Like 2024 är Stims årliga rapport som visar hur Stims kunder bidrar till ett levande musikliv. Genom topplistor och statistik synliggörs musikens roll i allt från restauranger och butiker till dansgolv och livescener. 

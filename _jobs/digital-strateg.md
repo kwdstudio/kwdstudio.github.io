@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Digital strateg
-description: Vi söker en strateg som vill utvecklas inom kampanjstrategi, målgruppsanalys, uppföljning och analys. Allt för att nå nya insikter om hur träffar rätt och får effekt.
+description: Vi söker en strateg som är intresserad av plattformars förutsättningar och människors beteenden.
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"

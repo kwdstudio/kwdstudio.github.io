@@ -5,10 +5,10 @@ description: Hur vi lanserade Sveriges största dokumentärfilmsprojekt någonsi
 image: /images/cases/svt-hos/featured.png
 client: SVT
 all_order: 3
-teaser_heading: Lansering av Historien om Sverige
+teaser_heading: SVT:s mest lyckade programlansering
 teaser_body: <p>Så lanserade vi Sveriges största dokumentärprojekt någonsin</p>
-intro_heading: Lansering av Historien om Sverige
-intro_lead: Sveriges största dokumentärprojekt någonsin ska berätta historien om Sverige från istid till nutid. Vi stod för den digitala annonsstrategin.
+intro_heading: SVT:s mest lyckade programlansering
+intro_lead: Så lanserade vi Sveriges största dokumentärprojekt någonsin - Historien om Sverige.
 ---
 
 ## Uppdrag
@@ -17,7 +17,7 @@ Under hösten 2023 fick vi uppdraget att ansvara för den digitala lanseringen a
 
 Målet med kampanjen var att bygga kännedom om serien i en för SVT prioriterad målgrupp, samt skapa ett intresse som skulle resultera i höga premiärtittnings-siffror. 
 
-För att lyckas med det behövde vi uppnå både hög räckvidd och hög frekvens i målgrupperna. Samtidigt som det var viktigt att säkerställa observation och budskapsförståelse. I praktiken innebar det att vi kombinerade frekvensbyggande kanaler (display, Instagram, Tiktok, Youtube, SEM) som gav många billiga exponeringar mot stora delar av våra målgrupper, med annonsytor designade för att maximera observation, budskapsförståelse och ad-recall (Acast, rewarded ads och Youtube). Även om de senare kan vara dyrare per exponering, ger de ett mer bestående intryck och garanterar att budskapet verkligen gör avtryck. Majoriteten av mediabudgeten lades veckorna innan och efter premiären. 
+För att lyckas med det behövde vi uppnå både hög räckvidd och hög frekvens i målgrupperna. Samtidigt som det var viktigt att säkerställa observation och budskapsförståelse. I praktiken innebar det att vi kombinerade frekvensbyggande kanaler med ytor för att maximera observation, budskapsförståelse och ad-recall.
 
 
 ## Resultatet då?

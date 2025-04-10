@@ -24,9 +24,9 @@ För att lyckas med det behövde vi uppnå både hög räckvidd och hög frekven
 
 Jo, Historien om Sverige blev SVTs mest lyckade lansering av detta slag genom tiderna. Det var inte bara den mest tittade lanseringen, även kampanjen presterade långt över förväntan sett till exponeringar, räckvidd och frekvens. 
 
-Förväntningarna var höga inför lansering och förhoppningen om att bygga en historievåg i Sverige fanns. Nu har vi aktiverat den uppföljande marknadsföringen för att pusha den andra delen av serien. 
+Förväntningarna var höga inför lansering och förhoppningen om att bygga en historievåg i Sverige fanns. 
 
 
 ## KWD Studios uppdrag för SVT
 
-Vi är Sveriges Televisions upphandlade byrå för digital marknadsföring sedan mer än fem år tillbaka. Under de år vi arbetat med SVT har vi hjälpt till med allt från processer kring digital distribution och varumärkesbyggande kampanjer till att lansera nya program digitalt. 
+Vi är Sveriges Televisions upphandlade byrå för digital marknadsföring. Under de år vi arbetat med SVT har vi hjälpt till med allt från processer kring digital distribution och varumärkesbyggande kampanjer till att lansera nya program digitalt. 

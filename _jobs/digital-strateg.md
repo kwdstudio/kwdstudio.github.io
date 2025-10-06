@@ -13,7 +13,7 @@ Tillsammans med konceptutvecklare och marknadsstrateger har du en nyckelroll i a
 
 ## Rollen
 
-Som digital strateg har du en viktig roll både i det initiala insiktsarbetet att ringa in och segmentera målgrupper och formulera deras mediabeteende. Med det som grund har du förmåga att göra strategiska vägval rörande både kanaler och uttag. Arbetet kan omfatta att kartlägga och formulera hur ett varumärke kan kommunicera i sina egna digitala och sociala kanaler. Det kan också innebära att arbeta fram strategier för köpta ytor i syfte att positionera sig, generera leads eller nå nya målgrupper.
+Som digital strateg har du en viktig roll både i det initiala insiktsarbetet att ringa in och segmentera målgrupper och formulera deras mediabeteende. Med det som grund har du förmåga att göra strategiska vägval rörande både kanaler och uttag. Arbetet kan omfatta att kartlägga och formulera hur ett varumärke kan kommunicera i sina egna digitala och sociala kanaler. Det kan också innebära att arbeta fram strategier för köpta ytor i syfte att bygga kännedom, öka försätljning eller nå nya målgrupper.
 
 Vi tror att du har ett stort intresse för och ambitioner att utvecklas inom följande:
 

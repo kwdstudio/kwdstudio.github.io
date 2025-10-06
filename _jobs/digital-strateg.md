@@ -7,7 +7,7 @@ color2: "#effc13"
 color3: "#00b295"
 color4: "#940797"
 intro_heading: Marknadsstrateg
-intro_lead: "<p>VVi söker nu en strateg med hög kompetens inom marknadsföring och kommunikation och med kunskap om plattformars möjligheter och begränsningar och vad det ställer för krav på budskap och paketering.</p>"
+intro_lead: "<p>Vi söker nu en strateg med hög kompetens inom marknadsföring och kommunikation och med kunskap om plattformars möjligheter och begränsningar och vad det ställer för krav på budskap och paketering.</p>"
 ---
 Tillsammans med konceptutvecklare och marknadsstrateger har du en nyckelroll i att maximera effekten av våra kunders marknadsaktiviteter. Du har koll på plattformarnas förutsättningar och hur de tillsammans med människors beteenden kan hjälpa varumärken att nå rätt målgrupp. Du vet också vilka krav som ställs på innehållet för att fungera optimalt i de olika kanalerna.
 

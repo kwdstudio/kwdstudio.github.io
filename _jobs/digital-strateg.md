@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Strateg
-description: Vi söker en strateg som är intresserad av plattformars förutsättningar och människors beteenden.
+title: Marknadsstrateg 
+description: Vi söker nu en strateg med hög kompetens inom marknadsföring och kommunikation och med kunskap om plattformars möjligheter och begränsningar och vad det ställer för krav på budskap och paketering.
 color1: "#e4006e"
 color2: "#effc13"
 color3: "#00b295"

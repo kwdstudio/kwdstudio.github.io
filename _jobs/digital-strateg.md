@@ -17,7 +17,7 @@ Som marknadsstrateg har du en viktig roll både i det initiala insiktsarbetet at
 
 Vi tror att du har ett stort intresse för och ambitioner att utvecklas inom följande:
 
-- **Insiktsarbete och kampanjstrategi** — örstå beteenden, mediakonsumtion och vad som krävs för att nå en specifik målgrupp.
+- **Insiktsarbete och kampanjstrategi** — förstå beteenden, mediakonsumtion och vad som krävs för att nå en specifik målgrupp.
 - **Kampanjuppsättning och optimering** — segmentering och hur man bäst sätter upp en kampanj i olika annonsverktyg, inklusive mediaköp, i syfte att styra kampanjer för att maxa utfall över kampanjperioden.
 - **Utvärdering och analys** — sammanställning av data i syfte att få fram insikter om både resultat och effekt. Förmåga att formulera och presentera insikter på ett pedagogiskt sätt.
 - **Paketering och format** — ett stort intresse för vilket innehåll som krävs och hur det kan ta form givet plattformarnas förutsättningar. Har du erfarenhet och kompetens att producera innehåll för sociala och digitala kanaler är det en bonus.

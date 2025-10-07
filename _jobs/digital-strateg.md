@@ -26,7 +26,7 @@ Vi tror att du har ett stort intresse för och ambitioner att utvecklas inom fö
 
 Vi tror att du är en person som är nyfiken på människors behov och beteenden i en digital kontext. Du är intresserad av plattformarnas förutsättningar och vad det ställer för krav på varumärken och deras kommunikation. Du har förmåga att sätta dig in i ett problem och kunna omformulera det till en lösning. Du är utbildad inom marknadsföring eller kommunikation. Kanske har du arbetat på byrå ett tag. Om du har erfarenhet från kundsidan och förstår beställarrollen med allt vad det innebär så är det ett plus.
 
-## Vi erjbuder
+## Vi erbjuder
 
 Hos oss får du möjlighet att arbeta med att utveckla strategier för några av Sveriges främsta varumärken. Vår starka tro på att strategi och kreativitet går hand i hand gör att vi alltid arbetar tätt tillsammans i team för att skapa den bästa lösningen för våra kunder. Vi tror på nyfikenhet som drivkraft och resonerar ofta om beteenden, kultur, teknik och varumärken - ibland över frukost, ibland ett glas bubbel. Vi har (ett superfint!) kontor ovanför Brunogallerian på Södermalm i Stockholm och utöver teamet på KWD Studio finns ett stort nätverk av kreatörer, specialister och producenter som vi ofta och gärna involverar i våra uppdrag. 
 
